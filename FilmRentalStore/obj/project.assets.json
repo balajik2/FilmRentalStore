@@ -4442,23 +4442,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\KBASAM\\.nuget\\packages\\": {},
+    "C:\\Users\\shamita\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\FilmRentalStore\\FilmRentalStore\\FilmRentalStore.csproj",
+      "projectUniqueName": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
       "projectName": "FilmRentalStore",
-      "projectPath": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\FilmRentalStore\\FilmRentalStore\\FilmRentalStore.csproj",
-      "packagesPath": "C:\\Users\\KBASAM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\FilmRentalStore\\FilmRentalStore\\obj\\",
+      "projectPath": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
+      "packagesPath": "C:\\Users\\shamita\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\KBASAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shamita\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
