@@ -5,8 +5,9 @@ namespace FilmRentalStore.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    //Comment
+    
     public class ValuesController : ControllerBase
     {
+
     }
 }
