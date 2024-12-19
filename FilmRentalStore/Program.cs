@@ -1,11 +1,20 @@
-using FilmRentalStore.Models;
+using AutoMapper;
+using FilmRentalStore.Model;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
+using FilmRentalStore.Services;
+using FilmRentalStore.DTO;
+using FilmRentalStore.Map;
+using FilmRentalStore.Validators;
+using FluentValidation;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
 
 
+
+builder.Services.AddControllers();
 
 
 // Register the DbContext with a connection string
@@ -16,7 +25,38 @@ builder.Services.AddDbContext<Sakila12Context>(options =>
 
 
 
-builder.Services.AddControllers();
+//Creating mapping configuration & passing it to mapper profile
+var mapperConfig = new MapperConfiguration(mc =>
+{
+    mc.AddProfile(new MappingProfile());
+});
+
+//create Imapper instance & pass mapperconfig to it
+IMapper mapper = mapperConfig.CreateMapper();
+
+//Register the mapper instance to the service conatiner
+builder.Services.AddSingleton(mapper);
+
+
+
+
+//add the repository
+builder.Services.AddScoped<IStaffRepository, StaffService>();
+
+
+
+
+
+//Fluent Validator....
+builder.Services.AddValidatorsFromAssemblyContaining<StaffValidator>();
+
+
+
+
+
+
+
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

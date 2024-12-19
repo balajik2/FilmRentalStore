@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace FilmRentalStore.Models;
+namespace FilmRentalStore.Model;
 
 public partial class Staff
 {
@@ -13,7 +13,7 @@ public partial class Staff
 
     public int AddressId { get; set; }
 
-    public byte[]? Picture { get; set; }
+    public byte[]? UrlPath { get; set; }
 
     public string? Email { get; set; }
 

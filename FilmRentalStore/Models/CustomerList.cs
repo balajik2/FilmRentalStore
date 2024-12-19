@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace FilmRentalStore.Models;
+namespace FilmRentalStore.Model;
 
 public partial class CustomerList
 {

@@ -150,8 +150,11 @@ C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\bin\Debug\net8.0\FilmRen
 C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\bin\Debug\net8.0\FilmRentalStore.runtimeconfig.json
 C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\bin\Debug\net8.0\FilmRentalStore.dll
 C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\bin\Debug\net8.0\FilmRentalStore.pdb
+C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\bin\Debug\net8.0\Humanizer.dll
 C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll

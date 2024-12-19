@@ -1,1 +1,245 @@
-[]
+[
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "AddStaff",
+    "RelativePath": "api/Staff/AddStaff",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffDTO",
+        "Type": "FilmRentalStore.DTO.StaffDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "AssignAddress",
+    "RelativePath": "api/Staff/AssignAddress",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffDTO",
+        "Type": "FilmRentalStore.DTO.StaffDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "AssignStoreToStaff",
+    "RelativePath": "api/Staff/AssignStoreToStaff",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "storeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "GetStaff",
+    "RelativePath": "api/Staff/GetStaff",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "GetStaffByCity",
+    "RelativePath": "api/Staff/GetStaffByCity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "GetStaffByCountry",
+    "RelativePath": "api/Staff/GetStaffByCountry",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "country",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "GetStaffByEmail",
+    "RelativePath": "api/Staff/GetStaffByEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "GetStaffByFirstName",
+    "RelativePath": "api/Staff/GetStaffByFirstName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firstname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "GetStaffByLastName",
+    "RelativePath": "api/Staff/GetStaffByLastName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lastname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "GetStaffByPhoneNumber",
+    "RelativePath": "api/Staff/GetStaffByPhoneNumber",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "phone",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "UpdatePhoneNumberByStaff",
+    "RelativePath": "api/Staff/UpdatePhoneNumberByStaff",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "newPhone",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "UpdateStaffByEmail",
+    "RelativePath": "api/Staff/UpdateStaffByEmail",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "UpdateStaffByFirstName",
+    "RelativePath": "api/Staff/UpdateStaffByFirstName",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "newfirstname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StaffController",
+    "Method": "UpdateStaffByLastName",
+    "RelativePath": "api/Staff/UpdateStaffByLastName",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "staffId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "newlastname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
