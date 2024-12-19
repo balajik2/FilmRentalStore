@@ -4,6 +4,9 @@ using FilmRentalStore.Models;
 using FilmRentalStore.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
+using FluentValidation;
+using FilmRentalStore.DTO;
+using FilmRentalStore.Vaidators;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -36,7 +39,9 @@ builder.Services.AddSingleton(mapper);
 
 builder.Services.AddScoped<IFilmRepository, FilmService>();
 
+//Configure the Validator
 
+builder.Services.AddValidatorsFromAssemblyContaining<FilmValidator>();
 
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

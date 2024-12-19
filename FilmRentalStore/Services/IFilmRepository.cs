@@ -12,7 +12,7 @@ namespace FilmRentalStore.Services
 
         Task<List<FilmDTO>> SearchFilmsByReleaseYear(string releaseYear);
 
-        Task<List<FilmDTO>> SearchFilmsByRentalDurationHigher(byte rentalDuration);
+        Task<List<FilmDTO>> SearchFilmsByRentalDurationGreater(byte rentalDuration);
 
         Task<List<FilmDTO>> SearchFilmsByRentalRateGreater(decimal rentalRate);
 
@@ -26,16 +26,30 @@ namespace FilmRentalStore.Services
 
         Task<List<FilmDTO>> SearchFilmsByReleaseYearRange(int from, int to);
 
-        Task<List<FilmDTO>> SearchFilmsByRatingLower(decimal rating);
+        Task<List<FilmDTO>> SearchFilmsByRatingLower(string rating);
 
-        Task<List<FilmDTO>> SearchFilmsByRatingHigher(decimal rating);
+        Task<List<FilmDTO>> SearchFilmsByRatingHigher(string rating);
 
         Task<List<FilmDTO>> SearchFilmsByLanguage(string language);
 
         Task<Dictionary<string, int>> GetFilmCountByReleaseYear();
 
         Task<List<ActorDTO>> GetActorsByFilmId(int filmId);
+        Task<List<FilmDTO>> GetFilmsByCategory(string category);
 
+        Task UpdateTitleOfFilm(int filmid,string title);
+
+        Task UpdateReleaseYearOfFilm(int filmid, string releaseyear);
+
+        Task UpdateRentalDurationOfFilm(int filmid, byte rentalduration);
+
+        Task UpdateRentalRateOfFilm(int filmid, decimal rentalrate);
+
+        Task UpdateRatingOfFilm(int filmid, string rating);
+
+        Task UpdateLanguageOfFilm(int filmId, LanguageDTO language);
+
+        Task UpdateCategoryOfFilm(int filmId, CategoryDTO category);
 
         }
 }

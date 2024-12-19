@@ -435,3 +435,5 @@ C:\Users\BAKUMARE\Documents\Sprint-2\FilmRentalStore\obj\Debug\net8.0\refint\Fil
 C:\Users\BAKUMARE\Documents\Sprint-2\FilmRentalStore\obj\Debug\net8.0\FilmRentalStore.pdb
 C:\Users\BAKUMARE\Documents\Sprint-2\FilmRentalStore\obj\Debug\net8.0\FilmRentalStore.genruntimeconfig.cache
 C:\Users\BAKUMARE\Documents\Sprint-2\FilmRentalStore\obj\Debug\net8.0\ref\FilmRentalStore.dll
+C:\Users\BAKUMARE\Documents\Sprint-2\FilmRentalStore\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\BAKUMARE\Documents\Sprint-2\FilmRentalStore\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
