@@ -1,6 +1,27 @@
 [
   {
     "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "AssignActorToFilm",
+    "RelativePath": "api/films/{filmid}/actor",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "actorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
     "Method": "GetActorsByFilmId",
     "RelativePath": "api/films/{filmId}/actors",
     "HttpMethod": "GET",
@@ -234,6 +255,153 @@
         "Name": "title",
         "Type": "System.String",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateCategoryOfFilm",
+    "RelativePath": "api/films/update/category/{filmid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "CategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateLanguageOfFilm",
+    "RelativePath": "api/films/update/language/{filmid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "language",
+        "Type": "FilmRentalStore.DTO.LanguageDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateRatingOfFilm",
+    "RelativePath": "api/films/update/rating/{filmid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rating",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateReleaseYearOfFilm",
+    "RelativePath": "api/films/update/releaseyear/{filmid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "releaseyear",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateRentalDurationOfFilm",
+    "RelativePath": "api/films/update/rentaldurtion/{filmid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rentalduration",
+        "Type": "System.Byte",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateRentalRateOfFilm",
+    "RelativePath": "api/films/update/rentalrate/{filmid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rentalrate",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateTitleOfFilm",
+    "RelativePath": "api/films/update/title/{filmid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

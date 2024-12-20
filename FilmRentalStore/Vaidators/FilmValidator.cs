@@ -9,7 +9,9 @@ namespace FilmRentalStore.Vaidators
         {
             RuleFor(x => x.FilmId).NotNull().WithMessage("Film Id is Required !");
             RuleFor(x => x.LanguageId).NotNull().WithMessage("Language Id is Required !");
-            RuleFor(x => x.Rating).MinimumLength(1).WithMessage("Please give the rating !");
+            RuleFor(x => x.Rating).Must(rating => new[] { "NC-17", "R", "PG-13", "PG", "G" }.Contains(rating)).WithMessage("Please provide a valid rating: NC-17, R, PG-13, PG, or G.");
+
         }
     }
+
 }

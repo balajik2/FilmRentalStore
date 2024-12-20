@@ -31,36 +31,45 @@ namespace FilmRentalStore.Services
         #region SearchFilmsByTitle
         public async Task<List<FilmDTO>> SearchFilmsByTitle(string title)
         {
-            var films = await _context.Films.Where(f => f.Title==title).ToListAsync();
+            
+                var films = await _context.Films.Where(f => f.Title == title).ToListAsync();
 
-            return _mapper.Map<List<FilmDTO>>(films);
+                return _mapper.Map<List<FilmDTO>>(films);
+           
         }
         #endregion
 
         #region SearchFilmsByReleaseYear
         public async Task<List<FilmDTO>> SearchFilmsByReleaseYear(string releaseYear)
         {
-            var films = await _context.Films.Where(f => f.ReleaseYear == releaseYear).ToListAsync();
+           
+                var films = await _context.Films.Where(f => f.ReleaseYear == releaseYear).ToListAsync();
 
-            return _mapper.Map<List<FilmDTO>>(films);
+                return _mapper.Map<List<FilmDTO>>(films);
+           
         }
         #endregion
 
         #region SearchFilmsByRentalDurationGreater
         public async Task<List<FilmDTO>> SearchFilmsByRentalDurationGreater(byte rentalduration)
         {
-            var films = await _context.Films.Where(f => f.RentalDuration > rentalduration).ToListAsync();
 
-            return _mapper.Map<List<FilmDTO>>(films);
+           
+                var films = await _context.Films.Where(f => f.RentalDuration > rentalduration).ToListAsync();
+
+                return _mapper.Map<List<FilmDTO>>(films);
+         
         }
         #endregion
 
         #region SearchFilmsByRentalRateGreater
-        public async Task<List<FilmDTO>> SearchFilmsByRentalRateGreater(decimal rate)
+        public async Task<List<FilmDTO>> SearchFilmsByRentalRateGreater(decimal rentalrate)
         {
-            var films = await _context.Films.Where(f => f.RentalRate > rate).ToListAsync();
+            
+                var films = await _context.Films.Where(f => f.RentalRate > rentalrate).ToListAsync();
 
-            return _mapper.Map<List<FilmDTO>>(films);
+                return _mapper.Map<List<FilmDTO>>(films);
+           
         }
         #endregion
 
@@ -166,7 +175,7 @@ namespace FilmRentalStore.Services
            
             var filmsByYear = films .GroupBy(f => f.ReleaseYear) .ToDictionary(n => n.Key, n => n.Count());
 
-            //return _mapper.Map<Dictionary<string,int>>(films);
+            
             return filmsByYear;
         }
         #endregion
@@ -218,84 +227,128 @@ namespace FilmRentalStore.Services
 
         #region AssignActorToFilm
 
+        public async Task<List<ActorDTO>> AssignActorToFilm(int filmId, int actorId)
+        {
+            var film = await _context.Films.FindAsync(filmId);
+            if (film == null)
+            {
+                throw new Exception("Film not found");
+            }
+            var actor = await _context.Actors.FindAsync(actorId);
+            if (actor == null)
+            {
+                throw new Exception("Actor not found");
+            }
+            var filmActor = new FilmActor
+            {
+                FilmId = filmId,
+                ActorId = actorId,
+                LastUpdate = DateTime.UtcNow
+            };
+
+            _context.FilmActors.Add(filmActor);
+            await _context.SaveChangesAsync();
+
+            var updatedlist = await _context.Actors.Where(s => s.ActorId== actor.ActorId).Include(s=>s.FilmActors).ToListAsync();
+
+            return _mapper.Map<List<ActorDTO>>(updatedlist);
+        }
+
+
         #endregion
 
         #region UpdateTitleOfFilm
 
-        public async Task UpdateTitleOfFilm(int filmid,string title)
+        public async Task<List<FilmDTO>> UpdateTitleOfFilm(int filmid,string title)
         {
             var res = await _context.Films.FindAsync(filmid);
-            var r=_mapper.Map<Film>(res);
             if (res != null)
             {
 
                res.Title=title;
             }
-            _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
+
+            var updatedlist = await _context.Films.Where(s => s.FilmId == res.FilmId).ToListAsync();
+
+            return _mapper.Map<List<FilmDTO>>(updatedlist);
         }
 
         #endregion
 
         #region UpdateReleaseYearOfFilm
 
-        public async Task UpdateReleaseYearOfFilm(int filmid, string releaseyear)
+        public async Task<List<FilmDTO>> UpdateReleaseYearOfFilm(int filmid, string releaseyear)
         {
             var res = await _context.Films.FindAsync(filmid);
-            var r = _mapper.Map<Film>(res);
             if (res != null)
             {
 
                 res.ReleaseYear = releaseyear;
             }
-            _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
+
+            var updatedlist = await _context.Films.Where(s => s.FilmId == res.FilmId).ToListAsync();
+
+            return _mapper.Map<List<FilmDTO>>(updatedlist);
         }
 
         #endregion
 
         #region UpdateRentalDurationOfFilm
 
-        public async Task UpdateRentalDurationOfFilm(int filmid, byte rentalduration)
+        public async Task<List<FilmDTO>> UpdateRentalDurationOfFilm(int filmid, byte rentalduration)
         {
             var res = await _context.Films.FindAsync(filmid);
-            var r = _mapper.Map<Film>(res);
             if (res != null)
             {
 
                 res.RentalDuration = rentalduration;
             }
-            _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
+            var updatedlist = await _context.Films.Where(s => s.FilmId == res.FilmId).ToListAsync();
+
+            return _mapper.Map<List<FilmDTO>>(updatedlist);
         }
 
         #endregion
 
         #region UpdateRentalRateOfFilm
 
-        public async Task UpdateRentalRateOfFilm(int filmid, decimal rentalrate)
+        public async Task<List<FilmDTO>> UpdateRentalRateOfFilm(int filmid, decimal rentalrate)
         {
             var res = await _context.Films.FindAsync(filmid);
-            var r = _mapper.Map<Film>(res);
             if (res != null)
             {
 
                 res.RentalRate=rentalrate;
             }
-            _context.SaveChangesAsync();
+            await _context.SaveChangesAsync();
+
+            var updatedlist = await _context.Films.Where(s => s.FilmId == res.FilmId).ToListAsync();
+
+            return _mapper.Map<List<FilmDTO>>(updatedlist);
         }
 
         #endregion
 
         #region UpdateRatingOfFilm
 
-        public async Task UpdateRatingOfFilm(int filmid, string rating)
+        public async Task<List<FilmDTO>> UpdateRatingOfFilm(int filmid, string rating)
         {
             var res = await _context.Films.FindAsync(filmid);
-            var r = _mapper.Map<Film>(res);
             if (res != null)
             {
 
                 res.Rating = rating;
+
             }
-            _context.SaveChangesAsync();
+           await _context.SaveChangesAsync();
+            var updatedlist = await _context.Films.Where(s => s.FilmId == res.FilmId).ToListAsync();
+
+            return _mapper.Map<List<FilmDTO>>(updatedlist);
+
+
         }
 
         #endregion
@@ -304,49 +357,57 @@ namespace FilmRentalStore.Services
 
         public async Task UpdateLanguageOfFilm(int filmId,LanguageDTO language)
         {
+
+            var languageToUpdate = await _context.Languages
+                .FirstOrDefaultAsync(l => l.LanguageId == language.LanguageId); 
+
             
-            var film = await _context.Films
-                .Where(f => f.FilmId == filmId)
-                .Join(
-                    _context.Languages,
-                    film => film.LanguageId,
-                    language => language.LanguageId,
-                    (film, language) => new { Film = film, Language = language }
-                )
-                .FirstOrDefaultAsync();
-
-            if (film != null)
+            if (languageToUpdate != null)
             {
+               
+                _context.Entry(languageToUpdate).CurrentValues.SetValues(language);
 
-                _context.Entry(film).CurrentValues.SetValues(language);
-
-
+                
                 await _context.SaveChangesAsync();
             }
+
+           
+
+
         }
 
         #endregion
 
         #region UpdateCategoryOfFilm
-        public async Task UpdateCategoryOfFilm(int filmId, CategoryDTO category)
+        public async Task UpdateCategoryOfFilm(int filmId,int categoryid)
         {
+           
+            var filmCategory = await _context.FilmCategories
+                .FirstOrDefaultAsync(fc => fc.FilmId == filmId);
 
-            var film = _context.Films
-                .Join(_context.FilmCategories, film => film.FilmId, filmCategory => filmCategory.FilmId, (film, filmCategory) => new { film, filmCategory })
-                .Join(_context.Categories, j => j.filmCategory.CategoryId, category => category.CategoryId, (j, category) => new { j.film, category })
-                .FirstOrDefaultAsync();
-
-            if (film != null)
+            if (filmCategory == null)
             {
-
-                _context.Entry(film).CurrentValues.SetValues(category);
-
-
-                await _context.SaveChangesAsync();
+                throw new Exception("Film category not found.");
             }
+
+           
+            _context.FilmCategories.Remove(filmCategory);
+            await _context.SaveChangesAsync(); 
+
+         
+            var newFilmCategory = new FilmCategory
+            {
+                FilmId = filmId,
+                CategoryId = categoryid, 
+                LastUpdate = DateTime.UtcNow
+            };
+            await _context.FilmCategories.AddAsync(newFilmCategory);
+            await _context.SaveChangesAsync();
         }
 
         #endregion
+
+
 
 
 

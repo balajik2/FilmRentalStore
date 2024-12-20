@@ -37,19 +37,21 @@ namespace FilmRentalStore.Services
         Task<List<ActorDTO>> GetActorsByFilmId(int filmId);
         Task<List<FilmDTO>> GetFilmsByCategory(string category);
 
-        Task UpdateTitleOfFilm(int filmid,string title);
+        Task<List<ActorDTO>> AssignActorToFilm(int filmId, int actorId);
 
-        Task UpdateReleaseYearOfFilm(int filmid, string releaseyear);
+        Task<List<FilmDTO>> UpdateTitleOfFilm(int filmid,string title);
 
-        Task UpdateRentalDurationOfFilm(int filmid, byte rentalduration);
+        Task<List<FilmDTO>> UpdateReleaseYearOfFilm(int filmid, string releaseyear);
 
-        Task UpdateRentalRateOfFilm(int filmid, decimal rentalrate);
+        Task<List<FilmDTO>> UpdateRentalDurationOfFilm(int filmid, byte rentalduration);
 
-        Task UpdateRatingOfFilm(int filmid, string rating);
+        Task<List<FilmDTO>> UpdateRentalRateOfFilm(int filmid, decimal rentalrate);
+
+        Task<List<FilmDTO>> UpdateRatingOfFilm(int filmid, string rating);
 
         Task UpdateLanguageOfFilm(int filmId, LanguageDTO language);
 
-        Task UpdateCategoryOfFilm(int filmId, CategoryDTO category);
+        Task UpdateCategoryOfFilm(int filmId, int CategoryId);
 
         }
 }
