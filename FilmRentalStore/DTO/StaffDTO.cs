@@ -10,8 +10,6 @@
 
         public int AddressId { get; set; }
 
-        public byte[]? UrlPath { get; set; }
-
         public string? Email { get; set; }
 
         public int StoreId { get; set; }
@@ -23,6 +21,8 @@
         public string? Password { get; set; }
 
         public DateTime LastUpdate { get; set; }
+
+        public string? UrlPath { get; set; }
 
     }
 }

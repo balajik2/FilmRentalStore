@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using FilmRentalStore.DTO;
-using FilmRentalStore.Model;
+using FilmRentalStore.Models;
 
 namespace FilmRentalStore.Map
 {

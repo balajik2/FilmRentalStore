@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using FilmRentalStore.DTO;
-using FilmRentalStore.Model;
+using FilmRentalStore.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics.Metrics;
@@ -19,6 +19,7 @@ namespace FilmRentalStore.Services
             _mapper = mapper;
         }
 
+        #region GetStaff
         public async Task<List<StaffDTO>> GetStaff()
         {
             var List = await _context.Staff.ToListAsync();
@@ -26,12 +27,20 @@ namespace FilmRentalStore.Services
             return DTOList;
         }
 
+        #endregion
+
+        #region AddStaff
+
         public async Task AddStaff(StaffDTO staffDTO)
         {
             var Staff = _mapper.Map<Staff>(staffDTO);
             _context.Staff.Add(Staff);
             await _context.SaveChangesAsync();
         }
+
+        #endregion
+
+        #region GetStaffByLastName
 
         public async Task<List<StaffDTO>> GetStaffByLastName(string lastname)
         {
@@ -42,6 +51,9 @@ namespace FilmRentalStore.Services
             return staffDTOList;
         }
 
+        #endregion
+
+        #region GetStaffByFirstName
         public async Task<List<StaffDTO>> GetStaffByFirstName(string firstname)
         {
             var staffList = await _context.Staff.Where(s => s.FirstName == firstname).ToListAsync();
@@ -50,6 +62,9 @@ namespace FilmRentalStore.Services
             return staffDTOList;
         }
 
+        #endregion
+
+        #region GetStaffByEmail
         public async Task<List<StaffDTO>> GetStaffByEmail(string email)
         {
             var staffList = await _context.Staff.Where(s => s.Email == email).ToListAsync();
@@ -57,6 +72,10 @@ namespace FilmRentalStore.Services
             var staffDTOList = _mapper.Map<List<StaffDTO>>(staffList);
             return staffDTOList;
         }
+
+        #endregion
+
+        #region AssignAddress
 
         public async Task<List<StaffDTO>> AssignAddress(StaffDTO staffDTO)
         {
@@ -84,6 +103,9 @@ namespace FilmRentalStore.Services
             return _mapper.Map<List<StaffDTO>>(updatedlist);
         }
 
+        #endregion
+
+        #region GetStaffByCity
         public async Task<List<StaffDTO>> GetStaffByCity(string city)
         {
             var stafflist = await (from staff in _context.Staff
@@ -105,6 +127,9 @@ namespace FilmRentalStore.Services
 
         }
 
+        #endregion
+
+        # region GetStaffByCountry
         public async Task<List<StaffDTO>> GetStaffByCountry(string country)
         {
             var stafflist = await (from staff in _context.Staff
@@ -124,8 +149,11 @@ namespace FilmRentalStore.Services
                                    }).ToListAsync();
 
             return _mapper.Map<List<StaffDTO>>(stafflist);
-
         }
+
+        #endregion
+
+        #region GetStaffByPhoneNumber
 
         public async Task<List<StaffDTO>> GetStaffByPhoneNumber(string phone)
         {
@@ -145,6 +173,10 @@ namespace FilmRentalStore.Services
 
             return _mapper.Map<List<StaffDTO>>(stafflist);
         }
+
+        #endregion
+
+        #region UpdateStaffByFirstName
 
         public async Task<List<StaffDTO>> UpdateStaffByFirstName(int staffId, string newfirstname)
         {
@@ -166,6 +198,10 @@ namespace FilmRentalStore.Services
             return _mapper.Map<List<StaffDTO>>(updatedlist);
         }
 
+        #endregion
+
+        #region UpdateStaffByLastName
+
         public async Task<List<StaffDTO>> UpdateStaffByLastName(int staffId, string newlastname)
         {
             var staff = await _context.Staff.FirstOrDefaultAsync(s => s.StaffId == staffId);
@@ -185,6 +221,9 @@ namespace FilmRentalStore.Services
             return _mapper.Map<List<StaffDTO>>(updatedlist);
         }
 
+        #endregion
+
+        #region UpdateStaffByEmail
 
         public async Task<List<StaffDTO>> UpdateStaffByEmail(int staffId, string email)
         {
@@ -204,6 +243,10 @@ namespace FilmRentalStore.Services
             //map and return the details
             return _mapper.Map<List<StaffDTO>>(updatedlist);
         }
+
+        #endregion
+
+        #region AssignStoreToStaff
 
         public async Task<List<StaffDTO>> AssignStoreToStaff(int staffId, int storeId)
         {
@@ -231,6 +274,10 @@ namespace FilmRentalStore.Services
             return _mapper.Map<List<StaffDTO>>(updatedlist);
         }
 
+        #endregion
+
+        #region UpdatePhoneNumberByStaff
+
         public async Task<List<StaffDTO>> UpdatePhoneNumberByStaff(int staffId, string newPhone)
         {
             var staff = await _context.Staff.FirstOrDefaultAsync(s => s.StaffId == staffId);
@@ -255,5 +302,7 @@ namespace FilmRentalStore.Services
 
             return _mapper.Map<List<StaffDTO>>(updatedlist);
         }
+
+        #endregion
     }
 }

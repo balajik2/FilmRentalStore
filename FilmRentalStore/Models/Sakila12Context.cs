@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace FilmRentalStore.Model;
+namespace FilmRentalStore.Models;
 
 public partial class Sakila12Context : DbContext
 {
@@ -692,7 +692,7 @@ public partial class Sakila12Context : DbContext
                 .HasColumnName("password");
             entity.Property(e => e.StoreId).HasColumnName("store_id");
             entity.Property(e => e.UrlPath)
-                .HasColumnType("image")
+                .HasMaxLength(255)
                 .HasColumnName("url_path");
             entity.Property(e => e.Username)
                 .HasMaxLength(16)

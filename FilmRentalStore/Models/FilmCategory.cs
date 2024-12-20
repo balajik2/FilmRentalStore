@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace FilmRentalStore.Model;
+namespace FilmRentalStore.Models;
 
 public partial class FilmCategory
 {

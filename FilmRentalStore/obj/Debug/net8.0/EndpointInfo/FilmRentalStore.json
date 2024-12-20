@@ -373,11 +373,6 @@
             "type": "integer",
             "format": "int32"
           },
-          "urlPath": {
-            "type": "string",
-            "format": "byte",
-            "nullable": true
-          },
           "email": {
             "type": "string",
             "nullable": true
@@ -400,6 +395,10 @@
           "lastUpdate": {
             "type": "string",
             "format": "date-time"
+          },
+          "urlPath": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

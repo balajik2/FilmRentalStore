@@ -1,5 +1,5 @@
 using AutoMapper;
-using FilmRentalStore.Model;
+using FilmRentalStore.Models;
 using Microsoft.EntityFrameworkCore;
 using FilmRentalStore.Services;
 using FilmRentalStore.DTO;
