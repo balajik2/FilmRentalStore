@@ -1,24 +1,100 @@
 [
   {
+<<<<<<< HEAD
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "AssignActorToFilm",
+    "RelativePath": "api/films/{filmid}/actor",
+    "HttpMethod": "PUT",
+=======
     "ContainingType": "FilmRentalStore.Controllers.CustomerController",
     "Method": "AddCustomer",
     "RelativePath": "api/Customers",
     "HttpMethod": "POST",
+>>>>>>> origin/FilmRentalStore-1
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
+<<<<<<< HEAD
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "actorId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "GetActorsByFilmId",
+    "RelativePath": "api/films/{filmId}/actors",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmId",
+        "Type": "System.Int32",
+=======
         "Name": "customer",
         "Type": "FilmRentalStore.DTO.CustomerDTO",
+>>>>>>> origin/FilmRentalStore-1
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "SearchFilmsByReleaseYearRange",
+    "RelativePath": "api/films/betweenyear/{from}/{to}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "from",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "to",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "GetFilmsByCategory",
+    "RelativePath": "api/films/category/{category}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "category",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "GetFilmCountByReleaseYear",
+    "RelativePath": "api/films/countbyyear",
+=======
     "ContainingType": "FilmRentalStore.Controllers.CustomerController",
     "Method": "GetActiveCustomers",
     "RelativePath": "api/Customers/active",
+>>>>>>> origin/FilmRentalStore-1
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -26,14 +102,204 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "SearchFilmsByRentalDurationGreater",
+    "RelativePath": "api/films/duration/gt/{rentalDuration}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalDuration",
+        "Type": "System.Byte",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "SearchFilmsByRentalDurationLower",
+    "RelativePath": "api/films/duration/lt/{rentalDuration}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalDuration",
+        "Type": "System.Byte",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "SearchFilmsByLanguage",
+    "RelativePath": "api/films/language/{language}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "language",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "SearchFilmsByLengthGreater",
+    "RelativePath": "api/films/length/gt/{length}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "length",
+        "Type": "System.Int16",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "SearchFilmsByLengthLower",
+    "RelativePath": "api/films/length/lt/{length}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "length",
+        "Type": "System.Int16",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "AddFilm",
+    "RelativePath": "api/films/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "film",
+        "Type": "FilmRentalStore.DTO.FilmDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "SearchFilmsByRentalRateGreater",
+    "RelativePath": "api/films/rate/gt/{rentalRate}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalRate",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "SearchFilmsByRentalRateLower",
+    "RelativePath": "api/films/rate/lt/{rentalRate}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalRate",
+        "Type": "System.Decimal",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "SearchFilmsByRatingHigher",
+    "RelativePath": "api/films/rating/gt/{rating}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rating",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "SearchFilmsByRatingLower",
+    "RelativePath": "api/films/rating/lt/{rating}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rating",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "SearchFilmsByTitle",
+    "RelativePath": "api/films/title/{title}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateCategoryOfFilm",
+    "RelativePath": "api/films/update/category/{filmid}",
+=======
     "ContainingType": "FilmRentalStore.Controllers.CustomerController",
     "Method": "AssignAddress",
     "RelativePath": "api/Customers/AsignAddress",
+>>>>>>> origin/FilmRentalStore-1
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
+<<<<<<< HEAD
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "CategoryId",
+=======
         "Name": "customer",
         "Type": "FilmRentalStore.DTO.CustomerDTO",
         "IsRequired": true
@@ -56,6 +322,7 @@
       },
       {
         "Name": "storeid",
+>>>>>>> origin/FilmRentalStore-1
         "Type": "System.Int32",
         "IsRequired": false
       }
@@ -63,20 +330,158 @@
     "ReturnTypes": []
   },
   {
+<<<<<<< HEAD
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateLanguageOfFilm",
+    "RelativePath": "api/films/update/language/{filmid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "language",
+        "Type": "FilmRentalStore.DTO.LanguageDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateRatingOfFilm",
+    "RelativePath": "api/films/update/rating/{filmid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rating",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateReleaseYearOfFilm",
+    "RelativePath": "api/films/update/releaseyear/{filmid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "releaseyear",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateRentalDurationOfFilm",
+    "RelativePath": "api/films/update/rentaldurtion/{filmid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rentalduration",
+        "Type": "System.Byte",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateRentalRateOfFilm",
+    "RelativePath": "api/films/update/rentalrate/{filmid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "rentalrate",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "UpdateTitleOfFilm",
+    "RelativePath": "api/films/update/title/{filmid}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmid",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "title",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.FilmController",
+    "Method": "SearchFilmsByReleaseYear",
+    "RelativePath": "api/films/year/{releaseYear}",
+=======
     "ContainingType": "FilmRentalStore.Controllers.CustomerController",
     "Method": "GetCustomerByCity",
     "RelativePath": "api/Customers/city/{city}",
+>>>>>>> origin/FilmRentalStore-1
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
+<<<<<<< HEAD
+        "Name": "releaseYear",
+=======
         "Name": "city",
+>>>>>>> origin/FilmRentalStore-1
         "Type": "System.String",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
+<<<<<<< HEAD
+=======
   },
   {
     "ContainingType": "FilmRentalStore.Controllers.CustomerController",
@@ -261,5 +666,6 @@
       }
     ],
     "ReturnTypes": []
+>>>>>>> origin/FilmRentalStore-1
   }
 ]

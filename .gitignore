@@ -83,6 +83,14 @@ StyleCopReport.xml
 *.pgc
 *.pgd
 *.rsp
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# but not Directory.Build.rsp, as it configures directory-level build defaults
+!Directory.Build.rsp
+>>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
+=======
+>>>>>>> origin/FilmRentalStore-1
 *.sbr
 *.tlb
 *.tli
@@ -91,6 +99,13 @@ StyleCopReport.xml
 *.tmp_proj
 *_wpftmp.csproj
 *.log
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+*.tlog
+>>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
+=======
+>>>>>>> origin/FilmRentalStore-1
 *.vspscc
 *.vssscc
 .builds
@@ -294,6 +309,23 @@ node_modules/
 # Visual Studio 6 auto-generated workspace file (contains which files were open etc.)
 *.vbw
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Visual Studio 6 auto-generated project file (contains which files were open etc.)
+*.vbp
+
+# Visual Studio 6 workspace and project file (working project files containing files to include in project)
+*.dsw
+*.dsp
+
+# Visual Studio 6 technical files
+*.ncb
+*.aps
+
+>>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
+=======
+>>>>>>> origin/FilmRentalStore-1
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
 **/*.DesktopClient/GeneratedArtifacts
@@ -350,6 +382,15 @@ ASALocalRun/
 # Local History for Visual Studio
 .localhistory/
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+# Visual Studio History (VSHistory) files
+.vshistory/
+
+>>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
+=======
+>>>>>>> origin/FilmRentalStore-1
 # BeatPulse healthcheck temp database
 healthchecksdb
 
@@ -360,4 +401,33 @@ MigrationBackup/
 .ionide/
 
 # Fody - auto-generated XML schema
+<<<<<<< HEAD
+<<<<<<< HEAD
 FodyWeavers.xsd
+=======
+FodyWeavers.xsd
+
+# VS Code files for those working on multiple tools
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Local History for Visual Studio Code
+.history/
+
+# Windows Installer files from build outputs
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# JetBrains Rider
+*.sln.iml
+>>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
+=======
+FodyWeavers.xsd
+>>>>>>> origin/FilmRentalStore-1
