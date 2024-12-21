@@ -7,7 +7,7 @@ namespace FilmRentalStore.Map
 {
     public class MappingProfile : Profile
     {
-        public MappingProfile() 
+        public MappingProfile()
         {
             CreateMap<Film, FilmDTO>().ReverseMap();
             CreateMap<Actor, ActorDTO>().ReverseMap();

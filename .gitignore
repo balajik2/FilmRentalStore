@@ -84,10 +84,13 @@ StyleCopReport.xml
 *.pgd
 *.rsp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # but not Directory.Build.rsp, as it configures directory-level build defaults
 !Directory.Build.rsp
 >>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
+=======
+>>>>>>> origin/FilmRentalStore-1
 *.sbr
 *.tlb
 *.tli
@@ -97,9 +100,12 @@ StyleCopReport.xml
 *_wpftmp.csproj
 *.log
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 *.tlog
 >>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
+=======
+>>>>>>> origin/FilmRentalStore-1
 *.vspscc
 *.vssscc
 .builds
@@ -304,6 +310,7 @@ node_modules/
 *.vbw
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Visual Studio 6 auto-generated project file (contains which files were open etc.)
 *.vbp
@@ -317,6 +324,8 @@ node_modules/
 *.aps
 
 >>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
+=======
+>>>>>>> origin/FilmRentalStore-1
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
 **/*.DesktopClient/GeneratedArtifacts
@@ -374,11 +383,14 @@ ASALocalRun/
 .localhistory/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 # Visual Studio History (VSHistory) files
 .vshistory/
 
 >>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
+=======
+>>>>>>> origin/FilmRentalStore-1
 # BeatPulse healthcheck temp database
 healthchecksdb
 
@@ -389,6 +401,7 @@ MigrationBackup/
 .ionide/
 
 # Fody - auto-generated XML schema
+<<<<<<< HEAD
 <<<<<<< HEAD
 FodyWeavers.xsd
 =======
@@ -415,3 +428,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 >>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
+=======
+FodyWeavers.xsd
+>>>>>>> origin/FilmRentalStore-1
