@@ -59,7 +59,7 @@ public partial class Sakila12Context : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=INBLRVM26590142;Database=sakila12;Trusted_Connection=True; TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=INBLRVM26590142;Database=sakila12;Trusted_Connection=True;\n\nTrustServerCertificate=true;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -690,11 +690,10 @@ public partial class Sakila12Context : DbContext
                 .IsUnicode(false)
                 .HasDefaultValueSql("(NULL)")
                 .HasColumnName("password");
-            entity.Property(e => e.Picture)
-                .HasDefaultValueSql("(NULL)")
-                .HasColumnType("image")
-                .HasColumnName("picture");
             entity.Property(e => e.StoreId).HasColumnName("store_id");
+            entity.Property(e => e.UrlPath)
+                .HasColumnType("image")
+                .HasColumnName("url_path");
             entity.Property(e => e.Username)
                 .HasMaxLength(16)
                 .IsUnicode(false)

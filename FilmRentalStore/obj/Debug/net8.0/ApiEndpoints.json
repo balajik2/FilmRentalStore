@@ -1,1 +1,265 @@
-[]
+[
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "AddCustomer",
+    "RelativePath": "api/Customers",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "FilmRentalStore.DTO.CustomerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "GetActiveCustomers",
+    "RelativePath": "api/Customers/active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "AssignAddress",
+    "RelativePath": "api/Customers/AsignAddress",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customer",
+        "Type": "FilmRentalStore.DTO.CustomerDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "AssignStoreToCustomer",
+    "RelativePath": "api/Customers/AssignStoreToCustomer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "storeid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "GetCustomerByCity",
+    "RelativePath": "api/Customers/city/{city}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "city",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "GetCustomerByCountry",
+    "RelativePath": "api/Customers/country/{country}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "country",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "GetCustomerByEmail",
+    "RelativePath": "api/Customers/email/{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "GetCustomerByFirstName",
+    "RelativePath": "api/Customers/firstname/{firstname}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "firstname",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "GetCustomer",
+    "RelativePath": "api/Customers/GetCustomer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "GetInActiveCustomers",
+    "RelativePath": "api/Customers/inactive",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "GetCustomerByLastName",
+    "RelativePath": "api/Customers/lastname/{lastname}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lastname",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "GetCustomerByPhone",
+    "RelativePath": "api/Customers/phone/{phone}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "phone",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "UpdateEmailCustomer",
+    "RelativePath": "api/Customers/UpdateEmailByid/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "UpdateFirstNameById",
+    "RelativePath": "api/Customers/UpdateFirstNameById/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "UpdateLastNameById",
+    "RelativePath": "api/Customers/UpdateLastNameById/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "lastname",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "UpdatePhoneCustomer",
+    "RelativePath": "api/Customers/UpdatePhoneNumberByid/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "phone",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
