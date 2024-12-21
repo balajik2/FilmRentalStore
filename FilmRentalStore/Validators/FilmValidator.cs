@@ -1,11 +1,11 @@
 ﻿using FilmRentalStore.DTO;
 using FluentValidation;
 
-namespace FilmRentalStore.Vaidators
+namespace FilmRentalStore.Validators
 {
     public class FilmValidator : AbstractValidator<FilmDTO>
     {
-        public FilmValidator() 
+        public FilmValidator()
         {
             RuleFor(x => x.FilmId).NotNull().WithMessage("Film Id is Required !");
             RuleFor(x => x.LanguageId).NotNull().WithMessage("Language Id is Required !");

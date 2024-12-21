@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\FilmRentalStore.csproj": {}
+    "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\FilmRentalStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\FilmRentalStore.csproj": {
+    "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\FilmRentalStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\FilmRentalStore.csproj",
+        "projectUniqueName": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\FilmRentalStore.csproj",
         "projectName": "FilmRentalStore",
-        "projectPath": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\FilmRentalStore.csproj",
-        "packagesPath": "C:\\Users\\BAKUMARE\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\obj\\",
+        "projectPath": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\FilmRentalStore.csproj",
+        "packagesPath": "C:\\Users\\GOKULRK\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\BAKUMARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GOKULRK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -96,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
