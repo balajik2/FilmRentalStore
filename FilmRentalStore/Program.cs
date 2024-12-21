@@ -12,7 +12,6 @@ using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
 <<<<<<< HEAD
 using FluentValidation;
 using FilmRentalStore.DTO;
-using FilmRentalStore.Vaidators;
 =======
 using FilmRentalStore.Map;
 using FluentValidation;
