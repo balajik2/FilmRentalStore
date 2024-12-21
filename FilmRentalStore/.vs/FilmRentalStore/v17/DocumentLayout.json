@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\",
   "Documents": [
     {
@@ -16,6 +17,73 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\gokulrk\\source\\repos\\filmrentalstore\\store1\\filmrentalstore\\models\\sakila12context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+=======
+  "WorkspaceRootPath": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\FilmRentalStore\\FilmRentalStore\\",
+  "Documents": [
+    {
+<<<<<<< HEAD
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\kbasam\\documents\\visual studio 2022\\filmrentalstore\\filmrentalstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\kbasam\\documents\\visual studio 2022\\filmrentalstore\\filmrentalstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\kbasam\\documents\\visual studio 2022\\filmrentalstore\\filmrentalstore\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\bakumare\\documents\\sprint-2\\filmrentalstore\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\bakumare\\documents\\sprint-2\\filmrentalstore\\services\\filmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:services\\filmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\bakumare\\documents\\sprint-2\\filmrentalstore\\services\\ifilmrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:services\\ifilmrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\bakumare\\documents\\sprint-2\\filmrentalstore\\dto\\filmcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:dto\\filmcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\bakumare\\documents\\sprint-2\\filmrentalstore\\map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\bakumare\\documents\\sprint-2\\filmrentalstore\\models\\filmcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:models\\filmcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\bakumare\\documents\\sprint-2\\filmrentalstore\\dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:dto\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\bakumare\\documents\\sprint-2\\filmrentalstore\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\bakumare\\documents\\sprint-2\\filmrentalstore\\dto\\filmdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:dto\\filmdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\bakumare\\documents\\sprint-2\\filmrentalstore\\vaidators\\filmvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:vaidators\\filmvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\bakumare\\documents\\sprint-2\\filmrentalstore\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\bakumare\\documents\\sprint-2\\filmrentalstore\\dto\\languagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:dto\\languagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> origin/FilmRentalStore-2
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\kbasam\\documents\\visual studio 2022\\filmrentalstore\\filmrentalstore\\models\\sakila12context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+>>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
       "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:models\\sakila12context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -25,8 +93,13 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
+<<<<<<< HEAD
           "DockedWidth": 1346,
           "SelectedChildIndex": 5,
+=======
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+>>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
           "Children": [
             {
               "$type": "Bookmark",
@@ -37,6 +110,7 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+<<<<<<< HEAD
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Sakila12Context.cs",
@@ -45,28 +119,188 @@
               "ToolTip": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\Models\\Sakila12Context.cs",
               "RelativeToolTip": "Models\\Sakila12Context.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+=======
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IFilmRepository.cs",
+              "DocumentMoniker": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Services\\IFilmRepository.cs",
+              "RelativeDocumentMoniker": "Services\\IFilmRepository.cs",
+              "ToolTip": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Services\\IFilmRepository.cs",
+              "RelativeToolTip": "Services\\IFilmRepository.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCQAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:10:44.379Z"
+              "WhenOpened": "2024-12-19T05:14:34.587Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FilmController.cs",
+              "DocumentMoniker": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Controllers\\FilmController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FilmController.cs",
+              "ToolTip": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Controllers\\FilmController.cs",
+              "RelativeToolTip": "Controllers\\FilmController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T04:29:20.519Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FilmCategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\DTO\\FilmCategoryDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\FilmCategoryDTO.cs",
+              "ToolTip": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\DTO\\FilmCategoryDTO.cs",
+              "RelativeToolTip": "DTO\\FilmCategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+>>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:19:07.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FilmCategory.cs",
+              "DocumentMoniker": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Models\\FilmCategory.cs",
+              "RelativeDocumentMoniker": "Models\\FilmCategory.cs",
+              "ToolTip": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Models\\FilmCategory.cs",
+              "RelativeToolTip": "Models\\FilmCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:36:02.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Map\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Map\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Map\\MappingProfile.cs",
+              "RelativeToolTip": "Map\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T04:41:10.57Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FilmService.cs",
+              "DocumentMoniker": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Services\\FilmService.cs",
+              "RelativeDocumentMoniker": "Services\\FilmService.cs",
+              "ToolTip": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Services\\FilmService.cs",
+              "RelativeToolTip": "Services\\FilmService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAzwOMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T14:49:27.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Film.cs",
+              "DocumentMoniker": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Models\\Film.cs",
+              "RelativeDocumentMoniker": "Models\\Film.cs",
+              "ToolTip": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Models\\Film.cs",
+              "RelativeToolTip": "Models\\Film.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA9wBsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T05:11:23.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FilmValidator.cs",
+              "DocumentMoniker": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Vaidators\\FilmValidator.cs",
+              "RelativeDocumentMoniker": "Vaidators\\FilmValidator.cs",
+              "ToolTip": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Vaidators\\FilmValidator.cs",
+              "RelativeToolTip": "Vaidators\\FilmValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T05:31:29.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryDTO.cs",
+              "DocumentMoniker": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\DTO\\CategoryDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\CategoryDTO.cs",
+              "ToolTip": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\DTO\\CategoryDTO.cs",
+              "RelativeToolTip": "DTO\\CategoryDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T09:00:17.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T08:36:11.575Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Sakila12Context.cs",
+              "DocumentMoniker": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\FilmRentalStore\\FilmRentalStore\\Models\\Sakila12Context.cs",
+              "RelativeDocumentMoniker": "Models\\Sakila12Context.cs",
+              "ToolTip": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\FilmRentalStore\\FilmRentalStore\\Models\\Sakila12Context.cs",
+              "RelativeToolTip": "Models\\Sakila12Context.cs",
+              "ViewState": "AgIAAPYBAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:17:59.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FilmDTO.cs",
+              "DocumentMoniker": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\DTO\\FilmDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\FilmDTO.cs",
+              "ToolTip": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\DTO\\FilmDTO.cs",
+              "RelativeToolTip": "DTO\\FilmDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-20T05:12:26.703Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
+              "DocumentIndex": 0,
               "Title": "appsettings.json",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\appsettings.json",
+=======
+              "DocumentMoniker": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\FilmRentalStore\\FilmRentalStore\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\FilmRentalStore\\FilmRentalStore\\appsettings.json",
+>>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-18T09:54:17.85Z"
+              "WhenOpened": "2024-12-18T09:54:17.85Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ValuesController.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\Controllers\\ValuesController.cs",
               "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
               "ToolTip": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\Controllers\\ValuesController.cs",
+=======
+              "DocumentMoniker": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\FilmRentalStore\\FilmRentalStore\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\FilmRentalStore\\FilmRentalStore\\Controllers\\ValuesController.cs",
+>>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
               "RelativeToolTip": "Controllers\\ValuesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -74,16 +308,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
+<<<<<<< HEAD
               "DocumentMoniker": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\Program.cs",
+=======
+              "DocumentMoniker": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\FilmRentalStore\\FilmRentalStore\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\FilmRentalStore\\FilmRentalStore\\Program.cs",
+>>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T05:01:06.138Z",
               "EditorCaption": ""
+=======
+              "DocumentIndex": 11,
+              "Title": "LanguageDTO.cs",
+              "DocumentMoniker": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\DTO\\LanguageDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\LanguageDTO.cs",
+              "ToolTip": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\DTO\\LanguageDTO.cs",
+              "RelativeToolTip": "DTO\\LanguageDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T19:12:49.168Z"
+>>>>>>> origin/FilmRentalStore-2
+            }
+          ]
+        },
+        {
+          "DockedWidth": 58,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
             }
           ]
         },
