@@ -6,7 +6,7 @@ namespace FilmRentalStore.Validators
     {
         public CustomerValidator()
         {
-          // RuleFor(x => x.CustomerId).NotEmpty().NotNull().WithMessage("CustomerId is required");
+         
            RuleFor(x => x.StoreId).NotEmpty().NotNull().WithMessage("StoreId is required");
              RuleFor(x => x.AddressId).NotEmpty().WithMessage("AddressId is required");
             RuleFor(x => x.FirstName).NotEmpty().NotNull().WithMessage("FirstName is required");
