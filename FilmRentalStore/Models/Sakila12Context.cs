@@ -690,11 +690,10 @@ public partial class Sakila12Context : DbContext
                 .IsUnicode(false)
                 .HasDefaultValueSql("(NULL)")
                 .HasColumnName("password");
-            entity.Property(e => e.Picture)
-                .HasDefaultValueSql("(NULL)")
-                .HasColumnType("image")
-                .HasColumnName("picture");
             entity.Property(e => e.StoreId).HasColumnName("store_id");
+            entity.Property(e => e.UrlPath)
+                .HasMaxLength(255)
+                .HasColumnName("url_path");
             entity.Property(e => e.Username)
                 .HasMaxLength(16)
                 .IsUnicode(false)

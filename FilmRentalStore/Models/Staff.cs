@@ -13,8 +13,6 @@ public partial class Staff
 
     public int AddressId { get; set; }
 
-    public byte[]? Picture { get; set; }
-
     public string? Email { get; set; }
 
     public int StoreId { get; set; }
@@ -26,6 +24,8 @@ public partial class Staff
     public string? Password { get; set; }
 
     public DateTime LastUpdate { get; set; }
+
+    public string? UrlPath { get; set; }
 
     public virtual Address Address { get; set; } = null!;
 
