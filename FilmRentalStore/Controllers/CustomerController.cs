@@ -29,7 +29,16 @@ namespace FilmRentalStore.Controllers
 
 
         #region AddCustomer
+
+        /// <summary>
+        /// Add a new Customer to the Collection
+        /// </summary>
+        /// <param name="customer"></param>
+        /// <returns></returns>
+
         [HttpPost]
+
+        
 
         public async Task<IActionResult> AddCustomer(CustomerDTO customer)
         {
@@ -59,6 +68,13 @@ namespace FilmRentalStore.Controllers
 
 
         #region GetCustomer
+
+
+        /// <summary>
+        /// Get the Collection of all customer details
+        /// </summary>
+        /// <returns></returns>
+
         [HttpGet("GetCustomer")]
         public async Task<IActionResult> GetCustomer()
         {
@@ -75,6 +91,15 @@ namespace FilmRentalStore.Controllers
         #endregion
 
         #region GetCustomerByLastName
+
+        /// <summary>
+        /// Get the Customer details in the Collection by LastName
+        /// </summary>
+        /// <param name="lastname"></param>
+        /// <returns></returns>
+        /// 
+
+
         [HttpGet("lastname/{lastname}")]
 
         public async Task<IActionResult> GetCustomerByLastName(string lastname)
@@ -97,6 +122,14 @@ namespace FilmRentalStore.Controllers
 
 
         #region GetCustomerByFirstName
+
+        /// <summary>
+        /// Get the Customer details in the Collection by FirstName
+        /// </summary>
+        /// <param name="firstname"></param>
+        /// <returns></returns>
+        /// 
+
         [HttpGet("firstname/{firstname}")]
 
         public async Task<IActionResult> GetCustomerByFirstName(string firstname)
@@ -119,6 +152,12 @@ namespace FilmRentalStore.Controllers
 
         #region GetCustomerByEmail
 
+        /// <summary>
+        /// Get the Collection of Customer Details by Email
+        /// </summary>
+        /// <param name="email"></param>
+        /// <returns></returns>
+
         [HttpGet("email/{email}")]
         public async Task<IActionResult> GetCustomerByEmail(string? email)
         {
@@ -137,6 +176,12 @@ namespace FilmRentalStore.Controllers
       
 
         #region AssignAddress
+
+        /// <summary>
+        /// Assigning Address to the customer in the collection
+        /// </summary>
+        /// <param name="customer"></param>
+        /// <returns></returns>
 
         [HttpPut("AsignAddress")]
         public async Task<IActionResult> AssignAddress(CustomerDTO customer)
@@ -163,6 +208,13 @@ namespace FilmRentalStore.Controllers
 
 
         #region GetCustomerByCity
+
+        /// <summary>
+        /// Get the Collection of Customer Details by City
+        /// </summary>
+        /// <param name="city"></param>
+        /// <returns></returns>
+        /// 
         [HttpGet("city/{city}")]
 
 
@@ -185,6 +237,13 @@ namespace FilmRentalStore.Controllers
 
         #region GetCustomerByCountry
 
+
+        /// <summary>
+        /// Get the Collection of Customer Details By Country
+        /// </summary>
+        /// <param name="country"></param>
+        /// <returns></returns>
+        /// 
         [HttpGet("country/{country}")]
 
 
@@ -207,6 +266,11 @@ namespace FilmRentalStore.Controllers
 
         #region GetActiveCustomers
 
+        /// <summary>
+        /// Get the collection of active customers
+        /// </summary>
+        /// <returns></returns>
+        /// 
         [HttpGet("active")]
         public async Task<IActionResult> GetActiveCustomers()
         {
@@ -228,6 +292,12 @@ namespace FilmRentalStore.Controllers
 
         #region GetInActiveCustomers
 
+        /// <summary>
+        /// Get the Collection of inactive customers
+        /// </summary>
+        /// <returns></returns>
+        /// 
+
         [HttpGet("inactive")]
         public async Task<IActionResult> GetInActiveCustomers()
         {
@@ -247,6 +317,12 @@ namespace FilmRentalStore.Controllers
 
         #region GetCustomerByPhone
 
+        /// <summary>
+        /// Get the customer details by Phone
+        /// </summary>
+        /// <param name="phone"></param>
+        /// <returns></returns>
+        /// 
         [HttpGet("phone/{phone}")]
 
         public async Task<IActionResult> GetCustomerByPhone(string phone)
@@ -267,6 +343,13 @@ namespace FilmRentalStore.Controllers
 
 
         #region UpdateFirstNameById
+        /// <summary>
+        /// Update the FirstName of a customer by CustomerId
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="name"></param>
+        /// <returns></returns>
+        /// 
 
         [HttpPut("UpdateFirstNameById/{id}")]
         public async Task<IActionResult> UpdateFirstNameById(int id, string name)
@@ -289,6 +372,13 @@ namespace FilmRentalStore.Controllers
 
         #region UpdateLastNameById
 
+        /// <summary>
+        /// Update LastName of a Customer by CustomerId
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="lastname"></param>
+        /// <returns></returns>
+
         [HttpPut("UpdateLastNameById/{id}")]
         public async Task<IActionResult> UpdateLastNameById(int id, string lastname)
         {
@@ -310,6 +400,13 @@ namespace FilmRentalStore.Controllers
 
         #region UpdateEmailCustomer
 
+        /// <summary>
+        /// Update Email of a Customer by CustomerId
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="email"></param>
+        /// <returns></returns>
+        
         [HttpPut("UpdateEmailByid/{id}")]
         public async Task<IActionResult> UpdateEmailCustomer(int id, string email)
         {
@@ -330,6 +427,13 @@ namespace FilmRentalStore.Controllers
 
 
         #region UpdatePhoneCustomer
+
+        /// <summary>
+        /// Update the Phone number details of Customer by CustomerId
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="phone"></param>
+        /// <returns></returns>
 
         [HttpPut("UpdatePhoneNumberByid/{id}")]
         public async Task<IActionResult> UpdatePhoneCustomer(int id, string phone)
@@ -352,6 +456,13 @@ namespace FilmRentalStore.Controllers
 
 
         #region AssignStoreToCustomer
+
+        /// <summary>
+        /// Assigning a new Storeid to customer by CustomerId
+        /// </summary>
+        /// <param name="customerid"></param>
+        /// <param name="storeid"></param>
+        /// <returns></returns>
 
         [HttpPut("AssignStoreToCustomer")]
         public async Task<IActionResult> AssignStoreToCustomer(int customerid, int storeid)

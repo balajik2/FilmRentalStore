@@ -384,6 +384,630 @@
           }
         }
       }
+    },
+    "/api/films/post": {
+      "post": {
+        "tags": [
+          "Film"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FilmDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FilmDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FilmDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/title/{title}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "title",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/year/{releaseYear}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "releaseYear",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/duration/gt/{rentalDuration}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "rentalDuration",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/rate/gt/{rentalRate}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "rentalRate",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/length/gt/{length}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "length",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/duration/lt/{rentalDuration}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "rentalDuration",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/rate/lt/{rentalRate}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "rentalRate",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/length/lt/{length}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "length",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/betweenyear/{from}/{to}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "from",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "to",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/rating/lt/{rating}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "rating",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/rating/gt/{rating}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "rating",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/language/{language}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "language",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/countbyyear": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/{filmId}/actors": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/category/{category}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "category",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/{filmid}/actor": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "actorId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/update/title/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "title",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/update/releaseyear/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "releaseyear",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/update/rentaldurtion/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "rentalduration",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/update/rentalrate/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "rentalrate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/update/rating/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "rating",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/update/language/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LanguageDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LanguageDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LanguageDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/update/category/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "CategoryId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
     }
   },
   "components": {
@@ -422,6 +1046,84 @@
           "createDate": {
             "type": "string",
             "format": "date-time"
+          },
+          "lastUpdate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FilmDTO": {
+        "type": "object",
+        "properties": {
+          "filmId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "releaseYear": {
+            "type": "string",
+            "nullable": true
+          },
+          "languageId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "originalLanguageId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "rentalDuration": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "rentalRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "length": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "replacementCost": {
+            "type": "number",
+            "format": "double"
+          },
+          "rating": {
+            "type": "string",
+            "nullable": true
+          },
+          "specialFeatures": {
+            "type": "string",
+            "nullable": true
+          },
+          "lastUpdate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "LanguageDTO": {
+        "type": "object",
+        "properties": {
+          "languageId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
           },
           "lastUpdate": {
             "type": "string",
