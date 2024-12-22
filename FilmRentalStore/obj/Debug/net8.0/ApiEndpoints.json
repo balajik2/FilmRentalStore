@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 []
 =======
@@ -19,6 +20,10 @@
     "ReturnTypes": []
   },
   {
+=======
+[
+  {
+>>>>>>> ef91ec8b3b724d9adbfa63bca53b84cea953efe9
     "ContainingType": "FilmRentalStore.Controllers.CustomerController",
     "Method": "AddCustomer",
     "RelativePath": "api/Customers",
@@ -704,5 +709,9 @@
     ],
     "ReturnTypes": []
   }
+<<<<<<< HEAD
 ]
 >>>>>>> Stashed changes
+=======
+]
+>>>>>>> ef91ec8b3b724d9adbfa63bca53b84cea953efe9
