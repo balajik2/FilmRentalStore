@@ -13,8 +13,6 @@ public partial class Staff
 
     public int AddressId { get; set; }
 
-    public byte[]? UrlPath { get; set; }
-
     public string? Email { get; set; }
 
     public int StoreId { get; set; }
@@ -27,11 +25,17 @@ public partial class Staff
 
     public DateTime LastUpdate { get; set; }
 
+    public string? UrlPath { get; set; }
+
+    public int? RoleId { get; set; }
+
     public virtual Address Address { get; set; } = null!;
 
     public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
 
     public virtual ICollection<Rental> Rentals { get; set; } = new List<Rental>();
+
+    public virtual Role? Role { get; set; }
 
     public virtual Store Store { get; set; } = null!;
 

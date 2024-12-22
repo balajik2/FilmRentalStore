@@ -3,6 +3,7 @@ using FilmRentalStore.DTO;
 using FilmRentalStore.Models;
 using FilmRentalStore.Services;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
@@ -24,7 +25,7 @@ namespace FilmRentalStore.Controllers
 
 
 
-
+      
 
         #region AddFilm
 
@@ -34,7 +35,7 @@ namespace FilmRentalStore.Controllers
         /// <param name="film"></param>
         /// <returns></returns>
 
-
+        [Authorize(Roles = "admin,staff")]
         [HttpPost("post")]
         public async Task<IActionResult> AddFilm(FilmDTO film)
         {
@@ -62,7 +63,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpGet("title/{title}")]
-
+        [Authorize(Roles = "admin,staff")]
         public async Task<IActionResult> SearchFilmsByTitle(string title)
         {
             try
@@ -87,7 +88,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpGet("year/{releaseYear}")]
-
+        [Authorize(Roles = "admin,staff")]
         public async Task<IActionResult> SearchFilmsByReleaseYear(string releaseYear)
         { 
             try
@@ -112,7 +113,7 @@ namespace FilmRentalStore.Controllers
         /// <param name="rentalDuration"></param>
         /// <returns></returns>
         /// 
-
+        [Authorize(Roles = "admin,staff")]
         [HttpGet("duration/gt/{rentalDuration}")]
         public async Task<IActionResult> SearchFilmsByRentalDurationGreater(byte rentalDuration)
         {
@@ -137,7 +138,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpGet("rate/gt/{rentalRate}")]
-
+        [Authorize(Roles = "admin,staff")]
         public async Task<IActionResult> SearchFilmsByRentalRateGreater(decimal rentalRate)
         {
             try
@@ -163,6 +164,7 @@ namespace FilmRentalStore.Controllers
         /// <param name="length"></param>
         /// <returns></returns>
 
+        [Authorize(Roles = "admin,staff")]
         [HttpGet("length/gt/{length}")]
         public async Task<IActionResult> SearchFilmsByLengthGreater(short length)
         {
@@ -189,6 +191,7 @@ namespace FilmRentalStore.Controllers
         /// <param name="rentalDuration"></param>
         /// <returns></returns>
 
+        [Authorize(Roles = "admin,staff")]
         [HttpGet("duration/lt/{rentalDuration}")]
         public async Task<IActionResult> SearchFilmsByRentalDurationLower(byte rentalDuration)
         {
@@ -216,7 +219,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpGet("rate/lt/{rentalRate}")]
-
+        [Authorize(Roles = "admin,staff")]
         public async Task<IActionResult> SearchFilmsByRentalRateLower(decimal rentalRate)
         {
             try
@@ -242,6 +245,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpGet("length/lt/{length}")]
+        [Authorize(Roles = "admin,staff")]
         public async Task<IActionResult> SearchFilmsByLengthLower(short length)
         {
             try
@@ -268,7 +272,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpGet("betweenyear/{from}/{to}")]
-
+        [Authorize(Roles = "admin,staff")]
         public async Task<IActionResult> SearchFilmsByReleaseYearRange(int from, int to)
         {
             try
@@ -294,6 +298,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpGet("rating/lt/{rating}")]
+        [Authorize(Roles = "admin,staff")]
         public async Task<IActionResult> SearchFilmsByRatingLower(string rating)
         {
             try
@@ -317,6 +322,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpGet("rating/gt/{rating}")]
+        [Authorize(Roles = "admin,staff")]
         public async Task<IActionResult> SearchFilmsByRatingHigher(string rating)
         {
             try
@@ -340,7 +346,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpGet("language/{language}")]
-
+        [Authorize(Roles = "admin,staff")]
         public async Task<IActionResult> SearchFilmsByLanguage(string language)
         {
             try
@@ -364,6 +370,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpGet("countbyyear")]
+        [Authorize(Roles = "admin,staff")]
         public async Task<IActionResult> GetFilmCountByReleaseYear()
         {
             try
@@ -388,6 +395,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpGet("{filmId}/actors")]
+        [Authorize(Roles = "admin,staff")]
         public async Task<IActionResult> GetActorsByFilmId(int filmId)
         {
             try
@@ -412,6 +420,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpGet("category/{category}")]
+        [Authorize(Roles = "admin,staff")]
         public async Task<IActionResult> GetFilmsByCategory(string category)
         {
             try
@@ -438,6 +447,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpPut("{filmid}/actor")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> AssignActorToFilm(int filmid, int actorId)
         {
             try
@@ -465,6 +475,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpPut("update/title/{filmid}")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> UpdateTitleOfFilm(int filmid, string title)
         {
             try
@@ -490,6 +501,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpPut("update/releaseyear/{filmid}")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> UpdateReleaseYearOfFilm(int filmid, string releaseyear)
         {
             try
@@ -515,6 +527,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpPut("update/rentaldurtion/{filmid}")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> UpdateRentalDurationOfFilm(int filmid, byte rentalduration)
         {
             try
@@ -540,6 +553,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpPut("update/rentalrate/{filmid}")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> UpdateRentalRateOfFilm(int filmid, decimal rentalrate)
         {
             try
@@ -565,6 +579,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpPut("update/rating/{filmid}")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> UpdateRatingOfFilm(int filmid, string rating)
         {
             var validRatings = new[] { "NC-17", "R", "PG-13", "PG", "G" };
@@ -600,6 +615,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpPut("update/language/{filmid}")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> UpdateLanguageOfFilm(int filmid, LanguageDTO language)
         {
             try
@@ -625,6 +641,7 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpPut("update/category/{filmid}")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> UpdateCategoryOfFilm(int filmid, int CategoryId)
         {
             try

@@ -47,6 +47,8 @@ public partial class Sakila12Context : DbContext
 
     public virtual DbSet<Rental> Rentals { get; set; }
 
+    public virtual DbSet<Role> Roles { get; set; }
+
     public virtual DbSet<SalesByFilmCategory> SalesByFilmCategories { get; set; }
 
     public virtual DbSet<SalesByStore> SalesByStores { get; set; }
@@ -59,7 +61,7 @@ public partial class Sakila12Context : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=INBLRVM26590142;Database=sakila12;Trusted_Connection=True;\n\nTrustServerCertificate=true;");
+        => optionsBuilder.UseSqlServer("Server=INBLRVM26590142;Database=sakila12;Trusted_Connection=True; TrustServerCertificate=True;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -616,6 +618,16 @@ public partial class Sakila12Context : DbContext
                 .HasConstraintName("fk_rental_staff");
         });
 
+        modelBuilder.Entity<Role>(entity =>
+        {
+            entity.ToTable("Role");
+
+            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Name)
+                .HasMaxLength(100)
+                .IsUnicode(false);
+        });
+
         modelBuilder.Entity<SalesByFilmCategory>(entity =>
         {
             entity
@@ -692,7 +704,7 @@ public partial class Sakila12Context : DbContext
                 .HasColumnName("password");
             entity.Property(e => e.StoreId).HasColumnName("store_id");
             entity.Property(e => e.UrlPath)
-                .HasColumnType("image")
+                .HasMaxLength(255)
                 .HasColumnName("url_path");
             entity.Property(e => e.Username)
                 .HasMaxLength(16)
@@ -703,6 +715,10 @@ public partial class Sakila12Context : DbContext
                 .HasForeignKey(d => d.AddressId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_staff_address");
+
+            entity.HasOne(d => d.Role).WithMany(p => p.Staff)
+                .HasForeignKey(d => d.RoleId)
+                .HasConstraintName("FK_Staff_Role");
 
             entity.HasOne(d => d.Store).WithMany(p => p.Staff)
                 .HasForeignKey(d => d.StoreId)
