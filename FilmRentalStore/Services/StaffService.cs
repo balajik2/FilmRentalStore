@@ -33,8 +33,8 @@ namespace FilmRentalStore.Services
 
         public async Task AddStaff(StaffDTO staffDTO)
         {
-            var Staff = _mapper.Map<Staff>(staffDTO);
-            _context.Staff.Add(Staff);
+            var staff = _mapper.Map<Staff>(staffDTO);
+            _context.Staff.Add(staff);
             await _context.SaveChangesAsync();
         }
 

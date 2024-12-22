@@ -1,5 +1,78 @@
 [
   {
+    "ContainingType": "FilmRentalStore.Controllers.PaymentController",
+    "Method": "GetCumulativeRevenueForAStore",
+    "RelativePath": "api/Payment/GetCumulativeRevenueForAStore",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.PaymentController",
+    "Method": "GetCumulativeRevenueOfAllStores",
+    "RelativePath": "api/Payment/GetCumulativeRevenueOfAllStores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.PaymentController",
+    "Method": "GetPayment",
+    "RelativePath": "api/Payment/GetPayment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.PaymentController",
+    "Method": "GetPaymentsByFilmTitle",
+    "RelativePath": "api/Payment/GetPaymentsByFilmTitle",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filmTitle",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.PaymentController",
+    "Method": "MakePayment",
+    "RelativePath": "api/Payment/MakePayment",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FilmRentalStore.Controllers.StaffController",
     "Method": "AddStaff",
     "RelativePath": "api/Staff/AddStaff",

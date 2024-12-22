@@ -9,6 +9,7 @@ namespace FilmRentalStore.Map
         public MappingProfile()
         {
             CreateMap<Staff, StaffDTO>().ReverseMap();
+            CreateMap<Payment, PaymentDTO>().ReverseMap();
         }
     }
 }

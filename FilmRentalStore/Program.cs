@@ -42,7 +42,7 @@ builder.Services.AddSingleton(mapper);
 
 //add the repository
 builder.Services.AddScoped<IStaffRepository, StaffService>();
-
+builder.Services.AddScoped<IPaymentRepository, PaymentService>();
 
 
 
