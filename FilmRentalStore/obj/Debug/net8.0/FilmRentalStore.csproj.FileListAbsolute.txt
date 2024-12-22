@@ -290,3 +290,6 @@ C:\Users\SV63\OneDrive - Capgemini\Desktop\SPRINT-WEBAPI\FilmRentalStore\obj\Deb
 C:\Users\SV63\OneDrive - Capgemini\Desktop\SPRINT-WEBAPI\FilmRentalStore\obj\Debug\net8.0\FilmRentalStore.pdb
 C:\Users\SV63\OneDrive - Capgemini\Desktop\SPRINT-WEBAPI\FilmRentalStore\obj\Debug\net8.0\FilmRentalStore.genruntimeconfig.cache
 C:\Users\SV63\OneDrive - Capgemini\Desktop\SPRINT-WEBAPI\FilmRentalStore\obj\Debug\net8.0\ref\FilmRentalStore.dll
+C:\Users\SV63\OneDrive - Capgemini\Desktop\SPRINT-WEBAPI\FilmRentalStore\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\SV63\OneDrive - Capgemini\Desktop\SPRINT-WEBAPI\FilmRentalStore\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\SV63\OneDrive - Capgemini\Desktop\SPRINT-WEBAPI\FilmRentalStore\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

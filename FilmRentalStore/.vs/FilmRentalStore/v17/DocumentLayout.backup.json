@@ -3,20 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\filmrentalstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\filmrentalstore\\controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:controllers\\rentalcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\filmrentalstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\filmrentalstore\\services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:services\\rentalservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\filmrentalstore\\services\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:services\\icityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\filmrentalstore\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\filmrentalstore\\services\\cityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:services\\cityclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\filmrentalstore\\services\\irentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:services\\irentalrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\filmrentalstore\\dto\\rentaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:dto\\rentaldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\filmrentalstore\\validator\\rentalvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:validator\\rentalvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\filmrentalstore\\dto\\actordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:dto\\actordto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\filmrentalstore\\models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:models\\rental.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\filmrentalstore\\map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 290,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +58,119 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CityClass.cs",
-              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Services\\CityClass.cs",
-              "RelativeDocumentMoniker": "Services\\CityClass.cs",
-              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Services\\CityClass.cs",
-              "RelativeToolTip": "Services\\CityClass.cs",
-              "ViewState": "AgIAAAAAAAAAorE+tMTlvwcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:12:24.839Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ICityRepository.cs",
-              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Services\\ICityRepository.cs",
-              "RelativeDocumentMoniker": "Services\\ICityRepository.cs",
-              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Services\\ICityRepository.cs",
-              "RelativeToolTip": "Services\\ICityRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T10:11:47.638Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-18T09:56:32.498Z",
+              "Title": "RentalService.cs",
+              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Services\\RentalService.cs",
+              "RelativeDocumentMoniker": "Services\\RentalService.cs",
+              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Services\\RentalService.cs",
+              "RelativeToolTip": "Services\\RentalService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T19:51:10.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAA5AAAAAAAAAA==",
+              "Title": "RentalController.cs",
+              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Controllers\\RentalController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RentalController.cs",
+              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Controllers\\RentalController.cs*",
+              "RelativeToolTip": "Controllers\\RentalController.cs*",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwEIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T05:01:06.138Z",
+              "WhenOpened": "2024-12-21T21:03:43.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRentalRepository.cs",
+              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Services\\IRentalRepository.cs",
+              "RelativeDocumentMoniker": "Services\\IRentalRepository.cs",
+              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Services\\IRentalRepository.cs",
+              "RelativeToolTip": "Services\\IRentalRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T22:14:21.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Rental.cs",
+              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Models\\Rental.cs",
+              "RelativeDocumentMoniker": "Models\\Rental.cs",
+              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Models\\Rental.cs",
+              "RelativeToolTip": "Models\\Rental.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA3wBkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T16:01:20.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ActorController.cs",
+              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Controllers\\ActorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ActorController.cs",
+              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Controllers\\ActorController.cs",
+              "RelativeToolTip": "Controllers\\ActorController.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwDEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T14:59:47.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RentalValidator.cs",
+              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Validator\\RentalValidator.cs",
+              "RelativeDocumentMoniker": "Validator\\RentalValidator.cs",
+              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Validator\\RentalValidator.cs",
+              "RelativeToolTip": "Validator\\RentalValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T09:27:41.644Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RentalDTO.cs",
+              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\DTO\\RentalDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\RentalDTO.cs",
+              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\DTO\\RentalDTO.cs",
+              "RelativeToolTip": "DTO\\RentalDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T22:09:20.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ActorDTO.cs",
+              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\DTO\\ActorDTO.cs",
+              "RelativeDocumentMoniker": "DTO\\ActorDTO.cs",
+              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\DTO\\ActorDTO.cs",
+              "RelativeToolTip": "DTO\\ActorDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T11:10:29.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Map\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Map\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\Map\\MappingProfile.cs",
+              "RelativeToolTip": "Map\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-22T10:25:52.165Z",
               "EditorCaption": ""
             }
           ]
