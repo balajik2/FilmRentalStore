@@ -13,6 +13,8 @@ using FilmRentalStore.DTO;
 using FilmRentalStore.Map;
 using FluentValidation;
 using Microsoft.OpenApi.Models;
+using Microsoft.AspNetCore.Diagnostics;
+using System.Net;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -114,6 +116,25 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
+
+
+//Global Exception 
+
+
+app.UseExceptionHandler(options =>
+{
+    options.Run(async context =>
+    {
+        context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+        context.Response.ContentType = "application/json";
+        var exception = context.Features.Get<IExceptionHandlerFeature>();
+        if (exception != null)
+        {
+            var message = $"Global Exception :{exception.Error.Message} ";
+            await context.Response.WriteAsync(message).ConfigureAwait(false);
+        }
+    });
+});
 
 app.MapControllers();
 
