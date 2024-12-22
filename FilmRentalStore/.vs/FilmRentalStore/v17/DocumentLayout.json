@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\",
   "Documents": [
     {
@@ -19,12 +20,17 @@
       "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:models\\sakila12context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\BAKUMARE\\Documents\\Sprint-2\\FilmRentalStore\\",
+  "Documents": [],
+>>>>>>> Stashed changes
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
+<<<<<<< Updated upstream
           "DockedWidth": 1346,
           "SelectedChildIndex": 5,
           "Children": [
@@ -89,11 +95,18 @@
         },
         {
           "DockedWidth": 870,
+=======
+          "DockedWidth": 200,
+>>>>>>> Stashed changes
           "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
+<<<<<<< Updated upstream
               "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+=======
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+>>>>>>> Stashed changes
             }
           ]
         }
