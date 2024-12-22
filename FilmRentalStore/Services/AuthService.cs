@@ -20,9 +20,36 @@ namespace FilmRentalStore.Services
         }
         public string Authenticate(string username, string password)
         {
-            var user = _context.Staff.Include(u => u.Role).FirstOrDefault(u => u.Username == username && u.Password == password);
+            //var user = _context.Rusers.Include(u => u.Role).FirstOrDefault(u => u.UserName == username && u.PassWord == password);
+            //if (user == null)
+            //{
+            //    return null;
+            //}
+
+            dynamic user = null;
+            string roleName = null;
+
+            var ruser = _context.Rusers.Include(u => u.Role)
+                                       .FirstOrDefault(u => u.Username == username && u.Password == password);
+
+            if (ruser != null)
+            {
+                user = ruser;
+                roleName = ruser.Role.Name;
+            }
+            else
+            {
+                var staff = _context.Staff.Include(u => u.Role)
+                                          .FirstOrDefault(u => u.Username == username && u.Password == password);
+
+                if (staff != null)
+                {
+                    user = staff;
+                    roleName = staff.Role.Name; 
+                }
+            }
             if (user == null) return null;
-            Console.WriteLine(user.FirstName);
+            Console.WriteLine(user.Username);
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Key"]);
             var tokenDescriptor = new SecurityTokenDescriptor
@@ -37,8 +64,9 @@ namespace FilmRentalStore.Services
                 SigningCredentials = new SigningCredentials(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
             var token = tokenHandler.CreateToken(tokenDescriptor);
+            Console.WriteLine("Logged in Successfully !");
             return tokenHandler.WriteToken(token);
-            //return "";
+            
         }
     }
 }
