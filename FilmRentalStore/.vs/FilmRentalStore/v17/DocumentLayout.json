@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "WorkspaceRootPath": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\",
   "Documents": [
     {
@@ -19,6 +20,10 @@
       "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:models\\sakila12context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+=======
+  "WorkspaceRootPath": "C:\\Users\\BAKUMARE\\Documents\\Sprint-3\\FilmRentalStore\\",
+  "Documents": [],
+>>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -26,7 +31,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -35,6 +40,7 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+<<<<<<< HEAD
             },
             {
               "$type": "Document",
@@ -84,6 +90,8 @@
               "ViewState": "AgIAAAMAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T05:01:06.138Z"
+=======
+>>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
             }
           ]
         },
