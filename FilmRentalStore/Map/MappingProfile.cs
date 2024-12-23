@@ -2,7 +2,7 @@
 using FilmRentalStore.DTO;
 using FilmRentalStore.Models;
 
-namespace FilmRentalStore.MAP
+namespace FilmRentalStore.Map
 {
     public class MappingProfile:Profile
     {
