@@ -5,18 +5,6 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Payment/GetPayment": {
-      "get": {
-        "tags": [
-          "Payment"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/Payment/MakePayment": {
       "put": {
         "tags": [

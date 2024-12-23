@@ -47,6 +47,10 @@ public partial class Sakila12Context : DbContext
 
     public virtual DbSet<Rental> Rentals { get; set; }
 
+    public virtual DbSet<Role> Roles { get; set; }
+
+    public virtual DbSet<Ruser> Rusers { get; set; }
+
     public virtual DbSet<SalesByFilmCategory> SalesByFilmCategories { get; set; }
 
     public virtual DbSet<SalesByStore> SalesByStores { get; set; }
@@ -616,6 +620,35 @@ public partial class Sakila12Context : DbContext
                 .HasConstraintName("fk_rental_staff");
         });
 
+        modelBuilder.Entity<Role>(entity =>
+        {
+            entity.ToTable("Role");
+
+            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Name)
+                .HasMaxLength(100)
+                .IsUnicode(false);
+        });
+
+        modelBuilder.Entity<Ruser>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Ruser__3214EC0747DEDCFC");
+
+            entity.ToTable("Ruser");
+
+            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Password)
+                .HasMaxLength(100)
+                .HasColumnName("password");
+            entity.Property(e => e.Username)
+                .HasMaxLength(100)
+                .HasColumnName("username");
+
+            entity.HasOne(d => d.Role).WithMany(p => p.Rusers)
+                .HasForeignKey(d => d.RoleId)
+                .HasConstraintName("FK__Ruser__RoleId__1CBC4616");
+        });
+
         modelBuilder.Entity<SalesByFilmCategory>(entity =>
         {
             entity
@@ -703,6 +736,10 @@ public partial class Sakila12Context : DbContext
                 .HasForeignKey(d => d.AddressId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_staff_address");
+
+            entity.HasOne(d => d.Role).WithMany(p => p.Staff)
+                .HasForeignKey(d => d.RoleId)
+                .HasConstraintName("FK_Staff_Role");
 
             entity.HasOne(d => d.Store).WithMany(p => p.Staff)
                 .HasForeignKey(d => d.StoreId)

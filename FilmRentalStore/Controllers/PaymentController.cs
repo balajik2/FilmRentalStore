@@ -22,32 +22,6 @@ namespace FilmRentalStore.Controllers
 
         }
 
-        #region Get Payment
-
-        /// <summary> GetPayment
-        ///
-        /// The GetPayment method is a GET API endpoint designed to retrieve payment data from the database.
-        /// It calls the GetPayment() method from the context (_context) to fetch the payment information. 
-        /// 
-        /// </summary>
-        /// <returns></returns>
-
-        [HttpGet("GetPayment")]
-        public async Task<IActionResult> GetPayment()
-        {
-            try
-            {
-                var payment = await _context.GetPayment();
-                return Ok(payment);
-            }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
-
-        #endregion
-
 
         #region Make Payment
 

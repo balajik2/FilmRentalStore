@@ -53,16 +53,6 @@
   },
   {
     "ContainingType": "FilmRentalStore.Controllers.PaymentController",
-    "Method": "GetPayment",
-    "RelativePath": "api/Payment/GetPayment",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FilmRentalStore.Controllers.PaymentController",
     "Method": "GetPaymentsByFilmTitle",
     "RelativePath": "api/Payment/GetPaymentsByFilmTitle",
     "HttpMethod": "GET",

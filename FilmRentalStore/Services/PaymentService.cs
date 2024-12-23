@@ -18,18 +18,6 @@ namespace FilmRentalStore.Services
         }
 
 
-        #region Get Payment
-
-        public async Task<List<PaymentDTO>> GetPayment()
-        {
-            var List = await _context.Payments.ToListAsync();
-            var DTOList = _mapper.Map<List<PaymentDTO>>(List);
-            return DTOList;
-        }
-
-        #endregion
-
-
         #region MakePayment
 
         public async Task<List<PaymentDTO>> MakePayment(int paymentId, decimal amount)
