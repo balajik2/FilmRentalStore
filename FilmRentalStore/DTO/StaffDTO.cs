@@ -2,27 +2,29 @@
 {
     public class StaffDTO
     {
-        public int StaffId { get; set; }
 
-        public string FirstName { get; set; } = null!;
+        
+            public int StaffId { get; set; }
 
-        public string LastName { get; set; } = null!;
+            public string FirstName { get; set; } = null!;
 
-        public int AddressId { get; set; }
+            public string LastName { get; set; } = null!;
 
-        public string? Email { get; set; }
+            public int AddressId { get; set; }
 
-        public int StoreId { get; set; }
+            public string? Email { get; set; }
 
-        public bool Active { get; set; }
+            public bool Active { get; set; }
 
-        public string Username { get; set; } = null!;
+            public string Username { get; set; } = null!;
 
-        public string? Password { get; set; }
+            public string? Password { get; set; }
 
-        public DateTime LastUpdate { get; set; }
+            public DateTime LastUpdate { get; set; }
 
         public string? UrlPath { get; set; }
+
+       
 
     }
 }
