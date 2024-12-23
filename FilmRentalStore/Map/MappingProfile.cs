@@ -5,16 +5,21 @@ using FilmRentalStore.Models;
 namespace FilmRentalStore.Map
 {
 
-    public class MappingProfile:Profile
+    public class MappingProfile : Profile
     {
-        public MappingProfile() { 
-        CreateMap<Store,StoreDTO>().ReverseMap();
-            CreateMap<Address,AddressDTO>().ReverseMap();
-            CreateMap<Staff,StaffDTO>().ReverseMap();
-            CreateMap<Inventory,InventoryDTO>().ReverseMap();
+        public MappingProfile()
+        {
+            CreateMap<Store, StoreDTO>().ReverseMap();
+            CreateMap<Address, AddressDTO>().ReverseMap();
+            CreateMap<Staff, StaffDTO>().ReverseMap();
+            CreateMap<Inventory, InventoryDTO>().ReverseMap();
             CreateMap<Customer, CustomerDTO>().ReverseMap();
             CreateMap<Payment, PaymentDTO>().ReverseMap();
             CreateMap<Film, FilmDTO>().ReverseMap();
+<<<<<<< HEAD
     }
+=======
+        }
+>>>>>>> origin/FilmRentalStore-2
     }
 }

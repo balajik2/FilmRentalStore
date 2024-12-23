@@ -87,6 +87,7 @@
     "C:\\Users\\BAKUMARE\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\BAKUMARE\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
+<<<<<<< HEAD
   "logs": [
     {
       "code": "Undefined",
@@ -95,4 +96,7 @@
       "message": "Problem reading the cache file C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
+=======
+  "logs": []
+>>>>>>> origin/FilmRentalStore-2
 }

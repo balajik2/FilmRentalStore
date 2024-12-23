@@ -4446,6 +4446,7 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
+<<<<<<< HEAD
   },
   "logs": [
     {
@@ -4455,4 +4456,7 @@
       "message": "Problem reading the cache file C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
+=======
+  }
+>>>>>>> origin/FilmRentalStore-2
 }

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\BAKUMARE\Documents\Sprint-3\FilmRentalStore\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\BAKUMARE\Documents\Sprint-3\FilmRentalStore\bin\Debug\net8.0\appsettings.json
 C:\Users\BAKUMARE\Documents\Sprint-3\FilmRentalStore\bin\Debug\net8.0\FilmRentalStore.exe
@@ -298,6 +299,8 @@ C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\obj\Debug\net8.0\refint\
 C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\obj\Debug\net8.0\FilmRentalStore.pdb
 C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\obj\Debug\net8.0\FilmRentalStore.genruntimeconfig.cache
 C:\Users\shamita\Desktop\Project\Sprint\FilmRentalStore\obj\Debug\net8.0\ref\FilmRentalStore.dll
+=======
+>>>>>>> origin/FilmRentalStore-2
 C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\bin\Debug\net8.0\appsettings.json
 C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\bin\Debug\net8.0\FilmRentalStore.exe
