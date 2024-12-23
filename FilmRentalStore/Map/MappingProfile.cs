@@ -2,8 +2,9 @@
 using FilmRentalStore.DTO;
 using FilmRentalStore.Models;
 
-namespace FilmRentalStore.MAP
+namespace FilmRentalStore.Map
 {
+
     public class MappingProfile:Profile
     {
         public MappingProfile() { 
@@ -12,7 +13,7 @@ namespace FilmRentalStore.MAP
             CreateMap<Staff,StaffDTO>().ReverseMap();
             CreateMap<Inventory,InventoryDTO>().ReverseMap();
             CreateMap<Customer, CustomerDTO>().ReverseMap();
-        
-        }
+            CreateMap<Payment, PaymentDTO>().ReverseMap();
+    }
     }
 }
