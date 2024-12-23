@@ -3,16 +3,21 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
  
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+ 
+>>>>>>> origin/FilmRentalStore-5
 # User-specific files
 *.rsuser
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 # User-specific files (MonoDevelop/Xamarin Studio)
@@ -22,6 +27,8 @@
 mono_crash.*
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
 *.targets
  
 # User-specific files (MonoDevelop/Xamarin Studio)
@@ -30,7 +37,10 @@ mono_crash.*
 # Mono auto generated files
 mono_crash.*
  
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # Build results
 [Dd]ebug/
 [Dd]ebugPublic/
@@ -48,15 +58,20 @@ bld/
 [Ll]og/
 [Ll]ogs/
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
  
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+ 
+>>>>>>> origin/FilmRentalStore-5
 # Visual Studio 2015/2017 cache/options directory
 .vs/
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
@@ -66,6 +81,8 @@ Generated\ Files/
 [Bb]uild[Ll]og.*
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # Visual Studio 2017 auto generated files
 Generated\ Files/
@@ -74,35 +91,49 @@ Generated\ Files/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
  
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # NUnit
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
  
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+ 
+>>>>>>> origin/FilmRentalStore-5
 # Build Results of an ATL Project
 [Dd]ebugPS/
 [Rr]eleasePS/
 dlldata.c
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Benchmark Results
 BenchmarkDotNet.Artifacts/
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # Benchmark Results
 BenchmarkDotNet.Artifacts/
  
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # .NET Core
 project.lock.json
 project.fragment.lock.json
 artifacts/
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 # ASP.NET Scaffolding
@@ -112,6 +143,8 @@ ScaffoldingReadMe.txt
 StyleCopReport.xml
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
@@ -119,7 +152,10 @@ ScaffoldingReadMe.txt
 # StyleCop
 StyleCopReport.xml
  
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # Files built by Visual Studio
 *_i.c
 *_p.c
@@ -135,8 +171,11 @@ StyleCopReport.xml
 *.pgd
 *.rsp
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> origin/FilmRentalStore-5
 <<<<<<< HEAD
 =======
 # but not Directory.Build.rsp, as it configures directory-level build defaults
@@ -144,7 +183,10 @@ StyleCopReport.xml
 >>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
 =======
 >>>>>>> origin/FilmRentalStore-1
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 *.sbr
 *.tlb
 *.tli
@@ -154,15 +196,21 @@ StyleCopReport.xml
 *_wpftmp.csproj
 *.log
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> origin/FilmRentalStore-5
 <<<<<<< HEAD
 =======
 *.tlog
 >>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
 =======
 >>>>>>> origin/FilmRentalStore-1
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 *.vspscc
 *.vssscc
 .builds
@@ -170,16 +218,22 @@ StyleCopReport.xml
 *.svclog
 *.scc
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Chutzpah Test files
 _Chutzpah*
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # Chutzpah Test files
 _Chutzpah*
  
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # Visual C++ cache files
 ipch/
 *.aps
@@ -191,16 +245,21 @@ ipch/
 *.VC.db
 *.VC.VC.opendb
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
  
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+ 
+>>>>>>> origin/FilmRentalStore-5
 # Visual Studio profiler
 *.psess
 *.vsp
 *.vspx
 *.sap
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Visual Studio Trace Files
 *.e2e
@@ -212,6 +271,8 @@ $tf/
 *.gpState
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # Visual Studio Trace Files
 *.e2e
@@ -222,12 +283,16 @@ $tf/
 # Guidance Automation Toolkit
 *.gpState
  
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # ReSharper is a .NET coding add-in
 _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # TeamCity is a build add-in
 _TeamCity*
@@ -240,6 +305,8 @@ _TeamCity*
 !.axoCover/settings.json
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # TeamCity is a build add-in
 _TeamCity*
@@ -251,28 +318,38 @@ _TeamCity*
 .axoCover/*
 !.axoCover/settings.json
  
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # Coverlet is a free, cross platform Code Coverage Tool
 coverage*.json
 coverage*.xml
 coverage*.info
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Visual Studio code coverage results
 *.coverage
 *.coveragexml
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # Visual Studio code coverage results
 *.coverage
 *.coveragexml
  
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # NCrunch
 _NCrunch_*
 .*crunch*.local.xml
 nCrunchTemp_*
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 # MightyMoose
@@ -286,6 +363,8 @@ AutoTest.Net/
 [Ee]xpress/
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # MightyMoose
 *.mm.*
@@ -297,7 +376,10 @@ AutoTest.Net/
 # Installshield output folder
 [Ee]xpress/
  
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # DocProject is a documentation generator add-in
 DocProject/buildhelp/
 DocProject/Help/*.HxT
@@ -308,16 +390,22 @@ DocProject/Help/*.hhp
 DocProject/Help/Html2
 DocProject/Help/html
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Click-Once directory
 publish/
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # Click-Once directory
 publish/
  
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # Publish Web Output
 *.[Pp]ublish.xml
 *.azurePubxml
@@ -326,19 +414,27 @@ publish/
 *.pubxml
 *.publishproj
 <<<<<<< HEAD
-
-=======
- 
->>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
-# Microsoft Azure Web App publish settings. Comment the next line if you want to
-# checkin your Azure Web App publish settings, but sensitive information contained
-# in these scripts will be unencrypted
-PublishScripts/
 <<<<<<< HEAD
 
 =======
  
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+ 
+>>>>>>> origin/FilmRentalStore-5
+# Microsoft Azure Web App publish settings. Comment the next line if you want to
+# checkin your Azure Web App publish settings, but sensitive information contained
+# in these scripts will be unencrypted
+PublishScripts/
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+ 
+>>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+ 
+>>>>>>> origin/FilmRentalStore-5
 # NuGet Packages
 *.nupkg
 # NuGet Symbol Packages
@@ -353,6 +449,7 @@ PublishScripts/
 *.nuget.props
 *.nuget.targets
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Microsoft Azure Build Output
 csx/
@@ -363,6 +460,8 @@ ecf/
 rcf/
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # Microsoft Azure Build Output
 csx/
@@ -372,7 +471,10 @@ csx/
 ecf/
 rcf/
  
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # Windows Store app package directories and files
 AppPackages/
 BundleArtifacts/
@@ -382,20 +484,28 @@ _pkginfo.txt
 *.appxbundle
 *.appxupload
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
  
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+ 
+>>>>>>> origin/FilmRentalStore-5
 # Visual Studio cache files
 # files ending in .cache can be ignored
 *.[Cc]ache
 # but keep track of directories ending in .cache
 !?*.[Cc]ache/
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
  
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+ 
+>>>>>>> origin/FilmRentalStore-5
 # Others
 ClientBin/
 ~$*
@@ -407,6 +517,7 @@ ClientBin/
 *.publishsettings
 orleans.codegen.cs
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 # Including strong name files can present a security risk
 # (https://github.com/github/gitignore/pull/2483#issue-259490424)
@@ -420,6 +531,8 @@ orleans.codegen.cs
 Generated_Code/
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # Including strong name files can present a security risk
 # (https://github.com/github/gitignore/pull/2483#issue-259490424)
@@ -432,7 +545,10 @@ Generated_Code/
 # RIA/Silverlight projects
 Generated_Code/
  
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # Backup & report files from converting an old project file
 # to a newer Visual Studio version. Backup files are not needed,
 # because we have git ;-)
@@ -443,19 +559,27 @@ UpgradeLog*.htm
 ServiceFabricBackup/
 *.rptproj.bak
 <<<<<<< HEAD
-
-=======
- 
->>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
-# SQL Server files
-*.mdf
-*.ldf
-*.ndf
 <<<<<<< HEAD
 
 =======
  
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+ 
+>>>>>>> origin/FilmRentalStore-5
+# SQL Server files
+*.mdf
+*.ldf
+*.ndf
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+ 
+>>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+ 
+>>>>>>> origin/FilmRentalStore-5
 # Business Intelligence projects
 *.rdl.data
 *.bim.layout
@@ -464,6 +588,7 @@ ServiceFabricBackup/
 *- [Bb]ackup.rdl
 *- [Bb]ackup ([0-9]).rdl
 *- [Bb]ackup ([0-9][0-9]).rdl
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 # Microsoft Fakes
@@ -486,6 +611,8 @@ node_modules/
 *.vbw
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # Microsoft Fakes
 FakesAssemblies/
@@ -523,7 +650,10 @@ node_modules/
 >>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
 =======
 >>>>>>> origin/FilmRentalStore-1
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # Visual Studio LightSwitch build output
 **/*.HTMLClient/GeneratedArtifacts
 **/*.DesktopClient/GeneratedArtifacts
@@ -531,6 +661,7 @@ node_modules/
 **/*.Server/GeneratedArtifacts
 **/*.Server/ModelManifest.xml
 _Pvt_Extensions
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 # Paket dependency manager
@@ -558,6 +689,8 @@ __pycache__/
 *.jmconfig
 
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # Paket dependency manager
 .paket/paket.exe
@@ -583,12 +716,16 @@ __pycache__/
 # Telerik's JustMock configuration file
 *.jmconfig
  
+<<<<<<< HEAD
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-5
 # BizTalk build output
 *.btp.cs
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 # OpenCover UI analysis results
@@ -621,6 +758,8 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 =======
+=======
+>>>>>>> origin/FilmRentalStore-5
  
 # OpenCover UI analysis results
 OpenCover/
@@ -688,6 +827,10 @@ FodyWeavers.xsd
 >>>>>>> 65d72aee2573aa528b28ec108653be30a152cc0d
 =======
 FodyWeavers.xsd
+<<<<<<< HEAD
 >>>>>>> origin/FilmRentalStore-1
 
 >>>>>>> a22795be2e9e9a422b16af9d94054cc274503e0c
+=======
+>>>>>>> origin/FilmRentalStore-1
+>>>>>>> origin/FilmRentalStore-5
