@@ -5,253 +5,78 @@
     "version": "1.0"
   },
   "paths": {
-    "/api/Customers": {
-      "post": {
-        "tags": [
-          "Customer"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerDTO"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/GetCustomer": {
-      "get": {
-        "tags": [
-          "Customer"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/lastname/{lastname}": {
-      "get": {
-        "tags": [
-          "Customer"
-        ],
-        "parameters": [
-          {
-            "name": "lastname",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/firstname/{firstname}": {
-      "get": {
-        "tags": [
-          "Customer"
-        ],
-        "parameters": [
-          {
-            "name": "firstname",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/email/{email}": {
-      "get": {
-        "tags": [
-          "Customer"
-        ],
-        "parameters": [
-          {
-            "name": "email",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/AsignAddress": {
+    "/api/Payment/MakePayment": {
       "put": {
         "tags": [
-          "Customer"
-        ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerDTO"
-              }
-            }
-          }
-        },
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/city/{city}": {
-      "get": {
-        "tags": [
-          "Customer"
+          "Payment"
         ],
         "parameters": [
           {
-            "name": "city",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/country/{country}": {
-      "get": {
-        "tags": [
-          "Customer"
-        ],
-        "parameters": [
-          {
-            "name": "country",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/active": {
-      "get": {
-        "tags": [
-          "Customer"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/inactive": {
-      "get": {
-        "tags": [
-          "Customer"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/phone/{phone}": {
-      "get": {
-        "tags": [
-          "Customer"
-        ],
-        "parameters": [
-          {
-            "name": "phone",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/UpdateFirstNameById/{id}": {
-      "put": {
-        "tags": [
-          "Customer"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
+            "name": "paymentId",
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
             }
           },
           {
-            "name": "name",
+            "name": "amount",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Payment/GetCumulativeRevenueOfAllStores": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Payment/GetCumulativeRevenueForAStore": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "storeId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Payment/GetPaymentsByFilmTitle": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "parameters": [
+          {
+            "name": "filmTitle",
             "in": "query",
             "schema": {
               "type": "string"
@@ -265,110 +90,12 @@
         }
       }
     },
-    "/api/Customers/UpdateLastNameById/{id}": {
-      "put": {
+    "/api/Payment/GetCumulativeRevenueStoreWise": {
+      "get": {
         "tags": [
-          "Customer"
+          "Payment"
         ],
         "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "lastname",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/UpdateEmailByid/{id}": {
-      "put": {
-        "tags": [
-          "Customer"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "email",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/UpdatePhoneNumberByid/{id}": {
-      "put": {
-        "tags": [
-          "Customer"
-        ],
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "phone",
-            "in": "query",
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/Customers/AssignStoreToCustomer": {
-      "put": {
-        "tags": [
-          "Customer"
-        ],
-        "parameters": [
-          {
-            "name": "customerid",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
           {
             "name": "storeid",
             "in": "query",
@@ -385,26 +112,50 @@
         }
       }
     },
-    "/api/films/post": {
+    "/api/Payment/GetCumulativeRevenueByFilmAndStore": {
+      "get": {
+        "tags": [
+          "Payment"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Staff/GetStaff": {
+      "get": {
+        "tags": [
+          "Staff"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Staff/AddStaff": {
       "post": {
         "tags": [
-          "Film"
+          "Staff"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/FilmDTO"
+                "$ref": "#/components/schemas/StaffDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/FilmDTO"
+                "$ref": "#/components/schemas/StaffDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/FilmDTO"
+                "$ref": "#/components/schemas/StaffDTO"
               }
             }
           }
@@ -416,391 +167,14 @@
         }
       }
     },
-    "/api/films/title/{title}": {
+    "/api/Staff/GetStaffByLastName": {
       "get": {
         "tags": [
-          "Film"
+          "Staff"
         ],
         "parameters": [
           {
-            "name": "title",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/year/{releaseYear}": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "releaseYear",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/duration/gt/{rentalDuration}": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "rentalDuration",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/rate/gt/{rentalRate}": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "rentalRate",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "number",
-              "format": "double"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/length/gt/{length}": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "length",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/duration/lt/{rentalDuration}": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "rentalDuration",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/rate/lt/{rentalRate}": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "rentalRate",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "number",
-              "format": "double"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/length/lt/{length}": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "length",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/betweenyear/{from}/{to}": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "from",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "to",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/rating/lt/{rating}": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "rating",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/rating/gt/{rating}": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "rating",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/language/{language}": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "language",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/countbyyear": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/{filmId}/actors": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "filmId",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/category/{category}": {
-      "get": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "category",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/{filmid}/actor": {
-      "put": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "filmid",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "actorId",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/update/title/{filmid}": {
-      "put": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "filmid",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "title",
+            "name": "lastname",
             "in": "query",
             "schema": {
               "type": "string"
@@ -814,23 +188,14 @@
         }
       }
     },
-    "/api/films/update/releaseyear/{filmid}": {
-      "put": {
+    "/api/Staff/GetStaffByFirstName": {
+      "get": {
         "tags": [
-          "Film"
+          "Staff"
         ],
         "parameters": [
           {
-            "name": "filmid",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "releaseyear",
+            "name": "firstname",
             "in": "query",
             "schema": {
               "type": "string"
@@ -844,85 +209,14 @@
         }
       }
     },
-    "/api/films/update/rentaldurtion/{filmid}": {
-      "put": {
+    "/api/Staff/GetStaffByEmail": {
+      "get": {
         "tags": [
-          "Film"
+          "Staff"
         ],
         "parameters": [
           {
-            "name": "filmid",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "rentalduration",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/update/rentalrate/{filmid}": {
-      "put": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "filmid",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "rentalrate",
-            "in": "query",
-            "schema": {
-              "type": "number",
-              "format": "double"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
-    "/api/films/update/rating/{filmid}": {
-      "put": {
-        "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "filmid",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          },
-          {
-            "name": "rating",
+            "name": "email",
             "in": "query",
             "schema": {
               "type": "string"
@@ -936,37 +230,26 @@
         }
       }
     },
-    "/api/films/update/language/{filmid}": {
+    "/api/Staff/AssignAddress": {
       "put": {
         "tags": [
-          "Film"
-        ],
-        "parameters": [
-          {
-            "name": "filmid",
-            "in": "path",
-            "required": true,
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
+          "Staff"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/LanguageDTO"
+                "$ref": "#/components/schemas/StaffDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/LanguageDTO"
+                "$ref": "#/components/schemas/StaffDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/LanguageDTO"
+                "$ref": "#/components/schemas/StaffDTO"
               }
             }
           }
@@ -978,27 +261,205 @@
         }
       }
     },
-    "/api/films/update/category/{filmid}": {
-      "put": {
+    "/api/Staff/GetStaffByCity": {
+      "get": {
         "tags": [
-          "Film"
+          "Staff"
         ],
         "parameters": [
           {
-            "name": "filmid",
-            "in": "path",
-            "required": true,
+            "name": "city",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Staff/GetStaffByCountry": {
+      "get": {
+        "tags": [
+          "Staff"
+        ],
+        "parameters": [
+          {
+            "name": "country",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Staff/GetStaffByPhoneNumber": {
+      "get": {
+        "tags": [
+          "Staff"
+        ],
+        "parameters": [
+          {
+            "name": "phone",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Staff/UpdateStaffByFirstName": {
+      "put": {
+        "tags": [
+          "Staff"
+        ],
+        "parameters": [
+          {
+            "name": "staffId",
+            "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
             }
           },
           {
-            "name": "CategoryId",
+            "name": "newfirstname",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Staff/UpdateStaffByLastName": {
+      "put": {
+        "tags": [
+          "Staff"
+        ],
+        "parameters": [
+          {
+            "name": "staffId",
             "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
+            }
+          },
+          {
+            "name": "newlastname",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Staff/UpdateStaffByEmail": {
+      "put": {
+        "tags": [
+          "Staff"
+        ],
+        "parameters": [
+          {
+            "name": "staffId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "email",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Staff/AssignStoreToStaff": {
+      "put": {
+        "tags": [
+          "Staff"
+        ],
+        "parameters": [
+          {
+            "name": "staffId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "storeId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Staff/UpdatePhoneNumberByStaff": {
+      "put": {
+        "tags": [
+          "Staff"
+        ],
+        "parameters": [
+          {
+            "name": "staffId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "newPhone",
+            "in": "query",
+            "schema": {
+              "type": "string"
             }
           }
         ],
@@ -1012,14 +473,10 @@
   },
   "components": {
     "schemas": {
-      "CustomerDTO": {
+      "StaffDTO": {
         "type": "object",
         "properties": {
-          "customerId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "storeId": {
+          "staffId": {
             "type": "integer",
             "format": "int32"
           },
@@ -1031,103 +488,36 @@
             "type": "string",
             "nullable": true
           },
-          "email": {
-            "type": "string",
-            "nullable": true
-          },
           "addressId": {
             "type": "integer",
             "format": "int32"
           },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "storeId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "active": {
+            "type": "boolean"
+          },
+          "username": {
             "type": "string",
             "nullable": true
           },
-          "createDate": {
-            "type": "string",
-            "format": "date-time"
-          },
-          "lastUpdate": {
-            "type": "string",
-            "format": "date-time"
-          }
-        },
-        "additionalProperties": false
-      },
-      "FilmDTO": {
-        "type": "object",
-        "properties": {
-          "filmId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "title": {
-            "type": "string",
-            "nullable": true
-          },
-          "description": {
-            "type": "string",
-            "nullable": true
-          },
-          "releaseYear": {
-            "type": "string",
-            "nullable": true
-          },
-          "languageId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "originalLanguageId": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "rentalDuration": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "rentalRate": {
-            "type": "number",
-            "format": "double"
-          },
-          "length": {
-            "type": "integer",
-            "format": "int32",
-            "nullable": true
-          },
-          "replacementCost": {
-            "type": "number",
-            "format": "double"
-          },
-          "rating": {
-            "type": "string",
-            "nullable": true
-          },
-          "specialFeatures": {
+          "password": {
             "type": "string",
             "nullable": true
           },
           "lastUpdate": {
             "type": "string",
             "format": "date-time"
-          }
-        },
-        "additionalProperties": false
-      },
-      "LanguageDTO": {
-        "type": "object",
-        "properties": {
-          "languageId": {
-            "type": "integer",
-            "format": "int32"
           },
-          "name": {
+          "urlPath": {
             "type": "string",
             "nullable": true
-          },
-          "lastUpdate": {
-            "type": "string",
-            "format": "date-time"
           }
         },
         "additionalProperties": false

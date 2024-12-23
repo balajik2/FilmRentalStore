@@ -1,5 +1,6 @@
 {
   "Version": 1,
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   "WorkspaceRootPath": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\",
   "Documents": [
@@ -29,6 +30,33 @@
 >>>>>>> Stashed changes
       "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\gokulrk\\source\\repos\\filmrentalstore\\store1\\filmrentalstore\\services\\filmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:services\\filmservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+  "WorkspaceRootPath": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\desktop\\project\\sprint\\filmrentalstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\desktop\\project\\sprint\\filmrentalstore\\map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:map\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\desktop\\project\\sprint\\filmrentalstore\\models\\sakila12context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:models\\sakila12context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\desktop\\project\\sprint\\filmrentalstore\\models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:models\\staff.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\desktop\\project\\sprint\\filmrentalstore\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\desktop\\project\\sprint\\filmrentalstore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+>>>>>>> 34f00d45a8f1ecd248c4b0f595663c88b6ac5ad8
     }
   ],
 =======
@@ -47,20 +75,21 @@
           "SelectedChildIndex": 5,
 =======
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 6,
 >>>>>>> ef91ec8b3b724d9adbfa63bca53b84cea953efe9
+=======
+          "SelectedChildIndex": 3,
+>>>>>>> 34f00d45a8f1ecd248c4b0f595663c88b6ac5ad8
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
 <<<<<<< Updated upstream
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
 =======
               "$type": "Document",
@@ -87,19 +116,42 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
 <<<<<<< Updated upstream
               "WhenOpened": "2024-12-22T07:20:32.947Z",
+=======
+              "DocumentIndex": 1,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\MAP\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "MAP\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\MAP\\MappingProfile.cs",
+              "RelativeToolTip": "MAP\\MappingProfile.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-23T05:32:44.227Z",
+>>>>>>> 34f00d45a8f1ecd248c4b0f595663c88b6ac5ad8
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAAADMAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Sakila12Context.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\Models\\Sakila12Context.cs",
+              "RelativeDocumentMoniker": "Models\\Sakila12Context.cs",
+              "ToolTip": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\Models\\Sakila12Context.cs",
+              "RelativeToolTip": "Models\\Sakila12Context.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T07:19:23.513Z",
+              "WhenOpened": "2024-12-23T04:22:47.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:01:06.138Z",
               "EditorCaption": ""
 =======
               "WhenOpened": "2024-12-22T07:20:32.947Z"
@@ -108,13 +160,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "FilmService.cs",
-              "DocumentMoniker": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\Services\\FilmService.cs",
-              "RelativeDocumentMoniker": "Services\\FilmService.cs",
-              "ToolTip": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\Services\\FilmService.cs",
-              "RelativeToolTip": "Services\\FilmService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAyAAAAAAAAAA==",
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "Models\\Country.cs",
+              "ToolTip": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\Models\\Country.cs",
+              "RelativeToolTip": "Models\\Country.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwAkAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+<<<<<<< HEAD
 <<<<<<< Updated upstream
               "WhenOpened": "2024-12-22T07:17:30.448Z",
               "EditorCaption": ""
@@ -135,12 +188,25 @@
 =======
               "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
 >>>>>>> Stashed changes
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T07:15:29.901Z",
-              "EditorCaption": ""
+=======
+              "WhenOpened": "2024-12-19T09:18:32.868Z"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Staff.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\Models\\Staff.cs",
+              "RelativeDocumentMoniker": "Models\\Staff.cs",
+              "ToolTip": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\Models\\Staff.cs",
+              "RelativeToolTip": "Models\\Staff.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAoAAAAAAAAAA==",
+>>>>>>> 34f00d45a8f1ecd248c4b0f595663c88b6ac5ad8
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T16:42:11.131Z"
+            },
+            {
+              "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "CustomerController.cs",
               "DocumentMoniker": "C:\\Users\\GOKULRK\\source\\repos\\FilmRentalStore\\store1\\FilmRentalStore\\Controllers\\CustomerController.cs",
@@ -172,6 +238,17 @@
 =======
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
 >>>>>>> Stashed changes
+=======
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-18T09:54:17.85Z"
+>>>>>>> 34f00d45a8f1ecd248c4b0f595663c88b6ac5ad8
             }
           ]
         }
