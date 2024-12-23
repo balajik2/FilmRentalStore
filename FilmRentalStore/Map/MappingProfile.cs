@@ -2,19 +2,17 @@
 using FilmRentalStore.DTO;
 using FilmRentalStore.Models;
 
-
-namespace FilmRentalStore.Map
+namespace FilmRentalStore.MAP
 {
-    public class MappingProfile : Profile
+    public class MappingProfile:Profile
     {
-        public MappingProfile()
-        {
-            CreateMap<Film, FilmDTO>().ReverseMap();
-            CreateMap<Actor, ActorDTO>().ReverseMap();
-            CreateMap<FilmCategory, FilmCategoryDTO>().ReverseMap();
-            CreateMap<Language, LanguageDTO>().ReverseMap();
-            CreateMap<Category, CategoryDTO>().ReverseMap();
+        public MappingProfile() { 
+        CreateMap<Store,StoreDTO>().ReverseMap();
+            CreateMap<Address,AddressDTO>().ReverseMap();
+            CreateMap<Staff,StaffDTO>().ReverseMap();
+            CreateMap<Inventory,InventoryDTO>().ReverseMap();
             CreateMap<Customer, CustomerDTO>().ReverseMap();
+        
         }
     }
 }
