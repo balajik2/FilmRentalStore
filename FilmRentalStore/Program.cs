@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 ﻿using AutoMapper;
 using FilmRentalStore.Map;
@@ -6,13 +6,13 @@ using FilmRentalStore.Map;
 
 using AutoMapper;
 
-=======
+
 using AutoMapper;
->>>>>>> origin/FilmRentalStore-5
+
 using FilmRentalStore.Models;
 using FilmRentalStore.Services;
 using Microsoft.EntityFrameworkCore;
-<<<<<<< HEAD
+
 
 using FilmRentalStore.Validators;
 
@@ -34,14 +34,14 @@ using FluentValidation;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Diagnostics;
 using System.Net;
-=======
+
 using FilmRentalStore.Services;
 using FilmRentalStore.DTO;
 using FilmRentalStore.Map;
 using FilmRentalStore.Validators;
 using FluentValidation;
 
->>>>>>> origin/FilmRentalStore-5
+
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -112,17 +112,16 @@ builder.Services.AddValidatorsFromAssemblyContaining<StoreValidators>();
 builder.Services.AddScoped<IInventoryRepository,InventoryServices>();
 
 
-<<<<<<< HEAD
 builder.Services.AddControllers();
-=======
+
 //Creating mapping configuration & passing it to mapper profile
-var mapperConfig = new MapperConfiguration(mc =>
-{
-    mc.AddProfile(new MappingProfile());
-});
+// var mapperConfig = new MapperConfiguration(mc =>
+// {
+//     mc.AddProfile(new MappingProfile());
+// });
 
 //create Imapper instance & pass mapperconfig to it
-IMapper mapper = mapperConfig.CreateMapper();
+// IMapper mapper = mapperConfig.CreateMapper();
 
 //Register the mapper instance to the service conatiner
 builder.Services.AddSingleton(mapper);
@@ -146,7 +145,7 @@ builder.Services.AddValidatorsFromAssemblyContaining<StaffValidator>();
 
 
 
->>>>>>> origin/FilmRentalStore-5
+
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
