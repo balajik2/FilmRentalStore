@@ -2,7 +2,6 @@
   "version": 3,
   "targets": {
     "net8.0": {
-<<<<<<< HEAD
       "AutoMapper/12.0.0": {
         "type": "package",
         "dependencies": {
@@ -10,24 +9,11 @@
         },
         "compile": {
           "lib/netstandard2.1/AutoMapper.dll": {
-=======
-      "AutoMapper/13.0.1": {
-        "type": "package",
-        "dependencies": {
-          "Microsoft.Extensions.Options": "6.0.0"
-        },
-        "compile": {
-          "lib/net6.0/AutoMapper.dll": {
->>>>>>> origin/FilmRentalStore-5
             "related": ".xml"
           }
         },
         "runtime": {
-<<<<<<< HEAD
           "lib/netstandard2.1/AutoMapper.dll": {
-=======
-          "lib/net6.0/AutoMapper.dll": {
->>>>>>> origin/FilmRentalStore-5
             "related": ".xml"
           }
         }
@@ -908,29 +894,7 @@
           }
         }
       },
-<<<<<<< HEAD
-      "Microsoft.OpenApi/1.6.14": {
-=======
-      "Microsoft.NETCore.Platforms/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/_._": {}
-        }
-      },
-      "Microsoft.NETCore.Targets/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard1.0/_._": {}
-        },
-        "runtime": {
-          "lib/netstandard1.0/_._": {}
-        }
-      },
       "Microsoft.OpenApi/1.6.22": {
->>>>>>> origin/FilmRentalStore-5
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {
@@ -1638,34 +1602,19 @@
     }
   },
   "libraries": {
-<<<<<<< HEAD
     "AutoMapper/12.0.0": {
       "sha512": "0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
       "type": "package",
       "path": "automapper/12.0.0",
-=======
-    "AutoMapper/13.0.1": {
-      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
-      "type": "package",
-      "path": "automapper/13.0.1",
->>>>>>> origin/FilmRentalStore-5
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-<<<<<<< HEAD
         "automapper.12.0.0.nupkg.sha512",
         "automapper.nuspec",
         "icon.png",
         "lib/netstandard2.1/AutoMapper.dll",
         "lib/netstandard2.1/AutoMapper.xml"
-=======
-        "automapper.13.0.1.nupkg.sha512",
-        "automapper.nuspec",
-        "icon.png",
-        "lib/net6.0/AutoMapper.dll",
-        "lib/net6.0/AutoMapper.xml"
->>>>>>> origin/FilmRentalStore-5
       ]
     },
     "Azure.Core/1.38.0": {
@@ -3269,43 +3218,8 @@
         "microsoft.identitymodel.tokens.nuspec"
       ]
     },
-<<<<<<< HEAD
-    "Microsoft.OpenApi/1.6.14": {
-      "sha512": "tTaBT8qjk3xINfESyOPE2rIellPvB7qpVqiWiyA/lACVvz+xOGiXhFUfohcx82NLbi5avzLW0lx+s6oAqQijfw==",
-=======
-    "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
-      "type": "package",
-      "path": "microsoft.netcore.platforms/1.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/netstandard1.0/_._",
-        "microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-        "microsoft.netcore.platforms.nuspec",
-        "runtime.json"
-      ]
-    },
-    "Microsoft.NETCore.Targets/1.1.0": {
-      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
-      "type": "package",
-      "path": "microsoft.netcore.targets/1.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ThirdPartyNotices.txt",
-        "dotnet_library_license.txt",
-        "lib/netstandard1.0/_._",
-        "microsoft.netcore.targets.1.1.0.nupkg.sha512",
-        "microsoft.netcore.targets.nuspec",
-        "runtime.json"
-      ]
-    },
     "Microsoft.OpenApi/1.6.22": {
       "sha512": "aBvunmrdu/x+4CaA/UP1Jx4xWGwk4kymhoIRnn2Vp+zi5/KOPQJ9EkSXHRUr01WcGKtYl3Au7XfkPJbU1G2sjQ==",
->>>>>>> origin/FilmRentalStore-5
       "type": "package",
       "path": "microsoft.openapi/1.6.22",
       "files": [
@@ -4415,16 +4329,10 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-<<<<<<< HEAD
       "AutoMapper >= 12.0.0",
       "FluentValidation >= 11.11.0",
       "FluentValidation.DependencyInjectionExtensions >= 11.11.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.11",
-=======
-      "AutoMapper >= 13.0.1",
-      "FluentValidation >= 11.11.0",
-      "FluentValidation.DependencyInjectionExtensions >= 11.11.0",
->>>>>>> origin/FilmRentalStore-5
       "Microsoft.EntityFrameworkCore >= 8.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
@@ -4433,23 +4341,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\shamita\\.nuget\\packages\\": {},
+    "C:\\Users\\KBASAM\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
+      "projectUniqueName": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
       "projectName": "FilmRentalStore",
-      "projectPath": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
-      "packagesPath": "C:\\Users\\shamita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\obj\\",
+      "projectPath": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
+      "packagesPath": "C:\\Users\\KBASAM\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\shamita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KBASAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -4484,11 +4392,7 @@
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
-<<<<<<< HEAD
             "version": "[12.0.0, )"
-=======
-            "version": "[13.0.1, )"
->>>>>>> origin/FilmRentalStore-5
           },
           "FluentValidation": {
             "target": "Package",
@@ -4498,13 +4402,10 @@
             "target": "Package",
             "version": "[11.11.0, )"
           },
-<<<<<<< HEAD
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[8.0.11, )"
           },
-=======
->>>>>>> origin/FilmRentalStore-5
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.11, )"
@@ -4556,7 +4457,7 @@
       "code": "Undefined",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\shamita\\Desktop\\Project\\Sprint\\FilmRentalStore\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+      "message": "Problem reading the cache file C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
 }
