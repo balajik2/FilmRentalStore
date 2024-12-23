@@ -141,10 +141,7 @@ namespace FilmRentalStore.Controllers
         {
             try
             {
-                // Call the service method to get cumulative revenue for the specific store (storeId as string)
                 var result = await _context.GetCumulativeRevenueForAStore(storeId);
-
-                // Return the result (cumulative revenue) as a JSON response
                 return Ok(result);
             }
             catch (Exception ex)
@@ -244,7 +241,6 @@ namespace FilmRentalStore.Controllers
         {
             try
             {
-                // Call the service method to calculate cumulative revenue by Film and Store
                 var result = await _context.GetCumulativeRevenueAllFilmsByStore();
 
                 if (result == null || result.Count == 0)
@@ -252,7 +248,7 @@ namespace FilmRentalStore.Controllers
                     return NotFound("No revenue data found for any film across stores.");
                 }
 
-                return Ok(result);  // Return the list of cumulative revenue by film and store
+                return Ok(result);  
             }
             catch (Exception ex)
             {

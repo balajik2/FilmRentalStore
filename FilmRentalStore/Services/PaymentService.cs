@@ -62,13 +62,13 @@ namespace FilmRentalStore.Services
                                            group payment by new { staff.StoreId, payment.PaymentDate.Date } into grouped
                                            select new PaymentDTO
                                            {
-                                               // Use StoreId from the Staff table
-                                               StaffId = grouped.Key.StoreId,  // StoreId is used as StaffId in PaymentDTO
-                                               PaymentDate = grouped.Key.Date, // PaymentDate for the group
-                                               Amount = grouped.Sum(p => p.Amount),  // Sum the Amount for revenue calculation
-                                               CustomerId = grouped.FirstOrDefault().CustomerId,  // Optional, assuming you want any customerId from the group
-                                               RentalId = grouped.FirstOrDefault().RentalId, // Optional, assuming you want any rentalId from the group
-                                               LastUpdate = DateTime.Now // This can be adjusted based on your needs
+                                               
+                                               StaffId = grouped.Key.StoreId,  
+                                               PaymentDate = grouped.Key.Date,
+                                               Amount = grouped.Sum(p => p.Amount), 
+                                               CustomerId = grouped.FirstOrDefault().CustomerId, 
+                                               RentalId = grouped.FirstOrDefault().RentalId, 
+                                               LastUpdate = DateTime.Now 
                                            }).ToListAsync();
 
             return cumulativeRevenue;
@@ -88,12 +88,12 @@ namespace FilmRentalStore.Services
                                 group p by new { s.StoreId, p.PaymentDate.Date } into grouped
                                 select new PaymentDTO
                                 {
-                                    StaffId = grouped.Key.StoreId,  // StoreId (used as StaffId here)
-                                    PaymentDate = grouped.Key.Date,  // PaymentDate for the group
-                                    Amount = grouped.Sum(p => p.Amount),  // Sum the Amount for revenue calculation
-                                    CustomerId = grouped.FirstOrDefault().CustomerId,  // Assuming the first record in the group is fine
-                                    RentalId = grouped.FirstOrDefault().RentalId, // Same assumption for RentalId
-                                    LastUpdate = DateTime.Now // Set current date and time for last update
+                                    StaffId = grouped.Key.StoreId, 
+                                    PaymentDate = grouped.Key.Date, 
+                                    Amount = grouped.Sum(p => p.Amount), 
+                                    CustomerId = grouped.FirstOrDefault().CustomerId,  
+                                    RentalId = grouped.FirstOrDefault().RentalId, 
+                                    LastUpdate = DateTime.Now
                                 }).ToListAsync();
 
             return result;
@@ -147,7 +147,7 @@ namespace FilmRentalStore.Services
                                           Amount = payment.Amount,
                                           PaymentDate = payment.PaymentDate,
                                           LastUpdate = payment.LastUpdate
-                                      }).ToListAsync(); // Return a list of payments for the store
+                                      }).ToListAsync(); 
 
 
                 return result;
@@ -178,16 +178,15 @@ namespace FilmRentalStore.Services
                                     group new { payment, film, store } by new { film.FilmId, store.StoreId, film.Title } into grouped
                                     select new PaymentDTO
                                     {
-                                        // Since we are grouping by FilmId and StoreId, we can get them from grouped.Key
-                                        PaymentId = grouped.FirstOrDefault().payment.PaymentId, // Get PaymentId from the first element in the group
-                                        CustomerId = grouped.FirstOrDefault().payment.CustomerId, // Get CustomerId from the first element
-                                        StaffId = grouped.FirstOrDefault().payment.StaffId, // Get StaffId from the first element
-                                        RentalId = grouped.FirstOrDefault().payment.RentalId, // Get RentalId from the first element
-                                        Amount = grouped.Sum(g => g.payment.Amount), // Sum the Amount for each group
-                                        PaymentDate = grouped.FirstOrDefault().payment.PaymentDate, // Get PaymentDate from the first element
-                                        LastUpdate = grouped.FirstOrDefault().payment.LastUpdate // Get LastUpdate from the first element
+                                        
+                                        PaymentId = grouped.FirstOrDefault().payment.PaymentId, 
+                                        CustomerId = grouped.FirstOrDefault().payment.CustomerId,
+                                        StaffId = grouped.FirstOrDefault().payment.StaffId, 
+                                        RentalId = grouped.FirstOrDefault().payment.RentalId, 
+                                        Amount = grouped.Sum(g => g.payment.Amount), 
+                                        PaymentDate = grouped.FirstOrDefault().payment.PaymentDate, 
+                                        LastUpdate = grouped.FirstOrDefault().payment.LastUpdate 
                                     }).ToListAsync();
-                // Aggregate revenue by Film and Store
 
                 return result;
             }

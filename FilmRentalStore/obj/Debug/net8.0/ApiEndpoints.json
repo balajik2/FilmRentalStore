@@ -1,6 +1,16 @@
 [
   {
     "ContainingType": "FilmRentalStore.Controllers.PaymentController",
+    "Method": "GetCumulativeRevenueAllFilmsByStore",
+    "RelativePath": "api/Payment/GetCumulativeRevenueByFilmAndStore",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.PaymentController",
     "Method": "GetCumulativeRevenueForAStore",
     "RelativePath": "api/Payment/GetCumulativeRevenueForAStore",
     "HttpMethod": "GET",
@@ -23,6 +33,22 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.PaymentController",
+    "Method": "GetCumulativeRevenueStoreWise",
+    "RelativePath": "api/Payment/GetCumulativeRevenueStoreWise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
