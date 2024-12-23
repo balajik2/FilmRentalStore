@@ -27,11 +27,18 @@ public partial class Staff
 
     public string? UrlPath { get; set; }
 
+<<<<<<< HEAD
+    public int? RoleId { get; set; }
+
+=======
+>>>>>>> origin/FilmRentalStore-4
     public virtual Address Address { get; set; } = null!;
 
     public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
 
     public virtual ICollection<Rental> Rentals { get; set; } = new List<Rental>();
+
+    public virtual Role? Role { get; set; }
 
     public virtual Store Store { get; set; } = null!;
 

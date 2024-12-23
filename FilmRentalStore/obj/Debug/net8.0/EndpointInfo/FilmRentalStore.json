@@ -5,26 +5,45 @@
     "version": "1.0"
   },
   "paths": {
+<<<<<<< HEAD
+    "/api/Customers": {
+      "post": {
+        "tags": [
+          "Customer"
+=======
     "/api/Inventory/add": {
       "post": {
         "tags": [
           "Inventory"
+>>>>>>> origin/FilmRentalStore-4
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/CustomerDTO"
+=======
                 "$ref": "#/components/schemas/InventoryDTO"
+>>>>>>> origin/FilmRentalStore-4
               }
             },
             "text/json": {
               "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/CustomerDTO"
+=======
                 "$ref": "#/components/schemas/InventoryDTO"
+>>>>>>> origin/FilmRentalStore-4
               }
             },
             "application/*+json": {
               "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/CustomerDTO"
+=======
                 "$ref": "#/components/schemas/InventoryDTO"
+>>>>>>> origin/FilmRentalStore-4
               }
             }
           }
@@ -36,10 +55,17 @@
         }
       }
     },
+<<<<<<< HEAD
+    "/api/Customers/GetCustomer": {
+      "get": {
+        "tags": [
+          "Customer"
+=======
     "/api/Inventory/Count": {
       "get": {
         "tags": [
           "Inventory"
+>>>>>>> origin/FilmRentalStore-4
         ],
         "responses": {
           "200": {
@@ -48,6 +74,323 @@
         }
       }
     },
+<<<<<<< HEAD
+    "/api/Customers/lastname/{lastname}": {
+      "get": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "lastname",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customers/firstname/{firstname}": {
+      "get": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "firstname",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customers/email/{email}": {
+      "get": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "email",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customers/AsignAddress": {
+      "put": {
+        "tags": [
+          "Customer"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerDTO"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerDTO"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerDTO"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customers/city/{city}": {
+      "get": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "city",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customers/country/{country}": {
+      "get": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "country",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customers/active": {
+      "get": {
+        "tags": [
+          "Customer"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customers/inactive": {
+      "get": {
+        "tags": [
+          "Customer"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customers/phone/{phone}": {
+      "get": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "phone",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customers/UpdateFirstNameById/{id}": {
+      "put": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customers/UpdateLastNameById/{id}": {
+      "put": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "lastname",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customers/UpdateEmailByid/{id}": {
+      "put": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "email",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customers/UpdatePhoneNumberByid/{id}": {
+      "put": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "phone",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Customers/AssignStoreToCustomer": {
+      "put": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "customerid",
+=======
     "/api/Inventory/id": {
       "get": {
         "tags": [
@@ -56,11 +399,15 @@
         "parameters": [
           {
             "name": "filmid",
+>>>>>>> origin/FilmRentalStore-4
             "in": "query",
             "schema": {
               "type": "integer",
               "format": "int32"
             }
+<<<<<<< HEAD
+          },
+=======
           }
         ],
         "responses": {
@@ -76,6 +423,7 @@
           "Inventory"
         ],
         "parameters": [
+>>>>>>> origin/FilmRentalStore-4
           {
             "name": "storeid",
             "in": "query",
@@ -92,6 +440,12 @@
         }
       }
     },
+<<<<<<< HEAD
+    "/api/films/post": {
+      "post": {
+        "tags": [
+          "Film"
+=======
     "/api/Inventory/Film{filmid}": {
       "get": {
         "tags": [
@@ -151,22 +505,35 @@
       "post": {
         "tags": [
           "Store"
+>>>>>>> origin/FilmRentalStore-4
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/FilmDTO"
+=======
                 "$ref": "#/components/schemas/StoreDTO"
+>>>>>>> origin/FilmRentalStore-4
               }
             },
             "text/json": {
               "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/FilmDTO"
+=======
                 "$ref": "#/components/schemas/StoreDTO"
+>>>>>>> origin/FilmRentalStore-4
               }
             },
             "application/*+json": {
               "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/FilmDTO"
+=======
                 "$ref": "#/components/schemas/StoreDTO"
+>>>>>>> origin/FilmRentalStore-4
               }
             }
           }
@@ -178,6 +545,18 @@
         }
       }
     },
+<<<<<<< HEAD
+    "/api/films/title/{title}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "title",
+            "in": "path",
+            "required": true,
+=======
     "/api/Store/GetByCity": {
       "get": {
         "tags": [
@@ -187,6 +566,7 @@
           {
             "name": "city",
             "in": "query",
+>>>>>>> origin/FilmRentalStore-4
             "schema": {
               "type": "string"
             }
@@ -199,6 +579,18 @@
         }
       }
     },
+<<<<<<< HEAD
+    "/api/films/year/{releaseYear}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "releaseYear",
+            "in": "path",
+            "required": true,
+=======
     "/api/Store/GetByCountry": {
       "get": {
         "tags": [
@@ -208,6 +600,7 @@
           {
             "name": "country",
             "in": "query",
+>>>>>>> origin/FilmRentalStore-4
             "schema": {
               "type": "string"
             }
@@ -220,6 +613,318 @@
         }
       }
     },
+<<<<<<< HEAD
+    "/api/films/duration/gt/{rentalDuration}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "rentalDuration",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/rate/gt/{rentalRate}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "rentalRate",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/length/gt/{length}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "length",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/duration/lt/{rentalDuration}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "rentalDuration",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/rate/lt/{rentalRate}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "rentalRate",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/length/lt/{length}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "length",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/betweenyear/{from}/{to}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "from",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "to",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/rating/lt/{rating}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "rating",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/rating/gt/{rating}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "rating",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/language/{language}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "language",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/countbyyear": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/{filmId}/actors": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/category/{category}": {
+      "get": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "category",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/{filmid}/actor": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "actorId",
+=======
     "/api/Store/store / staff ": {
       "get": {
         "tags": [
@@ -228,6 +933,7 @@
         "parameters": [
           {
             "name": "storeid",
+>>>>>>> origin/FilmRentalStore-4
             "in": "query",
             "schema": {
               "type": "integer",
@@ -242,6 +948,171 @@
         }
       }
     },
+<<<<<<< HEAD
+    "/api/films/update/title/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "title",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/update/releaseyear/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "releaseyear",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/update/rentaldurtion/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "rentalduration",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/update/rentalrate/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "rentalrate",
+            "in": "query",
+            "schema": {
+              "type": "number",
+              "format": "double"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/update/rating/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "rating",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/films/update/language/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+=======
     "/api/Store/address": {
       "put": {
         "tags": [
@@ -252,6 +1123,7 @@
             "name": "storeid",
             "in": "query",
             "schema": {
+>>>>>>> origin/FilmRentalStore-4
               "type": "integer",
               "format": "int32"
             }
@@ -261,17 +1133,29 @@
           "content": {
             "application/json": {
               "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/LanguageDTO"
+=======
                 "$ref": "#/components/schemas/AddressDTO"
+>>>>>>> origin/FilmRentalStore-4
               }
             },
             "text/json": {
               "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/LanguageDTO"
+=======
                 "$ref": "#/components/schemas/AddressDTO"
+>>>>>>> origin/FilmRentalStore-4
               }
             },
             "application/*+json": {
               "schema": {
+<<<<<<< HEAD
+                "$ref": "#/components/schemas/LanguageDTO"
+=======
                 "$ref": "#/components/schemas/AddressDTO"
+>>>>>>> origin/FilmRentalStore-4
               }
             }
           }
@@ -283,6 +1167,25 @@
         }
       }
     },
+<<<<<<< HEAD
+    "/api/films/update/category/{filmid}": {
+      "put": {
+        "tags": [
+          "Film"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "CategoryId",
+=======
     "/api/Store/All customers": {
       "get": {
         "tags": [
@@ -291,6 +1194,7 @@
         "parameters": [
           {
             "name": "storeid",
+>>>>>>> origin/FilmRentalStore-4
             "in": "query",
             "schema": {
               "type": "integer",
@@ -304,6 +1208,8 @@
           }
         }
       }
+<<<<<<< HEAD
+=======
     },
     "/phone/{phone}": {
       "get": {
@@ -430,10 +1336,17 @@
           }
         }
       }
+>>>>>>> origin/FilmRentalStore-4
     }
   },
   "components": {
     "schemas": {
+<<<<<<< HEAD
+      "CustomerDTO": {
+        "type": "object",
+        "properties": {
+          "customerId": {
+=======
       "AddressDTO": {
         "type": "object",
         "properties": {
@@ -480,6 +1393,7 @@
             "format": "int32"
           },
           "filmId": {
+>>>>>>> origin/FilmRentalStore-4
             "type": "integer",
             "format": "int32"
           },
@@ -487,6 +1401,8 @@
             "type": "integer",
             "format": "int32"
           },
+<<<<<<< HEAD
+=======
           "lastUpdate": {
             "type": "string",
             "format": "date-time"
@@ -501,6 +1417,7 @@
             "type": "integer",
             "format": "int32"
           },
+>>>>>>> origin/FilmRentalStore-4
           "firstName": {
             "type": "string",
             "nullable": true
@@ -509,10 +1426,84 @@
             "type": "string",
             "nullable": true
           },
+<<<<<<< HEAD
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+=======
+>>>>>>> origin/FilmRentalStore-4
           "addressId": {
             "type": "integer",
             "format": "int32"
           },
+<<<<<<< HEAD
+          "active": {
+            "type": "string",
+            "nullable": true
+          },
+          "createDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "lastUpdate": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FilmDTO": {
+        "type": "object",
+        "properties": {
+          "filmId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "title": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "releaseYear": {
+            "type": "string",
+            "nullable": true
+          },
+          "languageId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "originalLanguageId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "rentalDuration": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "rentalRate": {
+            "type": "number",
+            "format": "double"
+          },
+          "length": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "replacementCost": {
+            "type": "number",
+            "format": "double"
+          },
+          "rating": {
+            "type": "string",
+            "nullable": true
+          },
+          "specialFeatures": {
+=======
           "email": {
             "type": "string",
             "nullable": true
@@ -525,20 +1516,36 @@
             "nullable": true
           },
           "password": {
+>>>>>>> origin/FilmRentalStore-4
             "type": "string",
             "nullable": true
           },
           "lastUpdate": {
             "type": "string",
             "format": "date-time"
+<<<<<<< HEAD
+=======
           },
           "urlPath": {
             "type": "string",
             "nullable": true
+>>>>>>> origin/FilmRentalStore-4
           }
         },
         "additionalProperties": false
       },
+<<<<<<< HEAD
+      "LanguageDTO": {
+        "type": "object",
+        "properties": {
+          "languageId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+=======
       "StoreDTO": {
         "type": "object",
         "properties": {
@@ -553,6 +1560,7 @@
           "addressId": {
             "type": "integer",
             "format": "int32"
+>>>>>>> origin/FilmRentalStore-4
           },
           "lastUpdate": {
             "type": "string",
