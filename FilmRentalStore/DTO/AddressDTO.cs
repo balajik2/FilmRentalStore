@@ -1,9 +1,10 @@
+
 ﻿using FilmRentalStore.Models;
-namespace FilmRentalStore.DTO
+
+﻿namespace FilmRentalStore.DTO
 {
     public class AddressDTO
     {
-
 
         public int AddressId { get; set; }
 

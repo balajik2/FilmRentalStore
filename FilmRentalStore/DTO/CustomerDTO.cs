@@ -1,6 +1,10 @@
+
 ﻿using FilmRentalStore.Models;
 
-namespace FilmRentalStore.DTO
+
+
+﻿namespace FilmRentalStore.DTO
+
 {
     public class CustomerDTO
     {
@@ -21,7 +25,7 @@ namespace FilmRentalStore.DTO
         public DateTime CreateDate { get; set; }
 
         public DateTime LastUpdate { get; set; }
-      
+
        // public AddressDTO Addressval { get; internal set; }
 
 
@@ -36,5 +40,6 @@ namespace FilmRentalStore.DTO
         //public string? PostalCode { get; set; }
 
         //public string Phone { get; set; }// = null!;
+
     }
 }
