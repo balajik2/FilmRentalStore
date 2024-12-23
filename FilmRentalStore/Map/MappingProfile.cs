@@ -14,6 +14,7 @@ namespace FilmRentalStore.Map
             CreateMap<Inventory,InventoryDTO>().ReverseMap();
             CreateMap<Customer, CustomerDTO>().ReverseMap();
             CreateMap<Payment, PaymentDTO>().ReverseMap();
+            CreateMap<Film, FilmDTO>().ReverseMap();
     }
     }
 }
