@@ -72,19 +72,6 @@ builder.Services.AddSingleton(mapper);
 
 
 
-//create mapper configuration and passing it to the mapper profile
-
-//var mapperConfig = new MapperConfiguration(mc =>
-//{
-//    mc.AddProfile(new MappingProfile());
-//});
-
-
-//create Imapper instance and pass the mapperconfig to it
-//IMapper mapper = mapperConfig.CreateMapper();
-
-//register the mapper instance to the service container
-builder.Services.AddSingleton(mapper);
 
 
 
@@ -93,6 +80,8 @@ builder.Services.AddSingleton(mapper);
 //Register the Repository
 
 builder.Services.AddScoped<IFilmRepository, FilmService>();
+
+builder.Services.AddScoped<IAdduserRepository, AddUserService>();
 
 //Configure the Validator
 
@@ -116,17 +105,6 @@ builder.Services.AddScoped<IInventoryRepository,InventoryServices>();
 
 builder.Services.AddControllers();
 
-//Creating mapping configuration & passing it to mapper profile
-// var mapperConfig = new MapperConfiguration(mc =>
-// {
-//     mc.AddProfile(new MappingProfile());
-// });
-
-//create Imapper instance & pass mapperconfig to it
-// IMapper mapper = mapperConfig.CreateMapper();
-
-//Register the mapper instance to the service conatiner
-builder.Services.AddSingleton(mapper);
 
 
 builder.Services.AddAuthentication(options =>

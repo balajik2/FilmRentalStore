@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace FilmRentalStore.Services
@@ -26,28 +27,28 @@ namespace FilmRentalStore.Services
             //    return null;
             //}
 
+            //string hashedPassword = ConvertToSHA256(password);
+
+
+
             dynamic user = null;
             string roleName = null;
 
-            var ruser = _context.Rusers.Include(u => u.Role)
-                                       .FirstOrDefault(u => u.Username == username && u.Password == password);
+            var ruser = _context.Rusers
+              .FromSqlInterpolated($@"
+               SELECT * 
+              FROM Ruser 
+              WHERE Username = {username} 
+              AND Password = CONVERT(VARCHAR(255), HASHBYTES('SHA2_256', {password}), 2)")
+              .Include(u => u.Role)
+              .FirstOrDefault();
 
             if (ruser != null)
             {
                 user = ruser;
                 roleName = ruser.Role.Name;
             }
-            else
-            {
-                var staff = _context.Staff.Include(u => u.Role)
-                                          .FirstOrDefault(u => u.Username == username && u.Password == password);
-
-                if (staff != null)
-                {
-                    user = staff;
-                    roleName = staff.Role.Name; 
-                }
-            }
+            
             if (user == null) return null;
             Console.WriteLine(user.Username);
             var tokenHandler = new JwtSecurityTokenHandler();
@@ -68,5 +69,7 @@ namespace FilmRentalStore.Services
             return tokenHandler.WriteToken(token);
             
         }
+        
     }
+
 }

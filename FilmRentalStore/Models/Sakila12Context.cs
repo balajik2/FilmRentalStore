@@ -719,7 +719,7 @@ public partial class Sakila12Context : DbContext
                 .HasColumnType("datetime")
                 .HasColumnName("last_update");
             entity.Property(e => e.Password)
-                .HasMaxLength(40)
+                .HasMaxLength(64)
                 .IsUnicode(false)
                 .HasDefaultValueSql("(NULL)")
                 .HasColumnName("password");
