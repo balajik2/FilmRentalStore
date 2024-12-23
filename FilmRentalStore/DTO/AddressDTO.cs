@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using FilmRentalStore.Models;
 namespace FilmRentalStore.DTO
 {
@@ -5,6 +6,12 @@ namespace FilmRentalStore.DTO
     {
 
 
+=======
+﻿namespace FilmRentalStore.DTO
+{
+    public class AddressDTO
+    {
+>>>>>>> origin/FilmRentalStore-4
         public int AddressId { get; set; }
 
         public string Address1 { get; set; } = null!;

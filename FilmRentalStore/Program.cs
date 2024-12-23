@@ -1,11 +1,25 @@
+<<<<<<< HEAD
 ﻿using AutoMapper;
 using FilmRentalStore.Map;
 
+=======
+using AutoMapper;
+>>>>>>> origin/FilmRentalStore-4
 using FilmRentalStore.Models;
 using FilmRentalStore.Services;
 using Microsoft.EntityFrameworkCore;
+<<<<<<< HEAD
 using FilmRentalStore.Validators;
+=======
+using FilmRentalStore.DTO;
+using FilmRentalStore.Validators;
+using FluentValidation;
+using FilmRentalStore.Services;
+
+
+>>>>>>> origin/FilmRentalStore-4
 using Microsoft.EntityFrameworkCore.ChangeTracking.Internal;
+using FilmRentalStore.MAP;
 
 using FluentValidation;
 using FilmRentalStore.DTO;
@@ -27,8 +41,19 @@ builder.Services.AddControllers();
 builder.Services.AddDbContext<Sakila12Context>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+var mapperConfig = new MapperConfiguration(mc =>
+
+{
+
+    mc.AddProfile(new MappingProfile());
+
+});
+IMapper mapper = mapperConfig.CreateMapper();
+
+builder.Services.AddSingleton(mapper);
 
 
+<<<<<<< HEAD
 //create mapper configuration and passing it to the mapper profile
 
 var mapperConfig = new MapperConfiguration(mc =>
@@ -66,6 +91,11 @@ builder.Services.AddSingleton(mapper);
 
 
 builder.Services.AddValidatorsFromAssemblyContaining<CustomerValidator>();
+=======
+builder.Services.AddScoped<IStoreRepository, StoreClass>();
+builder.Services.AddValidatorsFromAssemblyContaining<StoreValidators>();
+builder.Services.AddScoped<IInventoryRepository,InventoryServices>();
+>>>>>>> origin/FilmRentalStore-4
 
 builder.Services.AddControllers();
 

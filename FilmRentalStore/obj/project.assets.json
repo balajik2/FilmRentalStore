@@ -2,6 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0": {
+<<<<<<< HEAD
       "AutoMapper/12.0.0": {
         "type": "package",
         "dependencies": {
@@ -9,11 +10,24 @@
         },
         "compile": {
           "lib/netstandard2.1/AutoMapper.dll": {
+=======
+      "AutoMapper/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AutoMapper.dll": {
+>>>>>>> origin/FilmRentalStore-4
             "related": ".xml"
           }
         },
         "runtime": {
+<<<<<<< HEAD
           "lib/netstandard2.1/AutoMapper.dll": {
+=======
+          "lib/net6.0/AutoMapper.dll": {
+>>>>>>> origin/FilmRentalStore-4
             "related": ".xml"
           }
         }
@@ -1602,19 +1616,34 @@
     }
   },
   "libraries": {
+<<<<<<< HEAD
     "AutoMapper/12.0.0": {
       "sha512": "0Rmg0zI5AFu1O/y//o9VGyhxKjhggWpk9mOA1tp0DEVx40c61bs+lnQv+0jUq8XbniF7FKgIVvI1perqiMtLrA==",
       "type": "package",
       "path": "automapper/12.0.0",
+=======
+    "AutoMapper/13.0.1": {
+      "sha512": "/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "type": "package",
+      "path": "automapper/13.0.1",
+>>>>>>> origin/FilmRentalStore-4
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
+<<<<<<< HEAD
         "automapper.12.0.0.nupkg.sha512",
         "automapper.nuspec",
         "icon.png",
         "lib/netstandard2.1/AutoMapper.dll",
         "lib/netstandard2.1/AutoMapper.xml"
+=======
+        "automapper.13.0.1.nupkg.sha512",
+        "automapper.nuspec",
+        "icon.png",
+        "lib/net6.0/AutoMapper.dll",
+        "lib/net6.0/AutoMapper.xml"
+>>>>>>> origin/FilmRentalStore-4
       ]
     },
     "Azure.Core/1.38.0": {
@@ -4335,10 +4364,16 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+<<<<<<< HEAD
       "AutoMapper >= 12.0.0",
       "FluentValidation >= 11.11.0",
       "FluentValidation.DependencyInjectionExtensions >= 11.11.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 8.0.11",
+=======
+      "AutoMapper >= 13.0.1",
+      "FluentValidation >= 11.11.0",
+      "FluentValidation.DependencyInjectionExtensions >= 11.11.0",
+>>>>>>> origin/FilmRentalStore-4
       "Microsoft.EntityFrameworkCore >= 8.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
@@ -4397,7 +4432,11 @@
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
+<<<<<<< HEAD
             "version": "[12.0.0, )"
+=======
+            "version": "[13.0.1, )"
+>>>>>>> origin/FilmRentalStore-4
           },
           "FluentValidation": {
             "target": "Package",
@@ -4407,10 +4446,13 @@
             "target": "Package",
             "version": "[11.11.0, )"
           },
+<<<<<<< HEAD
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
             "target": "Package",
             "version": "[8.0.11, )"
           },
+=======
+>>>>>>> origin/FilmRentalStore-4
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.11, )"
