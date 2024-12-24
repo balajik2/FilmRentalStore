@@ -206,7 +206,7 @@
         }
       }
     },
-    "/add": {
+    "/api/rental/add": {
       "post": {
         "tags": [
           "Rental"

@@ -1,21 +1,5 @@
 [
   {
-    "ContainingType": "FilmRentalStore.Controllers.RentalController",
-    "Method": "RentFilm",
-    "RelativePath": "add",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "rentalDTO",
-        "Type": "FilmRentalStore.DTO.RentalDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "FilmRentalStore.Controllers.ActorController",
     "Method": "AssignFilmToActor",
     "RelativePath": "api/actors/{id}/film",
@@ -148,6 +132,22 @@
         "Name": "name",
         "Type": "System.String",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.RentalController",
+    "Method": "RentFilm",
+    "RelativePath": "api/rental/add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rentalDTO",
+        "Type": "FilmRentalStore.DTO.RentalDTO",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

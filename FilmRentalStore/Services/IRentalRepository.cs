@@ -10,7 +10,7 @@ namespace FilmRentalStore.Services
          Task<RentalDTO> RentFilm(RentalDTO rentalDTO);
        
         Task<List<RentalDTO>> GetFilmsRentedByCustomer(int  customerId);
-        Task<List<RentalDTO>> GetTopTenRentedFilms();
+        Task<List<Top10RentedFilmDTO>> GetTopTenRentedFilms();
         Task<List<RentalDTO>> GetTopTenRentedFilmsByStoreAsync(int storeId);
         Task<List<RentalDTO>> GetCustomersWithDueRentalsByStoreAsync(int storeId);
 

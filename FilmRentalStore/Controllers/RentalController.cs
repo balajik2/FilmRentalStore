@@ -37,7 +37,6 @@ namespace FilmRentalStore.Controllers
             try
             {
                 var createdRental = await _rentalRepository.RentFilm(rentalDTO);
-                // return CreatedAtAction(nameof(RentFilm), createdRental );
                 return Ok("Record Created Sucessfully");
 
             }

@@ -26,16 +26,16 @@ namespace FilmRentalStore.Controllers
             _configuration = configuration;
             _validator = validator;
         }
+     
+
         [HttpPost("/api/actors/post")]
         public async Task<IActionResult> AddActor([FromBody] ActorDTO actorDto)
         {
             if (actorDto == null)
             {
-                return BadRequest(new { message = "Invalid actor data." });
+                return BadRequest("Actor data is required.");
             }
-
-
-            if (string.IsNullOrEmpty(actorDto.FirstName) || string.IsNullOrEmpty(actorDto.LastName))
+            else if (string.IsNullOrEmpty(actorDto.FirstName) || string.IsNullOrEmpty(actorDto.LastName))
             {
                 return BadRequest(new
                 {
@@ -43,19 +43,18 @@ namespace FilmRentalStore.Controllers
                     message = "Validation failed: FirstName and LastName are required."
                 });
             }
-
-
-            var result = await _actorRepository.AddActor(actorDto);
-
-            if (result)
+            try
             {
-                return CreatedAtAction(nameof(AddActor), new { id = actorDto.ActorId }, "Record Created Successfully");
+                var createdActor = await _actorRepository.AddActor(actorDto);
+                return Ok("Record created successfully");
+               
             }
-            else
+            catch (Exception ex)
             {
-                return StatusCode(500, new { message = "An error occurred while adding the actor." });
+                return BadRequest(ex.Message);
             }
         }
+
 
         [HttpGet("/api/actors/lastname/{ln}")]
         public async Task<IActionResult> GetActorsByLastName(string ln)

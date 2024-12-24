@@ -67,7 +67,7 @@ namespace FilmRentalStore.Services
                                join inventory in _context.Inventories on rental.InventoryId equals inventory.InventoryId
                                join film in _context.Films on inventory.FilmId equals film.FilmId
                                where customer.CustomerId == customerId
-                               select new
+                               select new 
                                {
                                    rental.RentalId,
                                    rental.RentalDate,
@@ -79,9 +79,7 @@ namespace FilmRentalStore.Services
                                    film.Title
                                };
 
-            var sqlQuery = rentalsQuery.ToQueryString();
-            Console.WriteLine(sqlQuery);
-
+            
             var rentals = await rentalsQuery.Distinct().ToListAsync();
 
             var rentalDTOs = rentals.Select(r => new RentalDTO
@@ -102,18 +100,19 @@ namespace FilmRentalStore.Services
 
 
         #region GetTopTenRentedFilms
-       /// <summary>
-       /// /Retrieves the top 10 most rented films for a specific store, grouping by film and handling cases where no rentals exist, then maps the results to a list of RentalDTO.
-       /// </summary>
-       /// <returns></returns>
-        public async Task<List<RentalDTO>> GetTopTenRentedFilms()
+        /// <summary>
+        /// /Retrieves the top 10 most rented films for a specific store, grouping by film and handling cases where no rentals exist, then maps the results to a list of RentalDTO.
+        /// </summary>
+        /// <returns></returns>
+       
+        public async Task<List<Top10RentedFilmDTO>> GetTopTenRentedFilms()
         {
             var topTenFilms = await (from rental in _context.Rentals
                                      join inventory in _context.Inventories on rental.InventoryId equals inventory.InventoryId
                                      join film in _context.Films on inventory.FilmId equals film.FilmId
                                      group rental by new { film.FilmId, film.Title } into filmGroup
                                      orderby filmGroup.Count() descending
-                                     select new
+                                     select new Top10RentedFilmDTO
                                      {
                                          FilmId = filmGroup.Key.FilmId,
                                          Title = filmGroup.Key.Title,
@@ -122,20 +121,12 @@ namespace FilmRentalStore.Services
                                      .Take(10)
                                      .ToListAsync();
 
-            
-            var result = topTenFilms.Select(f => new RentalDTO
-            {
-                RentalId = f.FilmId, 
-                RentalDate = DateTime.MinValue, 
-                InventoryId = 0, 
-                CustomerId = 0, 
-                ReturnDate = null, 
-                StaffId = 0,
-                LastUpdate = DateTime.MinValue 
-            }).ToList();
-
-            return result;
+            return topTenFilms;
         }
+
+        
+
+
 
         #endregion
 
@@ -174,10 +165,10 @@ namespace FilmRentalStore.Services
                     .Select(g => new RentalDTO
                     {
                         RentalId = g.First().rental.RentalId,
-                       // RentalDate = g.First().rental.RentalDate ?? DateTime.MinValue,
+                     
                         InventoryId = g.First().rental.InventoryId,
                         CustomerId = g.First().rental.CustomerId,
-                       // ReturnDate = g.First().rental.ReturnDate,
+                       
                         StaffId = g.First().rental.StaffId,
                         LastUpdate = g.First().rental.LastUpdate 
                     })
