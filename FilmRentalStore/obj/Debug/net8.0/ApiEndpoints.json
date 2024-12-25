@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "FilmRentalStore.Controllers.AddUserController",
+    "Method": "AddUser",
+    "RelativePath": "api/AddUser/post",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "FilmRentalStore.DTO.AddUserDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "FilmRentalStore.Controllers.AuthController",
     "Method": "Authenticate",
     "RelativePath": "api/Auth/login",

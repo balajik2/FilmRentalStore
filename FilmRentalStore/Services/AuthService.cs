@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace FilmRentalStore.Services
@@ -20,34 +21,26 @@ namespace FilmRentalStore.Services
         }
         public string Authenticate(string username, string password)
         {
-            //var user = _context.Rusers.Include(u => u.Role).FirstOrDefault(u => u.UserName == username && u.PassWord == password);
-            //if (user == null)
-            //{
-            //    return null;
-            //}
-
             dynamic user = null;
             string roleName = null;
 
-            var ruser = _context.Rusers.Include(u => u.Role)
-                                       .FirstOrDefault(u => u.Username == username && u.Password == password);
+            var ruser = _context.Rusers
+                .FromSqlInterpolated($"EXEC GetRuserByCredentials @Username = {username}, @Password = {password}")
+                .AsEnumerable() 
+                .FirstOrDefault();
+
+            
+            if (ruser != null)
+            {
+                ruser.Role = _context.Roles.FirstOrDefault(r => r.Id == ruser.RoleId);
+            }
 
             if (ruser != null)
             {
                 user = ruser;
                 roleName = ruser.Role.Name;
             }
-            else
-            {
-                var staff = _context.Staff.Include(u => u.Role)
-                                          .FirstOrDefault(u => u.Username == username && u.Password == password);
-
-                if (staff != null)
-                {
-                    user = staff;
-                    roleName = staff.Role.Name; 
-                }
-            }
+            
             if (user == null) return null;
             Console.WriteLine(user.Username);
             var tokenHandler = new JwtSecurityTokenHandler();
@@ -68,5 +61,7 @@ namespace FilmRentalStore.Services
             return tokenHandler.WriteToken(token);
             
         }
+        
     }
+
 }
