@@ -1,4 +1,15 @@
 
+using System.Net;
+using AutoMapper;
+using FilmRentalStore.Map;
+using FilmRentalStore.Models;
+using FilmRentalStore.Services;
+using FilmRentalStore.Validator;
+using FluentValidation;
+using Microsoft.AspNetCore.Diagnostics;
+using Microsoft.EntityFrameworkCore;
+
+
 
 ﻿using AutoMapper;
 using FilmRentalStore.Map;
@@ -20,6 +31,7 @@ using FilmRentalStore.DTO;
 using FilmRentalStore.Validators;
 using FluentValidation;
 using FilmRentalStore.Services;
+
 
 
 
@@ -49,33 +61,30 @@ using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
-
-builder.Services.AddControllers();
-
 builder.Services.AddControllers();
 
 
 // Register the DbContext with a connection string
 builder.Services.AddDbContext<Sakila12Context>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+//create mapper configuration and passing it to the mapper profile
 var mapperConfig = new MapperConfiguration(mc =>
-
 {
-
     mc.AddProfile(new MappingProfile());
-
 });
+
+//create Imapper instance and pass the mapperconfig to it
 IMapper mapper = mapperConfig.CreateMapper();
 
+//register the mapper instance to the service container
 builder.Services.AddSingleton(mapper);
 
+//Register the Repository
+builder.Services.AddScoped<IRentalRepository, RentalService>();
+builder.Services.AddValidatorsFromAssemblyContaining<RentalValidator>();
+builder.Services.AddScoped<IActorRepository, ActorService>();
 
-
-
-
-
-
+builder.Services.AddControllers();
 
 //Register the Repository
 
@@ -153,6 +162,7 @@ builder.Services.AddValidatorsFromAssemblyContaining<StaffValidator>();
 
 
 
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 
 
@@ -188,7 +198,11 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+
 var app = builder.Build();
+
+
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -200,6 +214,20 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+app.UseExceptionHandler(options =>
+{
+    options.Run(async context =>
+    {
+        context.Response.StatusCode = (int)HttpStatusCode.BadRequest;
+        context.Response.ContentType = "application/json";
+        var exception = context.Features.Get<IExceptionHandlerFeature>();
+        if (exception != null)
+        {
+            var message = $"Global Exception :{exception.Error.Message} ";
+            await context.Response.WriteAsync(message).ConfigureAwait(false);
+        }
+    });
+});
 
 
 
