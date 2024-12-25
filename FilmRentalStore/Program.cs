@@ -202,6 +202,10 @@ app.UseAuthentication();
 app.UseAuthorization();
 
 
+
+
+
+
 //Global Exception 
 
 
@@ -219,6 +223,14 @@ app.UseExceptionHandler(options =>
         }
     });
 });
+
+
+//Setting up AJAX
+
+app.UseStaticFiles();
+
+app.UseRouting();
+
 
 app.MapControllers();
 

@@ -21,27 +21,19 @@ namespace FilmRentalStore.Services
         }
         public string Authenticate(string username, string password)
         {
-            //var user = _context.Rusers.Include(u => u.Role).FirstOrDefault(u => u.UserName == username && u.PassWord == password);
-            //if (user == null)
-            //{
-            //    return null;
-            //}
-
-            //string hashedPassword = ConvertToSHA256(password);
-
-
-
             dynamic user = null;
             string roleName = null;
 
             var ruser = _context.Rusers
-              .FromSqlInterpolated($@"
-               SELECT * 
-              FROM Ruser 
-              WHERE Username = {username} 
-              AND Password = CONVERT(VARCHAR(255), HASHBYTES('SHA2_256', {password}), 2)")
-              .Include(u => u.Role)
-              .FirstOrDefault();
+                .FromSqlInterpolated($"EXEC GetRuserByCredentials @Username = {username}, @Password = {password}")
+                .AsEnumerable() 
+                .FirstOrDefault();
+
+            
+            if (ruser != null)
+            {
+                ruser.Role = _context.Roles.FirstOrDefault(r => r.Id == ruser.RoleId);
+            }
 
             if (ruser != null)
             {
