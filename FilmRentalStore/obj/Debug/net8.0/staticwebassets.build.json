@@ -1,10 +1,6 @@
 {
   "Version": 1,
-<<<<<<< Updated upstream
   "Hash": "AS6daIHFbRXYrv0ubj8HUTEO1Pf2tBGwQhgfM1DwQgA=",
-=======
-  "Hash": "EHg5f+xsEqMlT87plCEBt3bOMJIMRMjlbm1ZAnkMXbk=",
->>>>>>> Stashed changes
   "Source": "FilmRentalStore",
   "BasePath": "_content/FilmRentalStore",
   "Mode": "Default",
@@ -57,7 +53,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\login.html"
-<<<<<<< Updated upstream
     },
     {
       "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Sample.js",
@@ -77,8 +72,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\Sample.js"
-=======
->>>>>>> Stashed changes
     }
   ]
 }

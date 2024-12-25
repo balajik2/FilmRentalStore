@@ -1,0 +1,170 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "View/index.html",
+      "AssetFile": "View/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vO7UTEmS16oxpM4Ev4DiVfr3SXIBE0u1edgN6qBXbrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 14:19:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vO7UTEmS16oxpM4Ev4DiVfr3SXIBE0u1edgN6qBXbrQ="
+        }
+      ]
+    },
+    {
+      "Route": "View/index.wj7mrxch75.html",
+      "AssetFile": "View/index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vO7UTEmS16oxpM4Ev4DiVfr3SXIBE0u1edgN6qBXbrQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 14:19:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "wj7mrxch75"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vO7UTEmS16oxpM4Ev4DiVfr3SXIBE0u1edgN6qBXbrQ="
+        },
+        {
+          "Name": "label",
+          "Value": "View/index.html"
+        }
+      ]
+    },
+    {
+      "Route": "View/login.html",
+      "AssetFile": "View/login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FFdcHOVZIfzntLviTAzBmHsuquA2iBPbXq0Ppf2Lino=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 14:19:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FFdcHOVZIfzntLviTAzBmHsuquA2iBPbXq0Ppf2Lino="
+        }
+      ]
+    },
+    {
+      "Route": "View/login.kqbmc629am.html",
+      "AssetFile": "View/login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5776"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FFdcHOVZIfzntLviTAzBmHsuquA2iBPbXq0Ppf2Lino=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 25 Dec 2024 14:19:12 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kqbmc629am"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FFdcHOVZIfzntLviTAzBmHsuquA2iBPbXq0Ppf2Lino="
+        },
+        {
+          "Name": "label",
+          "Value": "View/login.html"
+        }
+      ]
+    }
+  ]
+}
