@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=81290&format=png&color=000000" type="image/png">
+
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <style>
         body {
@@ -135,14 +137,15 @@
                     };
 
                     $.ajax({
-                        url: 'https://localhost:7193/api/Auth/Login',
+                        url: 'https://localhost:7239/api/Auth/login',
                         type: 'POST',
                         contentType: 'application/json',
                         data: JSON.stringify(loginData),
                         success: function (token) {
                             alert('Login successful!');
                             localStorage.setItem('jwtToken', token); // Store token in localStorage
-                            window.location.href = '/index.html'; // Redirect to index.html
+                            console.log('Token:', token);
+                            window.location.href = '/View/index.html'; // Redirect to index.html
                         },
                         error: function (xhr) {
                             let errorMessage = 'An error occurred. Please try again.';
