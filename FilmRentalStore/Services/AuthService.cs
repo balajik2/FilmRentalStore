@@ -21,8 +21,8 @@ namespace FilmRentalStore.Services
         }
         public string Authenticate(string username, string password)
         {
-            dynamic user = null;
-            string roleName = null;
+            //dynamic user = null;
+            //string roleName = null;
 
             var ruser = _context.Rusers
                 .FromSqlInterpolated($"EXEC GetRuserByCredentials @Username = {username}, @Password = {password}")
@@ -35,21 +35,21 @@ namespace FilmRentalStore.Services
                 ruser.Role = _context.Roles.FirstOrDefault(r => r.Id == ruser.RoleId);
             }
 
-            if (ruser != null)
-            {
-                user = ruser;
-                roleName = ruser.Role.Name;
-            }
+            //if (ruser != null)
+            //{
+            //    user = ruser;
+            //    roleName = ruser.Role.Name;
+            //}
             
-            if (user == null) return null;
-            Console.WriteLine(user.Username);
+            if (ruser == null) return null;
+            Console.WriteLine(ruser.Username);
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Key"]);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new[] {
-                new Claim(ClaimTypes.Name, user.Username),
-                new Claim(ClaimTypes.Role, user.Role.Name)
+                new Claim(ClaimTypes.Name, ruser.Username),
+                new Claim(ClaimTypes.Role, ruser.Role.Name)
             }),
                 Expires = DateTime.UtcNow.AddDays(7),
                 Audience = _configuration["Jwt:Audience"],  // Ensure the Audience is set

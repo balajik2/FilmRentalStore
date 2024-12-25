@@ -4,14 +4,13 @@ using AutoMapper;
 using FilmRentalStore.Map;
 using FilmRentalStore.Models;
 using FilmRentalStore.Services;
-using FilmRentalStore.Validator;
 using FluentValidation;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.EntityFrameworkCore;
 
 
 
-﻿using AutoMapper;
+using AutoMapper;
 using FilmRentalStore.Map;
 
 
@@ -28,7 +27,6 @@ using Microsoft.EntityFrameworkCore;
 using FilmRentalStore.Validators;
 
 using FilmRentalStore.DTO;
-using FilmRentalStore.Validators;
 using FluentValidation;
 using FilmRentalStore.Services;
 
@@ -50,7 +48,6 @@ using System.Net;
 using FilmRentalStore.Services;
 using FilmRentalStore.DTO;
 using FilmRentalStore.Map;
-using FilmRentalStore.Validators;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
@@ -204,11 +201,13 @@ var app = builder.Build();
 
 
 
+
 // Configure the HTTP request pipeline.
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
@@ -230,6 +229,10 @@ app.UseExceptionHandler(options =>
 });
 
 
+app.UseCors(builder =>
+    builder.WithOrigins("https://localhost:7239") // Allow specific origins
+           .AllowAnyMethod()
+           .AllowAnyHeader());
 
 
 

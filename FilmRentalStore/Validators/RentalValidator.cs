@@ -1,7 +1,7 @@
 ﻿using FilmRentalStore.DTO;
 using FluentValidation;
 
-namespace FilmRentalStore.Validator
+namespace FilmRentalStore.Validators
 {
     public class RentalValidator : AbstractValidator<RentalDTO>
     {
@@ -9,11 +9,11 @@ namespace FilmRentalStore.Validator
         {
             RuleFor(x => x.RentalDate).NotEmpty().WithMessage("RentalDate is required");
 
-           
+
 
             RuleFor(x => x.InventoryId).NotEmpty().WithMessage("InventoryId is required");
             RuleFor(x => x.CustomerId).NotEmpty().WithMessage("CustomerId is required");
-            
+
         }
     }
 }
