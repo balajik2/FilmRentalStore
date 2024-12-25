@@ -1,6 +1,7 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\",
+<<<<<<< Updated upstream
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\bakumare\\documents\\sprint\\filmrentalstore\\wwwroot\\view\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -111,6 +112,9 @@
       "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:services\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
+=======
+  "Documents": [],
+>>>>>>> Stashed changes
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -118,7 +122,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": -1,
+>>>>>>> Stashed changes
           "Children": [
             {
               "$type": "Bookmark",
@@ -127,6 +135,7 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+<<<<<<< Updated upstream
             },
             {
               "$type": "Document",
@@ -453,6 +462,8 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-23T07:00:42.363Z"
+=======
+>>>>>>> Stashed changes
             }
           ]
         },
