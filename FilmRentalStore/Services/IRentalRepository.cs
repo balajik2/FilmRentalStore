@@ -1,22 +1,25 @@
 ﻿using FilmRentalStore.DTO;
 using FilmRentalStore.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FilmRentalStore.Services
 {
     public interface IRentalRepository
     {
-        // Task AddRentalFilm(RentalDTO rentalDTO);
-         Task<RentalDTO> RentFilm(RentalDTO rentalDTO);
-       
-        Task<List<RentalDTO>> GetFilmsRentedByCustomer(int  customerId);
-        Task<List<Top10RentedFilmDTO>> GetTopTenRentedFilms();
-        Task<List<RentalDTO>> GetTopTenRentedFilmsByStoreAsync(int storeId);
-        Task<List<RentalDTO>> GetCustomersWithDueRentalsByStoreAsync(int storeId);
-
-        public bool UpdateReturnDate(int rentalId, DateTime returnDate);
-
         
+         Task<RentalDTO> RentFilm(RentalDTO rentalDTO);
+
+        Task<List<FilmDTO>> GetFilmsRentedByCustomer(int customerId);
+        Task<List<Top10RentedFilmDTO>> GetTopTenRentedFilms();
+        Task<List<Top10RentedFilmDTO>> GetTopTenRentedFilmsByStore(int storeId);
+        Task<List<CustomerDTO>> GetCustomersWithDueRentalsByStore(int storeId);
+
+
+
+        Task<Rental> UpdateReturnDate(int rentalId, DateTime returnDate);
+
+
 
 
     }

@@ -23,7 +23,7 @@
   {
     "ContainingType": "FilmRentalStore.Controllers.ActorController",
     "Method": "GetFilmsByActorId",
-    "RelativePath": "api/actors/{id}/films ",
+    "RelativePath": "api/actors/{id}/films",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -224,8 +224,8 @@
         "IsRequired": true
       },
       {
-        "Name": "returnDateString",
-        "Type": "System.String",
+        "Name": "returnDate",
+        "Type": "System.DateTime",
         "IsRequired": true
       }
     ],

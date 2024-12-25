@@ -125,7 +125,7 @@ namespace FilmRentalStore.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [HttpGet("/api/actors/{id}/films ")]
+        [HttpGet("/api/actors/{id}/films")]
         public async Task<IActionResult> GetFilmsByActorId(int id)
         {
             try
@@ -136,7 +136,7 @@ namespace FilmRentalStore.Controllers
                 
                 if (films == null || films.Count == 0)
                 {
-                    return NotFound(new { message = "No films found for the actor." });
+                    return NotFound("No films found for the actor.");
                 }
 
                
@@ -144,12 +144,12 @@ namespace FilmRentalStore.Controllers
             }
             catch (KeyNotFoundException ex)
             {
-                return NotFound(new { message = ex.Message });
+                return NotFound(ex.Message);
             }
             catch (Exception ex)
             {
                 
-                return StatusCode(500, new { message = "An unexpected error occurred", details = ex.Message });
+                return BadRequest(ex.Message);
             }
         }
         [HttpPut("/api/actors/{id}/film")]
@@ -183,7 +183,7 @@ namespace FilmRentalStore.Controllers
 
                 if (topActors == null || topActors.Count == 0)
                 {
-                    return NotFound(new { message = "No actors found." });
+                    return NotFound("No actors found.");
                 }
 
                 return Ok(topActors);

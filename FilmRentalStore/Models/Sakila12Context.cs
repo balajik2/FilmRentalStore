@@ -47,6 +47,10 @@ public partial class Sakila12Context : DbContext
 
     public virtual DbSet<Rental> Rentals { get; set; }
 
+    public virtual DbSet<Role> Roles { get; set; }
+
+    public virtual DbSet<Ruser> Rusers { get; set; }
+
     public virtual DbSet<SalesByFilmCategory> SalesByFilmCategories { get; set; }
 
     public virtual DbSet<SalesByStore> SalesByStores { get; set; }
@@ -616,6 +620,39 @@ public partial class Sakila12Context : DbContext
                 .HasConstraintName("fk_rental_staff");
         });
 
+        modelBuilder.Entity<Role>(entity =>
+        {
+            entity.ToTable("Role");
+
+            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Name)
+                .HasMaxLength(100)
+                .IsUnicode(false);
+        });
+
+        modelBuilder.Entity<Ruser>(entity =>
+        {
+            entity.HasKey(e => e.Id).HasName("PK__Ruser__3214EC0747DEDCFC");
+
+            entity.ToTable("Ruser", tb =>
+                {
+                    tb.HasTrigger("trg_HashPasswordOnInsert");
+                    tb.HasTrigger("trg_SetRoleID");
+                });
+
+            entity.Property(e => e.Id).ValueGeneratedNever();
+            entity.Property(e => e.Password)
+                .HasMaxLength(100)
+                .HasColumnName("password");
+            entity.Property(e => e.Username)
+                .HasMaxLength(100)
+                .HasColumnName("username");
+
+            entity.HasOne(d => d.Role).WithMany(p => p.Rusers)
+                .HasForeignKey(d => d.RoleId)
+                .HasConstraintName("FK__Ruser__RoleId__1CBC4616");
+        });
+
         modelBuilder.Entity<SalesByFilmCategory>(entity =>
         {
             entity
@@ -685,20 +722,10 @@ public partial class Sakila12Context : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("last_update");
-            entity.Property(e => e.Password)
-                .HasMaxLength(40)
-                .IsUnicode(false)
-                .HasDefaultValueSql("(NULL)")
-                .HasColumnName("password");
-            entity.Property(e => e.Picture)
-                .HasDefaultValueSql("(NULL)")
-                .HasColumnType("image")
-                .HasColumnName("picture");
             entity.Property(e => e.StoreId).HasColumnName("store_id");
-            entity.Property(e => e.Username)
-                .HasMaxLength(16)
-                .IsUnicode(false)
-                .HasColumnName("username");
+            entity.Property(e => e.UrlPath)
+                .HasMaxLength(255)
+                .HasColumnName("url_path");
 
             entity.HasOne(d => d.Address).WithMany(p => p.Staff)
                 .HasForeignKey(d => d.AddressId)

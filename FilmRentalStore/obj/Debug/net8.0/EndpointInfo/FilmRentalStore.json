@@ -140,7 +140,7 @@
         }
       }
     },
-    "/api/actors/{id}/films ": {
+    "/api/actors/{id}/films": {
       "get": {
         "tags": [
           "Actor"
@@ -338,17 +338,20 @@
           "content": {
             "application/json": {
               "schema": {
-                "type": "string"
+                "type": "string",
+                "format": "date-time"
               }
             },
             "text/json": {
               "schema": {
-                "type": "string"
+                "type": "string",
+                "format": "date-time"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "string"
+                "type": "string",
+                "format": "date-time"
               }
             }
           }

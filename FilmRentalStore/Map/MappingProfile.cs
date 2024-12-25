@@ -8,9 +8,8 @@ namespace FilmRentalStore.Map
     {
         public MappingProfile()
         {
-            CreateMap<Rental, RentalDTO>().ReverseMap();
-            CreateMap<Film, RentalDTO>().ForMember(dest => dest.RentalId, opt => opt.Ignore());
-          
+            CreateMap<Rental, RentalDTO>().ReverseMap(); 
+            CreateMap<Customer ,CustomerDTO>().ReverseMap();
             CreateMap<Actor, ActorDTO>().ReverseMap();
             CreateMap<Film, FilmDTO>().ReverseMap();
 

@@ -81,21 +81,15 @@ namespace FilmRentalStore.Controllers
         {
             try
             {
-                var topFilms = await _rentalRepository.GetTopTenRentedFilmsByStoreAsync(id);
+                var topFilms = await _rentalRepository.GetTopTenRentedFilmsByStore(id);
 
                 if (topFilms == null || !topFilms.Any())
                 {
-                    return NotFound(new
-                    {
-                        message = "No rentals found for the given store."
-                    });
+                    return NotFound("No rentals found for the given store.");
+                 
                 }
 
-                return Ok(new
-                {
-                    message = "Top 10 most rented films retrieved successfully.",
-                    data = topFilms
-                });
+                return Ok(topFilms);
             }
             catch (Exception ex)
             {
@@ -108,11 +102,11 @@ namespace FilmRentalStore.Controllers
         {
             try
             {
-                var rentals = await _rentalRepository.GetCustomersWithDueRentalsByStoreAsync(id);
+                var rentals = await _rentalRepository.GetCustomersWithDueRentalsByStore(id);
 
                 if (rentals == null || !rentals.Any())
                 {
-                    return NotFound(new { message = "No customers with due rentals found for the given store." });
+                    return NotFound("No customers with due rentals found for the given store.");
                 }
 
                 return Ok(rentals); 
@@ -125,32 +119,24 @@ namespace FilmRentalStore.Controllers
 
         [HttpPost("/api/rental/update/returndate/{id}")]
 
-       
-        public IActionResult UpdateReturnDate(int id, [FromBody] string returnDateString)
+        public async Task<IActionResult> UpdateReturnDate(int id, [FromBody] DateTime returnDate)
         {
-            if (string.IsNullOrEmpty(returnDateString))
+            try
             {
-                return BadRequest("Invalid return date.");
+                var updatedRental = await _rentalRepository.UpdateReturnDate(id, returnDate);
+
+                if (updatedRental == null)
+                {
+                    return NotFound( "Rental not found.");
+                }
+
+                return Ok(updatedRental);
             }
-
-
-            string dateFormat = "yyyy-MM-dd HH:mm:ss.fff";
-
-            if (!DateTime.TryParseExact(returnDateString, dateFormat, null, System.Globalization.DateTimeStyles.None, out var returnDate) || returnDate <= DateTime.UtcNow)
+            catch (Exception ex)
             {
-                return BadRequest("Invalid return date format. Correct format is 'yyyy-MM-dd HH:mm:ss.fff'.");
+                return BadRequest(ex.Message);
             }
-
-            var result = _rentalRepository.UpdateReturnDate(id, returnDate);
-
-            if (!result)
-            {
-                return NotFound("Rental not found.");
-            }
-
-            return Ok("Rental return date updated successfully.");
         }
-
 
     }
 
