@@ -13,8 +13,11 @@ public partial class Staff
 
     public int AddressId { get; set; }
 
+<<<<<<< HEAD
     public byte[]? Picture { get; set; }
 
+=======
+>>>>>>> c9f394a110474532bb4f8cbdea417adb7c59f041
     public string? Email { get; set; }
 
     public int StoreId { get; set; }
@@ -27,12 +30,24 @@ public partial class Staff
 
     public DateTime LastUpdate { get; set; }
 
+<<<<<<< HEAD
+=======
+    public string? UrlPath { get; set; }
+
+    public int? RoleId { get; set; }
+
+>>>>>>> c9f394a110474532bb4f8cbdea417adb7c59f041
     public virtual Address Address { get; set; } = null!;
 
     public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
 
     public virtual ICollection<Rental> Rentals { get; set; } = new List<Rental>();
 
+<<<<<<< HEAD
+=======
+    public virtual Role? Role { get; set; }
+
+>>>>>>> c9f394a110474532bb4f8cbdea417adb7c59f041
     public virtual Store Store { get; set; } = null!;
 
     public virtual Store? StoreNavigation { get; set; }

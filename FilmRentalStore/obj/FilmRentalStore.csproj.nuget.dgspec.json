@@ -52,7 +52,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
+<<<<<<< HEAD
               "version": "[13.0.1, )"
+=======
+              "version": "[12.0.0, )"
+>>>>>>> c9f394a110474532bb4f8cbdea417adb7c59f041
             },
             "FluentValidation": {
               "target": "Package",
@@ -62,6 +66,13 @@
               "target": "Package",
               "version": "[11.11.0, )"
             },
+<<<<<<< HEAD
+=======
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.11, )"
+            },
+>>>>>>> c9f394a110474532bb4f8cbdea417adb7c59f041
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.11, )"
@@ -79,6 +90,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[7.2.0, )"
             }
           },
           "imports": [
