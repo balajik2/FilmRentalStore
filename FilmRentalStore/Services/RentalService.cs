@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using AutoMapper;
 using FilmRentalStore.DTO;
 using FilmRentalStore.Models;
@@ -56,44 +57,24 @@ namespace FilmRentalStore.Services
 
         #region GetFilmsRentedByCustomer
         /// <summary>
-        /// /Retrieves a list of distinct films rented by a specific customer, logs the SQL query, and maps the result to a list of RentalDTO
+        /// /Retrieves a list of  films rented by a specific customer and maps the result to a list of FilmDTO
         /// </summary>
         /// <param name="customerId"></param>
         /// <returns></returns>
-        public async Task<List<RentalDTO>> GetFilmsRentedByCustomer(int customerId)
+
+        public async Task<List<FilmDTO>> GetFilmsRentedByCustomer(int customerId)
         {
-            var rentalsQuery = from customer in _context.Customers
+            var films = await (from customer in _context.Customers
                                join rental in _context.Rentals on customer.CustomerId equals rental.CustomerId
                                join inventory in _context.Inventories on rental.InventoryId equals inventory.InventoryId
                                join film in _context.Films on inventory.FilmId equals film.FilmId
                                where customer.CustomerId == customerId
-                               select new 
-                               {
-                                   rental.RentalId,
-                                   rental.RentalDate,
-                                   rental.InventoryId,
-                                   rental.CustomerId,
-                                   rental.ReturnDate,
-                                   rental.StaffId,
-                                   rental.LastUpdate,
-                                   film.Title
-                               };
+                               select film).ToListAsync();
 
-            
-            var rentals = await rentalsQuery.Distinct().ToListAsync();
 
-            var rentalDTOs = rentals.Select(r => new RentalDTO
-            {
-                RentalId = r.RentalId,
-                RentalDate = r.RentalDate,
-                InventoryId = r.InventoryId,
-                CustomerId = r.CustomerId,
-                ReturnDate = r.ReturnDate,
-                StaffId = r.StaffId,
-                LastUpdate = r.LastUpdate
-            }).ToList();
+            var result = _mapper.Map<List<FilmDTO>>(films);
 
-            return rentalDTOs;
+            return result;
         }
 
         #endregion
@@ -101,10 +82,10 @@ namespace FilmRentalStore.Services
 
         #region GetTopTenRentedFilms
         /// <summary>
-        /// /Retrieves the top 10 most rented films for a specific store, grouping by film and handling cases where no rentals exist, then maps the results to a list of RentalDTO.
+        /// /Retrieves the top 10 most rented films for a specific store, grouping by film and handling cases where no rentals exist, then maps the results to a list of Top10RentedFilmDTO.
         /// </summary>
         /// <returns></returns>
-       
+
         public async Task<List<Top10RentedFilmDTO>> GetTopTenRentedFilms()
         {
             var topTenFilms = await (from rental in _context.Rentals
@@ -124,102 +105,74 @@ namespace FilmRentalStore.Services
             return topTenFilms;
         }
 
-        
+
 
 
 
         #endregion
 
 
-        #region GetTopTenRentedFilmsByStoreAsync
+        #region GetTopTenRentedFilmsByStore
         /// <summary>
-        /// Retrieves the top 10 most rented films for a specific store, groups by film, handles cases with no rentals, and maps the results to a list of RentalDTO.
+        /// the code retrieves rental records, groups them by films, counts their rentals, sorts by popularity, takes the top 10, and 
+        /// returns the data as a list of Top10RentedFilmDTO
         /// </summary>
         /// <param name="storeId"></param>
         /// <returns></returns>
         /// <exception cref="KeyNotFoundException"></exception>
-        public async Task<List<RentalDTO>> GetTopTenRentedFilmsByStoreAsync(int storeId)
+        public async Task<List<Top10RentedFilmDTO>> GetTopTenRentedFilmsByStore(int storeId)
         {
-            try
-            {
-                var topFilms = await (from rental in _context.Rentals
-                                      join inventory in _context.Inventories on rental.InventoryId equals inventory.InventoryId
-                                      join film in _context.Films on inventory.FilmId equals film.FilmId
-                                      join customer in _context.Customers on rental.CustomerId equals customer.CustomerId
-                                      where customer.StoreId == storeId
-                                      select new
-                                      {
-                                          rental,
-                                          film
-                                      }).ToListAsync();
+            var topTenFilms = await (from rental in _context.Rentals
+                                     join inventory in _context.Inventories on rental.InventoryId equals inventory.InventoryId
+                                     join film in _context.Films on inventory.FilmId equals film.FilmId
+                                     join customer in _context.Customers on rental.CustomerId equals customer.CustomerId
+                                     where customer.StoreId == storeId 
+                                     group rental by new { film.FilmId, film.Title } into filmGroup
+                                     orderby filmGroup.Count() descending
+                                     select new Top10RentedFilmDTO
+                                     {
+                                         FilmId = filmGroup.Key.FilmId,
+                                         Title = filmGroup.Key.Title,
+                                         RentalCount = filmGroup.Count()
+                                     })
+                                     .Take(10)
+                                     .ToListAsync();
 
-                if (!topFilms.Any())
-                {
-                    throw new KeyNotFoundException("No rentals found for the given store.");
-                }
-
-                var filteredFilms = topFilms
-                    .GroupBy(x => new { x.film.FilmId, x.film.Title })
-                    .OrderByDescending(g => g.Count())
-                    .Take(10)
-                    .Select(g => new RentalDTO
-                    {
-                        RentalId = g.First().rental.RentalId,
-                     
-                        InventoryId = g.First().rental.InventoryId,
-                        CustomerId = g.First().rental.CustomerId,
-                       
-                        StaffId = g.First().rental.StaffId,
-                        LastUpdate = g.First().rental.LastUpdate 
-                    })
-                    .ToList();
-
-                return filteredFilms;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"Error: {ex.Message}");
-                throw;
-            }
+            return topTenFilms;
         }
 
+
         #endregion
 
 
-        #region GetCustomersWithDueRentalsByStoreAsync
+        #region GetCustomersWithDueRentalsByStore
         /// <summary>
-        /// Retrieves a list of customers with overdue rentals for a specific store, mapping the results to a list of RentalDTO.
+        /// Retrieves a list of customers with overdue rentals for a specific store, mapping the results to a list of CustomerDTO.
         /// </summary>
         /// <param name="storeId"></param>
         /// <returns></returns>
         /// <exception cref="KeyNotFoundException"></exception>
-        public async Task<List<RentalDTO>> GetCustomersWithDueRentalsByStoreAsync(int storeId)
+       
+        public async Task<List<CustomerDTO>> GetCustomersWithDueRentalsByStore(int storeId)
         {
             try
             {
-                
-                var rentalsWithDueFilms = await (from rental in _context.Rentals
-                                                 join inventory in _context.Inventories on rental.InventoryId equals inventory.InventoryId
-                                                 join film in _context.Films on inventory.FilmId equals film.FilmId
-                                                 join customer in _context.Customers on rental.CustomerId equals customer.CustomerId
-                                                 where customer.StoreId == storeId && rental.ReturnDate == null
-                                                 select new RentalDTO
-                                                 {
-                                                     RentalId = rental.RentalId,
-                                                     RentalDate = rental.RentalDate,
-                                                     InventoryId = rental.InventoryId,
-                                                     CustomerId = rental.CustomerId,
-                                                     ReturnDate = rental.ReturnDate,
-                                                     StaffId = rental.StaffId,
-                                                     LastUpdate = rental.LastUpdate
-                                                 }).ToListAsync();
+                var customersWithDueRentals = await (from rental in _context.Rentals
+                                                     join inventory in _context.Inventories on rental.InventoryId equals inventory.InventoryId
+                                                     join film in _context.Films on inventory.FilmId equals film.FilmId
+                                                     join customer in _context.Customers on rental.CustomerId equals customer.CustomerId
+                                                     where customer.StoreId == storeId && rental.ReturnDate == null
+                                                     select customer).ToListAsync();
 
-                if (!rentalsWithDueFilms.Any())
+                if (!customersWithDueRentals.Any())
                 {
                     throw new KeyNotFoundException("No customers with due rentals found for the given store.");
                 }
 
-                return rentalsWithDueFilms;
+                
+                var result = _mapper.Map<List<CustomerDTO>>(customersWithDueRentals);
+
+                return result;
             }
             catch (Exception ex)
             {
@@ -227,29 +180,33 @@ namespace FilmRentalStore.Services
                 throw;
             }
         }
+
 
         #endregion
 
         #region  UpdateReturnDate
         /// <summary>
-        /// Updates the return date of a rental based on the rental ID, saves the changes, and returns a success status.
+        /// Updates the return date of a rental based on the rental ID, saves the changes, and returns rental
         /// </summary>
         /// <param name="rentalId"></param>
         /// <param name="returnDate"></param>
         /// <returns></returns>
-        public bool UpdateReturnDate(int rentalId, DateTime returnDate)
+
+        public async Task<Rental> UpdateReturnDate(int rentalId, DateTime returnDate)
         {
-            var rental = _context.Rentals.FirstOrDefault(r => r.RentalId == rentalId);
+            var rental =  _context.Rentals.FirstOrDefault(r => r.RentalId == rentalId);
             if (rental == null)
             {
-                return false; 
+                return null;
             }
 
             rental.ReturnDate = returnDate;
-            rental.LastUpdate = DateTime.Now; 
-            _context.SaveChanges();
-            return true;
+            rental.LastUpdate = DateTime.Now;
+            await _context.SaveChangesAsync(); 
+            return rental;
         }
+
+
         #endregion
 
 

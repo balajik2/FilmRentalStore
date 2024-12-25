@@ -22,9 +22,6 @@
 
         public decimal ReplacementCost { get; set; }
 
-        public string? Rating { get; set; }
-
-        public string? SpecialFeatures { get; set; }
 
         public DateTime LastUpdate { get; set; }
     }

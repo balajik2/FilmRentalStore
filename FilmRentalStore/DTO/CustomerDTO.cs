@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ﻿using FilmRentalStore.Models;
 
@@ -8,6 +9,13 @@
 {
     public class CustomerDTO
     {
+=======
+﻿namespace FilmRentalStore.DTO
+{
+    public class CustomerDTO
+    {
+
+>>>>>>> origin/FilmRentalStore-3
         public int CustomerId { get; set; }
 
         public int StoreId { get; set; }
@@ -25,6 +33,7 @@
         public DateTime CreateDate { get; set; }
 
         public DateTime LastUpdate { get; set; }
+<<<<<<< HEAD
 
        // public AddressDTO Addressval { get; internal set; }
 
@@ -41,5 +50,7 @@
 
         //public string Phone { get; set; }// = null!;
 
+=======
+>>>>>>> origin/FilmRentalStore-3
     }
 }

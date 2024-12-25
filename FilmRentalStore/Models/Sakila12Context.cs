@@ -634,7 +634,15 @@ public partial class Sakila12Context : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK__Ruser__3214EC0747DEDCFC");
 
+<<<<<<< HEAD
             entity.ToTable("Ruser");
+=======
+            entity.ToTable("Ruser", tb =>
+                {
+                    tb.HasTrigger("trg_HashPasswordOnInsert");
+                    tb.HasTrigger("trg_SetRoleID");
+                });
+>>>>>>> origin/FilmRentalStore-3
 
             entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.Password)
@@ -718,6 +726,7 @@ public partial class Sakila12Context : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("last_update");
+<<<<<<< HEAD
             entity.Property(e => e.Password)
                 .HasMaxLength(64)
                 .IsUnicode(false)
@@ -727,14 +736,19 @@ public partial class Sakila12Context : DbContext
                 .HasDefaultValueSql("(NULL)")
                 .HasColumnType("image")
                 .HasColumnName("picture");
+=======
+>>>>>>> origin/FilmRentalStore-3
             entity.Property(e => e.StoreId).HasColumnName("store_id");
             entity.Property(e => e.UrlPath)
                 .HasMaxLength(255)
                 .HasColumnName("url_path");
+<<<<<<< HEAD
             entity.Property(e => e.Username)
                 .HasMaxLength(16)
                 .IsUnicode(false)
                 .HasColumnName("username");
+=======
+>>>>>>> origin/FilmRentalStore-3
 
             entity.HasOne(d => d.Address).WithMany(p => p.Staff)
                 .HasForeignKey(d => d.AddressId)

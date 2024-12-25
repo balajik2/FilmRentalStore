@@ -14,22 +14,22 @@ public partial class Staff
     public int AddressId { get; set; }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     public byte[]? Picture { get; set; }
 
 =======
 >>>>>>> c9f394a110474532bb4f8cbdea417adb7c59f041
+=======
+>>>>>>> origin/FilmRentalStore-3
     public string? Email { get; set; }
 
     public int StoreId { get; set; }
 
     public bool Active { get; set; }
 
-    public string Username { get; set; } = null!;
-
-    public string? Password { get; set; }
-
     public DateTime LastUpdate { get; set; }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     public string? UrlPath { get; set; }
@@ -37,6 +37,10 @@ public partial class Staff
     public int? RoleId { get; set; }
 
 >>>>>>> c9f394a110474532bb4f8cbdea417adb7c59f041
+=======
+    public string? UrlPath { get; set; }
+
+>>>>>>> origin/FilmRentalStore-3
     public virtual Address Address { get; set; } = null!;
 
     public virtual ICollection<Payment> Payments { get; set; } = new List<Payment>();
