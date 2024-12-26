@@ -1,7 +1,5 @@
 [
   {
-<<<<<<< HEAD
-=======
     "ContainingType": "FilmRentalStore.Controllers.ActorController",
     "Method": "AssignFilmToActor",
     "RelativePath": "api/actors/{id}/film",
@@ -155,7 +153,6 @@
     "ReturnTypes": []
   },
   {
->>>>>>> origin/master
     "ContainingType": "FilmRentalStore.Controllers.AuthController",
     "Method": "Authenticate",
     "RelativePath": "api/Auth/login",
@@ -964,35 +961,6 @@
   },
   {
     "ContainingType": "FilmRentalStore.Controllers.PaymentController",
-<<<<<<< HEAD
-=======
-    "Method": "GetCumulativeRevenueAllFilmsByStore",
-    "RelativePath": "api/Payment/GetCumulativeRevenueByFilmAndStore",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FilmRentalStore.Controllers.PaymentController",
-    "Method": "GetCumulativeRevenueForAStore",
-    "RelativePath": "api/Payment/GetCumulativeRevenueForAStore",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "storeId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FilmRentalStore.Controllers.PaymentController",
->>>>>>> origin/master
     "Method": "GetCumulativeRevenueOfAllStores",
     "RelativePath": "api/Payment/GetCumulativeRevenueOfAllStores",
     "HttpMethod": "GET",
@@ -1055,8 +1023,6 @@
     "ReturnTypes": []
   },
   {
-<<<<<<< HEAD
-=======
     "ContainingType": "FilmRentalStore.Controllers.RentalController",
     "Method": "RentFilm",
     "RelativePath": "api/rental/add",
@@ -1152,7 +1118,6 @@
     "ReturnTypes": []
   },
   {
->>>>>>> origin/master
     "ContainingType": "FilmRentalStore.Controllers.StaffController",
     "Method": "AddStaff",
     "RelativePath": "api/Staff/AddStaff",

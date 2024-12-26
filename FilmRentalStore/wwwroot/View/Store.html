@@ -1,0 +1,111 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Store.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Store Management</h1>
+
+        <!-- Buttons for actions -->
+        <div class="mb-3">
+            <button id="getStoresBtn" class="btn btn-primary"> Get Store By City</button>
+            <button id="addStoreBtn" class="btn btn-success">Add Store</button>
+        </div>
+
+        <!-- Table to display stores -->
+        <table id="storeTable" class="table table-striped table-bordered" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Store ID</th>
+                    <th>Store Name</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>City</th>
+                    <th>Country</th>
+                    <th>Manager</th>
+                    <th>Last Update</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+       
+        <h2>Add Store</h2>
+        <textarea id="storeRequestBody" rows="15" cols="50" class="form-control mb-3">
+{
+    "storeId": 0,
+    "storeName": "string",
+    "address": "string",
+    "phone": "string",
+    "city": "string",
+    "country": "string",
+    "managerId": 0,
+    "lastUpdate": "string"
+}
+        </textarea>
+        <pre id="storeResponseDetails" class="alert alert-info"></pre>
+
+        <!-- Section for searching stores by city -->
+        <h2>Search Store By City</h2>
+        <div class="mb-3">
+            <label for="city" class="form-label">Enter City:</label>
+            <input type="text" id="city" class="form-control" placeholder="Enter city name" required>
+            <button id="getStoreByCityBtn" class="btn btn-secondary mt-2">Get Store By City</button>
+        </div>
+
+        <!-- Table to display search results -->
+        <!--<table id="searchStoreTable" class="table table-striped table-bordered" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Store ID</th>
+                    <th>Store Name</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>City</th>
+                    <th>Country</th>
+                    <th>Manager</th>
+                    <th>Last Update</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>-->
+
+        <!-- Section for updating store details -->
+        <!--<h2>Update Store Phone</h2>
+        <div class="mb-3">
+            <label for="updateStoreId" class="form-label">Enter Store ID:</label>
+            <input type="number" id="updateStoreId" class="form-control" placeholder="Enter store ID" required>
+
+            <label for="updateStorePhone" class="form-label mt-2">Enter New Phone:</label>
+            <input type="text" id="updateStorePhone" class="form-control" placeholder="Enter new phone number" required>
+
+            <button id="updateStorePhoneBtn" class="btn btn-warning mt-3">Update Phone</button>
+        </div>-->
+
+        <!-- Table to display the updated store details -->
+        <!--<table id="updatedStoreTable" class="table table-striped table-bordered" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Store ID</th>
+                    <th>Store Name</th>
+                    <th>Address</th>
+                    <th>Phone</th>
+                    <th>City</th>
+                    <th>Country</th>
+                    <th>Manager</th>
+                    <th>Last Update</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>-->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Store.js"></script>
+</body>
+</html>
