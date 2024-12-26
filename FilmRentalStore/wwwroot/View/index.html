@@ -13,11 +13,15 @@
 <body>
 
 
-    <h1>Customer List</h1>
-    <button id="GetAllCustomers">Fetch Customers</button>
-    <ul id="customerList"></ul>
+    <button id="customer">Customer</button>
+    <script>
 
-    <script src="../js/Sample.js"></script>
+        document.getElementById('customer').addEventListener('click', function () {
+
+            window.location.href = '/View/customer.html';
+        });
+
+    </script>
 
 </body>
 </html>
