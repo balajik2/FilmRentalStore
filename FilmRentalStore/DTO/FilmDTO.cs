@@ -21,7 +21,7 @@
         public short? Length { get; set; }
 
         public decimal ReplacementCost { get; set; }
-
+        public string? Rating { get; set; }
 
         public DateTime LastUpdate { get; set; }
     }
