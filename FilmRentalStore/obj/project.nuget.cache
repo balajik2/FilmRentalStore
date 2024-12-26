@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NJrubgxyozU=",
+  "dgSpecHash": "kv5ZMZQKmV8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\FilmRentalStore\\FilmRentalStore.csproj",
+  "projectFilePath": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SV63\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\SV63\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
@@ -90,5 +90,12 @@
     "C:\\Users\\SV63\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\SV63\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
