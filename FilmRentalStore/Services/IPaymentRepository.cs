@@ -7,8 +7,8 @@ namespace FilmRentalStore.Services
         Task<List<PaymentDTO>> MakePayment(int paymentId, decimal amount);
         Task<List<PaymentDTO>> GetCumulativeRevenueOfAllStores();
         Task<List<PaymentDTO>> GetCumulativeRevenueForAStore(int storeId);
-        Task<List<PaymentDTO>> GetPaymentsByFilmTitle(string filmTitle);
-        Task<List<PaymentDTO>> GetCumulativeRevenueStoreWise(int storeid);
-        Task<List<PaymentDTO>> GetCumulativeRevenueAllFilmsByStore();
+        Task<List<PaymentWithFilmDTO>> GetPaymentsByFilmTitle(string filmTitle);
+        Task<List<PaymentWithAddressDTO>> GetCumulativeRevenueStoreWise(int storeid);
+        Task<List<PaymentWithFilmDTO>> GetCumulativeRevenueAllFilmsByStore();
     }
 }

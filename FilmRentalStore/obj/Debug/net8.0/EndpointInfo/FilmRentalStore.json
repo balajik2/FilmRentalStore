@@ -1083,6 +1083,31 @@
         }
       }
     },
+<<<<<<< HEAD
+=======
+    "/api/Inventory/id": {
+      "get": {
+        "tags": [
+          "Inventory"
+        ],
+        "parameters": [
+          {
+            "name": "filmid",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+>>>>>>> origin/master
     "/api/Inventory/Films": {
       "get": {
         "tags": [

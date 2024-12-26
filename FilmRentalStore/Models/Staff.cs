@@ -13,6 +13,8 @@ public partial class Staff
 
     public int AddressId { get; set; }
 
+    public byte[]? Picture { get; set; }
+
     public string? Email { get; set; }
 
     public int StoreId { get; set; }
