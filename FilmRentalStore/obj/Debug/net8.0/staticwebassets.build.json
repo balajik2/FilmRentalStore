@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "n1RJUm2q2d4PMIyLBlKvaPXKu7q6jE8dFhAF7mpBKd4=",
+  "Hash": "cDv0Mi/vHVto95uB/DTRK45Td2wjFmiQcbf9cFk6aUM=",
   "Source": "FilmRentalStore",
   "BasePath": "_content/FilmRentalStore",
   "Mode": "Default",
@@ -115,8 +115,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "okf3um2d82",
-      "Integrity": "mMfEalzQ3bYkhv1DVbpL3rnDpEGE6iCZTYRDEVimFk0=",
+      "Fingerprint": "5bf5l532gl",
+      "Integrity": "wfUAGAM6FZJWGrWCHexaZi6TB6Zl/5jJtyWsVk3rRQw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\login.html"
@@ -515,6 +515,51 @@
       ]
     },
     {
+      "Route": "View/login.5bf5l532gl.html",
+      "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5955"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wfUAGAM6FZJWGrWCHexaZi6TB6Zl/5jJtyWsVk3rRQw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 26 Dec 2024 09:47:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5bf5l532gl"
+        },
+        {
+          "Name": "label",
+          "Value": "View/login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wfUAGAM6FZJWGrWCHexaZi6TB6Zl/5jJtyWsVk3rRQw="
+        }
+      ]
+    },
+    {
       "Route": "View/login.html",
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\login.html",
       "Selectors": [],
@@ -533,11 +578,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"mMfEalzQ3bYkhv1DVbpL3rnDpEGE6iCZTYRDEVimFk0=\""
+          "Value": "\"wfUAGAM6FZJWGrWCHexaZi6TB6Zl/5jJtyWsVk3rRQw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 09:43:15 GMT"
+          "Value": "Thu, 26 Dec 2024 09:47:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -547,52 +592,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-mMfEalzQ3bYkhv1DVbpL3rnDpEGE6iCZTYRDEVimFk0="
-        }
-      ]
-    },
-    {
-      "Route": "View/login.okf3um2d82.html",
-      "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\login.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5955"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"mMfEalzQ3bYkhv1DVbpL3rnDpEGE6iCZTYRDEVimFk0=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 09:43:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "okf3um2d82"
-        },
-        {
-          "Name": "label",
-          "Value": "View/login.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-mMfEalzQ3bYkhv1DVbpL3rnDpEGE6iCZTYRDEVimFk0="
+          "Value": "sha256-wfUAGAM6FZJWGrWCHexaZi6TB6Zl/5jJtyWsVk3rRQw="
         }
       ]
     },
