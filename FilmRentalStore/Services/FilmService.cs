@@ -206,7 +206,7 @@ namespace FilmRentalStore.Services
                 })
                 .ToListAsync();
 
-            return actors; // Directly return the actors list
+            return actors;
         }
 
         #endregion

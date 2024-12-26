@@ -3,6 +3,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Security.Cryptography;
 using System.Text;
 
 namespace FilmRentalStore.Services
@@ -20,43 +21,35 @@ namespace FilmRentalStore.Services
         }
         public string Authenticate(string username, string password)
         {
-            //var user = _context.Rusers.Include(u => u.Role).FirstOrDefault(u => u.UserName == username && u.PassWord == password);
-            //if (user == null)
-            //{
-            //    return null;
-            //}
+            //dynamic user = null;
+            //string roleName = null;
 
-            dynamic user = null;
-            string roleName = null;
+            var ruser = _context.Rusers
+                .FromSqlInterpolated($"EXEC GetRuserByCredentials @Username = {username}, @Password = {password}")
+                .AsEnumerable() 
+                .FirstOrDefault();
 
-            var ruser = _context.Rusers.Include(u => u.Role)
-                                       .FirstOrDefault(u => u.Username == username && u.Password == password);
-
+            
             if (ruser != null)
             {
-                user = ruser;
-                roleName = ruser.Role.Name;
+                ruser.Role = _context.Roles.FirstOrDefault(r => r.Id == ruser.RoleId);
             }
-            else
-            {
-                var staff = _context.Staff.Include(u => u.Role)
-                                          .FirstOrDefault(u => u.Username == username && u.Password == password);
 
-                if (staff != null)
-                {
-                    user = staff;
-                    roleName = staff.Role.Name; 
-                }
-            }
-            if (user == null) return null;
-            Console.WriteLine(user.Username);
+            //if (ruser != null)
+            //{
+            //    user = ruser;
+            //    roleName = ruser.Role.Name;
+            //}
+            
+            if (ruser == null) return null;
+            Console.WriteLine(ruser.Username);
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_configuration["Jwt:Key"]);
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(new[] {
-                new Claim(ClaimTypes.Name, user.Username),
-                new Claim(ClaimTypes.Role, user.Role.Name)
+                new Claim(ClaimTypes.Name, ruser.Username),
+                new Claim(ClaimTypes.Role, ruser.Role.Name)
             }),
                 Expires = DateTime.UtcNow.AddDays(7),
                 Audience = _configuration["Jwt:Audience"],  // Ensure the Audience is set
@@ -68,5 +61,7 @@ namespace FilmRentalStore.Services
             return tokenHandler.WriteToken(token);
             
         }
+        
     }
+
 }

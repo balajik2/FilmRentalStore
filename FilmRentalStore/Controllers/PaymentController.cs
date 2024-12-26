@@ -142,6 +142,7 @@ namespace FilmRentalStore.Controllers
         [HttpGet("GetPaymentsByFilmTitle")]
         public async Task<IActionResult> GetPaymentsByFilmTitle(string filmTitle)
         {
+
             try
             {
                 if (string.IsNullOrEmpty(filmTitle))
@@ -150,7 +151,7 @@ namespace FilmRentalStore.Controllers
                 }
 
                 var result = await _context.GetPaymentsByFilmTitle(filmTitle);
-                return Ok(new { data = result, message = "Film details are in film table" });
+                return Ok(result);
             }
             catch (Exception ex)
             {
