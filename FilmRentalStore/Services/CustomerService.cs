@@ -84,15 +84,17 @@ namespace FilmRentalStore.Services
         {
             var cust = await _context.Customers.FirstOrDefaultAsync(s => s.CustomerId == customer.CustomerId);
 
-            if (cust == null)
+            if (cust== null)
             {
                 return null;
+                
             }
 
             var address = await _context.Addresses.FirstOrDefaultAsync(s => s.AddressId == customer.AddressId);
 
-            if (address == null)
+            if (address== null)
             {
+                //throw new Exception("addressid doesn't exist");
                 return null;
             }
 
