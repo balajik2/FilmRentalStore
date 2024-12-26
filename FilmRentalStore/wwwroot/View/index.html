@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job List</title>
+    <script>// Clear token only on full reload, not on navigation
+        if (performance.navigation.type === performance.navigation.TYPE_RELOAD) {
+            localStorage.removeItem('jwtToken');
+        }</script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+
+
+    <button id="customer">Customer</button>
+    <script>
+
+        document.getElementById('customer').addEventListener('click', function () {
+
+            window.location.href = '/View/customer.html';
+        });
+
+    </script>
+
+</body>
+</html>
