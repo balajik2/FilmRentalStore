@@ -1,7 +1,10 @@
 ﻿using AutoMapper;
+using Dapper;
+using Microsoft.Data.SqlClient;
 using FilmRentalStore.DTO;
 using FilmRentalStore.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Data;
 using System.Text.RegularExpressions;
 
 namespace FilmRentalStore.Services
@@ -29,10 +32,16 @@ namespace FilmRentalStore.Services
                 return null;
             }
 
+            // Custom Exception
+            if (pay.Amount == amount)
+            {
+                throw new InvalidOperationException("The new amount is the same as the current amount. No update needed.");
+            }
+
             pay.Amount = amount;
             await _context.SaveChangesAsync();
 
-            //To fetch the updated details list
+            //To fetch the updated data
             var updatedlist = await _context.Payments.Where(s => s.StaffId == pay.PaymentId).ToListAsync();
 
             return _mapper.Map<List<PaymentDTO>>(updatedlist);
@@ -92,42 +101,47 @@ namespace FilmRentalStore.Services
 
         #region GetPaymentsByFilmTitle
 
-        public async Task<List<PaymentDTO>> GetPaymentsByFilmTitle(string filmTitle)
+        public async Task<List<PaymentWithFilmDTO>> GetPaymentsByFilmTitle(string filmTitle)
         {
             var result = await (from p in _context.Payments
                                 join r in _context.Rentals on p.RentalId equals r.RentalId
                                 join i in _context.Inventories on r.InventoryId equals i.InventoryId
                                 join f in _context.Films on i.FilmId equals f.FilmId
                                 where f.Title == filmTitle
-                                select new PaymentDTO
+                                select new PaymentWithFilmDTO
                                 {
+                                    Title = filmTitle,
                                     PaymentId = p.PaymentId,
                                     CustomerId = p.CustomerId,
                                     StaffId = p.StaffId,
                                     RentalId = p.RentalId,
                                     Amount = p.Amount,
                                     PaymentDate = p.PaymentDate,
-                                    LastUpdate = p.LastUpdate
+                                    LastUpdate = p.LastUpdate,
+                                    
                                 }).ToListAsync();
 
             return result;
         }
+        
 
         #endregion
 
 
         #region GetCumulativeRevenueStoreWise
 
-        public async Task<List<PaymentDTO>> GetCumulativeRevenueStoreWise(int storeid)
+        public async Task<List<PaymentWithAddressDTO>> GetCumulativeRevenueStoreWise(int storeid)
         {
             try
             {
                 var result = await (from payment in _context.Payments
                                       join staff in _context.Staff on payment.StaffId equals staff.StaffId
                                       join store in _context.Stores on staff.StoreId equals store.StoreId
+                                      join addres in _context.Addresses on store.AddressId equals addres.AddressId
                                       where store.StoreId == storeid  // Filter by the provided storeId
-                                      select new PaymentDTO
+                                      select new PaymentWithAddressDTO
                                       {
+                                          
                                           PaymentId = payment.PaymentId,
                                           CustomerId = payment.CustomerId,
                                           StaffId = payment.StaffId,
@@ -153,7 +167,7 @@ namespace FilmRentalStore.Services
 
         #region GetCumulativeRevenueAllFilmsByStore
 
-        public async Task<List<PaymentDTO>> GetCumulativeRevenueAllFilmsByStore()
+        public async Task<List<PaymentWithFilmDTO>> GetCumulativeRevenueAllFilmsByStore()
         {
             try
             {
@@ -164,9 +178,9 @@ namespace FilmRentalStore.Services
                                     join staff in _context.Staff on payment.StaffId equals staff.StaffId
                                     join store in _context.Stores on staff.StoreId equals store.StoreId
                                     group new { payment, film, store } by new { film.FilmId, store.StoreId, film.Title } into grouped
-                                    select new PaymentDTO
+                                    select new PaymentWithFilmDTO
                                     {
-                                        
+                                        Title = grouped.FirstOrDefault().film.Title,
                                         PaymentId = grouped.FirstOrDefault().payment.PaymentId, 
                                         CustomerId = grouped.FirstOrDefault().payment.CustomerId,
                                         StaffId = grouped.FirstOrDefault().payment.StaffId, 
