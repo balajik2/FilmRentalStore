@@ -1,5 +1,4 @@
 ﻿using FilmRentalStore.DTO;
-using FluentValidation;
 using FilmRentalStore.Validators;
 
 namespace FilmRentalStore.Validators
