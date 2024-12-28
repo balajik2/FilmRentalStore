@@ -1,20 +1,11 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "Hash": "AS6daIHFbRXYrv0ubj8HUTEO1Pf2tBGwQhgfM1DwQgA=",
-=======
-  "Hash": "p4tSrdyenpW6ilTUVH1/5KBBE/Xw8DxMZUnqiYGuIt0=",
->>>>>>> origin/FilmRentalStore-5
-=======
   "Hash": "jGQsXLoDRIDAi/RPSFUmcvMIiWdaiU2gzucKjmHzagk=",
->>>>>>> origin/FilmRentalStore-2
   "Source": "FilmRentalStore",
   "BasePath": "_content/FilmRentalStore",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-<<<<<<< HEAD
   "DiscoveryPatterns": [
     {
       "Name": "FilmRentalStore\\wwwroot",
@@ -197,9 +188,4 @@
       "OriginalItemSpec": "wwwroot\\View\\login.html"
     }
   ]
-=======
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
->>>>>>> origin/FilmRentalStore-5
 }
