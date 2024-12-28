@@ -41,11 +41,11 @@ namespace FilmRentalStore.Controllers
         [HttpPost("post")]
         public async Task<IActionResult> AddFilm(FilmDTO film)
         {
-            var validationResult = _customFilmValidator.Validate(film);
-           
-            if (validationResult.Any())
+            
+            var validationErrors = _customFilmValidator.Validate(film);
+            if (validationErrors.Any()) 
             {
-                return BadRequest(new { Errors = validationResult });
+                return BadRequest(validationErrors);
             }
 
             await _filmRepository.AddFilm(film);
