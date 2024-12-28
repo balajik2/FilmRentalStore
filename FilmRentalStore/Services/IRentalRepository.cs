@@ -14,10 +14,10 @@ namespace FilmRentalStore.Services
         Task<List<Top10RentedFilmDTO>> GetTopTenRentedFilms();
         Task<List<Top10RentedFilmDTO>> GetTopTenRentedFilmsByStore(int storeId);
         Task<List<CustomerDTO>> GetCustomersWithDueRentalsByStore(int storeId);
+        Task<RentalDTO> UpdateReturnDate(int rentalId, DateTime returnDate);
 
 
-
-        Task<Rental> UpdateReturnDate(int rentalId, DateTime returnDate);
+        
 
 
 

@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using Dapper;
 using Microsoft.Data.SqlClient;
 using FilmRentalStore.DTO;
 using FilmRentalStore.Models;
