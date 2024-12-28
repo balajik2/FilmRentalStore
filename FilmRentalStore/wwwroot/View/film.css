@@ -21,30 +21,30 @@ h1, h2 {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, #ff0000, #000000);
+    background: linear-gradient(135deg, #d3d3d3, #000000);
     border: none;
 }
 
     .btn-primary:hover {
-        background: linear-gradient(135deg, #ff0000, #000000);
+        background: linear-gradient(135deg,#000000, #d3d3d3);
     }
 
 .btn-success {
-    background: linear-gradient(135deg, #ff0000, #000000);
+    background: linear-gradient(135deg, #d3d3d3, #000000);
     border: none;
 }
 
     .btn-success:hover {
-        background: linear-gradient(135deg, #ff0000, #000000);
+        background: linear-gradient(135deg, #d3d3d3, #000000);
     }
 
 .btn-secondary {
-    background: linear-gradient(135deg, #ff0000, #000000);
+    background: linear-gradient(135deg, #d3d3d3, #000000);
     border: none;
 }
 
     .btn-secondary:hover {
-        background: linear-gradient(135deg, #ff0000, #000000);
+        background: linear-gradient(135deg, #d3d3d3, #000000);
     }
 
 .btn:disabled {
@@ -52,7 +52,7 @@ h1, h2 {
 }
 
 .btn:hover {
-    background: linear-gradient(135deg, #000000, #ff0000);
+    background: linear-gradient(135deg, #d3d3d3, #000000);
 }
 
 
@@ -87,7 +87,7 @@ table#customerTable, table#searchCustomerTable {
     display: none;
 }
 
- Form Inputs 
+ 
 .form-control {
     font-size: 16px;
     padding: 10px;
@@ -101,12 +101,11 @@ table#customerTable, table#searchCustomerTable {
         box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
     }
 
- Textarea 
 textarea.form-control {
     height: 250px;
 }
 
- Response Details 
+
 #responseDetails {
     white-space: pre-wrap;
     background-color: #e9ecef;
@@ -115,7 +114,6 @@ textarea.form-control {
     margin-top: 20px;
 }
 
- Alerts 
 .alert-info {
     background-color: #d1ecf1;
     color: #0c5460;
@@ -123,13 +121,12 @@ textarea.form-control {
     border-radius: 5px;
 }
 
- Loading State 
+
 button:disabled {
     cursor: not-allowed;
     background-color: #ccc;
 }
 
- Centering Content 
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -139,7 +136,7 @@ button:disabled {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
- Spacing 
+
 .mb-3 {
     margin-bottom: 15px;
 }
@@ -148,9 +145,6 @@ button:disabled {
     margin-top: 50px;
 }
 
- Custom Styling for Specific Components 
-
- Search and Update Sections 
 section {
     margin-bottom: 30px;
 }
@@ -173,7 +167,7 @@ input[type="number"], select {
         box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
     }
 
- Buttons in Sections 
+ 
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -192,7 +186,7 @@ button {
         cursor: not-allowed;
     }
 
- Tables for Results 
+  
 table {
     width: 100%;
     margin-top: 20px;
@@ -220,7 +214,7 @@ table#updatedFilmTable {
     display: none;
 }
 
- Miscellaneous 
+
 .mb-3 {
     margin-bottom: 15px;
 }
@@ -228,5 +222,8 @@ table#updatedFilmTable {
 .mt-5 {
     margin-top: 50px;
 }
+
+
+
 
 

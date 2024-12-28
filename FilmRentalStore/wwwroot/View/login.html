@@ -4,17 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="icon" href="https://img.icons8.com/?size=100&id=81290&format=png&color=000000" type="image/png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/18607/18607014.png" type="image/png">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <style>
         body {
             font-family: 'Roboto', Arial, sans-serif;
-/*            background: linear-gradient(to right, black, red, black), linear-gradient(to bottom, black, red, black);*/
-            background-color:black;
+            background: linear-gradient(135deg, #000000 25%, #333333 45%, #555555 60%, #888888 75%, #d3d3d3 90%);
+            /*            background: linear-gradient(135deg, #000000 40%, #1a1a1a 50%, #4f4f4f 65%, #9c9c9c 80%, #d3d3d3 95%);*/
             background-blend-mode: multiply; /* Blends the gradients for a cohesive look */
             height: 100vh;
             margin: 0;
@@ -25,18 +24,38 @@
             color: white; /* Ensures text is visible */
         }
 
-        h1.title {
-            font-family: "Orbitron", serif;
-            font-optical-sizing: auto;
-            font-weight: 700;
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+            .logo img {
+                width: 50px; /* Adjust size as per your logo */
+                height: auto;
+            }
+
+
+
+
+        .rubik-80s-fade-regular {
+            font-family: "Rubik 80s Fade", serif;
+            font-weight: 400;
             font-style: normal;
-            backface-visibility:hidden /* Black background */
-            letter-spacing: 0.1em; /* Add space between letters */
-            font-size: 3rem;
+        }
+
+        h1.title {
+            font-family: "Share Tech Mono", serif;
+            font-optical-sizing: auto;
+            /*            font-weight: 300;*/
+            /*            font-style: normal;*/
+            backface-visibility: hidden;
+            letter-spacing: 5px;
+            font-size: 30px;
             font-weight: bold;
-            color: white; /* White text for Film Rental Store */
+            color: white;
             margin-bottom: 30px;
-            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Subtle shadow for better visibility */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
         }
 
         #loginForm {
@@ -121,52 +140,56 @@
     </style>
 
 </head>
-    <body>
+<body>
 
-        <h1 class="title">FILM RENTAL STORE</h1>
-        <form id="loginForm">
-            <h2>Login</h2>
-            <label for="username">Username</label>
-            <input type="text" id="username" placeholder="Enter your username" required>
+    <div class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/128/18607/18607014.png" alt="Film Logo"> <!-- Your film logo here -->
+    </div>
 
-            <label for="password">Password</label>
-            <input type="password" id="password" placeholder="Enter your password" required>
+    <h1 class="title">FILM RENTAL STORE</h1>
+    <form id="loginForm">
+        <h2>Login</h2>
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Enter your username" required>
 
-            <button type="submit">Submit</button>
-            <div id="errorMessage" style="display: none;"></div>
-        </form>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
 
-        <script>
-            $(document).ready(function () {
-                $('#loginForm').submit(function (event) {
-                    event.preventDefault();
+        <button type="submit">Submit</button>
+        <div id="errorMessage" style="display: none;"></div>
+    </form>
 
-                    const loginData = {
-                        username: $('#username').val(),
-                        password: $('#password').val(),
-                    };
+    <script>
+        $(document).ready(function () {
+            $('#loginForm').submit(function (event) {
+                event.preventDefault();
 
-                    $.ajax({
-                        url: 'https://localhost:7239/api/Auth/login',
-                        type: 'POST',
-                        contentType: 'application/json',
-                        data: JSON.stringify(loginData),
-                        success: function (token) {
-                            alert('Login successful!');
-                            localStorage.setItem('jwtToken', token); // Store token in localStorage
-                            console.log('Token:', token);
-                            window.location.href = '/View/index.html'; // Redirect to index.html
-                        },
-                        error: function (xhr) {
-                            let errorMessage = 'An error occurred. Please try again.';
-                            if (xhr.responseText) {
-                                errorMessage = xhr.responseText; // Show server error message if available
-                            }
-                            $('#errorMessage').text(errorMessage).show(); // Display the error
-                        },
-                    });
+                const loginData = {
+                    username: $('#username').val(),
+                    password: $('#password').val(),
+                };
+
+                $.ajax({
+                    url: 'https://localhost:7239/api/Auth/login',
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify(loginData),
+                    success: function (token) {
+                        alert('Login successful!');
+                        localStorage.setItem('jwtToken', token); // Store token in localStorage
+                        console.log('Token:', token);
+                        window.location.href = '/View/index.html'; // Redirect to index.html
+                    },
+                    error: function (xhr) {
+                        let errorMessage = 'An error occurred. Please try again.';
+                        if (xhr.responseText) {
+                            errorMessage = xhr.responseText; // Show server error message if available
+                        }
+                        $('#errorMessage').text(errorMessage).show(); // Display the error
+                    },
                 });
             });
-        </script>
-    </body>
+        });
+    </script>
+</body>
 </html>
