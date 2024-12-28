@@ -2,6 +2,7 @@
 using FilmRentalStore.DTO;
 using FilmRentalStore.Models;
 using FilmRentalStore.Services;
+using FilmRentalStore.Validators;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -15,12 +16,13 @@ namespace FilmRentalStore.Controllers
     public class FilmController : ControllerBase
     {
         private readonly IFilmRepository _filmRepository;
-        private readonly IValidator<FilmDTO> _validator;
+        //private readonly IValidator<FilmDTO> _validator;
+        private readonly CustomFilmValidator _customFilmValidator;
 
-        public FilmController(IFilmRepository filmRepository,IValidator<FilmDTO> validator)
+        public FilmController(IFilmRepository filmRepository, CustomFilmValidator validator)
         {
             _filmRepository = filmRepository;
-            _validator=validator;
+            _customFilmValidator= validator;
         }
 
 
@@ -39,11 +41,11 @@ namespace FilmRentalStore.Controllers
         [HttpPost("post")]
         public async Task<IActionResult> AddFilm(FilmDTO film)
         {
-            var validationResult = _validator.Validate(film);
+            var validationResult = _customFilmValidator.Validate(film);
            
-            if (!validationResult.IsValid)
+            if (validationResult.Any())
             {
-                return BadRequest(validationResult.Errors);
+                return BadRequest(new { Errors = validationResult });
             }
 
             await _filmRepository.AddFilm(film);
@@ -526,8 +528,8 @@ namespace FilmRentalStore.Controllers
         /// <param name="rentalduration"></param>
         /// <returns></returns>
 
-        [HttpPut("update/rentaldurtion/{filmid}")]
-        [Authorize(Roles = "admin")]
+        [HttpPut("update/rentalduration/{filmId}")]
+        [Authorize(Roles = "admin,staff")]
         public async Task<IActionResult> UpdateRentalDurationOfFilm(int filmid, byte rentalduration)
         {
             try
@@ -616,7 +618,7 @@ namespace FilmRentalStore.Controllers
 
         [HttpPut("update/language/{filmid}")]
         [Authorize(Roles = "admin")]
-        public async Task<IActionResult> UpdateLanguageOfFilm(int filmid, LanguageDTO language)
+        public async Task<IActionResult> UpdateLanguageOfFilm(int filmid, [FromBody] LanguageDTO language)
         {
             try
             {
@@ -642,7 +644,7 @@ namespace FilmRentalStore.Controllers
 
         [HttpPut("update/category/{filmid}")]
         [Authorize(Roles = "admin")]
-        public async Task<IActionResult> UpdateCategoryOfFilm(int filmid, int CategoryId)
+        public async Task<IActionResult> UpdateCategoryOfFilm(int filmid,[FromQuery] int CategoryId)
         {
             try
             {
@@ -656,25 +658,6 @@ namespace FilmRentalStore.Controllers
         }
 
         #endregion
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }

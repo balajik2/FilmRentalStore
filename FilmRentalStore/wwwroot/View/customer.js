@@ -25,7 +25,7 @@ function handleAuthError(xhr) {
     if (xhr.status === 401) {
         alert('Authentication expired. Please log in again.');
         localStorage.removeItem('jwtToken');
-        window.location.href = '/login'; // Redirect to login page or show login modal
+        window.location.href = '/View/login.html'; // Redirect to login page or show login modal
     }
 }
 

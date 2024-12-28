@@ -242,8 +242,6 @@ namespace FilmRentalStore.Services
             staff.FirstName = staffDto.FirstName;
             staff.LastName = staffDto.LastName;
             staff.Email = staffDto.Email;
-            staff.Username = staffDto.Username;
-            staff.Password = staffDto.Password;
             staff.Active = staffDto.Active;
             staff.UrlPath = staffDto.UrlPath;
             staff.StaffId = staffDto.StaffId;
