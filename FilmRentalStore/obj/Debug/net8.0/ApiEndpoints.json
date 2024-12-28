@@ -1,15 +1,5 @@
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-[]
-=======
 [
   {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 34f00d45a8f1ecd248c4b0f595663c88b6ac5ad8
-=======
     "ContainingType": "FilmRentalStore.Controllers.ActorController",
     "Method": "AssignFilmToActor",
     "RelativePath": "api/actors/{id}/film",
@@ -163,7 +153,6 @@
     "ReturnTypes": []
   },
   {
->>>>>>> origin/master
     "ContainingType": "FilmRentalStore.Controllers.AuthController",
     "Method": "Authenticate",
     "RelativePath": "api/Auth/login",
@@ -180,13 +169,6 @@
     "ReturnTypes": []
   },
   {
-<<<<<<< HEAD
-=======
-[
-  {
->>>>>>> ef91ec8b3b724d9adbfa63bca53b84cea953efe9
-=======
->>>>>>> 34f00d45a8f1ecd248c4b0f595663c88b6ac5ad8
     "ContainingType": "FilmRentalStore.Controllers.CustomerController",
     "Method": "AddCustomer",
     "RelativePath": "api/Customers",
@@ -221,9 +203,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "customer",
-        "Type": "FilmRentalStore.DTO.CustomerDTO",
-        "IsRequired": true
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "addressid",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -276,6 +263,22 @@
       {
         "Name": "country",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "GetCustomerById",
+    "RelativePath": "api/Customers/customerbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -1579,9 +1582,4 @@
     ],
     "ReturnTypes": []
   }
-<<<<<<< HEAD
 ]
->>>>>>> Stashed changes
-=======
-]
->>>>>>> ef91ec8b3b724d9adbfa63bca53b84cea953efe9
