@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="icon" href="https://img.icons8.com/?size=100&id=81290&format=png&color=000000" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <style>
         body {
             font-family: 'Roboto', Arial, sans-serif;
-            background: linear-gradient(to right, black, red, black), linear-gradient(to bottom, black, red, black);
+/*            background: linear-gradient(to right, black, red, black), linear-gradient(to bottom, black, red, black);*/
+            background-color:black;
             background-blend-mode: multiply; /* Blends the gradients for a cohesive look */
             height: 100vh;
             margin: 0;
@@ -22,6 +26,12 @@
         }
 
         h1.title {
+            font-family: "Orbitron", serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            backface-visibility:hidden /* Black background */
+            letter-spacing: 0.1em; /* Add space between letters */
             font-size: 3rem;
             font-weight: bold;
             color: white; /* White text for Film Rental Store */
@@ -72,7 +82,7 @@
         button {
             width: 100%;
             padding: 12px;
-            background: linear-gradient(135deg, #ff0000, #000000); /* Gradient button from red to black */
+            background: linear-gradient(135deg, #d3d3d3, #000000); /* Gradient button from red to black */
             color: white;
             border: none;
             border-radius: 6px;
@@ -85,7 +95,7 @@
             button:hover {
                 transform: scale(1.05); /* Slight zoom on hover */
                 opacity: 0.9; /* Slight transparency on hover */
-                background: linear-gradient(135deg, #000000, #ff0000);
+                background: linear-gradient(135deg, #000000, #d3d3d3);
             }
 
         #errorMessage {
@@ -115,7 +125,7 @@
 
         <h1 class="title">FILM RENTAL STORE</h1>
         <form id="loginForm">
-            <h1>Login</h1>
+            <h2>Login</h2>
             <label for="username">Username</label>
             <input type="text" id="username" placeholder="Enter your username" required>
 
