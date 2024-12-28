@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj": {}
   },
   "projects": {
@@ -12,9 +13,27 @@
         "projectPath": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
         "packagesPath": "C:\\Users\\BAKUMARE\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\obj\\",
+=======
+    "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj",
+        "projectName": "FilmRentalStore",
+        "projectPath": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj",
+        "packagesPath": "C:\\Users\\SV63\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\obj\\",
+>>>>>>> origin/master
         "projectStyle": "PackageReference",
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\BAKUMARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\SV63\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> origin/master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
