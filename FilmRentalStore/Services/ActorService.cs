@@ -56,15 +56,21 @@ namespace FilmRentalStore.Services
         /// </summary>
         /// <param name="lastName"></param>
         /// <returns></returns>
-        public async Task<ActorDTO> GetActorsByLastName(string lastName)
+        public async Task<List<ActorDTO>> GetActorsByLastName(string lastName)
         {
-           
-            var actorList = await _context.Actors.FirstOrDefaultAsync(c => c.LastName == lastName);
-            if(actorList == null)
+            // Retrieve the list of actors matching the given first name
+            var actorList = await _context.Actors
+                .Where(c => c.LastName == lastName)
+                .ToListAsync();
+
+            // If no actors are found, return an empty list
+            if (actorList == null || actorList.Count == 0)
             {
-                return null;
+                return new List<ActorDTO>();
             }
-            return _mapper.Map<ActorDTO>(actorList);
+
+            // Map the list of actors to a list of ActorDTO
+            return _mapper.Map<List<ActorDTO>>(actorList);
         }
         #endregion
 
@@ -74,15 +80,21 @@ namespace FilmRentalStore.Services
         /// </summary>
         /// <param name="firstName"></param>
         /// <returns></returns>
-        public async Task<ActorDTO> GetActorsByFirstName(string firstName)
+        public async Task<List<ActorDTO>> GetActorsByFirstName(string firstName)
         {
+            // Retrieve the list of actors matching the given first name
+            var actorList = await _context.Actors
+                .Where(c => c.FirstName == firstName)
+                .ToListAsync();
 
-            var actorList = await _context.Actors.FirstOrDefaultAsync(c => c.FirstName == firstName);
-            if (actorList == null)
+            // If no actors are found, return an empty list
+            if (actorList == null || actorList.Count == 0)
             {
-                return null;
+                return new List<ActorDTO>();
             }
-            return _mapper.Map<ActorDTO>(actorList);
+
+            // Map the list of actors to a list of ActorDTO
+            return _mapper.Map<List<ActorDTO>>(actorList);
         }
         #endregion
 
@@ -212,48 +224,50 @@ namespace FilmRentalStore.Services
 
         #region GetTopTenActorsByFilmCount
         /// <summary>
-        /// Retrieves the top 10 actors based on the number of films they have appeared in, and returns the results as a list of ActorDTOs.
+        /// Retrieves the top 10 actors based on the number of films they have appeared in, and returns the results as a list of Top10ActorByFilmDTO.
         /// </summary>
         /// <returns></returns>
-        public async Task<List<ActorDTO>> GetTopTenActorsByFilmCount()
+        public async Task<List<Top10ActorByFilmDTO>> GetTopTenActorsByFilmCount()
         {
-            
+
             var updatedList = await _context.Actors
                 .Join(
-                    _context.FilmActors, 
-                    actor => actor.ActorId, 
-                    filmActor => filmActor.ActorId, 
+                    _context.FilmActors,
+                    actor => actor.ActorId,
+                    filmActor => filmActor.ActorId,
                     (actor, filmActor) => new { actor, filmActor }
                 )
                 .GroupBy(joined => new
                 {
                     joined.actor.ActorId,
                     joined.actor.FirstName,
-                    joined.actor.LastName,
-                    joined.actor.LastUpdate
-                }) 
-                .Select(group => new
-                { group.Key.ActorId,
-                     group.Key.FirstName,
-                    group.Key.LastName,
-                    group.Key.LastUpdate,
-                    FilmCount = group.Count() 
+                    joined.actor.LastName
+
                 })
-                .OrderByDescending(group => group.FilmCount) 
-                .Take(10) 
+                .Select(group => new
+                {
+                    group.Key.ActorId,
+                    group.Key.FirstName,
+                    group.Key.LastName,
+
+                    FilmCount = group.Count()
+                })
+                .OrderByDescending(group => group.FilmCount)
+                .Take(10)
                 .ToListAsync();
 
-            
-               var result = updatedList.Select(actor => new ActorDTO
-               {
-                   ActorId = actor.ActorId,
-                   FirstName = actor.FirstName,
-                   LastName = actor.LastName,
-                   LastUpdate = actor.LastUpdate
-               }).ToList();
+
+            var result = updatedList.Select(actor => new Top10ActorByFilmDTO
+            {
+                ActorId = actor.ActorId,
+                FirstName = actor.FirstName,
+                LastName = actor.LastName,
+                NoOfFilm = actor.FilmCount
+
+            }).ToList();
 
 
-                return result;
+            return result;
         }
 
         #endregion

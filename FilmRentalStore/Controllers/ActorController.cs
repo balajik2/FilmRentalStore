@@ -54,44 +54,27 @@ namespace FilmRentalStore.Controllers
                 return BadRequest(ex.Message);
             }
         }
-
-
         [HttpGet("/api/actors/lastname/{ln}")]
+
         public async Task<IActionResult> GetActorsByLastName(string ln)
         {
-            try
+            var actors = await _actorRepository.GetActorsByLastName(ln);
+            if (actors == null || actors.Count == 0)
             {
-                ActorDTO actor = await _actorRepository.GetActorsByLastName(ln);
-                if(actor == null)
-                {
-                    return NotFound();
-                }
-                return Ok(actor);
+                return NotFound("No actors found with the given last name.");
             }
-            catch(Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            return Ok(actors);
         }
         [HttpGet("/api/actors/firstname/{fn}")]
-
         public async Task<IActionResult> GetActorsByFirstName(string fn)
         {
-            try
+            var actors = await _actorRepository.GetActorsByFirstName(fn);
+            if (actors == null || actors.Count == 0)
             {
-                ActorDTO actor = await _actorRepository.GetActorsByFirstName(fn);
-                if (actor == null)
-                {
-                    return NotFound();
-                }
-                return Ok(actor);
+                return NotFound("No actors found with the given first name.");
             }
-            catch (Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
+            return Ok(actors);
         }
-
         [HttpPut("/api/actors/update/lastname/{id}")]
 
 
