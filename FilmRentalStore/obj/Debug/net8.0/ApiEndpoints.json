@@ -203,9 +203,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "customer",
-        "Type": "FilmRentalStore.DTO.CustomerDTO",
-        "IsRequired": true
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "addressid",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -258,6 +263,22 @@
       {
         "Name": "country",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "GetCustomerById",
+    "RelativePath": "api/Customers/customerbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],

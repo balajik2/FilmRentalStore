@@ -63,7 +63,7 @@ public partial class Sakila12Context : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=INBLRVM26590142;Database=sakila12;Trusted_Connection=True; TrustServerCertificate=True;");
+        => optionsBuilder.UseSqlServer("Server=INBLRVM26590142;Database=sakila12;Trusted_Connection=True;\n\nTrustServerCertificate=true;");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -634,15 +634,11 @@ public partial class Sakila12Context : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK__Ruser__3214EC0747DEDCFC");
 
-
-            entity.ToTable("Ruser");
-
             entity.ToTable("Ruser", tb =>
                 {
                     tb.HasTrigger("trg_HashPasswordOnInsert");
                     tb.HasTrigger("trg_SetRoleID");
                 });
-
 
             entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.Password)
@@ -726,36 +722,15 @@ public partial class Sakila12Context : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("last_update");
-
-            entity.Property(e => e.Password)
-                .HasMaxLength(64)
-                .IsUnicode(false)
-                .HasDefaultValueSql("(NULL)")
-                .HasColumnName("password");
-            entity.Property(e => e.Picture)
-                .HasDefaultValueSql("(NULL)")
-                .HasColumnType("image")
-                .HasColumnName("picture");
-
             entity.Property(e => e.StoreId).HasColumnName("store_id");
             entity.Property(e => e.UrlPath)
                 .HasMaxLength(255)
                 .HasColumnName("url_path");
 
-            entity.Property(e => e.Username)
-                .HasMaxLength(16)
-                .IsUnicode(false)
-                .HasColumnName("username");
-
-
             entity.HasOne(d => d.Address).WithMany(p => p.Staff)
                 .HasForeignKey(d => d.AddressId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_staff_address");
-
-            entity.HasOne(d => d.Role).WithMany(p => p.Staff)
-                .HasForeignKey(d => d.RoleId)
-                .HasConstraintName("FK_Staff_Role");
 
             entity.HasOne(d => d.Store).WithMany(p => p.Staff)
                 .HasForeignKey(d => d.StoreId)
