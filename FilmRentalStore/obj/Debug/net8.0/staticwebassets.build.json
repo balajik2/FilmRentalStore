@@ -1,22 +1,6 @@
 {
   "Version": 1,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  "Hash": "AS6daIHFbRXYrv0ubj8HUTEO1Pf2tBGwQhgfM1DwQgA=",
-=======
-  "Hash": "p4tSrdyenpW6ilTUVH1/5KBBE/Xw8DxMZUnqiYGuIt0=",
->>>>>>> origin/FilmRentalStore-5
-=======
-  "Hash": "jGQsXLoDRIDAi/RPSFUmcvMIiWdaiU2gzucKjmHzagk=",
->>>>>>> origin/FilmRentalStore-2
-=======
-  "Hash": "KtWEcdjceMR9pFcUGyr2aSn9IX6mkngM22wuq2WoVk4=",
->>>>>>> origin/FilmRentalStore-3
-=======
-  "Hash": "BQIOeXBfc73zO37/Hu3XJOVQdU/RfYC+c9jfKf5t4rA=",
->>>>>>> origin/FilmRentalStore-1
+  "Hash": "ls2OHlp5DQl1psKuDCwoeP51APqCvd72/9FfiJy6VRw=",
   "Source": "FilmRentalStore",
   "BasePath": "_content/FilmRentalStore",
   "Mode": "Default",
@@ -26,32 +10,19 @@
     {
       "Name": "FilmRentalStore\\wwwroot",
       "Source": "FilmRentalStore",
-<<<<<<< HEAD
-      "ContentRoot": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\",
-=======
       "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
->>>>>>> origin/FilmRentalStore-1
       "BasePath": "_content/FilmRentalStore",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.css",
-=======
-      "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\customer.css",
->>>>>>> origin/FilmRentalStore-1
+      "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Actor.css",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
       "BasePath": "_content/FilmRentalStore",
-<<<<<<< HEAD
-      "RelativePath": "View/customer.css",
-=======
-      "RelativePath": "View/customer#[.{fingerprint}]?.css",
->>>>>>> origin/FilmRentalStore-1
+      "RelativePath": "View/Actor#[.{fingerprint}]?.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -60,8 +31,71 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4ra6b2zkt9",
-      "Integrity": "8N7APaO4d08fOYwyKrM/CbRODBmPldt1CkIZVW3aVJM=",
+      "Fingerprint": "3sqbqudg76",
+      "Integrity": "rUFX22y3xJG4j33JZkazetXi3NwO5yFyGbqg2bzAsx8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\View\\Actor.css"
+    },
+    {
+      "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Actor.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/Actor#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5ati7l4s94",
+      "Integrity": "vX90wLlG4VpN9XuZBhqhwtF9P4EQoR0cYWj45xYbwxk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\View\\Actor.html"
+    },
+    {
+      "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Actor.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/Actor#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "me5ndk0yqu",
+      "Integrity": "4gfHi5yGXgvSB97tvLiz7xOOEtvT2sDSuN3hKwK20Ds=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\View\\Actor.js"
+    },
+    {
+      "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\customer.css",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/customer#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "jzuyycoah4",
+      "Integrity": "oRxnVRRbYvWoDtOf/5z+/oWE74ZGFjYSQnabv2FsEY8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\customer.css"
@@ -102,11 +136,95 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "z2gjbzfkez",
-      "Integrity": "1eCK8dDQB/iWFk4kI4TeO1+17KVQZ2MD/OlBGqcJohk=",
+      "Fingerprint": "cql6wg6hrb",
+      "Integrity": "hLN2QZ+9ODM4SMGarbgF32CUEpSTSd9ak8leaUEE3j4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\customer.js"
+    },
+    {
+      "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\film.css",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/film#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sdkme6gsfg",
+      "Integrity": "UEnavuPhVV/EevmUljQH8UhIpkF3VefpMp452i8fuTY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\View\\film.css"
+    },
+    {
+      "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\film.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/film#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5cfsnrvq2l",
+      "Integrity": "W5AzmCpdYrmjYpyk156bLsA6QLH4eowE7PQXIw6TOS8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\View\\film.html"
+    },
+    {
+      "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\film.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/film#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g0w7eyviii",
+      "Integrity": "0KOjMuTkPy19MS3TxRa7gveWPw1gkNS9tAoTU716u4o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\View\\film.js"
+    },
+    {
+      "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\homepage.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/homepage#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rd31ng9wzv",
+      "Integrity": "ofGomGnb/JOqtIjf6Iau6CNTj/6vil1cG96/kKASQO0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\View\\homepage.html"
     },
     {
       "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\index.html",
@@ -123,288 +241,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ppi7uqkx13",
-      "Integrity": "fWBrac6Et2w3ryJ/mnFEVP6pXvV53XKC+y/YIrL3cLI=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\View\\customer.css"
-    },
-    {
-      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.html",
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
-      "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/customer.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\View\\customer.html"
-    },
-    {
-      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.js",
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
-      "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/customer.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\View\\customer.js"
-    },
-    {
-      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.css",
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
-      "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/film.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\View\\film.css"
-    },
-    {
-      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.html",
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
-      "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/film.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\View\\film.html"
-    },
-    {
-      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.js",
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
-      "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/film.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\View\\film.js"
-    },
-    {
-      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\homepage.html",
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
-      "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/homepage.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\View\\homepage.html"
-    },
-    {
-      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\index.html",
-=======
-      "Identity": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Actor.css",
->>>>>>> origin/FilmRentalStore-3
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\",
-      "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/Actor#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "3sqbqudg76",
-      "Integrity": "rUFX22y3xJG4j33JZkazetXi3NwO5yFyGbqg2bzAsx8=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\View\\Actor.css"
-    },
-    {
-      "Identity": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Actor.html",
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\",
-      "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/Actor#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "5ati7l4s94",
-      "Integrity": "vX90wLlG4VpN9XuZBhqhwtF9P4EQoR0cYWj45xYbwxk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\View\\Actor.html"
-    },
-    {
-      "Identity": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Actor.js",
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\",
-      "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/Actor#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "me5ndk0yqu",
-      "Integrity": "4gfHi5yGXgvSB97tvLiz7xOOEtvT2sDSuN3hKwK20Ds=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\View\\Actor.js"
-    },
-    {
-      "Identity": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\customer.css",
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\",
-      "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/customer#[.{fingerprint}]?.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "4ra6b2zkt9",
-      "Integrity": "8N7APaO4d08fOYwyKrM/CbRODBmPldt1CkIZVW3aVJM=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\View\\customer.css"
-    },
-    {
-      "Identity": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\customer.html",
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\",
-      "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/customer#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "6yey11ix9c",
-      "Integrity": "0tp0V6qzz5Gmbp64PuIC+lAark+SDDDxbisu9PE20pk=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\View\\customer.html"
-    },
-    {
-      "Identity": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\customer.js",
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\",
-      "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/customer#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "f4gcgz798h",
-      "Integrity": "nwh9Igl4gvso+vBIai+KieQuXjlBbPH027l4Ui3W+Zo=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\View\\customer.js"
-    },
-    {
-      "Identity": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\index.html",
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\",
-      "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/index#[.{fingerprint}]?.html",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "hunm34cfc4",
-      "Integrity": "ORXuyPZjc3oUwF+gihxhvpBbIG+2TCV/o/ebZV3wac8=",
+      "Fingerprint": "pfmf1131cq",
+      "Integrity": "qyuBUJunjWHWIkL9yP339O571dmNyLXQypUbS8xt+qM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\index.html"
     },
     {
-<<<<<<< HEAD
-      "Identity": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\login.html",
-      "SourceId": "FilmRentalStore",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\",
-=======
       "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\login.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
->>>>>>> origin/FilmRentalStore-1
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/login#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -415,20 +262,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5bf5l532gl",
-      "Integrity": "wfUAGAM6FZJWGrWCHexaZi6TB6Zl/5jJtyWsVk3rRQw=",
+      "Fingerprint": "jojiulr9n2",
+      "Integrity": "3Yl8XtO6penSszCWXiHHm5nPAS0UqweyUdjxX/YlyW8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\login.html"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
     },
     {
-      "Identity": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Rental.css",
+      "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Rental.css",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Rental#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -446,10 +290,10 @@
       "OriginalItemSpec": "wwwroot\\View\\Rental.css"
     },
     {
-      "Identity": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Rental.html",
+      "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Rental.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Rental#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -460,17 +304,17 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gm9unfkza0",
-      "Integrity": "yGAjutBwttP84Ir9BKumVWjQ3sAj3FqiTYtr0RMc9g4=",
+      "Fingerprint": "jg82qhc1vi",
+      "Integrity": "rSrVuEZdblDQpz1kC3jGefO4kq8e0pOH5Y2Rnsagu2Q=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\Rental.html"
     },
     {
-      "Identity": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Rental.js",
+      "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Rental.js",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Rental#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -491,7 +335,7 @@
   "Endpoints": [
     {
       "Route": "View/Actor.3sqbqudg76.css",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Actor.css",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Actor.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -512,7 +356,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 04:51:28 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -536,7 +380,7 @@
     },
     {
       "Route": "View/Actor.5ati7l4s94.html",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Actor.html",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Actor.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -557,7 +401,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 19:15:08 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -581,7 +425,7 @@
     },
     {
       "Route": "View/Actor.css",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Actor.css",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Actor.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -602,7 +446,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 04:51:28 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -618,7 +462,7 @@
     },
     {
       "Route": "View/Actor.html",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Actor.html",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Actor.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -639,7 +483,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 19:15:08 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -655,7 +499,7 @@
     },
     {
       "Route": "View/Actor.js",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Actor.js",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Actor.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -676,7 +520,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 19:12:03 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -692,7 +536,7 @@
     },
     {
       "Route": "View/Actor.me5ndk0yqu.js",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Actor.js",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Actor.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -713,7 +557,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 19:12:03 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -736,15 +580,8 @@
       ]
     },
     {
-      "Route": "View/customer.4ra6b2zkt9.css",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\customer.css",
-=======
-    }
-  ],
-  "Endpoints": [
-    {
-      "Route": "View/customer.4ra6b2zkt9.css",
-      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\customer.css",
+      "Route": "View/customer.cql6wg6hrb.js",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\customer.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -753,19 +590,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2739"
+          "Value": "38147"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/css"
+          "Value": "text/javascript"
         },
         {
           "Name": "ETag",
-          "Value": "\"8N7APaO4d08fOYwyKrM/CbRODBmPldt1CkIZVW3aVJM=\""
+          "Value": "\"hLN2QZ+9ODM4SMGarbgF32CUEpSTSd9ak8leaUEE3j4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 09:50:03 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -775,22 +612,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4ra6b2zkt9"
+          "Value": "cql6wg6hrb"
         },
         {
           "Name": "label",
-          "Value": "View/customer.css"
+          "Value": "View/customer.js"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8N7APaO4d08fOYwyKrM/CbRODBmPldt1CkIZVW3aVJM="
+          "Value": "sha256-hLN2QZ+9ODM4SMGarbgF32CUEpSTSd9ak8leaUEE3j4="
         }
       ]
     },
     {
       "Route": "View/customer.css",
       "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\customer.css",
->>>>>>> origin/FilmRentalStore-1
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -799,7 +635,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2739"
+          "Value": "3934"
         },
         {
           "Name": "Content-Type",
@@ -807,51 +643,27 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8N7APaO4d08fOYwyKrM/CbRODBmPldt1CkIZVW3aVJM=\""
+          "Value": "\"oRxnVRRbYvWoDtOf/5z+/oWE74ZGFjYSQnabv2FsEY8=\""
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Thu, 26 Dec 2024 05:25:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-=======
-          "Value": "Sat, 28 Dec 2024 09:50:03 GMT"
+          "Value": "Sat, 28 Dec 2024 13:37:45 GMT"
         },
         {
           "Name": "Cache-Control",
           "Value": "no-cache"
->>>>>>> origin/FilmRentalStore-1
         }
       ],
       "EndpointProperties": [
         {
-<<<<<<< HEAD
-          "Name": "fingerprint",
-          "Value": "4ra6b2zkt9"
-        },
-        {
-          "Name": "label",
-          "Value": "View/customer.css"
-        },
-        {
-=======
->>>>>>> origin/FilmRentalStore-1
           "Name": "integrity",
-          "Value": "sha256-8N7APaO4d08fOYwyKrM/CbRODBmPldt1CkIZVW3aVJM="
+          "Value": "sha256-oRxnVRRbYvWoDtOf/5z+/oWE74ZGFjYSQnabv2FsEY8="
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "Route": "View/customer.6yey11ix9c.html",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\customer.html",
-=======
       "Route": "View/customer.html",
       "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\customer.html",
->>>>>>> origin/FilmRentalStore-1
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -860,11 +672,7 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "11115"
-=======
           "Value": "16438"
->>>>>>> origin/FilmRentalStore-1
         },
         {
           "Name": "Content-Type",
@@ -872,18 +680,11 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"0tp0V6qzz5Gmbp64PuIC+lAark+SDDDxbisu9PE20pk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 05:25:36 GMT"
-=======
           "Value": "\"NkLJZx2zuibkDM2ybesV6msEBk/bwrwrsi+p6ZUM6wU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 10:40:45 GMT"
+          "Value": "Sat, 28 Dec 2024 13:37:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -920,8 +721,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 10:40:45 GMT"
->>>>>>> origin/FilmRentalStore-1
+          "Value": "Sat, 28 Dec 2024 13:37:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -931,11 +731,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-<<<<<<< HEAD
-          "Value": "6yey11ix9c"
-=======
           "Value": "i6m21ww32m"
->>>>>>> origin/FilmRentalStore-1
         },
         {
           "Name": "label",
@@ -943,22 +739,13 @@
         },
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-0tp0V6qzz5Gmbp64PuIC+lAark+SDDDxbisu9PE20pk="
-=======
           "Value": "sha256-NkLJZx2zuibkDM2ybesV6msEBk/bwrwrsi+p6ZUM6wU="
->>>>>>> origin/FilmRentalStore-1
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "Route": "View/customer.css",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\customer.css",
-=======
       "Route": "View/customer.js",
       "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\customer.js",
->>>>>>> origin/FilmRentalStore-1
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -967,8 +754,44 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "2739"
+          "Value": "38147"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"hLN2QZ+9ODM4SMGarbgF32CUEpSTSd9ak8leaUEE3j4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-hLN2QZ+9ODM4SMGarbgF32CUEpSTSd9ak8leaUEE3j4="
+        }
+      ]
+    },
+    {
+      "Route": "View/customer.jzuyycoah4.css",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\customer.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3934"
         },
         {
           "Name": "Content-Type",
@@ -976,84 +799,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8N7APaO4d08fOYwyKrM/CbRODBmPldt1CkIZVW3aVJM=\""
+          "Value": "\"oRxnVRRbYvWoDtOf/5z+/oWE74ZGFjYSQnabv2FsEY8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 05:25:36 GMT"
-=======
-          "Value": "38137"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1eCK8dDQB/iWFk4kI4TeO1+17KVQZ2MD/OlBGqcJohk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 10:52:26 GMT"
->>>>>>> origin/FilmRentalStore-1
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-8N7APaO4d08fOYwyKrM/CbRODBmPldt1CkIZVW3aVJM="
-=======
-          "Value": "sha256-1eCK8dDQB/iWFk4kI4TeO1+17KVQZ2MD/OlBGqcJohk="
->>>>>>> origin/FilmRentalStore-1
-        }
-      ]
-    },
-    {
-<<<<<<< HEAD
-      "Route": "View/customer.f4gcgz798h.js",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\customer.js",
-=======
-      "Route": "View/customer.z2gjbzfkez.js",
-      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\customer.js",
->>>>>>> origin/FilmRentalStore-1
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "24145"
-=======
-          "Value": "38137"
->>>>>>> origin/FilmRentalStore-1
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"nwh9Igl4gvso+vBIai+KieQuXjlBbPH027l4Ui3W+Zo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 05:25:36 GMT"
-=======
-          "Value": "\"1eCK8dDQB/iWFk4kI4TeO1+17KVQZ2MD/OlBGqcJohk=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 28 Dec 2024 10:52:26 GMT"
->>>>>>> origin/FilmRentalStore-1
+          "Value": "Sat, 28 Dec 2024 13:37:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1063,26 +813,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-<<<<<<< HEAD
-          "Value": "f4gcgz798h"
-=======
-          "Value": "z2gjbzfkez"
->>>>>>> origin/FilmRentalStore-1
+          "Value": "jzuyycoah4"
         },
         {
           "Name": "label",
-          "Value": "View/customer.js"
+          "Value": "View/customer.css"
         },
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-nwh9Igl4gvso+vBIai+KieQuXjlBbPH027l4Ui3W+Zo="
+          "Value": "sha256-oRxnVRRbYvWoDtOf/5z+/oWE74ZGFjYSQnabv2FsEY8="
         }
       ]
     },
     {
-      "Route": "View/customer.html",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\customer.html",
+      "Route": "View/film.5cfsnrvq2l.html",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\film.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1091,7 +836,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "11115"
+          "Value": "29388"
         },
         {
           "Name": "Content-Type",
@@ -1099,27 +844,35 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0tp0V6qzz5Gmbp64PuIC+lAark+SDDDxbisu9PE20pk=\""
+          "Value": "\"W5AzmCpdYrmjYpyk156bLsA6QLH4eowE7PQXIw6TOS8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 05:25:36 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "no-cache"
+          "Value": "max-age=31536000, immutable"
         }
       ],
       "EndpointProperties": [
         {
+          "Name": "fingerprint",
+          "Value": "5cfsnrvq2l"
+        },
+        {
+          "Name": "label",
+          "Value": "View/film.html"
+        },
+        {
           "Name": "integrity",
-          "Value": "sha256-0tp0V6qzz5Gmbp64PuIC+lAark+SDDDxbisu9PE20pk="
+          "Value": "sha256-W5AzmCpdYrmjYpyk156bLsA6QLH4eowE7PQXIw6TOS8="
         }
       ]
     },
     {
-      "Route": "View/customer.js",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\customer.js",
+      "Route": "View/film.css",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\film.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1128,19 +881,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "24145"
+          "Value": "4000"
         },
         {
           "Name": "Content-Type",
-          "Value": "text/javascript"
+          "Value": "text/css"
         },
         {
           "Name": "ETag",
-          "Value": "\"nwh9Igl4gvso+vBIai+KieQuXjlBbPH027l4Ui3W+Zo=\""
+          "Value": "\"UEnavuPhVV/EevmUljQH8UhIpkF3VefpMp452i8fuTY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 05:25:36 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1150,20 +903,259 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-nwh9Igl4gvso+vBIai+KieQuXjlBbPH027l4Ui3W+Zo="
-=======
-          "Value": "sha256-1eCK8dDQB/iWFk4kI4TeO1+17KVQZ2MD/OlBGqcJohk="
->>>>>>> origin/FilmRentalStore-1
+          "Value": "sha256-UEnavuPhVV/EevmUljQH8UhIpkF3VefpMp452i8fuTY="
+        }
+      ]
+    },
+    {
+      "Route": "View/film.g0w7eyviii.js",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\film.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0KOjMuTkPy19MS3TxRa7gveWPw1gkNS9tAoTU716u4o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g0w7eyviii"
+        },
+        {
+          "Name": "label",
+          "Value": "View/film.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0KOjMuTkPy19MS3TxRa7gveWPw1gkNS9tAoTU716u4o="
+        }
+      ]
+    },
+    {
+      "Route": "View/film.html",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\film.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "29388"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"W5AzmCpdYrmjYpyk156bLsA6QLH4eowE7PQXIw6TOS8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-W5AzmCpdYrmjYpyk156bLsA6QLH4eowE7PQXIw6TOS8="
+        }
+      ]
+    },
+    {
+      "Route": "View/film.js",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\film.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "55605"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0KOjMuTkPy19MS3TxRa7gveWPw1gkNS9tAoTU716u4o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0KOjMuTkPy19MS3TxRa7gveWPw1gkNS9tAoTU716u4o="
+        }
+      ]
+    },
+    {
+      "Route": "View/film.sdkme6gsfg.css",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\film.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4000"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UEnavuPhVV/EevmUljQH8UhIpkF3VefpMp452i8fuTY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sdkme6gsfg"
+        },
+        {
+          "Name": "label",
+          "Value": "View/film.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UEnavuPhVV/EevmUljQH8UhIpkF3VefpMp452i8fuTY="
+        }
+      ]
+    },
+    {
+      "Route": "View/homepage.html",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\homepage.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ofGomGnb/JOqtIjf6Iau6CNTj/6vil1cG96/kKASQO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ofGomGnb/JOqtIjf6Iau6CNTj/6vil1cG96/kKASQO0="
+        }
+      ]
+    },
+    {
+      "Route": "View/homepage.rd31ng9wzv.html",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\homepage.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ofGomGnb/JOqtIjf6Iau6CNTj/6vil1cG96/kKASQO0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rd31ng9wzv"
+        },
+        {
+          "Name": "label",
+          "Value": "View/homepage.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ofGomGnb/JOqtIjf6Iau6CNTj/6vil1cG96/kKASQO0="
         }
       ]
     },
     {
       "Route": "View/index.html",
-<<<<<<< HEAD
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\index.html",
-=======
       "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\index.html",
->>>>>>> origin/FilmRentalStore-1
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1172,11 +1164,7 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "1138"
-=======
-          "Value": "748"
->>>>>>> origin/FilmRentalStore-1
+          "Value": "1359"
         },
         {
           "Name": "Content-Type",
@@ -1184,19 +1172,11 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"ORXuyPZjc3oUwF+gihxhvpBbIG+2TCV/o/ebZV3wac8=\""
+          "Value": "\"qyuBUJunjWHWIkL9yP339O571dmNyLXQypUbS8xt+qM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 04:59:06 GMT"
-=======
-          "Value": "\"fWBrac6Et2w3ryJ/mnFEVP6pXvV53XKC+y/YIrL3cLI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 07:17:34 GMT"
->>>>>>> origin/FilmRentalStore-1
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1206,22 +1186,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-ORXuyPZjc3oUwF+gihxhvpBbIG+2TCV/o/ebZV3wac8="
-=======
-          "Value": "sha256-fWBrac6Et2w3ryJ/mnFEVP6pXvV53XKC+y/YIrL3cLI="
->>>>>>> origin/FilmRentalStore-1
+          "Value": "sha256-qyuBUJunjWHWIkL9yP339O571dmNyLXQypUbS8xt+qM="
         }
       ]
     },
     {
-<<<<<<< HEAD
-      "Route": "View/index.hunm34cfc4.html",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\index.html",
-=======
-      "Route": "View/index.ppi7uqkx13.html",
+      "Route": "View/index.pfmf1131cq.html",
       "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\index.html",
->>>>>>> origin/FilmRentalStore-1
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1230,11 +1201,7 @@
         },
         {
           "Name": "Content-Length",
-<<<<<<< HEAD
-          "Value": "1138"
-=======
-          "Value": "748"
->>>>>>> origin/FilmRentalStore-1
+          "Value": "1359"
         },
         {
           "Name": "Content-Type",
@@ -1242,19 +1209,11 @@
         },
         {
           "Name": "ETag",
-<<<<<<< HEAD
-          "Value": "\"ORXuyPZjc3oUwF+gihxhvpBbIG+2TCV/o/ebZV3wac8=\""
+          "Value": "\"qyuBUJunjWHWIkL9yP339O571dmNyLXQypUbS8xt+qM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 04:59:06 GMT"
-=======
-          "Value": "\"fWBrac6Et2w3ryJ/mnFEVP6pXvV53XKC+y/YIrL3cLI=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 07:17:34 GMT"
->>>>>>> origin/FilmRentalStore-1
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1264,11 +1223,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-<<<<<<< HEAD
-          "Value": "hunm34cfc4"
-=======
-          "Value": "ppi7uqkx13"
->>>>>>> origin/FilmRentalStore-1
+          "Value": "pfmf1131cq"
         },
         {
           "Name": "label",
@@ -1276,74 +1231,13 @@
         },
         {
           "Name": "integrity",
-<<<<<<< HEAD
-          "Value": "sha256-ORXuyPZjc3oUwF+gihxhvpBbIG+2TCV/o/ebZV3wac8="
-=======
-          "Value": "sha256-fWBrac6Et2w3ryJ/mnFEVP6pXvV53XKC+y/YIrL3cLI="
->>>>>>> origin/FilmRentalStore-1
-        }
-      ]
-    },
-    {
-      "Route": "View/login.5bf5l532gl.html",
-<<<<<<< HEAD
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\login.html",
-=======
-      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\login.html",
->>>>>>> origin/FilmRentalStore-1
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5955"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"wfUAGAM6FZJWGrWCHexaZi6TB6Zl/5jJtyWsVk3rRQw=\""
-        },
-        {
-          "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Thu, 26 Dec 2024 05:25:36 GMT"
-=======
-          "Value": "Thu, 26 Dec 2024 09:27:40 GMT"
->>>>>>> origin/FilmRentalStore-1
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "5bf5l532gl"
-        },
-        {
-          "Name": "label",
-          "Value": "View/login.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-wfUAGAM6FZJWGrWCHexaZi6TB6Zl/5jJtyWsVk3rRQw="
+          "Value": "sha256-qyuBUJunjWHWIkL9yP339O571dmNyLXQypUbS8xt+qM="
         }
       ]
     },
     {
       "Route": "View/login.html",
-<<<<<<< HEAD
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\login.html",
-=======
       "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\login.html",
->>>>>>> origin/FilmRentalStore-1
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1352,7 +1246,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5955"
+          "Value": "6523"
         },
         {
           "Name": "Content-Type",
@@ -1360,15 +1254,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"wfUAGAM6FZJWGrWCHexaZi6TB6Zl/5jJtyWsVk3rRQw=\""
+          "Value": "\"3Yl8XtO6penSszCWXiHHm5nPAS0UqweyUdjxX/YlyW8=\""
         },
         {
           "Name": "Last-Modified",
-<<<<<<< HEAD
-          "Value": "Thu, 26 Dec 2024 05:25:36 GMT"
-=======
-          "Value": "Thu, 26 Dec 2024 09:27:40 GMT"
->>>>>>> origin/FilmRentalStore-1
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1378,14 +1268,58 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-wfUAGAM6FZJWGrWCHexaZi6TB6Zl/5jJtyWsVk3rRQw="
+          "Value": "sha256-3Yl8XtO6penSszCWXiHHm5nPAS0UqweyUdjxX/YlyW8="
         }
       ]
-<<<<<<< HEAD
+    },
+    {
+      "Route": "View/login.jojiulr9n2.html",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\login.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6523"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3Yl8XtO6penSszCWXiHHm5nPAS0UqweyUdjxX/YlyW8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jojiulr9n2"
+        },
+        {
+          "Name": "label",
+          "Value": "View/login.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3Yl8XtO6penSszCWXiHHm5nPAS0UqweyUdjxX/YlyW8="
+        }
+      ]
     },
     {
       "Route": "View/Rental.9p2xbzizar.css",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Rental.css",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Rental.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1406,7 +1340,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 11:17:27 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1430,7 +1364,7 @@
     },
     {
       "Route": "View/Rental.css",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Rental.css",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Rental.css",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1451,7 +1385,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 11:17:27 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1466,53 +1400,8 @@
       ]
     },
     {
-      "Route": "View/Rental.gm9unfkza0.html",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Rental.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5684"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"yGAjutBwttP84Ir9BKumVWjQ3sAj3FqiTYtr0RMc9g4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 19:41:16 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "gm9unfkza0"
-        },
-        {
-          "Name": "label",
-          "Value": "View/Rental.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-yGAjutBwttP84Ir9BKumVWjQ3sAj3FqiTYtr0RMc9g4="
-        }
-      ]
-    },
-    {
       "Route": "View/Rental.html",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Rental.html",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Rental.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1521,7 +1410,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5684"
+          "Value": "5729"
         },
         {
           "Name": "Content-Type",
@@ -1529,11 +1418,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"yGAjutBwttP84Ir9BKumVWjQ3sAj3FqiTYtr0RMc9g4=\""
+          "Value": "\"rSrVuEZdblDQpz1kC3jGefO4kq8e0pOH5Y2Rnsagu2Q=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 19:41:16 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1543,13 +1432,58 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-yGAjutBwttP84Ir9BKumVWjQ3sAj3FqiTYtr0RMc9g4="
+          "Value": "sha256-rSrVuEZdblDQpz1kC3jGefO4kq8e0pOH5Y2Rnsagu2Q="
+        }
+      ]
+    },
+    {
+      "Route": "View/Rental.jg82qhc1vi.html",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Rental.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5729"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rSrVuEZdblDQpz1kC3jGefO4kq8e0pOH5Y2Rnsagu2Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "jg82qhc1vi"
+        },
+        {
+          "Name": "label",
+          "Value": "View/Rental.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rSrVuEZdblDQpz1kC3jGefO4kq8e0pOH5Y2Rnsagu2Q="
         }
       ]
     },
     {
       "Route": "View/Rental.js",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Rental.js",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Rental.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1570,7 +1504,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 19:41:13 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1586,7 +1520,7 @@
     },
     {
       "Route": "View/Rental.kxc1ymywju.js",
-      "AssetFile": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Rental.js",
+      "AssetFile": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Rental.js",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1607,7 +1541,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 27 Dec 2024 19:41:13 GMT"
+          "Value": "Sat, 28 Dec 2024 13:39:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1628,9 +1562,6 @@
           "Value": "sha256-SG5a6xAO9kWnqk+HzEJrgr1fz0KZqzd1T0CnZgLaMj8="
         }
       ]
->>>>>>> origin/FilmRentalStore-3
-=======
->>>>>>> origin/FilmRentalStore-1
     }
   ]
 }
