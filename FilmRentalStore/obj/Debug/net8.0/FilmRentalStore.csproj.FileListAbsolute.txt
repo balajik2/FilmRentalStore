@@ -149,3 +149,5 @@ C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\obj\Debug\net8.0\refint\FilmR
 C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\obj\Debug\net8.0\FilmRentalStore.pdb
 C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\obj\Debug\net8.0\FilmRentalStore.genruntimeconfig.cache
 C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\obj\Debug\net8.0\ref\FilmRentalStore.dll
+C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\bin\Debug\net8.0\Moq.dll
