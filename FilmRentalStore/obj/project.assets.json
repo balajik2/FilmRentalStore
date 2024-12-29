@@ -4488,63 +4488,24 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-    "C:\\Users\\BAKUMARE\\.nuget\\packages\\": {}
-=======
-<<<<<<< HEAD
-    "C:\\Users\\SV63\\.nuget\\packages\\": {},
-=======
->>>>>>> origin/master
     "C:\\Users\\GOKULRK\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
->>>>>>> 7a8dde0fe6c37d9c0ed4537234840529752a5deb
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
-      "projectName": "FilmRentalStore",
-      "projectPath": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
-      "packagesPath": "C:\\Users\\BAKUMARE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\obj\\",
-=======
-<<<<<<< HEAD
-      "projectUniqueName": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj",
-      "projectName": "FilmRentalStore",
-      "projectPath": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj",
-      "packagesPath": "C:\\Users\\SV63\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\obj\\",
-=======
->>>>>>> origin/master
       "projectUniqueName": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\FilmRentalStore.csproj",
       "projectName": "FilmRentalStore",
       "projectPath": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\FilmRentalStore.csproj",
       "packagesPath": "C:\\Users\\GOKULRK\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\obj\\",
-<<<<<<< HEAD
-=======
->>>>>>> origin/FilmRentalStore-1
->>>>>>> 7a8dde0fe6c37d9c0ed4537234840529752a5deb
->>>>>>> origin/master
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-        "C:\\Users\\BAKUMARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-        "C:\\Users\\SV63\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
->>>>>>> origin/master
         "C:\\Users\\GOKULRK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
->>>>>>> 7a8dde0fe6c37d9c0ed4537234840529752a5deb
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4552,7 +4513,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4569,8 +4529,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -4638,7 +4599,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
