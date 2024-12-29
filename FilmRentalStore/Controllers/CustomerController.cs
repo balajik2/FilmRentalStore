@@ -125,6 +125,12 @@ namespace FilmRentalStore.Controllers
 
         public async Task<IActionResult> GetCustomerByLastName(string lastname)
         {
+
+            if (string.IsNullOrWhiteSpace(lastname))
+            {
+                return BadRequest("'lastname' is required.");
+            }
+
             try
             {
                 List<CustomerDTO> cust = await _CustomerService.GetCustomerByLastName(lastname);
@@ -155,6 +161,12 @@ namespace FilmRentalStore.Controllers
 
         public async Task<IActionResult> GetCustomerByFirstName(string firstname)
         {
+
+
+            if (string.IsNullOrWhiteSpace(firstname))
+            {
+                return BadRequest("'firstName' is required.");
+            }
             try
             {
                 List<CustomerDTO> firstnameval = await _CustomerService.GetCustomerByFirstName(firstname);
@@ -182,9 +194,13 @@ namespace FilmRentalStore.Controllers
         [HttpGet("email/{email}")]
         public async Task<IActionResult> GetCustomerByEmail(string? email)
         {
+            if (string.IsNullOrWhiteSpace(email))
+            {
+                return BadRequest("'email' is required.");
+            }
             try
             {
-                var supplier = await _CustomerService.GetCustomerByEmail(email);
+               var supplier = await _CustomerService.GetCustomerByEmail(email);
                 return Ok(supplier);
             }
             catch (Exception ex)
@@ -462,7 +478,7 @@ namespace FilmRentalStore.Controllers
             {
 
                var result = await _CustomerService.UpdatePhoneCustomer(id, phone);
-                return Ok(new { data = result, Message = "Phone number updated Successfully" });
+                return Ok(result);
 
             }
             catch (Exception ex)

@@ -1129,7 +1129,7 @@
         }
       }
     },
-    "/api/films/update/rentaldurtion/{filmid}": {
+    "/api/films/update/rentalduration/{filmId}": {
       "put": {
         "tags": [
           "Film"
