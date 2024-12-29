@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "sNSSa1iqKndszJmFSWUwVVN5XXzy0Dudyel0H+Sz8yw=",
+=======
+  "Hash": "ctpQT5JD8aZmJ4jIA/X5phOOZ21MAuZvN2WW/gB8QKo=",
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
   "Source": "FilmRentalStore",
   "BasePath": "_content/FilmRentalStore",
   "Mode": "Default",
@@ -10,27 +14,97 @@
     {
       "Name": "FilmRentalStore\\wwwroot",
       "Source": "FilmRentalStore",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "BasePath": "_content/FilmRentalStore",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\Actor.css",
+=======
+      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Actor.css",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
       "BasePath": "_content/FilmRentalStore",
-      "RelativePath": "View/Actor#[.{fingerprint}]?.css",
+      "RelativePath": "View/Actor.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
+      "AssetMergeBehavior": "PreferTarget",
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\View\\Actor.css"
+    },
+    {
+      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Actor.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/Actor.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\View\\Actor.html"
+    },
+    {
+      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Actor.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/Actor.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\View\\Actor.js"
+    },
+    {
+      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.css",
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+<<<<<<< HEAD
+      "RelativePath": "View/Actor#[.{fingerprint}]?.css",
+=======
+      "RelativePath": "View/customer.css",
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "3sqbqudg76",
       "Integrity": "rUFX22y3xJG4j33JZkazetXi3NwO5yFyGbqg2bzAsx8=",
       "CopyToOutputDirectory": "Never",
@@ -96,11 +170,14 @@
       "AssetTraitValue": "",
       "Fingerprint": "jzuyycoah4",
       "Integrity": "oRxnVRRbYvWoDtOf/5z+/oWE74ZGFjYSQnabv2FsEY8=",
+=======
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\customer.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\customer.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
@@ -111,17 +188,33 @@
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "",
+=======
+      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/customer.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "biftbvhlbw",
       "Integrity": "PfUgMRG05yCgGGKMpUv/0+cMlcSuCyiSRsbNPCSNmeQ=",
+=======
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\customer.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\customer.js",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
@@ -132,17 +225,33 @@
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "",
+=======
+      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/customer.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "cql6wg6hrb",
       "Integrity": "hLN2QZ+9ODM4SMGarbgF32CUEpSTSd9ak8leaUEE3j4=",
+=======
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\customer.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\film.css",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
@@ -153,17 +262,33 @@
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "",
+=======
+      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.css",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/film.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "jisisew89d",
       "Integrity": "2/TQu1eSBONQsBczpAnJk3W/Mm3iyjoxMVx4DG+pz7s=",
+=======
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\film.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\film.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
@@ -174,17 +299,33 @@
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "",
+=======
+      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/film.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "cfk7cj5xwe",
       "Integrity": "KKusUsm9dW0I/OlsXP22hAMvZ0omzFeYVkYApDL6UTc=",
+=======
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\film.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\film.js",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
@@ -195,17 +336,33 @@
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "",
+=======
+      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/film.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "g0w7eyviii",
       "Integrity": "0KOjMuTkPy19MS3TxRa7gveWPw1gkNS9tAoTU716u4o=",
+=======
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\film.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\homepage.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
@@ -216,17 +373,33 @@
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "",
+=======
+      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\homepage.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/homepage.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "rd31ng9wzv",
       "Integrity": "ofGomGnb/JOqtIjf6Iau6CNTj/6vil1cG96/kKASQO0=",
+=======
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\homepage.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\index.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
@@ -237,21 +410,43 @@
       "AssetMode": "All",
       "AssetRole": "Primary",
       "AssetMergeBehavior": "",
+=======
+      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\index.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "AssetMergeSource": "",
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "bx6nml6u91",
       "Integrity": "z6wWzg3i7vJQnNYfY07T3zqZlwklPV69QYypsYtG/zQ=",
+=======
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\index.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\View\\login.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\login.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/login#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -331,6 +526,7 @@
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\Rental.js"
     }
+<<<<<<< HEAD
   ],
   "Endpoints": [
     {
@@ -1563,5 +1759,7 @@
         }
       ]
     }
+=======
+>>>>>>> f451381567f2f38033c27699bdfdd39872969c7a
   ]
 }

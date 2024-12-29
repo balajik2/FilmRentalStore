@@ -14,9 +14,9 @@ namespace FilmRentalStore.Validators
     //    }
     //}
 
-    public class CustomFilmValidator
+    public class CustomFilmValidator 
     {
-        public List<string> Validate(FilmDTO film)
+        public virtual List<string> Validate(FilmDTO film)
         {
             var errors = new List<string>();
 
