@@ -37,26 +37,32 @@
             <tbody></tbody>
         </table>
 
-        <!-- Section for adding a customer -->
+        <!--Section for adding a customer
+    Section for adding a customer-->
         <h2>Add Customer</h2>
         <div class="mb-3">
-
             <button id="addCustomerBtn" class="btn btn-success">Add Customer</button>
         </div>
+
         <textarea id="requestBody" rows="15" cols="50" class="form-control mb-3">
 {
-    "customerId": 0,
-    "storeId": 1,
-    "firstName": "string",
-    "lastName": "string",
-    "email": "string",
-    "addressId": 0,
-    "active": "string",
-    "createDate": "string",
-    "lastUpdate": "string"
+  "customerId": 0,
+  "storeId": 0,
+  "firstName": "string",
+  "lastName": "string",
+  "email": "string",
+  "addressId": 0,
+  "active": "string",
+  "createDate": "2024-12-30T14:32:36.597Z",
+  "lastUpdate": "2024-12-30T14:32:36.597Z"
 }
         </textarea>
-        <pre id="responseDetails" class="alert alert-info"></pre>
+
+        <pre id="responseDetails" class="alert alert-info" style="display: none;"></pre>
+        <div id="successMessage" class="alert alert-success" style="display: none;">Customer added successfully!</div>
+
+
+
 
         <!-- Section for searching customers by last name -->
         <h2>Search Customer By Last Name</h2>

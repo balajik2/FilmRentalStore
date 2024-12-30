@@ -44,21 +44,7 @@ namespace FilmRentalStore.Services
             return data;
         }
         #endregion
-        #region FilmcountinAllstore
-        /// <summary>
-        /// display count of film in all store depending on filmid
-        /// </summary>
-        /// <param name="filmid"></param>
-        /// <returns></returns>
-        public async Task<List<InventoryDTO>> FilmcountinAllstore(int filmid)
-        {
-            var data = await _context.Inventories.Where(i => i.FilmId == filmid).ToListAsync();
-
-            //var totalcount = data.Sum(i => i.FilmId);
-            return _mapper.Map<List<InventoryDTO>>(data);
-
-        }
-        #endregion
+       
         #region GetAllFilminstore
         /// <summary>
         /// get all films in a store

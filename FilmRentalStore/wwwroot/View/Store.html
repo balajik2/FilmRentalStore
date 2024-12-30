@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Store.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Store Management</h1>
+
+        <!-- Buttons for actions -->
+        <div class="mb-3">
+
+            <button id="addStoreBtn" class="btn btn-success">Add Store</button>
+            <button id="getStoresBtn" class="btn btn-primary"> Get Store By City</button>
+            <button id="getStoresBtn" class="btn btn-primary"> Get Store By Country</button>
+        </div>
+
+        <!-- Table to display stores -->
+        <table id="storeTable" class="table table-striped table-bordered" style="display: none;">
+            <thead>
+                <tr>
+
+                    <th>StoreId </th>
+                    <th>AddressId</th>
+                    <th>ManagerStaffId</th>
+                    <th>Last Update</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+
+        <h2>Add Store</h2>
+        <textarea id="storeRequestBody" rows="15" cols="50" class="form-control mb-3">
+{
+    
+   "storeId": 0,
+  "managerStaffId": 0,
+  "addressId": 0,
+  "lastUpdate": "2024-12-26T12:13:33.257Z"
+}
+        </textarea>
+        <pre id="storeResponseDetails" class="alert alert-info"></pre>
+
+
+        <!-- Section for searching stores by city -->
+        <h2>Search Store By City</h2>
+        <div class="mb-3">
+            <label for="city" class="form-label">Enter City:</label>
+            <input type="text" id="city" class="form-control" placeholder="Enter city name" required>
+            <button id="getStoreByCityBtn" class="btn btn-secondary mt-2">Get Store By City</button>
+        </div>
+
+        <!-- Table to display search results -->
+        <table id="citySearchStoreTable" class="table table-striped table-bordered" style="display: none;">
+            <thead>
+                <tr>
+                    <th>StoreId </th>
+                    <th>ManagerStaffId</th>
+                    <th>AddressId</th>
+                    <th>Last Update</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+
+
+        <h2>Search Store By Country</h2>
+        <div class="mb-3">
+            <label for="country" class="form-label">Enter Country:</label>
+            <input type="text" id="country" class="form-control" placeholder="Enter country name" required>
+            <button id="getStoreByCountryBtn" class="btn btn-secondary mt-2">Get Store By Country</button>
+        </div>
+
+        <!-- Table to display search results -->
+        <table id="searchCountryStoreTable" class="table table-striped table-bordered" style="display: none;">
+            <thead>
+                <tr>
+                    <th>StoreId</th>
+                    <th>ManagerStaffId</th>
+                    <th>AddressId</th>
+                    <th>Last Update</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+
+        <h2>Search Staff By Store ID</h2>
+        <div class="mb-3">
+            <label for="storeId" class="form-label">Enter Store ID:</label>
+            <input type="number" id="storeId" class="form-control" placeholder="Enter store ID" required>
+            <button id="getStaffByStoreBtn" class="btn btn-secondary mt-2">Get Staff By Store</button>
+        </div>
+
+        <!-- Table to display staff details -->
+        <table id="staffTable" class="table table-striped table-bordered" style="display: none;">
+            <thead>
+                <tr>
+                    <th>StaffId</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>AddressId</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Last Update</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+
+
+
+        <h2>Get Customers by Store</h2>
+
+        <!-- Input for Store ID -->
+        <div class="mb-3">
+            <label for="storeId1" class="form-label">Enter Store ID:</label>
+            <input type="number" id="storeId1" class="form-control" placeholder="Enter store ID" required>
+            <button id="getCustomersBtn" class="btn btn-secondary mt-2">Get Customers</button>
+        </div>
+
+        <!-- Table to display customer details -->
+        <table id="customersTable" class="table table-striped table-bordered" style="display: none;">
+            <thead>
+                <tr>
+                    <th>Customer ID</th>
+                    <th>Store ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Address ID</th>
+                    <th>Active</th>
+                    <th>Create Date</th>
+                    <th>Last Update</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+
+        <h2>Get Manager Details by Store ID</h2>
+
+        <!-- Store ID Input and Button -->
+        <div class="mb-3">
+            <label for="storeId2" class="form-label">Enter Store ID:</label>
+            <input type="number" id="storeId2" class="form-control" placeholder="Enter store ID" required>
+            <button id="getmanagerByStoreBtn" class="btn btn-secondary mt-2">Get manager By Store</button>
+        </div>
+
+        <!-- Table to display staff details -->
+        <table id="managerTable" class="table table-striped table-bordered" style="display: none;">
+            <thead>
+                <tr>
+                    <th>StaffId</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>AddressId</th>
+                    <th>Email</th>
+                    <th>Status</th>
+                    <th>Last Update</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <h2>Manager Details</h2>
+        <button id="getManagerBtn">Get Manager Details</button>
+
+        <table id="managerdetails" style="display:none;">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Address 1</th>
+                    <th>Address 2</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Manager details will be inserted here -->
+            </tbody>
+        </table>
+
+
+
+
+
+
+
+        <form id="updatePhoneForm">
+            <label for="storeId0">Store ID:</label>
+            <input type="text" id="storeId0" name="storeId" required />
+            <br />
+            <label for="newPhoneNumber">New Phone Number:</label>
+            <input type="text" id="newPhoneNumber" name="newPhoneNumber" required />
+            <br />
+            <button type="submit" id="updatePhoneBtn">Update Phone</button>
+        </form>
+
+        <div id="updateStatusMessage" style="display:none;"></div>
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <script src="Store.js"></script>
+
+
+</body>
+</html>
