@@ -141,6 +141,9 @@ app.UseSwaggerUI();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+
+
+
 app.UseExceptionHandler(options =>
 {
     options.Run(async context =>
@@ -156,11 +159,11 @@ app.UseExceptionHandler(options =>
     });
 });
 
-
 app.UseCors(builder =>
     builder.WithOrigins("https://localhost:7239") // Allow specific origins
            .AllowAnyMethod()
            .AllowAnyHeader());
+
 
 
 

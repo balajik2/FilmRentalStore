@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Net;
 using AutoMapper;
 using FilmRentalStore.DTO;
 using FilmRentalStore.Models;
@@ -42,11 +43,12 @@ namespace FilmRentalStore.Services
         /// <returns></returns>
         public async Task<List<StoreDTO>> GetStoreByCity(string city)
         {
-            var store = await (
+            var stores = await _context.Stores.FromSqlRaw("EXEC GetStoreByCity @CityName={0}", city).ToListAsync();
+            /*var store = await (
                 from stores in _context.Stores
                 join address in _context.Addresses on stores.AddressId equals address.AddressId
                 join cityEntity in _context.Cities on address.CityId equals cityEntity.CityId
-                where cityEntity.City1.Equals(city)// Filter by city name
+                where cityEntity.City1.Equals(city)
                 select new StoreDTO
                 {
                     StoreId = stores.StoreId,
@@ -54,21 +56,13 @@ namespace FilmRentalStore.Services
                     AddressId = stores.AddressId,
 
 
-                    /*  Address = new AddressDTO
-                      {
-                          AddressId = address.AddressId,
-                          Address1 = address.Address1,
-                          Address2 = address.Address2,
-                          District = address.District,
-                          CityId = address.CityId,
-                          PostalCode = address.PostalCode,
-                          Phone = address.Phone,
-                          LastUpdate = address.LastUpdate
-                      }*/
+
                 })
                 .ToListAsync();
             var value = _mapper.Map<List<StoreDTO>>(store);
-            return value;
+            return value;*/
+            var storage = _mapper.Map<List<StoreDTO>>(stores);
+            return storage;
         }
 
         #endregion
@@ -85,25 +79,15 @@ namespace FilmRentalStore.Services
                 join address in _context.Addresses on stores.AddressId equals address.AddressId
                 join cityEntity in _context.Cities on address.CityId equals cityEntity.CityId
                 join countryEntity in _context.Countries on cityEntity.CountryId equals countryEntity.CountryId
-                where countryEntity.Country1.Equals(country)// Filter by city name
+                where countryEntity.Country1.Equals(country)
                 select new StoreDTO
                 {
                     StoreId = stores.StoreId,
                     ManagerStaffId = stores.ManagerStaffId,
                     AddressId = stores.AddressId,
+                    LastUpdate=stores.LastUpdate.Date
 
-
-                    /*Address = new AddressDTO
-                    {
-                        AddressId = address.AddressId,
-                        Address1 = address.Address1,
-                        Address2 = address.Address2,
-                        District = address.District,
-                        CityId = address.CityId,
-                        PostalCode = address.PostalCode,
-                        Phone = address.Phone,
-                        LastUpdate = address.LastUpdate
-                    }*/
+                   
                 })
                 .ToListAsync();
             var value = _mapper.Map<List<StoreDTO>>(store);
@@ -158,12 +142,13 @@ namespace FilmRentalStore.Services
             {
                 throw new ArgumentException("address not found");
             }
-            staff.AddressId = addressDto.AddressId;
-            staff.Address1 = addressDto.Address1;
-            staff.Address2 = addressDto.Address2;
-            staff.CityId = addressDto.CityId;
-            staff.PostalCode = addressDto.PostalCode;
-            staff.District = addressDto.District;
+            _mapper.Map(addressDto, staff);
+            /* staff.AddressId = addressDto.AddressId;
+             staff.Address1 = addressDto.Address1;
+             staff.Address2 = addressDto.Address2;
+             staff.CityId = addressDto.CityId;
+             staff.PostalCode = addressDto.PostalCode;
+             staff.District = addressDto.District;*/
 
             _context.Stores.Update(store);
             _context.Addresses.Update(staff);
@@ -228,7 +213,7 @@ namespace FilmRentalStore.Services
             var store = await _context.Stores.FindAsync(storeid);
             if (store == null)
             {
-                throw new ArgumentException("No store found");
+                throw new ArgumentException("Storeid doesn't exist");
             }
             store.ManagerStaffId = staffDto.StaffId;
             var staff = await _context.Staff.FindAsync(staffDto.StaffId);
@@ -238,6 +223,7 @@ namespace FilmRentalStore.Services
                 throw new ArgumentException("address not found");
             }
 
+<<<<<<< HEAD
             staff.AddressId = staffDto.AddressId;
             staff.FirstName = staffDto.FirstName;
             staff.LastName = staffDto.LastName;
@@ -245,6 +231,10 @@ namespace FilmRentalStore.Services
             staff.Active = staffDto.Active;
             staff.UrlPath = staffDto.UrlPath;
             staff.StaffId = staffDto.StaffId;
+=======
+            
+            _mapper.Map(staffDto, staff);
+>>>>>>> origin/FilmRentalStore-4
             
 
             _context.Stores.Update(store);
@@ -266,7 +256,6 @@ namespace FilmRentalStore.Services
             var storebystaff = await _context.Staff.Where(o => o.StoreId == storeid).ToListAsync();
 
             return _mapper.Map<List<StaffDTO>>(storebystaff);
-
 
         }
         #endregion
