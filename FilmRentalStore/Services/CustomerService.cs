@@ -94,14 +94,9 @@ namespace FilmRentalStore.Services
         #region AssignAddress
         public async Task<List<CustomerDTO>> AssignAddress(int id,int addressid)
         {
-<<<<<<< HEAD
             var cust = await _context.Customers.FirstOrDefaultAsync(s => s.CustomerId == id);
-            if (cust == null)
-=======
-            var cust = await _context.Customers.FirstOrDefaultAsync(s => s.CustomerId == customer.CustomerId);
 
             if (cust== null)
->>>>>>> origin/FilmRentalStore-4
             {
                 return null;
                 
@@ -110,14 +105,11 @@ namespace FilmRentalStore.Services
             // Assign the store to the staff member (assuming Staff has a Store property)
             cust.AddressId = addressid;
 
-<<<<<<< HEAD
-=======
             if (address== null)
             {
                 //throw new Exception("addressid doesn't exist");
                 return null;
             }
->>>>>>> origin/FilmRentalStore-4
 
 
             //   _context.Staff.Update(staff);
