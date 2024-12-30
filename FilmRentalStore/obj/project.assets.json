@@ -4488,19 +4488,37 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\BAKUMARE\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\GOKULRK\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> origin/FilmRentalStore-1
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
       "projectName": "FilmRentalStore",
       "projectPath": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
       "packagesPath": "C:\\Users\\BAKUMARE\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\FilmRentalStore.csproj",
+      "projectName": "FilmRentalStore",
+      "projectPath": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\FilmRentalStore.csproj",
+      "packagesPath": "C:\\Users\\GOKULRK\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\GOKULRK\\Desktop\\SPRINTPROJECT\\FilmRentalStore\\obj\\",
+>>>>>>> origin/FilmRentalStore-1
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\BAKUMARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\GOKULRK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> origin/FilmRentalStore-1
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
