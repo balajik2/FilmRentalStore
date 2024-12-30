@@ -1,0 +1,175 @@
+﻿/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    color: #333;
+    padding-top: 30px;
+}
+
+/* Centering the main heading */
+h1 {
+    color: #ff5722; /* Different color for Customer Management heading */
+    text-align: center;
+    margin-bottom: 30px; /* Space below the main heading */
+}
+
+/* Centering method headings */
+h2 {
+    color: #007bff;
+    text-align: center;
+    margin: 50px 0; /* Increased space above and below method headings */
+}
+
+/* Container for each method */
+.method-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 60px; /* Increased space after each method */
+}
+
+/* Buttons */
+.btn {
+    padding: 12px 20px; /* Padding for buttons */
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin: 10px auto; /* Center buttons with margin */
+    display: block; /* Make buttons block elements for centering */
+}
+
+/* Button Colors */
+.btn-primary {
+    background-color: #007bff; /* Color for Get methods */
+    border: none;
+    color: white;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.btn-success {
+    background-color: #28a745; /* Color for Add method */
+    border: none;
+    color: white;
+}
+
+    .btn-success:hover {
+        background-color: #218838;
+    }
+
+.btn-warning {
+    background-color: #ffc107; /* Color for Update methods */
+    border: none;
+    color: black;
+}
+
+    .btn-warning:hover {
+        background-color: #e0a800;
+    }
+
+.btn-danger {
+    background-color: #dc3545; /* Color for Delete methods */
+    border: none;
+    color: white;
+}
+
+    .btn-danger:hover {
+        background-color: #c82333;
+    }
+
+/* Update Phone Number Button Color */
+#updatePhoneBtn {
+    background-color: #ffc107; /* Yellow color for Update Phone Number button */
+    color: black;
+}
+
+    #updatePhoneBtn:hover {
+        background-color: #e0a800; /* Darker yellow on hover */
+    }
+
+/* Table Styling */
+.table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+    border-collapse: collapse;
+    border-radius: 5px; /* Rounded corners for tables */
+    overflow: hidden; /* Ensures rounded corners are visible */
+}
+
+    .table th, .table td {
+        padding: 12px;
+        text-align: left;
+        border: 1px solid #ddd;
+    }
+
+    .table th {
+        background-color: #007bff;
+        color: white;
+        font-weight: bold;
+    }
+
+.table-striped tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+/* Form Inputs */
+.form-control {
+    font-size: 16px;
+    padding: 12px; /* Padding for better appearance */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%; /* Set width to 80% for better spacing */
+    margin: 10px auto; /* Center inputs with margin */
+    display: block; /* Make inputs block elements for centering */
+}
+
+    .form-control:focus {
+        border-color: #007bff;
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+
+/* Textarea */
+textarea.form-control {
+    height: 250px;
+}
+
+/* Labels */
+.form-label {
+    font-weight: bold;
+    margin-top: 15px; /* Space above labels */
+    display: block; /* Make labels block elements for centering */
+    text-align: center; /* Center labels */
+}
+
+/* Response Details */
+#responseDetails {
+    display: none; /* Hide the response details block */
+}
+
+/* Alerts */
+.alert-info {
+    background-color: #d1ecf1;
+    color: #0c5460;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+/* Centering Content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Spacing */
+.mb-3 {
+    margin-bottom: 30px; /* Increased space after each method */
+}
+
+.mt-5 {
+    margin-top: 50px;
+}

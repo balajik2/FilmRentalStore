@@ -95,14 +95,21 @@ namespace FilmRentalStore.Services
         public async Task<List<CustomerDTO>> AssignAddress(int id,int addressid)
         {
             var cust = await _context.Customers.FirstOrDefaultAsync(s => s.CustomerId == id);
-            if (cust == null)
+
+            if (cust== null)
             {
                 return null;
+                
             }
 
             // Assign the store to the staff member (assuming Staff has a Store property)
             cust.AddressId = addressid;
 
+            if (address== null)
+            {
+                //throw new Exception("addressid doesn't exist");
+                return null;
+            }
 
 
             //   _context.Staff.Update(staff);

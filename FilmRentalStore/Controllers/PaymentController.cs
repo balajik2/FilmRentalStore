@@ -211,7 +211,7 @@ namespace FilmRentalStore.Controllers
         /// </summary>
         /// <returns></returns>
 
-        [HttpGet("GetCumulativeRevenueByFilmAndStore")]
+        [HttpGet("GetCumulativeRevenueAllFilmsByStore")]
         public async Task<IActionResult> GetCumulativeRevenueAllFilmsByStore()
         {
             try
