@@ -223,7 +223,6 @@ namespace FilmRentalStore.Services
                 throw new ArgumentException("address not found");
             }
 
-<<<<<<< HEAD
             staff.AddressId = staffDto.AddressId;
             staff.FirstName = staffDto.FirstName;
             staff.LastName = staffDto.LastName;
@@ -231,10 +230,8 @@ namespace FilmRentalStore.Services
             staff.Active = staffDto.Active;
             staff.UrlPath = staffDto.UrlPath;
             staff.StaffId = staffDto.StaffId;
-=======
             
             _mapper.Map(staffDto, staff);
->>>>>>> origin/FilmRentalStore-4
             
 
             _context.Stores.Update(store);
