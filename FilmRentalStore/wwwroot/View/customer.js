@@ -29,7 +29,18 @@ function handleAuthError(xhr) {
     }
 }
 
-// Get all customers with authentication
+
+
+
+
+
+
+
+
+
+
+//GET ALL CUSTOMER DETAILS
+
 document.getElementById('getCustomersBtn').addEventListener('click', function () {
     const token = getAuthToken();
     if (!token) return;
@@ -58,17 +69,17 @@ document.getElementById('getCustomersBtn').addEventListener('click', function ()
 
                 customers.forEach(customer => {
                     let row = `
-                        <tr>
-                            <td>${customer.customerId}</td>
-                            <td>${customer.storeId}</td>
-                            <td>${customer.firstName}</td>
-                            <td>${customer.lastName}</td>
-                            <td>${customer.email}</td>
-                            <td>${customer.addressId}</td>
-                            <td>${customer.active}</td>
-                            <td>${customer.createDate}</td>
-                            <td>${customer.lastUpdate}</td>
-                        </tr>
+<tr>
+<td>${customer.customerId}</td>
+<td>${customer.storeId}</td>
+<td>${customer.firstName}</td>
+<td>${customer.lastName}</td>
+<td>${customer.email}</td>
+<td>${customer.addressId}</td>
+<td>${customer.active}</td>
+<td>${customer.createDate}</td>
+<td>${customer.lastUpdate}</td>
+</tr>
                     `;
                     tbody.innerHTML += row;
                 });
@@ -83,15 +94,29 @@ document.getElementById('getCustomersBtn').addEventListener('click', function ()
     xhr.send();
 });
 
-// Add a customer with authentication
+
+
+
+
+ //Add a customer with authentication
 document.getElementById('addCustomerBtn').addEventListener('click', function () {
-    const token = getAuthToken();
-    if (!token) return;
+    const token = getAuthToken(); // Replace with your actual token retrieval logic
+    if (!token) {
+        alert("Authorization token is missing!");
+        return;
+    }
 
     const requestBody = document.getElementById('requestBody').value;
+
     try {
         const parsedData = JSON.parse(requestBody);
 
+        // Ensure mandatory fields are correctly set
+        if (!parsedData.active || parsedData.active === "string") {
+            parsedData.active = "1"; // Default valid value for active
+        }
+
+        // Send POST request
         $.ajax({
             url: 'https://localhost:7239/api/Customers',
             type: 'POST',
@@ -102,16 +127,19 @@ document.getElementById('addCustomerBtn').addEventListener('click', function () 
             },
             success: function (response) {
                 console.log("POST Request Successful", response);
-                const formattedResponse = JSON.stringify(response, null, 2);
-                document.getElementById('responseDetails').textContent = formattedResponse;
+                document.getElementById('responseDetails').textContent = JSON.stringify(response, null, 2);
+                document.getElementById('responseDetails').style.display = 'block';
 
-                // Optionally refresh the customer list after adding
-                document.getElementById('getCustomersBtn').click();
+                // Show success message
+                const successMessage = document.getElementById('successMessage');
+                successMessage.style.display = 'block';
+
+                // Hide success message after 3 seconds
+                setTimeout(function () {
+                    successMessage.style.display = 'none';
+                }, 3000);
             },
             error: function (xhr, status, error) {
-                if (xhr.status === 401) {
-                    handleAuthError(xhr);
-                }
                 console.error("POST Request Failed", xhr, status, error);
                 alert(`Error: ${xhr.responseText || 'Unable to add customer'}`);
             }
@@ -120,6 +148,18 @@ document.getElementById('addCustomerBtn').addEventListener('click', function () 
         alert("Invalid JSON input. Please ensure the request body is properly formatted.");
     }
 });
+
+// Example getAuthToken function (replace with actual implementation)
+function getAuthToken() {
+    // Replace with the logic to retrieve the token from your system
+    return "your-auth-token";
+}
+
+
+
+
+
+
 
 // Get customers by last name with authentication
 document.getElementById('getCustomerByLastNameBtn').addEventListener('click', function () {
