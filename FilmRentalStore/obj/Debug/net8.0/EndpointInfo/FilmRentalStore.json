@@ -2637,6 +2637,10 @@
             "type": "string",
             "nullable": true
           },
+          "storeId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "active": {
             "type": "boolean"
           },

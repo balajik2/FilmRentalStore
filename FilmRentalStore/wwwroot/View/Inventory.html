@@ -1,0 +1,124 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Management</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/18607/18607014.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Inventory.css">
+</head>
+<body>
+
+    <h1>Inventory Management</h1>
+    <h2>Add Inventory</h2>
+    <div class="mb-3">
+        <button id="addInventoryBtn" class="btn btn-primary">Add Inventory</button>
+    </div>
+
+    <textarea id="inventoryRequestBody" rows="15" cols="50" class="form-control mb-3">
+{
+    "inventoryId": 0,
+    "filmId": 0,
+    "storeId": 0,
+    "lastUpdate": "2024-12-29T18:33:19.775Z"
+}
+</textarea>
+
+<pre id="inventoryResponseDetails" class="alert alert-info"></pre>
+
+    <h2>Film Inventory Count</h2>
+    <div class="mb-3">
+        <button id="getInventoryCountBtn" class="btn btn-primary">Get Inventory Count</button>
+    </div>
+
+    <table id="inventoryCountTable" class="table table-striped table-bordered" style="display: none;">
+        <thead>
+            <tr>
+                <th>Film Name</th>
+                <th>Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Data will be dynamically inserted here -->
+        </tbody>
+    </table>
+
+<pre id="responseDetails" class="alert alert-info" style="display: none;"></pre>
+
+
+
+
+
+
+
+    <h2>Get Inventory by Store ID</h2>
+    <div class="mb-3">
+        <label for="storeid" class="form-label">Enter Store ID:</label>
+        <input type="number" id="storeid" class="form-control" placeholder="Enter store ID" required>
+        <button id="getInventoryByStoreIdBtn" class="btn btn-secondary mt-2">Get Inventory</button>
+    </div>
+
+    <table id="inventoryFilmsTable" class="table table-striped table-bordered" style="display: none;">
+        <thead>
+            <tr>
+                <th>Film Title</th>
+                <th>Copies</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <pre id="responseDetails" class="alert alert-info" style="display: none;"></pre>
+
+
+    <h2>Get Inventory by Film ID</h2>
+    <div class="mb-3">
+        <label for="film-id-input" class="form-label">Enter Film ID:</label>
+        <input type="number" id="film-id-input" class="form-control" placeholder="Enter film ID" required>
+        <button id="fetch-inventory-btn" class="btn btn-secondary mt-2">Get Inventory</button>
+    </div>
+
+    <table id="film-inventory-table" class="table table-striped table-bordered" style="display: none;">
+        <thead>
+            <tr>
+                <th>Store Address</th>
+                <th>Copies</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+
+
+    <h2>Get Inventory by Film ID and Store ID</h2>
+    <div class="mb-3">
+        <label for="film-id-input-new" class="form-label">Enter Film ID:</label>
+        <input type="number" id="film-id-input-new" class="form-control" placeholder="Enter film ID" required>
+    </div>
+    <div class="mb-3">
+        <label for="store-id-input-new" class="form-label">Enter Store ID:</label>
+        <input type="number" id="store-id-input-new" class="form-control" placeholder="Enter store ID" required>
+    </div>
+    <button id="fetch-inventory-btn-new" class="btn btn-secondary mt-2">Get Inventory</button>
+
+    <table id="film-inventory-table-new" class="table table-striped table-bordered" style="display: none;">
+        <thead>
+            <tr>
+                <th>Store Address</th>
+                <th>Copies</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Inventory.js"></script>
+
+</body>
+</html>
