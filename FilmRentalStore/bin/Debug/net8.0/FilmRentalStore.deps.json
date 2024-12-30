@@ -18,12 +18,8 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.11",
           "Microsoft.EntityFrameworkCore.Tools": "8.0.11",
           "Moq": "4.20.72",
-<<<<<<< HEAD
-          "Swashbuckle.AspNetCore": "6.6.2"
-=======
           "Swashbuckle.AspNetCore": "6.6.2",
           "xunit": "2.9.2"
->>>>>>> origin/FilmRentalStore-4
         },
         "runtime": {
           "FilmRentalStore.dll": {}
@@ -1056,8 +1052,6 @@
             "fileVersion": "6.0.21.52210"
           }
         }
-<<<<<<< HEAD
-=======
       },
       "xunit/2.9.2": {
         "dependencies": {
@@ -1110,7 +1104,6 @@
             "fileVersion": "2.9.2.0"
           }
         }
->>>>>>> origin/FilmRentalStore-4
       }
     }
   },
@@ -1742,8 +1735,6 @@
       "sha512": "sha512-IXoJOXIqc39AIe+CIR7koBtRGMiCt/LPM3lI+PELtDIy9XdyeSrwXFdWV9dzJ2Awl0paLWUaknLxFQ5HpHZUog==",
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
-<<<<<<< HEAD
-=======
     },
     "xunit/2.9.2": {
       "type": "package",
@@ -1793,7 +1784,6 @@
       "sha512": "sha512-rKMpq4GsIUIJibXuZoZ8lYp5EpROlnYaRpwu9Zr0sRZXE7JqJfEEbCsUriZqB+ByXCLFBJyjkTRULMdC+U566g==",
       "path": "xunit.extensibility.execution/2.9.2",
       "hashPath": "xunit.extensibility.execution.2.9.2.nupkg.sha512"
->>>>>>> origin/FilmRentalStore-4
     }
   }
 }

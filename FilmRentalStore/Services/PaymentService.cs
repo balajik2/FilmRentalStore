@@ -1,8 +1,4 @@
 ﻿using AutoMapper;
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/FilmRentalStore-4
 using Microsoft.Data.SqlClient;
 using FilmRentalStore.DTO;
 using FilmRentalStore.Models;
