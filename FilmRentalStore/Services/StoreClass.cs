@@ -85,7 +85,7 @@ namespace FilmRentalStore.Services
                     StoreId = stores.StoreId,
                     ManagerStaffId = stores.ManagerStaffId,
                     AddressId = stores.AddressId,
-
+                    LastUpdate=stores.LastUpdate.Date
 
                    
                 })

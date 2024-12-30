@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cDv0Mi/vHVto95uB/DTRK45Td2wjFmiQcbf9cFk6aUM=",
+  "Hash": "ZNygquctG5osUGRUCG0mGkDlOXs8TpWV+/MbSM3CSoc=",
   "Source": "FilmRentalStore",
   "BasePath": "_content/FilmRentalStore",
   "Mode": "Default",
@@ -94,11 +94,74 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ovtwmld43d",
-      "Integrity": "vIbBR2l6G5aI7XuMDJ2toevCOZD+QQumcVFMM3lh1Os=",
+      "Fingerprint": "q35m25bq1g",
+      "Integrity": "VmnhD7tXFeglT7ls+w30PzUacUIuEj2w5q99prHvlvA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.css",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/Inventory#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zypr8qolk7",
+      "Integrity": "OyyKLnc+IllW/uUERjn8800J2bBSmNh2Q6dTIIZEFhI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\View\\Inventory.css"
+    },
+    {
+      "Identity": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/Inventory#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rpb4czokl8",
+      "Integrity": "T4xmVoPE5ElXeKMeZc4YA00CKsNZ5ny+xAI8/SMOdaM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\View\\Inventory.html"
+    },
+    {
+      "Identity": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\",
+      "BasePath": "_content/FilmRentalStore",
+      "RelativePath": "View/Inventory#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ectkmrxawl",
+      "Integrity": "joPFaOtW0OY66c1clkptK+aJLDCP2mZDWTUwrivW83U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\View\\Inventory.js"
     },
     {
       "Identity": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\login.html",
@@ -157,8 +220,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "zu2jdpa9c5",
-      "Integrity": "O6a7FzKw12FzC9axrCRQXahdu86ZQS4AxHDXePfZLdM=",
+      "Fingerprint": "033v15okb7",
+      "Integrity": "pIntXDarxpeBsg/ttR4oh8WgJFEQwk8fjPwmsFynfJY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\Store.html"
@@ -178,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "wsktrrojo3",
-      "Integrity": "cGqrR1auAoaRrM6zGtlGjCXkUvRRGkecPKvbT6yWheo=",
+      "Fingerprint": "gi4ckn1zt4",
+      "Integrity": "2MF8T2qqyLQs0ytrPT9R4HDgh31ijE59z2mr8XI5y1E=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\Store.js"
@@ -443,7 +506,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "946"
+          "Value": "1155"
         },
         {
           "Name": "Content-Type",
@@ -451,11 +514,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vIbBR2l6G5aI7XuMDJ2toevCOZD+QQumcVFMM3lh1Os=\""
+          "Value": "\"VmnhD7tXFeglT7ls+w30PzUacUIuEj2w5q99prHvlvA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 08:45:33 GMT"
+          "Value": "Sat, 28 Dec 2024 07:08:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -465,12 +528,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vIbBR2l6G5aI7XuMDJ2toevCOZD+QQumcVFMM3lh1Os="
+          "Value": "sha256-VmnhD7tXFeglT7ls+w30PzUacUIuEj2w5q99prHvlvA="
         }
       ]
     },
     {
-      "Route": "View/index.ovtwmld43d.html",
+      "Route": "View/index.q35m25bq1g.html",
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\index.html",
       "Selectors": [],
       "ResponseHeaders": [
@@ -480,7 +543,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "946"
+          "Value": "1155"
         },
         {
           "Name": "Content-Type",
@@ -488,11 +551,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vIbBR2l6G5aI7XuMDJ2toevCOZD+QQumcVFMM3lh1Os=\""
+          "Value": "\"VmnhD7tXFeglT7ls+w30PzUacUIuEj2w5q99prHvlvA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 08:45:33 GMT"
+          "Value": "Sat, 28 Dec 2024 07:08:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -502,7 +565,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ovtwmld43d"
+          "Value": "q35m25bq1g"
         },
         {
           "Name": "label",
@@ -510,7 +573,253 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vIbBR2l6G5aI7XuMDJ2toevCOZD+QQumcVFMM3lh1Os="
+          "Value": "sha256-VmnhD7tXFeglT7ls+w30PzUacUIuEj2w5q99prHvlvA="
+        }
+      ]
+    },
+    {
+      "Route": "View/Inventory.css",
+      "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OyyKLnc+IllW/uUERjn8800J2bBSmNh2Q6dTIIZEFhI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 07:05:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OyyKLnc+IllW/uUERjn8800J2bBSmNh2Q6dTIIZEFhI="
+        }
+      ]
+    },
+    {
+      "Route": "View/Inventory.ectkmrxawl.js",
+      "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"joPFaOtW0OY66c1clkptK+aJLDCP2mZDWTUwrivW83U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 08:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ectkmrxawl"
+        },
+        {
+          "Name": "label",
+          "Value": "View/Inventory.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-joPFaOtW0OY66c1clkptK+aJLDCP2mZDWTUwrivW83U="
+        }
+      ]
+    },
+    {
+      "Route": "View/Inventory.html",
+      "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1005"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T4xmVoPE5ElXeKMeZc4YA00CKsNZ5ny+xAI8/SMOdaM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 08:21:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T4xmVoPE5ElXeKMeZc4YA00CKsNZ5ny+xAI8/SMOdaM="
+        }
+      ]
+    },
+    {
+      "Route": "View/Inventory.js",
+      "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2568"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"joPFaOtW0OY66c1clkptK+aJLDCP2mZDWTUwrivW83U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 08:39:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-joPFaOtW0OY66c1clkptK+aJLDCP2mZDWTUwrivW83U="
+        }
+      ]
+    },
+    {
+      "Route": "View/Inventory.rpb4czokl8.html",
+      "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1005"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T4xmVoPE5ElXeKMeZc4YA00CKsNZ5ny+xAI8/SMOdaM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Dec 2024 08:21:51 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rpb4czokl8"
+        },
+        {
+          "Name": "label",
+          "Value": "View/Inventory.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T4xmVoPE5ElXeKMeZc4YA00CKsNZ5ny+xAI8/SMOdaM="
+        }
+      ]
+    },
+    {
+      "Route": "View/Inventory.zypr8qolk7.css",
+      "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2735"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OyyKLnc+IllW/uUERjn8800J2bBSmNh2Q6dTIIZEFhI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Dec 2024 07:05:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zypr8qolk7"
+        },
+        {
+          "Name": "label",
+          "Value": "View/Inventory.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OyyKLnc+IllW/uUERjn8800J2bBSmNh2Q6dTIIZEFhI="
         }
       ]
     },
@@ -597,6 +906,51 @@
       ]
     },
     {
+      "Route": "View/Store.033v15okb7.html",
+      "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pIntXDarxpeBsg/ttR4oh8WgJFEQwk8fjPwmsFynfJY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 10:49:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "033v15okb7"
+        },
+        {
+          "Name": "label",
+          "Value": "View/Store.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pIntXDarxpeBsg/ttR4oh8WgJFEQwk8fjPwmsFynfJY="
+        }
+      ]
+    },
+    {
       "Route": "View/Store.css",
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.css",
       "Selectors": [],
@@ -634,6 +988,51 @@
       ]
     },
     {
+      "Route": "View/Store.gi4ckn1zt4.js",
+      "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2MF8T2qqyLQs0ytrPT9R4HDgh31ijE59z2mr8XI5y1E=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 30 Dec 2024 11:00:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gi4ckn1zt4"
+        },
+        {
+          "Name": "label",
+          "Value": "View/Store.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2MF8T2qqyLQs0ytrPT9R4HDgh31ijE59z2mr8XI5y1E="
+        }
+      ]
+    },
+    {
       "Route": "View/Store.html",
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.html",
       "Selectors": [],
@@ -644,7 +1043,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4125"
+          "Value": "7612"
         },
         {
           "Name": "Content-Type",
@@ -652,11 +1051,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"O6a7FzKw12FzC9axrCRQXahdu86ZQS4AxHDXePfZLdM=\""
+          "Value": "\"pIntXDarxpeBsg/ttR4oh8WgJFEQwk8fjPwmsFynfJY=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 08:45:45 GMT"
+          "Value": "Mon, 30 Dec 2024 10:49:43 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -666,7 +1065,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-O6a7FzKw12FzC9axrCRQXahdu86ZQS4AxHDXePfZLdM="
+          "Value": "sha256-pIntXDarxpeBsg/ttR4oh8WgJFEQwk8fjPwmsFynfJY="
         }
       ]
     },
@@ -681,7 +1080,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5896"
+          "Value": "21804"
         },
         {
           "Name": "Content-Type",
@@ -689,11 +1088,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cGqrR1auAoaRrM6zGtlGjCXkUvRRGkecPKvbT6yWheo=\""
+          "Value": "\"2MF8T2qqyLQs0ytrPT9R4HDgh31ijE59z2mr8XI5y1E=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 08:45:41 GMT"
+          "Value": "Mon, 30 Dec 2024 11:00:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -703,7 +1102,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-cGqrR1auAoaRrM6zGtlGjCXkUvRRGkecPKvbT6yWheo="
+          "Value": "sha256-2MF8T2qqyLQs0ytrPT9R4HDgh31ijE59z2mr8XI5y1E="
         }
       ]
     },
@@ -749,96 +1148,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-gWn2hkwaYlAzBGYVr6TCL5KdDsr7vCKB5Cx0Mb4xscg="
-        }
-      ]
-    },
-    {
-      "Route": "View/Store.wsktrrojo3.js",
-      "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5896"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cGqrR1auAoaRrM6zGtlGjCXkUvRRGkecPKvbT6yWheo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 08:45:41 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "wsktrrojo3"
-        },
-        {
-          "Name": "label",
-          "Value": "View/Store.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-cGqrR1auAoaRrM6zGtlGjCXkUvRRGkecPKvbT6yWheo="
-        }
-      ]
-    },
-    {
-      "Route": "View/Store.zu2jdpa9c5.html",
-      "AssetFile": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.html",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "4125"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/html"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"O6a7FzKw12FzC9axrCRQXahdu86ZQS4AxHDXePfZLdM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 26 Dec 2024 08:45:45 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "zu2jdpa9c5"
-        },
-        {
-          "Name": "label",
-          "Value": "View/Store.html"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-O6a7FzKw12FzC9axrCRQXahdu86ZQS4AxHDXePfZLdM="
         }
       ]
     }

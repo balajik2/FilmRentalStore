@@ -2087,7 +2087,7 @@
         }
       }
     },
-    "/api/Store/store / staff ": {
+    "/api/Store/AllStaffOfStore": {
       "get": {
         "tags": [
           "Store"
@@ -2150,7 +2150,7 @@
         }
       }
     },
-    "/api/Store/All customers": {
+    "/api/Store/Allcustomers": {
       "get": {
         "tags": [
           "Store"

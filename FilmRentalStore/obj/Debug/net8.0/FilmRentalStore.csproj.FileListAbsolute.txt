@@ -153,3 +153,9 @@ C:\Users\KBASAM\Documents\Visual Studio 2022\Sprint\FilmRentalStore\obj\Debug\ne
 C:\Users\KBASAM\Documents\Visual Studio 2022\Sprint\FilmRentalStore\obj\Debug\net8.0\FilmRentalStore.pdb
 C:\Users\KBASAM\Documents\Visual Studio 2022\Sprint\FilmRentalStore\obj\Debug\net8.0\FilmRentalStore.genruntimeconfig.cache
 C:\Users\KBASAM\Documents\Visual Studio 2022\Sprint\FilmRentalStore\obj\Debug\net8.0\ref\FilmRentalStore.dll
+C:\Users\KBASAM\Documents\Visual Studio 2022\Sprint\FilmRentalStore\bin\Debug\net8.0\Castle.Core.dll
+C:\Users\KBASAM\Documents\Visual Studio 2022\Sprint\FilmRentalStore\bin\Debug\net8.0\Moq.dll
+C:\Users\KBASAM\Documents\Visual Studio 2022\Sprint\FilmRentalStore\bin\Debug\net8.0\xunit.abstractions.dll
+C:\Users\KBASAM\Documents\Visual Studio 2022\Sprint\FilmRentalStore\bin\Debug\net8.0\xunit.assert.dll
+C:\Users\KBASAM\Documents\Visual Studio 2022\Sprint\FilmRentalStore\bin\Debug\net8.0\xunit.core.dll
+C:\Users\KBASAM\Documents\Visual Studio 2022\Sprint\FilmRentalStore\bin\Debug\net8.0\xunit.execution.dotnet.dll
