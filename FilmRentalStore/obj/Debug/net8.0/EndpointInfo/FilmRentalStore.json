@@ -1337,28 +1337,6 @@
         }
       }
     },
-    "/api/Inventory/id": {
-      "get": {
-        "tags": [
-          "Inventory"
-        ],
-        "parameters": [
-          {
-            "name": "filmid",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/Inventory/Films": {
       "get": {
         "tags": [
@@ -2131,7 +2109,7 @@
         }
       }
     },
-    "/api/Store/store / staff ": {
+    "/api/Store/AllStaffOfStore": {
       "get": {
         "tags": [
           "Store"
@@ -2194,7 +2172,7 @@
         }
       }
     },
-    "/api/Store/All customers": {
+    "/api/Store/Allcustomers": {
       "get": {
         "tags": [
           "Store"

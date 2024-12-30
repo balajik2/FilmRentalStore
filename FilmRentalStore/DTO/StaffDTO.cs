@@ -16,8 +16,11 @@
 
         public int StoreId { get; set; }
 
+<<<<<<< HEAD
         public bool Active { get; set; }
 
+=======
+>>>>>>> origin/FilmRentalStore-4
             public DateTime LastUpdate { get; set; }
 
         public string? UrlPath { get; set; }
