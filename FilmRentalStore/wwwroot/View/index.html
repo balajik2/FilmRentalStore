@@ -124,7 +124,6 @@
                 width: 100%;
             }
         }
-
     </style>
     <div class="logo">
         <img src="https://cdn-icons-png.flaticon.com/128/18607/18607014.png" alt="Logo">
@@ -135,6 +134,7 @@
     <button id="Actor">Actor</button>
     <button id="Rental">Rental</button>
     <button id="film">Film</button>
+    <button id="payment">Payment</button>
 
     <script>
         document.getElementById('customer').addEventListener('click', function () {
@@ -148,6 +148,9 @@
         });
         document.getElementById('film').addEventListener('click', function () {
             window.location.href = '/View/film.html';
+        });
+        document.getElementById('payment').addEventListener('click', function () {
+            window.location.href = '/View/payment.html';
         });
     </script>
 </body>

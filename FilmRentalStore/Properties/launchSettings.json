@@ -61,12 +61,12 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "launchUrl": "View/login.html" // Set the default launch file
+      "launchUrl": "View/login.html" 
     },
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "View/login.html", // Set the default launch file
+      "launchUrl": "View/login.html", 
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

@@ -973,7 +973,7 @@
   {
     "ContainingType": "FilmRentalStore.Controllers.PaymentController",
     "Method": "GetCumulativeRevenueAllFilmsByStore",
-    "RelativePath": "api/Payment/GetCumulativeRevenueByFilmAndStore",
+    "RelativePath": "api/Payment/GetCumulativeRevenueAllFilmsByStore",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

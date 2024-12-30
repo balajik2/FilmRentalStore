@@ -1,4 +1,6 @@
 ﻿
+
+
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f4f7fa;
@@ -12,7 +14,7 @@ h1, h2 {
     margin-bottom: 20px;
 }
 
- Buttons 
+Buttons
 .btn {
     padding: 10px 20px;
     font-size: 16px;
@@ -87,7 +89,7 @@ table#customerTable, table#searchCustomerTable {
     display: none;
 }
 
- 
+
 .form-control {
     font-size: 16px;
     padding: 10px;
@@ -167,7 +169,7 @@ input[type="number"], select {
         box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
     }
 
- 
+
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -186,7 +188,7 @@ button {
         cursor: not-allowed;
     }
 
-  
+
 table {
     width: 100%;
     margin-top: 20px;
@@ -222,8 +224,3 @@ table#updatedFilmTable {
 .mt-5 {
     margin-top: 50px;
 }
-
-
-
-
-
