@@ -634,15 +634,11 @@ public partial class Sakila12Context : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK__Ruser__3214EC0747DEDCFC");
 
-
-            entity.ToTable("Ruser");
-
             entity.ToTable("Ruser", tb =>
                 {
                     tb.HasTrigger("trg_HashPasswordOnInsert");
                     tb.HasTrigger("trg_SetRoleID");
                 });
-
 
             entity.Property(e => e.Id).ValueGeneratedNever();
             entity.Property(e => e.Password)
@@ -726,36 +722,15 @@ public partial class Sakila12Context : DbContext
                 .HasDefaultValueSql("(getdate())")
                 .HasColumnType("datetime")
                 .HasColumnName("last_update");
-
-            entity.Property(e => e.Password)
-                .HasMaxLength(64)
-                .IsUnicode(false)
-                .HasDefaultValueSql("(NULL)")
-                .HasColumnName("password");
-            entity.Property(e => e.Picture)
-                .HasDefaultValueSql("(NULL)")
-                .HasColumnType("image")
-                .HasColumnName("picture");
-
             entity.Property(e => e.StoreId).HasColumnName("store_id");
             entity.Property(e => e.UrlPath)
                 .HasMaxLength(255)
                 .HasColumnName("url_path");
 
-            entity.Property(e => e.Username)
-                .HasMaxLength(16)
-                .IsUnicode(false)
-                .HasColumnName("username");
-
-
             entity.HasOne(d => d.Address).WithMany(p => p.Staff)
                 .HasForeignKey(d => d.AddressId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("fk_staff_address");
-
-            entity.HasOne(d => d.Role).WithMany(p => p.Staff)
-                .HasForeignKey(d => d.RoleId)
-                .HasConstraintName("FK_Staff_Role");
 
             entity.HasOne(d => d.Store).WithMany(p => p.Staff)
                 .HasForeignKey(d => d.StoreId)

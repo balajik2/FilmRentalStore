@@ -1,0 +1,171 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/18607/18607014.png" type="image/png">
+    <link rel="stylesheet" href="Rental.css">
+
+</head>
+<body>
+    <!-- Rent a Film-->
+    <h2>Film Rentals</h2>
+    <div>
+        <label for="customerId" class="form-label">Customer ID:</label>
+        <input type="text" id="customerId" class="form-control" placeholder="Enter Customer ID">
+        <label for="inventoryId" class="form-label">Inventory ID:</label>
+        <input type="text" id="inventoryId" class="form-control" placeholder="Enter Inventory ID">
+        <label for="staffId" class="form-label">Staff ID:</label>
+        <input type="text" id="staffId" class="form-control" placeholder="Enter Staff ID">
+        <button id="rentButton" class="btn btn-primary">Rent Film</button>
+    </div>
+    <!-- Get Films Rented By Customer -->
+    <h2>Films Rented by Customer</h2>
+    <div>
+        <label for="customerId1">Customer ID:</label>
+        <input type="text" id="customerId1" class="form-control" placeholder="Enter Customer ID">
+        <button id="fetchFilmsButton" class="btn btn-primary">Get Rented Films</button>
+    </div>
+
+    <table id="filmsTable">
+        <thead>
+            <tr>
+                <th>Film ID</th>
+                <th>Title</th>
+                <th>Description</th>
+                <th>Release Year</th>
+                <th>Language ID</th>
+                <th>Original Language ID</th>
+                <th>Rental Duration</th>
+                <th>Rental Rate</th>
+                <th>Length</th>
+                <th>Replacement Cost</th>
+                <th>Last Update</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be dynamically added here -->
+        </tbody>
+    </table>
+
+    <!-- Top 10 Rented Films -->
+    <h2>Top 10 Rented Films</h2>
+    <div>
+        <button id="fetchTopFilmsButton1" class="btn btn-primary">Get Top 10 Rented Films</button>
+    </div>
+
+    <table id="topFilmsTable">
+        <thead>
+            <tr>
+                <th>Film ID</th>
+                <th>Title</th>
+                <th>Rental Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be dynamically added here -->
+        </tbody>
+    </table>
+
+    <!-- Top 10 Rented Films by Store -->
+
+
+    <h2>Top 10 Films by Store</h2>
+    <label for="storeId">Store ID:</label>
+    <input type="text" id="storeId" class="form-control" placeholder="Enter Store ID">
+    <button id="fetchTop10FilmsBtn" class="btn btn-primary">Fetch Top 10 Films</button>
+
+    <table id="top10FilmsTable" style="display:none;">
+        <thead>
+            <tr>
+                <th>Film ID</th>
+                <th>Title</th>
+                <th>Rental Count</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be dynamically populated -->
+        </tbody>
+    </table>
+    <script src="Top10FilmsTable.js"></script>
+    <!--Customers with Due Rentals -->
+
+        <h2>Customers with Due Rentals</h2>
+        
+        <!-- Input for Store ID -->
+        
+            <label for="storeId1">Store ID:</label>
+            <input type="text" id="storeId1" class="form-control" placeholder="Enter Store ID">
+       
+
+        <!-- Button to Fetch Customers -->
+        <button id="fetchDueCustomersBtn" class="btn btn-primary">Fetch Customers with Due Rentals</button>
+
+        <!-- Table to Display Customers -->
+        <table id="dueCustomersTable" class="table table-striped mt-4" style="display:none;">
+            <thead>
+                <tr>
+
+                    <th>Store ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                    <th>Address ID</th>
+                    <th>Active</th>
+                    <th>Create Date</th>
+                    <th>Last Update</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be dynamically populated -->
+            </tbody>
+        </table>
+   
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="dueCustomersTable.js"></script>
+</body>
+</html>
+    <script src="dueCustomersTable.js"></script>
+    <!--Update Rental Return Date -->
+
+    <h2>Update Rental Return Date</h2>
+
+    <div>
+        <label for="rentalId">Rental ID:</label>
+        <input type="number" id="rentalId" class="form-control" placeholder="Enter Rental ID" required>
+    </div>
+    <div>
+        <label for="returnDate">Return Date:</label>
+        <input type="datetime-local" id="returnDate" required>
+    </div>
+    <button id="updateReturnDateBtn" class="btn btn-primary">Update Return Date</button>
+
+    <div id="updateResult" class="result-message"></div>
+
+    <table id="updatedRentalTable" border="1" style="margin-top: 20px; display: none;">
+        <thead>
+            <tr>
+                <th>Rental ID</th>
+                <th>Rental Date</th>
+                <th>Inventory ID</th>
+                <th>Customer ID</th>
+                <th>Return Date</th>
+                <th>Staff ID</th>
+                <th>Last Update</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <script src="updateReturnDate.js"></script>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Rental.js"></script>
+</body>
+</html>

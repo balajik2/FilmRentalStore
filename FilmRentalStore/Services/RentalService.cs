@@ -192,7 +192,7 @@ namespace FilmRentalStore.Services
         /// <param name="returnDate"></param>
         /// <returns></returns>
 
-        public async Task<Rental> UpdateReturnDate(int rentalId, DateTime returnDate)
+        public async Task<RentalDTO> UpdateReturnDate(int rentalId, DateTime returnDate)
         {
             var rental =  _context.Rentals.FirstOrDefault(r => r.RentalId == rentalId);
             if (rental == null)
@@ -202,8 +202,8 @@ namespace FilmRentalStore.Services
 
             rental.ReturnDate = returnDate;
             rental.LastUpdate = DateTime.Now;
-            await _context.SaveChangesAsync(); 
-            return rental;
+            await _context.SaveChangesAsync();
+            return _mapper.Map<RentalDTO>(rental);
         }
 
 

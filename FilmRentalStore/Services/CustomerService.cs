@@ -18,11 +18,12 @@ namespace FilmRentalStore.Services
         }
 
         #region AddCustomer
-        public async Task AddCustomer(CustomerDTO customer)
+        public async Task<CustomerDTO> AddCustomer(CustomerDTO customer)
         {
             var customerdto = _mapper.Map<Customer>(customer);
             _context.Customers.Add(customerdto);
             await _context.SaveChangesAsync();
+            return _mapper.Map<CustomerDTO>(customerdto);
 
 
         }
@@ -36,6 +37,17 @@ namespace FilmRentalStore.Services
             return DTOList;
         }
         #endregion
+
+
+
+        public async Task<List<CustomerDTO>> GetCustomerById(int id)
+        {
+            var s = await _context.Customers.Where(x => x.CustomerId == id).ToListAsync();
+
+            var value = _mapper.Map<List<CustomerDTO>>(s);
+            return value;
+        }
+
 
 
         #region GetCustomerByLastName
@@ -80,34 +92,65 @@ namespace FilmRentalStore.Services
 
   
         #region AssignAddress
-        public async Task<List<CustomerDTO>> AssignAddress(CustomerDTO customer)
+        public async Task<List<CustomerDTO>> AssignAddress(int id,int addressid)
         {
-            var cust = await _context.Customers.FirstOrDefaultAsync(s => s.CustomerId == customer.CustomerId);
-
+            var cust = await _context.Customers.FirstOrDefaultAsync(s => s.CustomerId == id);
             if (cust == null)
             {
                 return null;
             }
 
-            var address = await _context.Addresses.FirstOrDefaultAsync(s => s.AddressId == customer.AddressId);
+            // Assign the store to the staff member (assuming Staff has a Store property)
+            cust.AddressId = addressid;
 
-            if (address == null)
-            {
-                return null;
-            }
 
-            cust.AddressId = customer.AddressId;
+
+            //   _context.Staff.Update(staff);
             await _context.SaveChangesAsync();
 
-            //To fetch the updated details list
             var updatedlist = await _context.Customers.Where(s => s.CustomerId == cust.CustomerId).ToListAsync();
 
-            //map and return the details
+
             return _mapper.Map<List<CustomerDTO>>(updatedlist);
         }
         #endregion
 
         #region GetCustomerByCity
+        //public async Task<List<CustomerwithAddressDTO>> GetCustomerByCity(string city)
+        //{
+        //    var customers = await (
+        //        from customer in _context.Customers
+        //        join address in _context.Addresses on customer.AddressId equals address.AddressId
+        //        join cityEntity in _context.Cities on address.CityId equals cityEntity.CityId
+        //        where cityEntity.City1 == city // Filter by city name
+        //        select new CustomerwithAddressDTO
+        //        {
+        //            CustomerId = customer.CustomerId,
+        //            FirstName = customer.FirstName,
+        //            LastName = customer.LastName,
+        //            Email = customer.Email,
+
+        //                AddressId = address.AddressId,
+        //                Address1 = address.Address1,
+        //                Address2 = address.Address2,
+        //                District = address.District,
+        //                CityId = address.CityId,
+        //                PostalCode = address.PostalCode,
+        //                Phone = address.Phone,
+        //                LastUpdate = address.LastUpdate
+
+        //        })
+        //        .ToListAsync();
+        //    var value = _mapper.Map<List<CustomerwithAddressDTO>>(customers);
+        //    return value;
+        //}
+
+
+
+
+
+
+
         public async Task<List<CustomerwithAddressDTO>> GetCustomerByCity(string city)
         {
             var customers = await (
@@ -118,29 +161,34 @@ namespace FilmRentalStore.Services
                 select new CustomerwithAddressDTO
                 {
                     CustomerId = customer.CustomerId,
+                    StoreId = customer.StoreId,
                     FirstName = customer.FirstName,
                     LastName = customer.LastName,
                     Email = customer.Email,
-                   
-                        AddressId = address.AddressId,
-                        Address1 = address.Address1,
-                        Address2 = address.Address2,
-                        District = address.District,
-                        CityId = address.CityId,
-                        PostalCode = address.PostalCode,
-                        Phone = address.Phone,
-                        LastUpdate = address.LastUpdate
-                    
+                    AddressId = address.AddressId,
+                    Address1 = address.Address1,
+                    Address2 = address.Address2,
+                    District = address.District,
+                    CityId = address.CityId,
+                    PostalCode = address.PostalCode,
+                    Phone = address.Phone,
+                    LastUpdate = address.LastUpdate,
+                    Active = customer.Active, // Convert boolean to string
+                    CreateDate = customer.CreateDate
                 })
                 .ToListAsync();
+
+            // return customers; // No need for _mapper.Map as the data is already in DTO format
+
             var value = _mapper.Map<List<CustomerwithAddressDTO>>(customers);
-            return value;
+               return value;
         }
+
 
         #endregion
 
         #region GetCustomerByCountry
-        public async Task<List<CustomerDTO>> GetCustomerByCountry(string country)
+        public async Task<List<CustomerwithAddressDTO>> GetCustomerByCountry(string country)
         {
             var customers = await (
                from customer in _context.Customers
@@ -148,17 +196,29 @@ namespace FilmRentalStore.Services
                join cityEntity in _context.Cities on address.CityId equals cityEntity.CityId
                join countryEntity in _context.Countries on cityEntity.CountryId equals countryEntity.CountryId
                where countryEntity.Country1 == country
-               select new CustomerDTO
+               select new CustomerwithAddressDTO
                {
                    CustomerId = customer.CustomerId,
+                   StoreId = customer.StoreId,
                    FirstName = customer.FirstName,
                    LastName = customer.LastName,
                    Email = customer.Email,
 
+                   AddressId = address.AddressId,
+                   Address1 = address.Address1,
+                   Address2 = address.Address2,
+                   District = address.District,
+                   CityId = address.CityId,
+                   PostalCode = address.PostalCode,
+                   Phone = address.Phone,
+                   LastUpdate = address.LastUpdate,
+                   Active = customer.Active, // Convert boolean to string
+                   CreateDate = customer.CreateDate
+
                }).ToListAsync();
 
 
-            var value = _mapper.Map<List<CustomerDTO>>(customers);
+            var value = _mapper.Map<List<CustomerwithAddressDTO>>(customers);
             return value;
             
         }

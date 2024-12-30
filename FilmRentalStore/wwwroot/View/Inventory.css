@@ -1,0 +1,94 @@
+﻿/* General styles for the body */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f8f9fa;
+}
+
+/* Style for the headings */
+h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Styling for the buttons */
+button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    /* Hover effect for buttons */
+    button:hover {
+        background-color: #0056b3;
+    }
+
+/* Styling for the textareas */
+textarea {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+}
+
+/* Styling for the alert info box */
+pre.alert-info {
+    background-color: #e9f7fd;
+    border-color: #b6dff7;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #007bff;
+}
+
+/* Styling for the table */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+    /* Styling for table headers */
+    table th {
+        background-color: #007bff;
+        color: white;
+        padding: 10px;
+    }
+
+    /* Styling for table cells */
+    table td {
+        padding: 10px;
+        border: 1px solid #dee2e6;
+    }
+
+/* Spacing for form elements */
+.mb-3 {
+    margin-top: 30px; /* Increased margin-top between sections */
+}
+
+/* Style for input fields */
+input.form-control {
+    font-size: 1rem;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #ffffff;
+}
+
+/* Add margin-top for each section after text area */
+textarea, table, pre {
+    margin-top: 30px;
+}

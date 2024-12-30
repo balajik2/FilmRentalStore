@@ -2,6 +2,7 @@
 using AutoMapper;
 using FilmRentalStore.DTO;
 using FilmRentalStore.Models;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace FilmRentalStore.Services
@@ -355,8 +356,11 @@ namespace FilmRentalStore.Services
 
         #region UpdateLanguageOfFilm
 
-        public async Task UpdateLanguageOfFilm(int filmId,LanguageDTO language)
+        public async Task UpdateLanguageOfFilm(int filmId,[FromBody]LanguageDTO language)
         {
+
+            var filmToUpdate = await _context.Films.FindAsync(filmId);
+
 
             var languageToUpdate = await _context.Languages
                 .FirstOrDefaultAsync(l => l.LanguageId == language.LanguageId); 
@@ -364,15 +368,12 @@ namespace FilmRentalStore.Services
             
             if (languageToUpdate != null)
             {
-               
-                _context.Entry(languageToUpdate).CurrentValues.SetValues(language);
 
-                
+                filmToUpdate.LanguageId = language.LanguageId;
+
+
                 await _context.SaveChangesAsync();
             }
-
-           
-
 
         }
 
