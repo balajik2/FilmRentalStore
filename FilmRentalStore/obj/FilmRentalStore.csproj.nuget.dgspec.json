@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj": {}
+    "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj": {
+    "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
+        "projectUniqueName": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
         "projectName": "FilmRentalStore",
-        "projectPath": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
-        "packagesPath": "C:\\Users\\KBASAM\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\obj\\",
+        "projectPath": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
+        "packagesPath": "C:\\Users\\shamita\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\KBASAM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shamita\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,7 +42,7 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "all"
+          "auditMode": "direct"
         },
         "SdkAnalysisLevel": "9.0.100"
       },
@@ -108,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
