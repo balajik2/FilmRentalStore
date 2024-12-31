@@ -4850,37 +4850,24 @@
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\shamita\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
-=======
-    "C:\\Users\\BAKUMARE\\.nuget\\packages\\": {}
->>>>>>> origin/master
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
       "projectName": "FilmRentalStore",
       "projectPath": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
       "packagesPath": "C:\\Users\\shamita\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\obj\\",
-=======
-      "projectUniqueName": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
-      "projectName": "FilmRentalStore",
-      "projectPath": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
-      "packagesPath": "C:\\Users\\BAKUMARE\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStore\\obj\\",
->>>>>>> origin/master
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-<<<<<<< HEAD
         "C:\\Users\\shamita\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-        "C:\\Users\\BAKUMARE\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> origin/master
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4888,7 +4875,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4906,12 +4892,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-<<<<<<< HEAD
       },
       "SdkAnalysisLevel": "9.0.100"
-=======
-      }
->>>>>>> origin/master
     },
     "frameworks": {
       "net8.0": {
@@ -4987,23 +4969,8 @@
             "privateAssets": "all"
           }
         },
-<<<<<<< HEAD
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
-=======
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
-      }
-    }
   }
->>>>>>> origin/master
 }

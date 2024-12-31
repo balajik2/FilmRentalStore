@@ -311,6 +311,29 @@
         }
       }
     },
+    "/api/Customers/customerbyid/{id}": {
+      "get": {
+        "tags": [
+          "Customer"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Customers/lastname/{lastname}": {
       "get": {
         "tags": [
@@ -382,25 +405,24 @@
         "tags": [
           "Customer"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/CustomerDTO"
-              }
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "addressid",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -1107,7 +1129,7 @@
         }
       }
     },
-    "/api/films/update/rentaldurtion/{filmid}": {
+    "/api/films/update/rentalduration/{filmId}": {
       "put": {
         "tags": [
           "Film"
@@ -1315,28 +1337,6 @@
         }
       }
     },
-    "/api/Inventory/id": {
-      "get": {
-        "tags": [
-          "Inventory"
-        ],
-        "parameters": [
-          {
-            "name": "filmid",
-            "in": "query",
-            "schema": {
-              "type": "integer",
-              "format": "int32"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "OK"
-          }
-        }
-      }
-    },
     "/api/Inventory/Films": {
       "get": {
         "tags": [
@@ -1521,7 +1521,7 @@
         }
       }
     },
-    "/api/Payment/GetCumulativeRevenueByFilmAndStore": {
+    "/api/Payment/GetCumulativeRevenueAllFilmsByStore": {
       "get": {
         "tags": [
           "Payment"
@@ -1801,25 +1801,24 @@
         "tags": [
           "Staff"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/StaffDTO"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "$ref": "#/components/schemas/StaffDTO"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "$ref": "#/components/schemas/StaffDTO"
-              }
+        "parameters": [
+          {
+            "name": "staffId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "addressId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "OK"
@@ -2109,7 +2108,7 @@
         }
       }
     },
-    "/api/Store/store / staff ": {
+    "/api/Store/AllStaffOfStore": {
       "get": {
         "tags": [
           "Store"
@@ -2172,7 +2171,7 @@
         }
       }
     },
-    "/api/Store/All customers": {
+    "/api/Store/Allcustomers": {
       "get": {
         "tags": [
           "Store"
@@ -2615,16 +2614,12 @@
             "type": "string",
             "nullable": true
           },
+          "storeId": {
+            "type": "integer",
+            "format": "int32"
+          },
           "active": {
             "type": "boolean"
-          },
-          "username": {
-            "type": "string",
-            "nullable": true
-          },
-          "password": {
-            "type": "string",
-            "nullable": true
           },
           "lastUpdate": {
             "type": "string",
