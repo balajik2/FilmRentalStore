@@ -85,6 +85,7 @@ namespace FilmRentalStore.Controllers
                 if (ex.InnerException != null)
                 {
                     Console.WriteLine("Inner Exception: " + ex.InnerException.Message);
+                    Console.WriteLine("Inner Exception Stack Trace: " + ex.InnerException.StackTrace);
                 }
                 return BadRequest(ex.Message);
             }
@@ -207,24 +208,35 @@ namespace FilmRentalStore.Controllers
 
 
         [HttpPut("AssignAddress")]
-        public async Task<IActionResult> AssignAddress(StaffDTO staffDTO)
+        public async Task<IActionResult> AssignAddressId(int staffId, int addressId)
         {
             try
             {
-                if (staffDTO == null || staffDTO.StaffId == 0 || staffDTO.AddressId == 0)
+                // Validate input: Ensure both staffId and addressId are provided
+                if (staffId == 0 || addressId == 0)
                 {
                     return BadRequest("StaffId and AddressId are required.");
                 }
 
-                var result = await _context.AssignAddress(staffDTO);
-                return Ok(result);
+                // Call the service method to update the address for the staff
+                var result = await _context.AssignAddressId(staffId, addressId);
 
+                // If the result is null, it means either staff or address was not found
+                if (result == null)
+                {
+                    return NotFound("Staff or Address not found.");
+                }
+
+                // Return the updated staff details
+                return Ok(result);
             }
             catch (Exception ex)
-            { 
+            {
+                // Return an error message if something goes wrong
                 return BadRequest(ex.Message);
             }
         }
+
 
         #endregion
 

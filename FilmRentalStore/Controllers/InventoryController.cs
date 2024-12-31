@@ -50,19 +50,7 @@ namespace FilmRentalStore.Controllers
             }
         }
 
-        [HttpGet("id")]
-        public async Task<IActionResult> FilmcountinAllstore(int filmid)
-        {
-            try
-            {
-                var data = await _InventoryRepository.FilmcountinAllstore(filmid);
-                return Ok(data);
-            }
-            catch(Exception ex)
-            {
-                return BadRequest(ex.Message);
-            }
-        }
+
 
         [HttpGet("Films")]
         public async Task<IActionResult>  GetAllFilmsinaStore(int storeid)

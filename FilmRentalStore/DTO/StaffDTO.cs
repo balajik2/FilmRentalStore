@@ -14,6 +14,9 @@
 
             public string? Email { get; set; }
 
+            public int StoreId { get; set; }
+
+
             public bool Active { get; set; }
 
 

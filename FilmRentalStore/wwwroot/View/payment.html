@@ -1,0 +1,190 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Payment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="https://imagecdn-f9dfbrdrgzcvcecd.a03.azurefd.net/frslogo/18607014.png" type="image/png">
+    <link rel="stylesheet" href="film.css">
+</head>
+<body>
+
+
+    <!-- Make Payment -->
+    <section>
+        <div class="container mt-5">
+            <h2 class="text-center">Make Payment</h2>
+            <div class="payment-form-container">
+                <label for="paymentId" class="form-label">Payment ID:</label>
+                <input type="number" id="paymentId" class="form-control" placeholder="Enter Payment ID" required>
+
+                <label for="paymentAmount" class="form-label mt-3">Amount:</label>
+                <input type="number" id="paymentAmount" class="form-control" placeholder="Enter Amount" required>
+
+                <button id="makePaymentBtn" class="btn btn-primary mt-3">Make Payment</button>
+            </div>
+
+            <div id="paymentResult" class="alert mt-3" style="display: none;"></div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <h2 class="text-center">Cumulative Revenue of All Stores</h2>
+
+            <!-- Button to fetch cumulative revenue -->
+            <button id="getCumulativeRevenueBtn" class="btn btn-primary mt-3">Fetch Cumulative Revenue</button>
+
+            <!-- Table to display cumulative revenue data -->
+            <table id="revenueTable" class="table table-striped mt-3" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>Store ID</th>
+                        <th>Payment Date</th>
+                        <th>Amount</th>
+                        <th>Customer ID</th>
+                        <th>Rental ID</th>
+                        <th>Last Update</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Data will be inserted here by JavaScript -->
+                </tbody>
+            </table>
+
+            <!-- Error message container -->
+            <div id="errorMessage" class="alert alert-danger mt-3" style="display: none;"></div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="container mt-5">
+            <h2 class="text-center">Get Cumulative Revenue for Store</h2>
+            <div class="revenue-form-container">
+                <label for="storeId" class="form-label">Store ID:</label>
+                <input type="number" id="storeId" class="form-control" placeholder="Enter Store ID" required>
+
+                <button id="getStoreRevenueBtn" class="btn btn-primary mt-3">Get Revenue for Store</button>
+            </div>
+
+            <div id="revenueResult" class="alert mt-3" style="display: none;"></div>
+
+            <!-- Table to display the revenue data -->
+            <table id="revenueTable1" class="table mt-3" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>Store ID</th>
+                        <th>Payment Date</th>
+                        <th>Amount</th>
+                        <th>Customer ID</th>
+                        <th>Rental ID</th>
+                        <th>Last Update</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <h2 class="text-center">Get Payments by Film Title</h2>
+            <div class="payment-form-container">
+                <label for="filmTitle" class="form-label">Film Title:</label>
+                <input type="text" id="filmTitle" class="form-control" placeholder="Enter Film Title" required>
+
+                <button id="getPaymentsByFilmTitleBtn" class="btn btn-primary mt-3">Get Payments</button>
+            </div>
+
+            <div id="paymentsResult" class="alert mt-3" style="display: none;"></div>
+
+            <!-- Table to display the payments data -->
+            <table id="paymentsTable" class="table mt-3" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>Payment ID</th>
+                        <th>Staff ID</th>
+                        <th>Amount</th>
+                        <th>Customer ID</th>
+                        <th>Rental ID</th>
+                        <th>Payment Date</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+    <section>
+        <div class="container mt-5">
+            <h2 class="text-center">Get Cumulative Revenue Store-wise</h2>
+            <div class="revenue-form-container">
+                <label for="storeId2" class="form-label">Store ID:</label>
+                <input type="number" id="storeId2" class="form-control" placeholder="Enter Store ID" required>
+
+                <button id="getCumulativesRevenueBtn" class="btn btn-primary mt-3">Get Cumulative Revenue</button>
+            </div>
+
+            <div id="revenueResult2" class="alert mt-3" style="display: none;"></div>
+
+            <!-- Table to display the revenue data -->
+            <table id="revenueTable2" class="table mt-3" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>Store ID</th>
+                        <th>Payment Date</th>
+                        <th>Amount</th>
+                        <th>Customer ID</th>
+                        <th>Rental ID</th>
+                        <th>Last Update</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </section>
+
+    <section>
+        <div class="container mt-5">
+            <h2 class="text-center">Get Cumulative Revenue For All Films by Store</h2>
+            <div class="revenue-form-container">
+                <button id="getssCumulativeRevenueBtn" class="btn btn-primary mt-3">Get Cumulative Revenue</button>
+            </div>
+
+            <div id="revenueResult8" class="alert mt-3" style="display: none;"></div>
+
+            <!-- Table to display the revenue data -->
+            <table id="revenueTable8" class="table mt-3" style="display: none;">
+                <thead>
+                    <tr>
+                        <th>Film Title</th>
+                        <th>Payment ID</th>
+                        <th>Customer ID</th>
+                        <th>Staff ID</th>
+                        <th>Rental ID</th>
+                        <th>Amount</th>
+                        <th>Payment Date</th>
+                        <th>Last Update</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="payment.js"></script>
+</body>
+</html>

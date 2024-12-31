@@ -15,7 +15,7 @@ namespace FilmRentalStore.Services
         Task <StoreDTO> GetStorebyPhoneno(string phone);
         Task UpdatePhoneBystoreid(int storeid, string phone);
 
-        Task AssignManager(int storeid, StaffDTO staffDto);
+        Task AssignManager(int id, StaffDTO staff);
         Task<List<StaffDTO>> GetAllManagerOfStore(int storeid);
         Task<List<JoinDTO>> GetAllStaffAndStore();
 

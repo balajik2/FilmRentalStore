@@ -55,8 +55,8 @@ namespace FilmRentalStore.Controllers
                     return BadRequest(validateresult.Errors);
                 }
 
-                await _CustomerService.AddCustomer(customer);
-                 return CreatedAtAction("GetCustomer", new { }, customer);
+              var newcustomer =  await _CustomerService.AddCustomer(customer);
+                 return CreatedAtAction("GetCustomer", new { id =newcustomer.CustomerId}, newcustomer);
                 //return Ok(customervalue);
             }
             catch(Exception ex)
@@ -90,6 +90,27 @@ namespace FilmRentalStore.Controllers
         }
         #endregion
 
+
+        
+        [HttpGet("customerbyid/{id}")]
+
+        public async Task<IActionResult> GetCustomerById(int id)
+        {
+            try
+            {
+                List<CustomerDTO> cust = await _CustomerService.GetCustomerById(id);
+
+                return Ok(cust);
+
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+
         #region GetCustomerByLastName
 
         /// <summary>
@@ -104,6 +125,12 @@ namespace FilmRentalStore.Controllers
 
         public async Task<IActionResult> GetCustomerByLastName(string lastname)
         {
+
+            if (string.IsNullOrWhiteSpace(lastname))
+            {
+                return BadRequest("'lastname' is required.");
+            }
+
             try
             {
                 List<CustomerDTO> cust = await _CustomerService.GetCustomerByLastName(lastname);
@@ -134,6 +161,12 @@ namespace FilmRentalStore.Controllers
 
         public async Task<IActionResult> GetCustomerByFirstName(string firstname)
         {
+
+
+            if (string.IsNullOrWhiteSpace(firstname))
+            {
+                return BadRequest("'firstName' is required.");
+            }
             try
             {
                 List<CustomerDTO> firstnameval = await _CustomerService.GetCustomerByFirstName(firstname);
@@ -161,9 +194,13 @@ namespace FilmRentalStore.Controllers
         [HttpGet("email/{email}")]
         public async Task<IActionResult> GetCustomerByEmail(string? email)
         {
+            if (string.IsNullOrWhiteSpace(email))
+            {
+                return BadRequest("'email' is required.");
+            }
             try
             {
-                var supplier = await _CustomerService.GetCustomerByEmail(email);
+               var supplier = await _CustomerService.GetCustomerByEmail(email);
                 return Ok(supplier);
             }
             catch (Exception ex)
@@ -184,16 +221,15 @@ namespace FilmRentalStore.Controllers
         /// <returns></returns>
 
         [HttpPut("AsignAddress")]
-        public async Task<IActionResult> AssignAddress(CustomerDTO customer)
+        public async Task<IActionResult> AssignAddress(int id,int addressid)
         {
             try
             {
-                if (customer == null || customer.CustomerId == 0 || customer.CustomerId == 0)
+                if (id == 0 || addressid == 0)
                 {
-                    return BadRequest("CustomerId and AddressId are required.");
+                    return BadRequest("Customerid or store is Required");
                 }
-
-                var result = await _CustomerService.AssignAddress(customer);
+                var result = await _CustomerService.AssignAddress(id, addressid);
                 return Ok(result);
 
             }
@@ -252,7 +288,7 @@ namespace FilmRentalStore.Controllers
         {
             try
             {
-                List<CustomerDTO> cust = await _CustomerService.GetCustomerByCountry(country);
+                List<CustomerwithAddressDTO> cust = await _CustomerService.GetCustomerByCountry(country);
                 return Ok(cust);
             }
             catch (Exception ex)
@@ -442,7 +478,7 @@ namespace FilmRentalStore.Controllers
             {
 
                var result = await _CustomerService.UpdatePhoneCustomer(id, phone);
-                return Ok(new { data = result, Message = "Phone number updated Successfully" });
+                return Ok(result);
 
             }
             catch (Exception ex)
