@@ -85,6 +85,7 @@ namespace FilmRentalStore.Controllers
                 if (ex.InnerException != null)
                 {
                     Console.WriteLine("Inner Exception: " + ex.InnerException.Message);
+                    Console.WriteLine("Inner Exception Stack Trace: " + ex.InnerException.StackTrace);
                 }
                 return BadRequest(ex.Message);
             }

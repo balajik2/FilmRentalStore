@@ -48,10 +48,14 @@ builder.Services.AddScoped<IPaymentRepository, PaymentService>();
 builder.Services.AddScoped<ICustomerRepository, CustomerService>();
 builder.Services.AddScoped<IAuthRepository, AuthService>();
 
+builder.Services.AddTransient<CustomFilmValidator>();
+
+
+
 builder.Services.AddControllers();
 
 
-builder.Services.AddValidatorsFromAssemblyContaining<FilmValidator>();
+//builder.Services.AddValidatorsFromAssemblyContaining<FilmValidator>();
 builder.Services.AddValidatorsFromAssemblyContaining<RentalValidator>();
 builder.Services.AddValidatorsFromAssemblyContaining<CustomerValidator>();
 builder.Services.AddValidatorsFromAssemblyContaining<StoreValidators>();
@@ -137,6 +141,9 @@ app.UseSwaggerUI();
 app.UseHttpsRedirection();
 app.UseAuthentication();
 app.UseAuthorization();
+
+
+
 app.UseExceptionHandler(options =>
 {
     options.Run(async context =>
@@ -152,11 +159,11 @@ app.UseExceptionHandler(options =>
     });
 });
 
-
 app.UseCors(builder =>
     builder.WithOrigins("https://localhost:7239") // Allow specific origins
            .AllowAnyMethod()
            .AllowAnyHeader());
+
 
 
 
@@ -185,6 +192,8 @@ app.UseExceptionHandler(options =>
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthorization();
 
 
 app.MapControllers();

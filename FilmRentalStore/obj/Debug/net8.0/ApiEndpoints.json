@@ -203,9 +203,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "customer",
-        "Type": "FilmRentalStore.DTO.CustomerDTO",
-        "IsRequired": true
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "addressid",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -258,6 +263,22 @@
       {
         "Name": "country",
         "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.CustomerController",
+    "Method": "GetCustomerById",
+    "RelativePath": "api/Customers/customerbyid/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -778,7 +799,7 @@
   {
     "ContainingType": "FilmRentalStore.Controllers.FilmController",
     "Method": "UpdateRentalDurationOfFilm",
-    "RelativePath": "api/films/update/rentaldurtion/{filmid}",
+    "RelativePath": "api/films/update/rentalduration/{filmId}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -934,25 +955,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "FilmRentalStore.Controllers.InventoryController",
-    "Method": "FilmcountinAllstore",
-    "RelativePath": "api/Inventory/id",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "filmid",
-        "Type": "System.Int32",
-        "IsRequired": false
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
     "ContainingType": "FilmRentalStore.Controllers.PaymentController",
     "Method": "GetCumulativeRevenueAllFilmsByStore",
-    "RelativePath": "api/Payment/GetCumulativeRevenueByFilmAndStore",
+    "RelativePath": "api/Payment/GetCumulativeRevenueAllFilmsByStore",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1400,7 +1405,23 @@
   {
     "ContainingType": "FilmRentalStore.Controllers.StoreController",
     "Method": "GetAllCustomers",
-    "RelativePath": "api/Store/All customers",
+    "RelativePath": "api/Store/Allcustomers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "storeid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "FilmRentalStore.Controllers.StoreController",
+    "Method": "GetAllStaffOfStore",
+    "RelativePath": "api/Store/AllStaffOfStore",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -1483,22 +1504,6 @@
         "Name": "storeDto",
         "Type": "FilmRentalStore.DTO.StoreDTO",
         "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "FilmRentalStore.Controllers.StoreController",
-    "Method": "GetAllStaffOfStore",
-    "RelativePath": "api/Store/store / staff ",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "storeid",
-        "Type": "System.Int32",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []

@@ -14,11 +14,11 @@
 
             public string? Email { get; set; }
 
+            public int StoreId { get; set; }
+
+
             public bool Active { get; set; }
 
-            public string Username { get; set; } = null!;
-
-            public string? Password { get; set; }
 
             public DateTime LastUpdate { get; set; }
 

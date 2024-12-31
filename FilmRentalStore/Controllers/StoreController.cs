@@ -72,7 +72,7 @@ namespace FilmRentalStore.Controllers
             }
         }
 
-        [HttpGet("store / staff ")]
+        [HttpGet("AllStaffOfStore")]
         public async Task<IActionResult> GetAllStaffOfStore(int storeid)
         {
             try
@@ -101,7 +101,7 @@ namespace FilmRentalStore.Controllers
                 return BadRequest(ex.Message);
             }
         }
-        [HttpGet("All customers")]
+        [HttpGet("Allcustomers")]
         public async Task<IActionResult> GetAllCustomers(int storeid)
         {
             try
@@ -137,7 +137,7 @@ namespace FilmRentalStore.Controllers
                 await _StoreRepository.UpdatePhoneBystoreid(storeid, phone);
                 return Ok("Phone number updated successfully");
             }
-            catch (KeyNotFoundException ex)
+            catch (FormatException ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -170,9 +170,9 @@ namespace FilmRentalStore.Controllers
 
             }
 
-            catch (Exception ex)
+            catch (Exception )
             {
-                return BadRequest(ex.Message);
+                return BadRequest("a");
             }
         }
         [HttpGet("/api/store/managers")]
@@ -191,6 +191,8 @@ namespace FilmRentalStore.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+
     }
     }
 

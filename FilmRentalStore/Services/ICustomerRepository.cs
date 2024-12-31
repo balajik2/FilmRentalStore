@@ -4,9 +4,11 @@ namespace FilmRentalStore.Services
 {
     public interface ICustomerRepository
     {
-        Task AddCustomer(CustomerDTO customer);
+        Task<CustomerDTO> AddCustomer(CustomerDTO customer);
 
         Task <List<CustomerDTO>> GetCustomer();
+
+        Task<List<CustomerDTO>> GetCustomerById(int id);
 
         Task<List<CustomerDTO>> GetCustomerByLastName(string lastname);
 
@@ -14,13 +16,13 @@ namespace FilmRentalStore.Services
 
         Task<CustomerDTO> GetCustomerByEmail(string? email);
 
-         Task<List<CustomerDTO>> AssignAddress(CustomerDTO customer);
+         Task<List<CustomerDTO>> AssignAddress(int id,int addressid);
 
        // Task UpdateCustomerById(int customerid, AddressDTO address);
 
         Task<List<CustomerwithAddressDTO>> GetCustomerByCity(string city);
 
-        Task<List<CustomerDTO>> GetCustomerByCountry(string city);
+        Task<List<CustomerwithAddressDTO>> GetCustomerByCountry(string city);
 
         Task<List<CustomerDTO>> GetActiveCustomers();
 
