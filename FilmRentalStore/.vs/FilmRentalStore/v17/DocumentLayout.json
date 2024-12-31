@@ -3,13 +3,17 @@
   "WorkspaceRootPath": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{CB4BA741-B20A-4C9F-85A2-451BDA71C007}|..\\FilmRentalStoreTesting\\FilmRentalStoreTesting.csproj|c:\\users\\shamita\\documents\\sprint\\filmrentalstoretesting\\inventorytesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+=======
+>>>>>>> origin/FilmRentalStore-5
       "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\documents\\sprint\\filmrentalstore\\wwwroot\\view\\staff.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:wwwroot\\view\\staff.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStoreTesting\\InventoryTesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -58,6 +62,30 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStoreTesting\\FilmTesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\documents\\sprint\\filmrentalstore\\wwwroot\\view\\staff.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:wwwroot\\view\\staff.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\documents\\sprint\\filmrentalstore\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\documents\\sprint\\filmrentalstore\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\documents\\sprint\\filmrentalstore\\services\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:services\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\documents\\sprint\\filmrentalstore\\wwwroot\\view\\customer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:wwwroot\\view\\customer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\documents\\sprint\\filmrentalstore\\wwwroot\\view\\customer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:wwwroot\\view\\customer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> origin/FilmRentalStore-5
     }
   ],
   "DocumentGroupContainers": [
@@ -67,7 +95,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 10,
+>>>>>>> origin/FilmRentalStore-5
           "Children": [
             {
               "$type": "Bookmark",
@@ -87,6 +119,7 @@
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 0,
               "Title": "InventoryTesting.cs",
               "DocumentMoniker": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStoreTesting\\InventoryTesting.cs",
@@ -96,10 +129,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-31T05:13:48.4Z",
+=======
+              "DocumentIndex": 4,
+              "Title": "IStaffRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\Services\\IStaffRepository.cs",
+              "RelativeDocumentMoniker": "Services\\IStaffRepository.cs",
+              "ToolTip": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\Services\\IStaffRepository.cs",
+              "RelativeToolTip": "Services\\IStaffRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAzwAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T10:03:48.635Z",
+>>>>>>> origin/FilmRentalStore-5
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 2,
               "Title": "InventoryTesting.cs",
               "DocumentMoniker": "C:\\Users\\BAKUMARE\\Documents\\Sprint\\FilmRentalStoreTesting\\InventoryTesting.cs",
@@ -144,10 +189,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-12-30T16:36:45.716Z",
+=======
+              "DocumentIndex": 3,
+              "Title": "StaffService.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\Services\\StaffService.cs",
+              "RelativeDocumentMoniker": "Services\\StaffService.cs",
+              "ToolTip": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\Services\\StaffService.cs",
+              "RelativeToolTip": "Services\\StaffService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAuwFUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T10:01:10.711Z",
+>>>>>>> origin/FilmRentalStore-5
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 3,
               "Title": "Staff.html",
               "DocumentMoniker": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.html",
@@ -157,10 +214,23 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-12-30T16:36:27.763Z"
+=======
+              "DocumentIndex": 2,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "Controllers\\StaffController.cs",
+              "ViewState": "AgIAANAAAAAAAAAAAAAuwNcAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T10:01:00.996Z",
+              "EditorCaption": ""
+>>>>>>> origin/FilmRentalStore-5
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+<<<<<<< HEAD
               "Title": "Rental.html",
               "DocumentMoniker": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Rental.html",
               "RelativeDocumentMoniker": "wwwroot\\View\\Rental.html",
@@ -197,13 +267,16 @@
             {
               "$type": "Document",
               "DocumentIndex": 11,
+=======
+>>>>>>> origin/FilmRentalStore-5
               "Title": "customer.html",
               "DocumentMoniker": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.html",
               "RelativeDocumentMoniker": "wwwroot\\View\\customer.html",
               "ToolTip": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.html",
               "RelativeToolTip": "wwwroot\\View\\customer.html",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADoBAAAAAAAAAAAAAF4BAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+<<<<<<< HEAD
               "WhenOpened": "2024-12-30T16:35:55.029Z"
             },
             {
@@ -253,10 +326,15 @@
               "ViewState": "AgIAAD8AAAAAAAAAAAAAALIAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-12-30T16:30:47.089Z"
+=======
+              "WhenOpened": "2024-12-31T09:35:46.564Z",
+              "EditorCaption": ""
+>>>>>>> origin/FilmRentalStore-5
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+<<<<<<< HEAD
               "Title": "login.html",
               "DocumentMoniker": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\login.html",
               "RelativeDocumentMoniker": "wwwroot\\View\\login.html",
@@ -265,6 +343,43 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-12-30T16:30:36.219Z"
+=======
+              "Title": "customer.js",
+              "DocumentMoniker": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.js",
+              "RelativeDocumentMoniker": "wwwroot\\View\\customer.js",
+              "ToolTip": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.js",
+              "RelativeToolTip": "wwwroot\\View\\customer.js",
+              "ViewState": "AgIAAGUCAAAAAAAAAAAAAGUCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-31T06:15:51.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Staff.html",
+              "DocumentMoniker": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.html",
+              "RelativeDocumentMoniker": "wwwroot\\View\\Staff.html",
+              "ToolTip": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.html",
+              "RelativeToolTip": "wwwroot\\View\\Staff.html",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAmwAMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2024-12-31T05:38:30.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Staff.js",
+              "DocumentMoniker": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.js",
+              "RelativeDocumentMoniker": "wwwroot\\View\\Staff.js",
+              "ToolTip": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.js",
+              "RelativeToolTip": "wwwroot\\View\\Staff.js",
+              "ViewState": "AgIAAIoCAAAAAAAAAAAAAMcCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-31T05:33:33.683Z",
+              "EditorCaption": ""
+>>>>>>> origin/FilmRentalStore-5
             }
           ]
         },

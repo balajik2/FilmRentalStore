@@ -1156,16 +1156,21 @@
   },
   {
     "ContainingType": "FilmRentalStore.Controllers.StaffController",
-    "Method": "AssignAddress",
+    "Method": "AssignAddressId",
     "RelativePath": "api/Staff/AssignAddress",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "staffDTO",
-        "Type": "FilmRentalStore.DTO.StaffDTO",
-        "IsRequired": true
+        "Name": "staffId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "addressId",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

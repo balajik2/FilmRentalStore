@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "WKVdzGs232dVwo7Sb65V0eLUCpyBZoI83bjXpKbfJT0=",
+=======
+  "Hash": "BqLUxP5vMReNSTurFldVJp5GkX8fqYQ1BtCsoY2u1OQ=",
+>>>>>>> origin/FilmRentalStore-5
   "Source": "FilmRentalStore",
   "BasePath": "_content/FilmRentalStore",
   "Mode": "Default",
@@ -493,8 +497,13 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "rmyk8xtadl",
       "Integrity": "rZcwX3rgmnKo5VC9OQ4/YrQukH4SpLQK60MU2QxhHEo=",
+=======
+      "Fingerprint": "1hjs1ul67c",
+      "Integrity": "awU6lYYMRGf8el8O11MsN17+4Nme/QCLf98eE/UxeDM=",
+>>>>>>> origin/FilmRentalStore-5
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\Staff.html"
@@ -514,8 +523,13 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "kr3c1mwwi7",
       "Integrity": "EFf0GZ/2Ft1cLXAfl5uZvoHoLdR+0gZeLdw2umU6nuk=",
+=======
+      "Fingerprint": "yxkts2iahm",
+      "Integrity": "umyx1wdcaZTGRpyy+5ZZQS8i5iawTFmDsTNY+KW8ir4=",
+>>>>>>> origin/FilmRentalStore-5
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\Staff.js"
@@ -608,7 +622,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -653,7 +671,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -690,7 +712,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -727,7 +753,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -764,7 +794,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -809,7 +843,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -854,7 +892,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -899,7 +941,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -936,7 +982,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -973,7 +1023,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1010,7 +1064,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1055,7 +1113,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1100,7 +1162,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1145,7 +1211,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1182,7 +1252,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1227,7 +1301,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1264,7 +1342,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1309,7 +1391,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1346,7 +1432,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1383,7 +1473,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1428,7 +1522,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1473,7 +1571,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1510,7 +1612,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1555,7 +1661,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1592,7 +1702,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1637,7 +1751,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1674,7 +1792,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1711,7 +1833,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1756,7 +1882,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1793,7 +1923,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1838,7 +1972,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1883,7 +2021,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1920,7 +2062,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -1957,7 +2103,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2002,7 +2152,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2039,7 +2193,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2084,7 +2242,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2129,7 +2291,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2174,7 +2340,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2211,7 +2381,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2248,7 +2422,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2285,7 +2463,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2308,6 +2490,54 @@
       ]
     },
     {
+<<<<<<< HEAD
+=======
+      "Route": "View/Staff.1hjs1ul67c.html",
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awU6lYYMRGf8el8O11MsN17+4Nme/QCLf98eE/UxeDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 10:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1hjs1ul67c"
+        },
+        {
+          "Name": "label",
+          "Value": "View/Staff.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-awU6lYYMRGf8el8O11MsN17+4Nme/QCLf98eE/UxeDM="
+        }
+      ]
+    },
+    {
+>>>>>>> origin/FilmRentalStore-5
       "Route": "View/Staff.3r8b2a0bt1.css",
       "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.css",
       "Selectors": [],
@@ -2330,7 +2560,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2375,7 +2609,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2400,7 +2638,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "3087"
+=======
+          "Value": "13713"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Content-Type",
@@ -2408,11 +2650,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"rZcwX3rgmnKo5VC9OQ4/YrQukH4SpLQK60MU2QxhHEo=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "\"awU6lYYMRGf8el8O11MsN17+4Nme/QCLf98eE/UxeDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 10:13:02 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2422,7 +2672,11 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-rZcwX3rgmnKo5VC9OQ4/YrQukH4SpLQK60MU2QxhHEo="
+=======
+          "Value": "sha256-awU6lYYMRGf8el8O11MsN17+4Nme/QCLf98eE/UxeDM="
+>>>>>>> origin/FilmRentalStore-5
         }
       ]
     },
@@ -2437,7 +2691,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "10388"
+=======
+          "Value": "37401"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Content-Type",
@@ -2445,11 +2703,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"EFf0GZ/2Ft1cLXAfl5uZvoHoLdR+0gZeLdw2umU6nuk=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "\"umyx1wdcaZTGRpyy+5ZZQS8i5iawTFmDsTNY+KW8ir4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 10:14:17 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2459,12 +2725,20 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-EFf0GZ/2Ft1cLXAfl5uZvoHoLdR+0gZeLdw2umU6nuk="
+=======
+          "Value": "sha256-umyx1wdcaZTGRpyy+5ZZQS8i5iawTFmDsTNY+KW8ir4="
+>>>>>>> origin/FilmRentalStore-5
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "View/Staff.kr3c1mwwi7.js",
+=======
+      "Route": "View/Staff.yxkts2iahm.js",
+>>>>>>> origin/FilmRentalStore-5
       "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2474,7 +2748,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "10388"
+=======
+          "Value": "37401"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Content-Type",
@@ -2482,11 +2760,19 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"EFf0GZ/2Ft1cLXAfl5uZvoHoLdR+0gZeLdw2umU6nuk=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "\"umyx1wdcaZTGRpyy+5ZZQS8i5iawTFmDsTNY+KW8ir4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 10:14:17 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2496,7 +2782,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "kr3c1mwwi7"
+=======
+          "Value": "yxkts2iahm"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "label",
@@ -2504,6 +2794,7 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-EFf0GZ/2Ft1cLXAfl5uZvoHoLdR+0gZeLdw2umU6nuk="
         }
       ]
@@ -2550,6 +2841,9 @@
         {
           "Name": "integrity",
           "Value": "sha256-rZcwX3rgmnKo5VC9OQ4/YrQukH4SpLQK60MU2QxhHEo="
+=======
+          "Value": "sha256-umyx1wdcaZTGRpyy+5ZZQS8i5iawTFmDsTNY+KW8ir4="
+>>>>>>> origin/FilmRentalStore-5
         }
       ]
     },
@@ -2576,7 +2870,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2621,7 +2919,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2658,7 +2960,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2703,7 +3009,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2740,7 +3050,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
@@ -2777,7 +3091,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
         },
         {
           "Name": "Cache-Control",
