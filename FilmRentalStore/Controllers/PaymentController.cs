@@ -13,12 +13,12 @@ namespace FilmRentalStore.Controllers
     public class PaymentController : ControllerBase
     {
         private readonly IPaymentRepository _context;
-        private readonly IConfiguration _configuration;
+        private readonly IValidator<PaymentDTO> _validator;
 
-        public PaymentController(IPaymentRepository payment, IConfiguration configuration)
+        public PaymentController(IPaymentRepository payment, IValidator<PaymentDTO> validator)
         {
             _context = payment;
-            _configuration = configuration;
+            _validator = validator;
 
         }
 

@@ -76,6 +76,7 @@ document.getElementById('fetchFilmsButton').addEventListener('click', async () =
     }
 
     try {
+        const table = document.getElementById('filmsTable');
         const response = await fetch(`https://localhost:7239/api/rental/customer/${customerId}`, {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
@@ -90,6 +91,7 @@ document.getElementById('fetchFilmsButton').addEventListener('click', async () =
         if (films.length > 0) {
             updateCustomerFilmsTable(films); // Use specific function for customer films table
             alert('Films retrieved successfully!');
+            table.style.display = 'table'; // Show table
         } else {
             alert('No films rented by this customer.');
         }
@@ -125,6 +127,7 @@ function updateCustomerFilmsTable(films) {
 // Top 10 Rented Films
 document.getElementById('fetchTopFilmsButton1').addEventListener('click', async () => {
     try {
+        const table = document.getElementById('topFilmsTable');
         const response = await fetch('https://localhost:7239/api/rental/toptenfilms', {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
@@ -139,6 +142,7 @@ document.getElementById('fetchTopFilmsButton1').addEventListener('click', async 
         if (topFilms.length > 0) {
             updateTopFilmsTable(topFilms); // Use specific function for top films table
             alert('Top 10 films retrieved successfully!');
+            table.style.display = 'table'; // Show table
         } else {
             alert('No data available for top rented films.');
         }
