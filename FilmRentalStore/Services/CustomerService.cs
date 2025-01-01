@@ -105,7 +105,7 @@ namespace FilmRentalStore.Services
             // Assign the store to the staff member (assuming Staff has a Store property)
             cust.AddressId = addressid;
 
-            if (address== null)
+            if (cust== null)
             {
                 //throw new Exception("addressid doesn't exist");
                 return null;

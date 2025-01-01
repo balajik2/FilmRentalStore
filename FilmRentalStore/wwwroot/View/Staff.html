@@ -35,29 +35,37 @@
 
 
 
-
     <h2>Add Staff</h2>
 
     <textarea id="requestBody" rows="15" cols="50" class="form-control mb-3">
+
 {
+
   "staffId": 0,
+
   "firstName": "string",
+
   "lastName": "string",
+
   "addressId": 0,
+
   "email": "string",
+
   "storeId": 0,
+
   "active": true,
+
   "lastUpdate": "2024-12-30T10:08:12.674Z",
+
   "urlPath": "string"
+
 }
-        </textarea>
+</textarea>
     <div class="mb-3">
 
         <button id="addStaffBtn" class="btn btn-success">Add Staff</button>
     </div>
-    <pre id="responseDetails" class="alert alert-info"></pre>
-
-
+<pre id="responseDetails" class="alert alert-info"></pre>
 
 
 
@@ -87,6 +95,333 @@
 
 
 
+    <h2>Get Staff by First Name</h2>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" placeholder="Enter First Name"><br><br>
+    <button id="getStaffByFirstNameBtn">Get Staff By First Name</button>
+
+    <!-- Table to display staff details -->
+    <table id="searchStaffTable" border="1" style="display:none; margin-top: 20px; width: 100%; text-align: left;">
+        <thead>
+            <tr>
+                <th>Staff ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address ID</th>
+                <th>Email</th>
+                <th>Store ID</th>
+                <th>Active</th>
+                <th>Last Update</th>
+                <th>URL Path</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+
+    <h2>Update Staff Address ID</h2>
+    <div class="mb-3">
+        <label for="updateStaffIdAddress" class="form-label">Enter Staff ID:</label>
+        <input type="number" id="updateStaffIdAddress" class="form-control" placeholder="Enter staff ID" required>
+
+        <label for="updateAddressId" class="form-label mt-2">Enter New Address ID:</label>
+        <input type="number" id="updateAddressId" class="form-control" placeholder="Enter new address ID" required>
+
+        <button id="updateStaffAddressBtn" class="btn btn-warning mt-3">Update Address ID</button>
+    </div>
+
+    <!-- Table to display the updated staff details after address ID update -->
+    <table id="updatedStaffAddressTable" class="table table-striped table-bordered" style="display: none;">
+        <thead>
+            <tr>
+                <th>Staff ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Address ID</th>
+                <th>Store ID</th>
+                <th>Active</th>
+                <th>Last Update</th>
+                <th>URL Path</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+
+
+    <h2>Get Staff by City</h2>
+    <label for="city">City:</label>
+    <input type="text" id="city" placeholder="Enter City"><br><br>
+    <button id="getStaffByCityBtn">Get Staff By City</button>
+
+    <!-- Table to display staff details -->
+    <table id="searchStaffTable" border="1" style="display:none; margin-top: 20px; width: 100%; text-align: left;">
+        <thead>
+            <tr>
+                <th>Staff ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address ID</th>
+                <th>Email</th>
+                <th>Store ID</th>
+                <th>Active</th>
+                <th>Last Update</th>
+                <th>URL Path</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+    <h2>Get Staff by Country</h2>
+    <div class="mb-3">
+        <label for="staffCountry" class="form-label">Enter Country:</label>
+        <input type="text" id="staffCountry" class="form-control" placeholder="Enter country name" required>
+
+        <button id="getStaffByCountryBtn" class="btn btn-info mt-3">Get Staff by Country</button>
+    </div>
+
+    <!-- Table to display the fetched staff details -->
+    <table id="staffCountryTable" class="table table-striped table-bordered" style="display: none;">
+        <thead>
+            <tr>
+                <th>Staff ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Address ID</th>
+                <th>Store ID</th>
+                <th>Active</th>
+                <th>Last Update</th>
+                <th>URL Path</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+
+    <h2>Get Staff by Email</h2>
+    <label for="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter Email"><br><br>
+    <button id="getStaffByEmailBtn">Get Staff By Email</button>
+
+    <!-- Table to display staff details -->
+    <table id="searchStaffTable" border="1" style="display:none; margin-top: 20px; width: 100%; text-align: left;">
+        <thead>
+            <tr>
+                <th>Staff ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Address ID</th>
+                <th>Email</th>
+                <th>Store ID</th>
+                <th>Active</th>
+                <th>Last Update</th>
+                <th>URL Path</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+
+    <h2>Get Staff by Phone Number</h2>
+    <div class="mb-3">
+        <label for="staffPhoneNumber" class="form-label">Enter Staff Phone Number:</label>
+        <input type="text" id="staffPhoneNumber" class="form-control" placeholder="Enter staff phone number" required>
+
+        <button id="getStaffByPhoneBtn" class="btn btn-info mt-3">Get Staff by Phone</button>
+    </div>
+
+    <!-- Table to display the fetched staff details -->
+    <table id="staffPhoneTable" class="table table-striped table-bordered" style="display: none;">
+        <thead>
+            <tr>
+                <th>Staff ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Address ID</th>
+                <th>Store ID</th>
+                <th>Active</th>
+                <th>Last Update</th>
+                <th>URL Path</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+
+
+    <h2>Update Staff Last Name</h2>
+    <div class="mb-3">
+        <label for="updateStaffIdLastName" class="form-label">Enter Staff ID:</label>
+        <input type="number" id="updateStaffIdLastName" class="form-control" placeholder="Enter staff ID" required>
+
+        <label for="updateLastName" class="form-label mt-2">Enter New Last Name:</label>
+        <input type="text" id="updateLastName" class="form-control" placeholder="Enter new last name" required>
+
+        <button id="updateStaffLastNameBtn" class="btn btn-warning mt-3">Update Last Name</button>
+    </div>
+
+    <!-- Table to display the updated staff details after last name update -->
+    <table id="updatedStaffLastNameTable" class="table table-striped table-bordered" style="display: none;">
+        <thead>
+            <tr>
+                <th>Staff ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Address ID</th>
+                <th>Store ID</th>
+                <th>Active</th>
+                <th>Last Update</th>
+                <th>URL Path</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+
+    <h2>Update Staff First Name</h2>
+    <div class="mb-3">
+        <label for="updateStaffIdFirstName" class="form-label">Enter Staff ID:</label>
+        <input type="number" id="updateStaffIdFirstName" class="form-control" placeholder="Enter staff ID" required>
+
+        <label for="updateFirstName" class="form-label mt-2">Enter New First Name:</label>
+        <input type="text" id="updateFirstName" class="form-control" placeholder="Enter new first name" required>
+
+        <button id="updateStaffFirstNameBtn" class="btn btn-warning mt-3">Update First Name</button>
+    </div>
+
+    <!-- Table to display the updated staff details after first name update -->
+    <table id="updatedStaffFirstNameTable" class="table table-striped table-bordered" style="display: none;">
+        <thead>
+            <tr>
+                <th>Staff ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Address ID</th>
+                <th>Store ID</th>
+                <th>Active</th>
+                <th>Last Update</th>
+                <th>URL Path</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+
+    <h2>Update Staff Email</h2>
+    <div class="mb-3">
+        <label for="updateStaffIdEmail" class="form-label">Enter Staff ID:</label>
+        <input type="number" id="updateStaffIdEmail" class="form-control" placeholder="Enter staff ID" required>
+
+        <label for="updateEmail" class="form-label mt-2">Enter New Email:</label>
+        <input type="email" id="updateEmail" class="form-control" placeholder="Enter new email" required>
+
+        <button id="updateStaffEmailBtn" class="btn btn-warning mt-3">Update Email</button>
+    </div>
+
+    <!-- Table to display the updated staff details after email update -->
+    <table id="updatedStaffEmailTable" class="table table-striped table-bordered" style="display: none;">
+        <thead>
+            <tr>
+                <th>Staff ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Address ID</th>
+                <th>Store ID</th>
+                <th>Active</th>
+                <th>Last Update</th>
+                <th>URL Path</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+
+    <h2>Update Staff Store ID</h2>
+    <div class="mb-3">
+        <label for="updateStaffIdStoreId" class="form-label">Enter Staff ID:</label>
+        <input type="number" id="updateStaffIdStoreId" class="form-control" placeholder="Enter staff ID" required>
+
+        <label for="updateStoreId" class="form-label mt-2">Enter New Store ID:</label>
+        <input type="number" id="updateStoreId" class="form-control" placeholder="Enter new store ID" required>
+
+        <button id="updateStoreIdBtn" class="btn btn-warning mt-3">Update Store ID</button>
+    </div>
+
+    <!-- Table to display the updated staff details after store ID update -->
+    <table id="updatedStaffStoreIdTable" class="table table-striped table-bordered" style="display: none;">
+        <thead>
+            <tr>
+                <th>Staff ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Store ID</th>
+                <th>Active</th>
+                <th>Last Update</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
+
+
+
+    <h2>Update Staff Phone Number</h2>
+    <div class="mb-3">
+        <label for="updateStaffIdPhoneNumber" class="form-label">Enter Staff ID:</label>
+        <input type="number" id="updateStaffIdPhoneNumber" class="form-control" placeholder="Enter staff ID" required>
+
+        <label for="updatePhoneNumber" class="form-label mt-2">Enter New Phone Number:</label>
+        <input type="text" id="updatePhoneNumber" class="form-control" placeholder="Enter new phone number" required>
+
+        <button id="updatePhoneNumberBtn" class="btn btn-warning mt-3">Update Phone Number</button>
+    </div>
+
+    <!-- Table to display the updated staff details after phone number update -->
+    <table id="updatedStaffPhoneNumberTable" class="table table-striped table-bordered" style="display: none;">
+        <thead>
+            <tr>
+                <th>Staff ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Phone Number</th>
+                <th>Store ID</th>
+                <th>Active</th>
+                <th>Last Update</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+
 
 
 
@@ -98,3 +433,4 @@
     <script src="Staff.js"></script> <!-- Link to the external JS file -->
 </body>
 </html>
+

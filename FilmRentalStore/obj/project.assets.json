@@ -4688,7 +4688,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
       "Moq >= 4.20.72",
       "Swashbuckle.AspNetCore >= 6.6.2",
-      "xunit >= 2.9.2"
+      "xunit >= 2.9.2",
+      "xunit.assert >= 2.9.2"
     ]
   },
   "packageFolders": {
@@ -4784,6 +4785,10 @@
             "version": "[6.6.2, )"
           },
           "xunit": {
+            "target": "Package",
+            "version": "[2.9.2, )"
+          },
+          "xunit.assert": {
             "target": "Package",
             "version": "[2.9.2, )"
           }

@@ -1521,7 +1521,7 @@
         }
       }
     },
-    "/api/Payment/GetCumulativeRevenueByFilmAndStore": {
+    "/api/Payment/GetCumulativeRevenueAllFilmsByStore": {
       "get": {
         "tags": [
           "Payment"
