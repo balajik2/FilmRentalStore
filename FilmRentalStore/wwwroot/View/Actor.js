@@ -51,7 +51,8 @@ document.getElementById('addActorBtn').addEventListener('click', async function 
     showLoadingState(this);
 
     try {
-        const response = await fetch('https://localhost:7239/api/actors/post', {
+        const response = await fetch('https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/actors/post', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -97,7 +98,8 @@ document.getElementById('getActorByLastNameBtn').addEventListener('click', funct
 
     // Fetch the actors using AJAX
     $.ajax({
-        url: `https://localhost:7239/api/actors/lastname/${encodeURIComponent(lastName)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/actors/lastname/${encodeURIComponent(lastName)}`,
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`
@@ -149,7 +151,8 @@ document.getElementById('getActorByFirstNameBtn').addEventListener('click', func
     showLoadingState(this); // Show loading spinner (assuming implementation)
 
     $.ajax({
-        url: `https://localhost:7239/api/actors/firstname/${encodeURIComponent(firstName)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/actors/firstname/${encodeURIComponent(firstName)}`,
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`
@@ -202,7 +205,8 @@ document.getElementById('updateLastNameBtn').addEventListener('click', async fun
     showLoadingState(this);
 
     try {
-        const response = await fetch(`https://localhost:7239/api/actors/update/lastname/${actorId}?name=${encodeURIComponent(newLastName)}`, {
+        const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/actors/update/lastname/${actorId}?name=${encodeURIComponent(newLastName)}`, {
             method: 'PUT',
             headers: {
                 'Authorization': `Bearer ${token}`
@@ -270,7 +274,8 @@ document.getElementById('updateFirstNameBtn').addEventListener('click', async fu
     showLoadingState(this);
 
     try {
-        const response = await fetch(`https://localhost:7239/api/actors/update/firstname/${actorId}?name=${encodeURIComponent(newFirstName)}`, {
+        const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/actors/update/firstname/${actorId}?name=${encodeURIComponent(newFirstName)}`, {
             method: 'PUT',
             headers: {
                 'Authorization': `Bearer ${token}`
@@ -341,7 +346,8 @@ document.getElementById("getFilmsBtn").addEventListener("click", async function 
     showLoadingState(this);
 
     try {
-        const response = await fetch(`https://localhost:7239/api/actors/${actorId}/films`, {
+        const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/actors/${actorId}/films`, {
             method: "GET",
             headers: {
                 "Authorization": `Bearer ${token}`,
@@ -414,7 +420,8 @@ document.getElementById('assignFilmToActorBtn').addEventListener('click', functi
     }
 
     // Construct the API URL
-    const url = `https://localhost:7239/api/actors/${encodeURIComponent(actorId2)}/film?filmId=${encodeURIComponent(filmId2)}`;
+    const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/actors/${encodeURIComponent(actorId2)}/film?filmId=${encodeURIComponent(filmId2)}`;
 
     // Make the AJAX request
     $.ajax({
@@ -466,7 +473,8 @@ document.getElementById('assignFilmToActorBtn').addEventListener('click', functi
 
 // Top TEN Actor By Film
 document.getElementById('fetchTop10ActorsBtn').addEventListener('click', function () {
-    const apiUrl = 'https://localhost:7239/api/actors/toptenbyfilmcount';
+    const apiUrl = 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/actors/toptenbyfilmcount';
     const table = document.getElementById('top10ActorsTable');
     const tbody = table.querySelector('tbody');
 
