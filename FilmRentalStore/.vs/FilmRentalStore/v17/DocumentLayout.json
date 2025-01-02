@@ -3,12 +3,58 @@
   "WorkspaceRootPath": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstore\\wwwroot\\view\\customer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:wwwroot\\view\\customer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstore\\wwwroot\\view\\store.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:wwwroot\\view\\store.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13386635-0CF9-4FD4-BA3C-CD04844124E9}|..\\FilmRentalStoreTesting\\FilmRentalStoreTesting.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstoretesting\\staffcontrollertest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13386635-0CF9-4FD4-BA3C-CD04844124E9}|..\\FilmRentalStoreTesting\\FilmRentalStoreTesting.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstoretesting\\storetesting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{13386635-0CF9-4FD4-BA3C-CD04844124E9}|..\\FilmRentalStoreTesting\\FilmRentalStoreTesting.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstoretesting\\filmrentalstoretesting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstore\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstore\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstore\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstore\\services\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:services\\istaffrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstore\\wwwroot\\view\\staff.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:wwwroot\\view\\staff.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstore\\wwwroot\\view\\staff.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:wwwroot\\view\\staff.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstore\\wwwroot\\view\\customer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:wwwroot\\view\\customer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\shamita\\onedrive - capgemini\\documents\\sprint\\filmrentalstore\\wwwroot\\view\\customer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:wwwroot\\view\\customer.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+>>>>>>> origin/FilmRentalStore-5
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +64,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
+<<<<<<< HEAD
           "SelectedChildIndex": 4,
+=======
+          "SelectedChildIndex": 3,
+>>>>>>> origin/FilmRentalStore-5
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,10 +76,13 @@
             },
             {
               "$type": "Bookmark",
+<<<<<<< HEAD
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Bookmark",
+=======
+>>>>>>> origin/FilmRentalStore-5
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
@@ -39,6 +92,7 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+<<<<<<< HEAD
               "Title": "customer.css",
               "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.css",
               "RelativeDocumentMoniker": "wwwroot\\View\\customer.css",
@@ -47,10 +101,21 @@
               "ViewState": "AgIAAJwAAAAAAAAAAAAQwKYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-01-02T05:12:20.837Z",
+=======
+              "Title": "Store.js",
+              "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.js",
+              "RelativeDocumentMoniker": "wwwroot\\View\\Store.js",
+              "ToolTip": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.js",
+              "RelativeToolTip": "wwwroot\\View\\Store.js",
+              "ViewState": "AgIAAMkCAAAAAAAAAAAqwL0CAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-02T10:25:55.801Z",
+>>>>>>> origin/FilmRentalStore-5
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\Program.cs",
@@ -60,6 +125,138 @@
               "ViewState": "AgIAAAcAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-01T07:34:21.119Z"
+=======
+              "DocumentIndex": 2,
+              "Title": "StoreTesting.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStoreTesting\\StoreTesting.cs",
+              "RelativeDocumentMoniker": "..\\FilmRentalStoreTesting\\StoreTesting.cs",
+              "ToolTip": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStoreTesting\\StoreTesting.cs",
+              "RelativeToolTip": "..\\FilmRentalStoreTesting\\StoreTesting.cs",
+              "ViewState": "AgIAAKoDAAAAAAAAAAAAALYDAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T07:02:43.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FilmRentalStoreTesting.csproj",
+              "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStoreTesting\\FilmRentalStoreTesting.csproj",
+              "RelativeDocumentMoniker": "..\\FilmRentalStoreTesting\\FilmRentalStoreTesting.csproj",
+              "ToolTip": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStoreTesting\\FilmRentalStoreTesting.csproj",
+              "RelativeToolTip": "..\\FilmRentalStoreTesting\\FilmRentalStoreTesting.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-01-02T06:56:03.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ActorController.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\Controllers\\ActorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ActorController.cs",
+              "ToolTip": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\Controllers\\ActorController.cs",
+              "RelativeToolTip": "Controllers\\ActorController.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T06:51:57.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StaffControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStoreTesting\\StaffControllerTest.cs",
+              "RelativeDocumentMoniker": "..\\FilmRentalStoreTesting\\StaffControllerTest.cs",
+              "ToolTip": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStoreTesting\\StaffControllerTest.cs",
+              "RelativeToolTip": "..\\FilmRentalStoreTesting\\StaffControllerTest.cs",
+              "ViewState": "AgIAAAkCAAAAAAAAAAAUwHACAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T06:41:30.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IStaffRepository.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\Services\\IStaffRepository.cs",
+              "RelativeDocumentMoniker": "Services\\IStaffRepository.cs",
+              "ToolTip": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\Services\\IStaffRepository.cs",
+              "RelativeToolTip": "Services\\IStaffRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T06:40:46.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StaffService.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\Services\\StaffService.cs",
+              "RelativeDocumentMoniker": "Services\\StaffService.cs",
+              "ToolTip": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\Services\\StaffService.cs",
+              "RelativeToolTip": "Services\\StaffService.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAIBJwGoAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T06:40:46.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "Controllers\\StaffController.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAowO0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T06:40:46.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "customer.html",
+              "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.html",
+              "RelativeDocumentMoniker": "wwwroot\\View\\customer.html",
+              "ToolTip": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.html",
+              "RelativeToolTip": "wwwroot\\View\\customer.html",
+              "ViewState": "AgIAADYBAAAAAAAAAABRwF4BAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-02T06:40:46.659Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "customer.js",
+              "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.js",
+              "RelativeDocumentMoniker": "wwwroot\\View\\customer.js",
+              "ToolTip": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.js",
+              "RelativeToolTip": "wwwroot\\View\\customer.js",
+              "ViewState": "AgIAAGICAAAAAAAAAIBJwGUCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-02T06:40:46.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Staff.html",
+              "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.html",
+              "RelativeDocumentMoniker": "wwwroot\\View\\Staff.html",
+              "ToolTip": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.html",
+              "RelativeToolTip": "wwwroot\\View\\Staff.html",
+              "ViewState": "AgIAAPEAAAAAAAAAAAAmwAMBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-01-02T06:40:46.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Staff.js",
+              "DocumentMoniker": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.js",
+              "RelativeDocumentMoniker": "wwwroot\\View\\Staff.js",
+              "ToolTip": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.js",
+              "RelativeToolTip": "wwwroot\\View\\Staff.js",
+              "ViewState": "AgIAAJwCAAAAAAAAAIBJwMcCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-01-02T06:40:46.671Z"
+>>>>>>> origin/FilmRentalStore-5
             }
           ]
         },

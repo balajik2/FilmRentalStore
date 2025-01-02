@@ -226,38 +226,89 @@ namespace FilmRentalStoreTesting
 
 
         //AssignAddress
+        //[Fact]
+        //public async Task AssignAddress_ReturnsOkResult_WhenStaffIdAndAddressIdAreValid()
+        //{
+        //    // Arrange
+        //    var staffDTO = new StaffDTO { StaffId = 1, AddressId = 123 };
+        //    var staffList = new List<StaffDTO> { new StaffDTO { StaffId = 1, AddressId = 123 } };
+
+        //    _mockStaffRepository.Setup(repo => repo.AssignAddressId(staffId, addressId))
+        //        .ReturnsAsync(staffList);
+
+        //    // Act
+        //    var result = await _controller.AssignAddressId(staffDTO);
+
+        //    // Assert
+        //    Assert.IsType<OkObjectResult>(result); // Expecting Ok result
+        //    var okResult = result as OkObjectResult;
+        //    Assert.Equal(staffList, okResult.Value); // Ensure the correct staff details are returned
+        //}
         [Fact]
-        public async Task AssignAddress_ReturnsOkResult_WhenStaffIdAndAddressIdAreValid()
+        public async Task AssignAddressId_ReturnsOkResult_WhenStaffIdAndAddressIdAreValid()
         {
             // Arrange
-            var staffDTO = new StaffDTO { StaffId = 1, AddressId = 123 };
-            var staffList = new List<StaffDTO> { new StaffDTO { StaffId = 1, AddressId = 123 } };
+            int staffId = 1;
+            int addressId = 123;
 
-            _mockStaffRepository.Setup(repo => repo.AssignAddress(staffDTO))
+            var staffList = new List<StaffDTO>
+    {
+        new StaffDTO { StaffId = 1, AddressId = 123 }
+    };
+
+            // Mock the service method to return a list of updated staff details
+            _mockStaffRepository.Setup(service => service.AssignAddressId(staffId, addressId))
                 .ReturnsAsync(staffList);
 
             // Act
-            var result = await _controller.AssignAddress(staffDTO);
+            var result = await _controller.AssignAddressId(staffId, addressId);
 
             // Assert
             Assert.IsType<OkObjectResult>(result); // Expecting Ok result
             var okResult = result as OkObjectResult;
+            Assert.NotNull(okResult); // Ensure result is not null
             Assert.Equal(staffList, okResult.Value); // Ensure the correct staff details are returned
         }
+
+        //[Fact]
+        //public async Task AssignAddress_ReturnsBadRequest_WhenStaffIdOrAddressIdIsInvalid()
+        //{
+        //    // Arrange
+        //    var invalidStaffDTO = new StaffDTO { StaffId = 0, AddressId = 0 }; // Invalid StaffId and AddressId
+
+        //    // Act
+        //    var result = await _controller.AssignAddressId(invalidStaffDTO);
+
+        //    // Assert
+        //    Assert.IsType<BadRequestObjectResult>(result); // Ensure it returns BadRequest
+        //    var badRequestResult = result as BadRequestObjectResult;
+        //    Assert.Equal("StaffId and AddressId are required.", badRequestResult.Value); // Ensure the correct error message is returned
+        //}
         [Fact]
-        public async Task AssignAddress_ReturnsBadRequest_WhenStaffIdOrAddressIdIsInvalid()
+        public async Task AssignAddressId_ReturnsBadRequest_WhenStaffIdOrAddressIdIsInvalid()
         {
             // Arrange
-            var invalidStaffDTO = new StaffDTO { StaffId = 0, AddressId = 0 }; // Invalid StaffId and AddressId
+            int invalidStaffId = 0;      // Invalid StaffId
+            int invalidAddressId = 0;    // Invalid AddressId
 
             // Act
-            var result = await _controller.AssignAddress(invalidStaffDTO);
+            var result = await _controller.AssignAddressId(invalidStaffId, invalidAddressId);
 
             // Assert
-            Assert.IsType<BadRequestObjectResult>(result); // Ensure it returns BadRequest
+            // Ensure the result is of type BadRequestObjectResult
+            Assert.IsType<BadRequestObjectResult>(result);
+
+            // Cast the result to BadRequestObjectResult to access its Value property
             var badRequestResult = result as BadRequestObjectResult;
-            Assert.Equal("StaffId and AddressId are required.", badRequestResult.Value); // Ensure the correct error message is returned
+
+            // Ensure the BadRequestObjectResult is not null
+            Assert.NotNull(badRequestResult);
+
+            // Verify that the correct error message is returned
+            Assert.Equal("StaffId and AddressId are required.", badRequestResult.Value);
         }
+
+
         //get staff by city
         [Fact]
         public async Task GetStaffByCity_ReturnsOkResult_WhenCityIsValid()
