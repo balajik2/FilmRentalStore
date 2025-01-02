@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿/* General styles for the body */
 body {
     font-family: 'Arial', sans-serif;
@@ -92,7 +92,7 @@ input.form-control {
 /* Add margin-top for each section after text area */
 textarea, table, pre {
     margin-top: 30px;
-=======
+
 ﻿/* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
@@ -241,5 +241,4 @@ button:disabled {
 
 .mt-5 {
     margin-top: 50px;
->>>>>>> origin/FilmRentalStore-4
 }

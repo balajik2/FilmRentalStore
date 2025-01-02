@@ -4862,6 +4862,7 @@
     "restore": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> origin/FilmRentalStore-4
       "projectUniqueName": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\FilmRentalStore.csproj",
@@ -4872,13 +4873,20 @@
 <<<<<<< HEAD
 =======
       "projectUniqueName": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj",
+=======
+      "projectUniqueName": "C:\\Users\\SV63\\OneDrive - Capgemini\\SPRINT-API-COPY\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj",
+>>>>>>> 01c061a5f33cfb48cccb60777de0646328deea03
       "projectName": "FilmRentalStore",
-      "projectPath": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj",
+      "projectPath": "C:\\Users\\SV63\\OneDrive - Capgemini\\SPRINT-API-COPY\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj",
       "packagesPath": "C:\\Users\\SV63\\.nuget\\packages\\",
+<<<<<<< HEAD
       "outputPath": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\obj\\",
 >>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
 =======
 >>>>>>> origin/FilmRentalStore-4
+=======
+      "outputPath": "C:\\Users\\SV63\\OneDrive - Capgemini\\SPRINT-API-COPY\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\obj\\",
+>>>>>>> 01c061a5f33cfb48cccb60777de0646328deea03
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4994,5 +5002,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\SV63\\OneDrive - Capgemini\\SPRINT-API-COPY\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

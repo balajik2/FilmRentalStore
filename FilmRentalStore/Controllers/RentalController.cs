@@ -12,11 +12,10 @@ namespace FilmRentalStore.Controllers
     public class RentalController : Controller
     {
         private readonly IRentalRepository _rentalRepository;
-       
         private readonly IValidator<RentalDTO> _validator;
 
         
-        public RentalController(IRentalRepository rentalRepository,  IValidator<RentalDTO> validator)
+        public RentalController(IRentalRepository rentalRepository, IValidator<RentalDTO> validator)
         {
             _rentalRepository = rentalRepository;
            

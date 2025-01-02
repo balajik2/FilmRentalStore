@@ -2,6 +2,7 @@
   "version": 2,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "KFfzNag3czA=",
 =======
   "dgSpecHash": "526tzAgL62M=",
@@ -107,8 +108,11 @@
     "C:\\Users\\KBASAM\\.nuget\\packages\\xunit.extensibility.execution\\2.9.2\\xunit.extensibility.execution.2.9.2.nupkg.sha512"
 =======
   "dgSpecHash": "A4UJSbpfITQ=",
+=======
+  "dgSpecHash": "rKcUC2fdm7o=",
+>>>>>>> 01c061a5f33cfb48cccb60777de0646328deea03
   "success": true,
-  "projectFilePath": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj",
+  "projectFilePath": "C:\\Users\\SV63\\OneDrive - Capgemini\\SPRINT-API-COPY\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SV63\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\SV63\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
@@ -208,5 +212,12 @@
     "C:\\Users\\SV63\\.nuget\\packages\\xunit.extensibility.execution\\2.9.2\\xunit.extensibility.execution.2.9.2.nupkg.sha512"
 >>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\SV63\\OneDrive - Capgemini\\SPRINT-API-COPY\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
