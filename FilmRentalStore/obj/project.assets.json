@@ -4856,11 +4856,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
+      "projectUniqueName": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
       "projectName": "FilmRentalStore",
-      "projectPath": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
+      "projectPath": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
       "packagesPath": "C:\\Users\\shamita\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\obj\\",
+      "outputPath": "C:\\Users\\shamita\\OneDrive - Capgemini\\Documents\\Sprint\\FilmRentalStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
