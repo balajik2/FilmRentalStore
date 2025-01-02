@@ -1,14 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\",
+  "WorkspaceRootPath": "C:\\Users\\SV63\\OneDrive - Capgemini\\SPRINT-API-COPY\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\sprint application\\filmrentalstore\\wwwroot\\view\\rental.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:wwwroot\\view\\rental.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\sprint-api-copy\\sprint-webapi\\sprint application\\filmrentalstore\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\desktop\\sprint-webapi\\sprint application\\filmrentalstore\\wwwroot\\view\\rental.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:wwwroot\\view\\rental.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|c:\\users\\sv63\\onedrive - capgemini\\sprint-api-copy\\sprint-webapi\\sprint application\\filmrentalstore\\services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{819F382D-543C-4ED4-B691-0103C33687C3}|FilmRentalStore.csproj|solutionrelative:services\\staffservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStoreTesting\\StaffControllerTest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,28 +30,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Rental.html",
-              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Rental.html",
-              "RelativeDocumentMoniker": "wwwroot\\View\\Rental.html",
-              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Rental.html",
-              "RelativeToolTip": "wwwroot\\View\\Rental.html",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAmwG0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-27T19:17:43.813Z",
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\SPRINT-API-COPY\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StaffController.cs",
+              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\SPRINT-API-COPY\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "Controllers\\StaffController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAN0BAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T15:38:20.818Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaffControllerTest.cs",
+              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStoreTesting\\StaffControllerTest.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStoreTesting\\StaffControllerTest.cs",
+              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStoreTesting\\StaffControllerTest.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStoreTesting\\StaffControllerTest.cs",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAUwCwCAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T15:35:27.449Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Rental.js",
-              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Rental.js",
-              "RelativeDocumentMoniker": "wwwroot\\View\\Rental.js",
-              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\wwwroot\\View\\Rental.js",
-              "RelativeToolTip": "wwwroot\\View\\Rental.js",
-              "ViewState": "AgIAAN4AAAAAAAAAAAAAAOEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-27T19:17:40.828Z",
-              "EditorCaption": ""
+              "Title": "StaffService.cs",
+              "DocumentMoniker": "C:\\Users\\SV63\\OneDrive - Capgemini\\SPRINT-API-COPY\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\Services\\StaffService.cs",
+              "RelativeDocumentMoniker": "Services\\StaffService.cs",
+              "ToolTip": "C:\\Users\\SV63\\OneDrive - Capgemini\\SPRINT-API-COPY\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\Services\\StaffService.cs",
+              "RelativeToolTip": "Services\\StaffService.cs",
+              "ViewState": "AgIAABABAAAAAAAAAAAuwCABAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T15:40:41.965Z"
             }
           ]
         },

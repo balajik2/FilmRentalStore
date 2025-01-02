@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6cnzYEjK8AA=",
+  "dgSpecHash": "pDnL0PARyi4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\SV63\\OneDrive - Capgemini\\Desktop\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj",
+  "projectFilePath": "C:\\Users\\SV63\\OneDrive - Capgemini\\SPRINT-API-COPY\\SPRINT-WEBAPI\\SPRINT APPLICATION\\FilmRentalStore\\FilmRentalStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SV63\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\SV63\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

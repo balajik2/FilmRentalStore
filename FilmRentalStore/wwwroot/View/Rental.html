@@ -28,7 +28,7 @@
         <button id="fetchFilmsButton" class="btn btn-primary">Get Rented Films</button>
     </div>
 
-    <table id="filmsTable">
+    <table id="filmsTable" class="table table-striped table-bordered" style="display: none;">
         <thead>
             <tr>
                 <th>Film ID</th>
@@ -54,8 +54,8 @@
     <div>
         <button id="fetchTopFilmsButton1" class="btn btn-primary">Get Top 10 Rented Films</button>
     </div>
-
-    <table id="topFilmsTable">
+   
+    <table id="topFilmsTable" class="table table-bordered table-striped" style="display: none;">
         <thead>
             <tr>
                 <th>Film ID</th>
@@ -76,7 +76,7 @@
     <input type="text" id="storeId" class="form-control" placeholder="Enter Store ID">
     <button id="fetchTop10FilmsBtn" class="btn btn-primary">Fetch Top 10 Films</button>
 
-    <table id="top10FilmsTable" style="display:none;">
+    <table id="top10FilmsTable" class="table table-striped table-bordered" style="display:none;">
         <thead>
             <tr>
                 <th>Film ID</th>
@@ -91,37 +91,37 @@
     <script src="Top10FilmsTable.js"></script>
     <!--Customers with Due Rentals -->
 
-        <h2>Customers with Due Rentals</h2>
-        
-        <!-- Input for Store ID -->
-        
-            <label for="storeId1">Store ID:</label>
-            <input type="text" id="storeId1" class="form-control" placeholder="Enter Store ID">
-       
+    <h2>Customers with Due Rentals</h2>
 
-        <!-- Button to Fetch Customers -->
-        <button id="fetchDueCustomersBtn" class="btn btn-primary">Fetch Customers with Due Rentals</button>
+    <!-- Input for Store ID -->
 
-        <!-- Table to Display Customers -->
-        <table id="dueCustomersTable" class="table table-striped mt-4" style="display:none;">
-            <thead>
-                <tr>
+    <label for="storeId1">Store ID:</label>
+    <input type="text" id="storeId1" class="form-control" placeholder="Enter Store ID">
 
-                    <th>Store ID</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Email</th>
-                    <th>Address ID</th>
-                    <th>Active</th>
-                    <th>Create Date</th>
-                    <th>Last Update</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Rows will be dynamically populated -->
-            </tbody>
-        </table>
-   
+
+    <!-- Button to Fetch Customers -->
+    <button id="fetchDueCustomersBtn" class="btn btn-primary">Fetch Customers with Due Rentals</button>
+
+    <!-- Table to Display Customers -->
+    <table id="dueCustomersTable" class="table table-striped table-bordered" style="display:none;">
+        <thead>
+            <tr>
+
+                <th>Store ID</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+                <th>Address ID</th>
+                <th>Active</th>
+                <th>Create Date</th>
+                <th>Last Update</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be dynamically populated -->
+        </tbody>
+    </table>
+
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="dueCustomersTable.js"></script>
@@ -144,7 +144,7 @@
 
     <div id="updateResult" class="result-message"></div>
 
-    <table id="updatedRentalTable" border="1" style="margin-top: 20px; display: none;">
+    <table id="updatedRentalTable" class="table table-striped table-bordered" style="display:none;">
         <thead>
             <tr>
                 <th>Rental ID</th>
