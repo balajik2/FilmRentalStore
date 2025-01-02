@@ -50,7 +50,7 @@ document.getElementById('rentButton').addEventListener('click', async () => {
     };
 
     try {
-        const response = await fetch('https://localhost:7239/api/rental/add', {
+        const response = await fetch('https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/rental/add', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(rentalDTO)
@@ -76,7 +76,7 @@ document.getElementById('fetchFilmsButton').addEventListener('click', async () =
     }
 
     try {
-        const response = await fetch(`https://localhost:7239/api/rental/customer/${customerId}`, {
+        const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/rental/customer/${customerId}`, {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         });
@@ -125,7 +125,7 @@ function updateCustomerFilmsTable(films) {
 // Top 10 Rented Films
 document.getElementById('fetchTopFilmsButton1').addEventListener('click', async () => {
     try {
-        const response = await fetch('https://localhost:7239/api/rental/toptenfilms', {
+        const response = await fetch('https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/rental/toptenfilms', {
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         });
@@ -172,7 +172,7 @@ document.getElementById('fetchTop10FilmsBtn').addEventListener('click', function
         return;
     }
 
-    const apiUrl = `https://localhost:7239/api/rental/toptenfilms/store/${storeId}`;
+    const apiUrl = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/rental/toptenfilms/store/${storeId}`;
     const table = document.getElementById('top10FilmsTable');
     const tbody = table.querySelector('tbody');
 
@@ -230,7 +230,7 @@ document.getElementById('fetchDueCustomersBtn').addEventListener('click', functi
         return;
     }
 
-    const apiUrl = `https://localhost:7239/api/rental/due/store/${storeId1}`;
+    const apiUrl = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/rental/due/store/${storeId1}`;
     const table = document.getElementById('dueCustomersTable');
     const tbody = table.querySelector('tbody');
 
@@ -308,7 +308,7 @@ document.getElementById('updateReturnDateBtn').addEventListener('click', async f
 
     try {
         // API call
-        const response = await fetch(`https://localhost:7239/api/rental/update/returndate/${rentalId}`, {
+        const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/rental/update/returndate/${rentalId}`, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

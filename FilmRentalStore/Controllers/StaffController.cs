@@ -1,6 +1,9 @@
-﻿using FilmRentalStore.DTO;
+﻿//using Castle.Core.Configuration;
+using Castle.Core.Resource;
+using FilmRentalStore.DTO;
 using FilmRentalStore.Models;
 using FilmRentalStore.Services;
+using FilmRentalStore.Utility;
 using FluentValidation;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -13,7 +16,7 @@ namespace FilmRentalStore.Controllers
     public class StaffController : ControllerBase
     {
         private readonly IStaffRepository _context;
-        private readonly IConfiguration _configuration;
+        private readonly IConfiguration configuration;
 
         //Fluent Validation
         private readonly IValidator<StaffDTO> _validator;
@@ -21,7 +24,7 @@ namespace FilmRentalStore.Controllers
         public StaffController(IStaffRepository staff, IConfiguration configuration, IValidator<StaffDTO> validator)
         {
             _context = staff;
-            _configuration = configuration;
+            this.configuration = configuration;
             _validator = validator;
             
         }
@@ -75,9 +78,11 @@ namespace FilmRentalStore.Controllers
                 {
                     return BadRequest(validationResult.Errors);
                 }
-                await _context.AddStaff(staffDTO);
-               
-                return CreatedAtAction("GetStaff", new { }, staffDTO);
+                //await _context.AddStaff(staffDTO);
+
+                //return CreatedAtAction("GetStaff", new { }, staffDTO);
+                Helper.PublishToEventGrid(configuration, staffDTO);
+                return Ok("Event Triggered !");
             }
             catch (Exception ex)
             {

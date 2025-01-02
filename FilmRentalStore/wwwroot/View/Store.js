@@ -35,7 +35,7 @@ document.getElementById('getStoresBtn').addEventListener('click', function () {
     if (!token) return; // If no token, do not proceed
 
     $.ajax({
-        url: `https://localhost:7239/api/Store`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store`,
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`
@@ -81,7 +81,7 @@ document.getElementById('addStoreBtn').addEventListener('click', function () {
     const storeData = JSON.parse(document.getElementById("storeRequestBody").value);
 
     $.ajax({
-        url: `https://localhost:7239/api/Store/post`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/post`,
         type: "POST",
         headers: {
             Authorization: `Bearer ${token}`,
@@ -118,7 +118,7 @@ document.getElementById('getStoreByCityBtn').addEventListener('click', function 
     showLoadingState();
 
     $.ajax({
-        url: `https://localhost:7239/api/Store/GetByCity?city=${encodeURIComponent(city)}`, // Correctly formatted URL
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/GetByCity?city=${encodeURIComponent(city)}`, // Correctly formatted URL
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}` // Pass the token in the Authorization header
@@ -190,7 +190,7 @@ document.getElementById('getStoreByCountryBtn').addEventListener('click', functi
     showLoadingState();
 
     $.ajax({
-        url: `https://localhost:7239/api/Store/GetByCountry?country=${encodeURIComponent(country)}`, // Correct URL format with query parameter
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/GetByCountry?country=${encodeURIComponent(country)}`, // Correct URL format with query parameter
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}` // Pass the token in the headers
@@ -254,7 +254,7 @@ document.getElementById('getStaffByStoreBtn').addEventListener('click', function
     showLoadingState();
 
     $.ajax({
-        url: `https://localhost:7239/api/Store/AllStaffOfStore?storeid=${encodeURIComponent(storeId)}`, // Correct URL format with storeId parameter
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/AllStaffOfStore?storeid=${encodeURIComponent(storeId)}`, // Correct URL format with storeId parameter
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}` // Pass the token in the headers
@@ -328,7 +328,7 @@ document.getElementById('getCustomersBtn').addEventListener('click', function ()
 
     // Sending AJAX request
     $.ajax({
-        url: `https://localhost:7239/api/Store/Allcustomers?storeid=${encodedStoreId}`,  // Corrected URL with encoded storeId
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/Allcustomers?storeid=${encodedStoreId}`,  // Corrected URL with encoded storeId
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`  // Send token in headers
@@ -396,7 +396,7 @@ document.getElementById('getmanagerByStoreBtn').addEventListener('click', functi
     showLoadingState();
 
     $.ajax({
-        url: `https://localhost:7239/api/Store/managerdetails?storeid=${encodeURIComponent(storeId2)}`, // Correct URL format with storeId parameter
+        url: https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/managerdetails?storeid=${encodeURIComponent(storeId2)}`, // Correct URL format with storeId parameter
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}` // Pass the token in the headers
@@ -456,7 +456,7 @@ document.getElementById('getManagerBtn').addEventListener('click', function () {
     console.log("Token:", token);
 
     $.ajax({
-        url: `https://localhost:7239/api/store/managers`,  // API endpoint for fetching manager details
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/store/managers`,  // API endpoint for fetching manager details
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`  // Send token in headers
@@ -530,7 +530,7 @@ $(document).ready(function () {
         }
 
         // Prepare the URL with query parameters for the PUT request
-        const url = `https://localhost:7239/api/Store/updatephone?storeid=${encodeURIComponent(storeId)}&phone=${encodeURIComponent(newPhoneNumber)}`;
+        const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/updatephone?storeid=${encodeURIComponent(storeId)}&phone=${encodeURIComponent(newPhoneNumber)}`;
 
         console.log('Sending PUT request to:', url); // Debugging log to ensure the URL is correct
         console.log('Using token:', token); // Debugging log to ensure the token is correct

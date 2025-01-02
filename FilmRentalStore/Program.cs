@@ -98,6 +98,20 @@ builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen(options =>
 {
+
+    options.SwaggerDoc("v1", new OpenApiInfo
+    {
+        Title = "FilmRentalStorePortal",
+        Version = "v1",
+        Description = "Film Rental Store Service API Documentation",
+        Contact = new OpenApiContact
+        {
+            Name = "Admin",
+            Email = "admin1@example.com"
+        }
+    });
+
+
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Scheme = "Bearer",
@@ -123,6 +137,14 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin",
+        builder => builder.WithOrigins("https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net")
+                          .AllowAnyMethod()
+                          .AllowAnyHeader());
+});
+
 
 var app = builder.Build();
 
@@ -132,11 +154,18 @@ var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 
-if (app.Environment.IsDevelopment())
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//app.UseSwaggerUI();
+//}
+
+app.UseSwagger();
+app.UseSwaggerUI(c =>
 {
-    app.UseSwagger();
-app.UseSwaggerUI();
-}
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "FilmRentalStorePortal v1");
+    c.RoutePrefix = string.Empty; // This will serve Swagger UI at the root URL
+});
 
 app.UseHttpsRedirection();
 app.UseAuthentication();
@@ -163,6 +192,11 @@ app.UseCors(builder =>
     builder.WithOrigins("https://localhost:7239") // Allow specific origins
            .AllowAnyMethod()
            .AllowAnyHeader());
+
+
+
+
+app.UseCors();
 
 
 

@@ -41,7 +41,7 @@ $('#makePaymentBtn').click(function () {
     }
 
     // Construct the URL for MakePayment API
-    const url = `https://localhost:7239/api/Payment/MakePayment?paymentId=${paymentId}&amount=${encodeURIComponent(amount)}`;
+    const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Payment/MakePayment?paymentId=${paymentId}&amount=${encodeURIComponent(amount)}`;
     console.log(`Request URL: ${url}`);
 
     // AJAX request to make the payment
@@ -82,7 +82,7 @@ $(document).ready(function () {
     $('#getCumulativeRevenueBtn').click(function () {
         // AJAX request to get cumulative revenue data
         $.ajax({
-            url: 'https://localhost:7239/api/Payment/GetCumulativeRevenueOfAllStores', // API endpoint
+            url: 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Payment/GetCumulativeRevenueOfAllStores', // API endpoint
             type: 'GET',
             contentType: 'application/json',
             success: function (data) {
@@ -144,7 +144,7 @@ $(document).ready(function () {
 
         // AJAX request to get cumulative revenue for a specific store
         $.ajax({
-            url: `https://localhost:7239/api/Payment/GetCumulativeRevenueForAStore?storeId=${storeId}`, // API endpoint
+            url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Payment/GetCumulativeRevenueForAStore?storeId=${storeId}`, // API endpoint
             type: 'GET',
             contentType: 'application/json',
             success: function (data) {
@@ -206,7 +206,7 @@ $(document).ready(function () {
 
         // AJAX request to get payments by film title
         $.ajax({
-            url: `https://localhost:7239/api/Payment/GetPaymentsByFilmTitle?filmTitle=${encodeURIComponent(filmTitle)}`, // API endpoint
+            url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Payment/GetPaymentsByFilmTitle?filmTitle=${encodeURIComponent(filmTitle)}`, // API endpoint
             type: 'GET',
             contentType: 'application/json',
             success: function (data) {
@@ -268,7 +268,7 @@ $(document).ready(function () {
 
 //        // AJAX request to get cumulative revenue for a store
 //        $.ajax({
-//            url: `https://localhost:7239/api/Payment/GetCumulativeRevenueStoreWise?storeid=${encodeURIComponent(storeId)}`, // API endpoint
+//            url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Payment/GetCumulativeRevenueStoreWise?storeid=${encodeURIComponent(storeId)}`, // API endpoint
 //            type: 'GET',
 //            contentType: 'application/json',
 //            success: function (data) {
@@ -328,7 +328,7 @@ $(document).ready(function () {
 
         // AJAX request to get cumulative revenue for a store
         $.ajax({
-            url: `https://localhost:7239/api/Payment/GetCumulativeRevenueStoreWise?storeid=${encodeURIComponent(storeId)}`, // API endpoint
+            url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Payment/GetCumulativeRevenueStoreWise?storeid=${encodeURIComponent(storeId)}`, // API endpoint
             type: 'GET',
             contentType: 'application/json',
             success: function (data) {
@@ -391,7 +391,7 @@ $(document).ready(function () {
 $('#getssCumulativeRevenueBtn').click(function () {
     // Trigger AJAX request when the button is clicked
     $.ajax({
-        url: 'https://localhost:7239/api/Payment/GetCumulativeRevenueAllFilmsByStore', // Replace with your actual API endpoint
+        url: 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Payment/GetCumulativeRevenueAllFilmsByStore', // Replace with your actual API endpoint
         type: 'GET',
         contentType: 'application/json',
         success: function (data) {
