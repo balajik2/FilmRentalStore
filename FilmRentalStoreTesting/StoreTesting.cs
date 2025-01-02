@@ -1,20 +1,20 @@
-<<<<<<< HEAD
+
 ﻿using Moq;
 using Xunit;
 using Microsoft.AspNetCore.Mvc;
 
-=======
+
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
->>>>>>> origin/FilmRentalStore-4
+
 using FilmRentalStore.Controllers;
 using FilmRentalStore.DTO;
 using FilmRentalStore.Services;
 using FluentValidation;
-<<<<<<< HEAD
+
 using System;
 using System.Threading.Tasks;
 using FilmRentalStore.Models;
@@ -71,7 +71,7 @@ namespace FilmRentalStore.Tests
 
 
             var validationResult = new FluentValidation.Results.ValidationResult(new List<FluentValidation.Results.ValidationFailure>
-=======
+
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 
@@ -128,13 +128,13 @@ namespace FilmRentalStoreTesting
 
 
                 var validationResult = new FluentValidation.Results.ValidationResult(new List<FluentValidation.Results.ValidationFailure>
->>>>>>> origin/FilmRentalStore-4
+
     {
         new FluentValidation.Results.ValidationFailure("ManagerStaffId", "ManagerStaffId must be greater than 0.")
     });
 
 
-<<<<<<< HEAD
+
             _storeValidatorMock.Setup(v => v.Validate(storeDto)).Returns(validationResult);
 
             // Act
@@ -164,7 +164,7 @@ namespace FilmRentalStoreTesting
             // Arrange
             var city = "New York";  // Valid city name
             var expectedStores = new List<StoreDTO>
-=======
+
                 _storeValidatorMock.Setup(v => v.Validate(storeDto)).Returns(validationResult);
 
                 // Act
@@ -193,13 +193,13 @@ namespace FilmRentalStoreTesting
                 // Arrange
                 var city = "New York";  // Valid city name
                 var expectedStores = new List<StoreDTO>
->>>>>>> origin/FilmRentalStore-4
+
         {
             new StoreDTO { StoreId = 1, ManagerStaffId = 1, AddressId = 1, LastUpdate = DateTime.UtcNow },
             new StoreDTO { StoreId = 2, ManagerStaffId = 2, AddressId = 2, LastUpdate = DateTime.UtcNow }
         };
 
-<<<<<<< HEAD
+
             // Mock the repository method to return the expected list of stores for the valid city
             _storeRepositoryMock.Setup(repo => repo.GetStoreByCity(city)).ReturnsAsync(expectedStores);
 
@@ -238,7 +238,7 @@ namespace FilmRentalStoreTesting
             // Arrange
             var country = "USA";
             var expectedStores = new List<StoreDTO>
-=======
+
                 // Mock the repository method to return the expected list of stores for the valid city
                 _storeRepositoryMock.Setup(repo => repo.GetStoreByCity(city)).ReturnsAsync(expectedStores);
 
@@ -277,13 +277,13 @@ namespace FilmRentalStoreTesting
                 // Arrange
                 var country = "USA";
                 var expectedStores = new List<StoreDTO>
->>>>>>> origin/FilmRentalStore-4
+
     {
         new StoreDTO { StoreId = 1, ManagerStaffId = 1, AddressId = 1, LastUpdate = DateTime.UtcNow },
         new StoreDTO { StoreId = 2, ManagerStaffId = 2, AddressId = 2, LastUpdate = DateTime.UtcNow }
     };
 
-<<<<<<< HEAD
+
             _storeRepositoryMock.Setup(repo => repo.GetStoreByCountry(country))
                                 .ReturnsAsync(expectedStores);
 
@@ -322,7 +322,7 @@ namespace FilmRentalStoreTesting
             // Arrange
             var storeId = 3;
             var expectedStaffData = new List<StaffDTO>
-=======
+
                 _storeRepositoryMock.Setup(repo => repo.GetStoreByCountry(country))
                                     .ReturnsAsync(expectedStores);
 
@@ -361,12 +361,12 @@ namespace FilmRentalStoreTesting
                 // Arrange
                 var storeId = 3;
                 var expectedStaffData = new List<StaffDTO>
->>>>>>> origin/FilmRentalStore-4
+
     {
         new StaffDTO { StaffId = 1, FirstName = "Alice", LastName = "Johnson"}
     };
 
-<<<<<<< HEAD
+
             _storeRepositoryMock.Setup(repo => repo.GetAllStaffOfStore(storeId))
                                 .ReturnsAsync(expectedStaffData);
 
@@ -464,7 +464,7 @@ namespace FilmRentalStoreTesting
             // Arrange
             int storeId = 1;  // Valid store ID
             var customers = new List<CustomerDTO>
-=======
+
                 _storeRepositoryMock.Setup(repo => repo.GetAllStaffOfStore(storeId))
                                     .ReturnsAsync(expectedStaffData);
 
@@ -561,12 +561,12 @@ namespace FilmRentalStoreTesting
                 // Arrange
                 int storeId = 1;  // Valid store ID
                 var customers = new List<CustomerDTO>
->>>>>>> origin/FilmRentalStore-4
+
     {
         new CustomerDTO { CustomerId = 1, FirstName = "John", LastName = "Doe" }
     };
 
-<<<<<<< HEAD
+
             _storeRepositoryMock.Setup(repo => repo.GetAllCustomers(storeId))
                                 .ReturnsAsync(customers);  // Simulate repository returning a single customer
 
@@ -738,7 +738,7 @@ namespace FilmRentalStoreTesting
         {
             // Arrange
             var mockData = new List<JoinDTO>
-=======
+
                 _storeRepositoryMock.Setup(repo => repo.GetAllCustomers(storeId))
                                     .ReturnsAsync(customers);  // Simulate repository returning a single customer
 
@@ -888,13 +888,13 @@ namespace FilmRentalStoreTesting
             {
                 // Arrange
                 var mockData = new List<JoinDTO>
->>>>>>> origin/FilmRentalStore-4
+
         {
             new JoinDTO { FirstName = "John", LastName = "Doe", Email = "john.doe@example.com", City1 = "City A" },
             new JoinDTO { FirstName = "Jane", LastName = "Smith", Email = "jane.smith@example.com", City1 = "City B" }
         };
 
-<<<<<<< HEAD
+
             _storeRepositoryMock.Setup(repo => repo.GetAllStaffAndStore()).ReturnsAsync(mockData);
 
             // Act
@@ -922,7 +922,7 @@ namespace FilmRentalStoreTesting
     }
 }
 
-=======
+
                 _storeRepositoryMock.Setup(repo => repo.GetAllStaffAndStore()).ReturnsAsync(mockData);
 
                 // Act
@@ -954,4 +954,3 @@ namespace FilmRentalStoreTesting
 }
 
 
->>>>>>> origin/FilmRentalStore-4
