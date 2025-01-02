@@ -1,7 +1,11 @@
 {
   "version": 2,
 <<<<<<< HEAD
+<<<<<<< HEAD
   "dgSpecHash": "KFfzNag3czA=",
+=======
+  "dgSpecHash": "526tzAgL62M=",
+>>>>>>> origin/FilmRentalStore-4
   "success": true,
   "projectFilePath": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\FilmRentalStore.csproj",
   "expectedPackageFiles": [
