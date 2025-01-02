@@ -13,15 +13,15 @@ namespace FilmRentalStore.Controllers
     public class StaffController : ControllerBase
     {
         private readonly IStaffRepository _context;
-        private readonly IConfiguration _configuration;
+       // private readonly IConfiguration _configuration;
 
         //Fluent Validation
         private readonly IValidator<StaffDTO> _validator;
 
-        public StaffController(IStaffRepository staff, IConfiguration configuration, IValidator<StaffDTO> validator)
+        public StaffController(IStaffRepository staff, IValidator<StaffDTO> validator)
         {
             _context = staff;
-            _configuration = configuration;
+            //_configuration = configuration;
             _validator = validator;
             
         }
@@ -501,7 +501,7 @@ namespace FilmRentalStore.Controllers
                 var result = await _context.UpdatePhoneNumberByStaff(staffId, newPhone);
                 return Ok(new { data = result, message = "Phone number updated successfully" });
 
-                //return Ok("Phone number updated successfully");
+               // return Ok("Phone number updated successfully");
 
             }
             catch (Exception ex)
