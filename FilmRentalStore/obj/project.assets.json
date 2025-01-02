@@ -4698,11 +4698,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
+      "projectUniqueName": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\FilmRentalStore.csproj",
       "projectName": "FilmRentalStore",
-      "projectPath": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\FilmRentalStore.csproj",
+      "projectPath": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\FilmRentalStore.csproj",
       "packagesPath": "C:\\Users\\KBASAM\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\KBASAM\\Documents\\Visual Studio 2022\\Sprint\\FilmRentalStore\\obj\\",
+      "outputPath": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
