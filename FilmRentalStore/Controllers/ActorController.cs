@@ -15,25 +15,13 @@ namespace FilmRentalStore.Controllers
     public class ActorController : Controller
     {
         private readonly IActorRepository _actorRepository;
-<<<<<<< HEAD
+
         private readonly IValidator<ActorDTO> _validator;
          
 
         public ActorController(IActorRepository actorRepository, IValidator<ActorDTO> validator)
         {
             _actorRepository = actorRepository;
-            
-=======
-
-        private readonly IValidator<ActorDTO> _validator;
-         
-
-        public ActorController(IActorRepository actorRepository,  IValidator<ActorDTO> validator)
-        {
-            _actorRepository = actorRepository;
-           
->>>>>>> 50b5c4ff5f1bdc56a32a4a38539a53f2e28232b9
-            _validator = validator;
         }
      
 
