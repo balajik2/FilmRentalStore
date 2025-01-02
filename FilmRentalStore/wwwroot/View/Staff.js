@@ -66,7 +66,7 @@ document.getElementById('getStaffBtn').addEventListener('click', function () {
 
     // Make the AJAX request
     let xhr = new XMLHttpRequest();
-    xhr.open("GET", "https://localhost:7239/api/Staff/GetStaff", true);
+    xhr.open("GET", "https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/GetStaff", true);
     xhr.setRequestHeader("Authorization", `Bearer ${token}`);
 
     xhr.onreadystatechange = function () {
@@ -125,7 +125,7 @@ document.getElementById('addStaffBtn').addEventListener('click', function () {
         const parsedData = JSON.parse(requestBody);
 
         $.ajax({
-            url: 'https://localhost:7239/api/Staff/AddStaff',
+            url: 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/AddStaff',
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(parsedData),
@@ -178,7 +178,7 @@ document.getElementById('getStaffByLastNameBtn').addEventListener('click', funct
 
     // Send GET request to fetch staff by last name
     $.ajax({
-        url: `https://localhost:7239/api/Staff/GetStaffByLastName?lastname=${encodeURIComponent(lastName)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/GetStaffByLastName?lastname=${encodeURIComponent(lastName)}`,
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}`
@@ -269,7 +269,7 @@ document.getElementById('getStaffByFirstNameBtn').addEventListener('click', func
 
     // Send GET request to fetch staff by first name
     $.ajax({
-        url: `https://localhost:7239/api/Staff/GetStaffByFirstName?firstname=${encodeURIComponent(firstName)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/GetStaffByFirstName?firstname=${encodeURIComponent(firstName)}`,
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}`
@@ -361,7 +361,7 @@ document.getElementById('getStaffByCityBtn').addEventListener('click', function 
 
     // Send GET request to fetch staff by city
     $.ajax({
-        url: `https://localhost:7239/api/Staff/GetStaffByCity?city=${encodeURIComponent(city)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/GetStaffByCity?city=${encodeURIComponent(city)}`,
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}`
@@ -447,7 +447,7 @@ document.getElementById('getStaffByCountryBtn').addEventListener('click', functi
 
     // Send GET request to fetch staff by country
     $.ajax({
-        url: `https://localhost:7239/api/Staff/GetStaffByCountry?country=${encodeURIComponent(country)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/GetStaffByCountry?country=${encodeURIComponent(country)}`,
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}`
@@ -539,7 +539,7 @@ document.getElementById('getStaffByEmailBtn').addEventListener('click', function
 
     // AJAX request to fetch staff by email
     $.ajax({
-        url: `https://localhost:7239/api/Staff/GetStaffByEmail?email=${encodeURIComponent(email)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/GetStaffByEmail?email=${encodeURIComponent(email)}`,
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}` // Send the authentication token
@@ -621,7 +621,7 @@ document.getElementById('getStaffByPhoneBtn').addEventListener('click', function
     if (!token) return;
 
     $.ajax({
-        url: `https://localhost:7239/api/Staff/GetStaffByPhoneNumber?phone=${encodeURIComponent(phone)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/GetStaffByPhoneNumber?phone=${encodeURIComponent(phone)}`,
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`
@@ -680,7 +680,7 @@ document.getElementById('updateStaffAddressBtn').addEventListener('click', funct
     const token = getAuthToken();
     if (!token) return; // If no token, do not proceed
 
-    const url = `https://localhost:7239/api/Staff/AssignAddress?staffId=${encodeURIComponent(staffId)}&addressId=${encodeURIComponent(addressId)}`;
+    const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/AssignAddress?staffId=${encodeURIComponent(staffId)}&addressId=${encodeURIComponent(addressId)}`;
 
     $.ajax({
         url: url,
@@ -741,7 +741,7 @@ document.getElementById('updateStaffFirstNameBtn').addEventListener('click', fun
     const token = getAuthToken();
     if (!token) return; // If no token, do not proceed
 
-    const url = `https://localhost:7239/api/Staff/UpdateStaffByFirstName?staffId=${encodeURIComponent(staffId)}&newfirstname=${encodeURIComponent(newFirstName)}`;
+    const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/UpdateStaffByFirstName?staffId=${encodeURIComponent(staffId)}&newfirstname=${encodeURIComponent(newFirstName)}`;
 
     $.ajax({
         url: url,
@@ -766,7 +766,7 @@ function fetchUpdatedStaffDetailsByFirstName(firstName) {
     if (!token) return; // If no token, do not proceed
 
     $.ajax({
-        url: `https://localhost:7239/api/Staff/firstname/${encodeURIComponent(firstName)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/firstname/${encodeURIComponent(firstName)}`,
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`
@@ -825,7 +825,7 @@ document.getElementById('updateStaffLastNameBtn').addEventListener('click', func
     const token = getAuthToken();
     if (!token) return; // If no token, do not proceed
 
-    const url = `https://localhost:7239/api/Staff/UpdateStaffByLastName?staffId=${encodeURIComponent(staffId)}&newlastname=${encodeURIComponent(newLastName)}`;
+    const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/UpdateStaffByLastName?staffId=${encodeURIComponent(staffId)}&newlastname=${encodeURIComponent(newLastName)}`;
 
     $.ajax({
         url: url,
@@ -880,7 +880,7 @@ document.getElementById('updateStaffEmailBtn').addEventListener('click', functio
     const token = getAuthToken();
     if (!token) return; // If no token, do not proceed
 
-    const url = `https://localhost:7239/api/Staff/UpdateStaffByEmail?staffId=${encodeURIComponent(staffId)}&email=${encodeURIComponent(newEmail)}`;
+    const url = `/api/Staff/UpdateStaffByEmail?staffId=${encodeURIComponent(staffId)}&email=${encodeURIComponent(newEmail)}`;
 
     $.ajax({
         url: url,
@@ -934,7 +934,7 @@ document.getElementById('assignStoreToStaffBtn').addEventListener('click', funct
     const token = getAuthToken();
     if (!token) return; // If no token, do not proceed
 
-    const url = `https://localhost:7239/api/Staff/AssignStoreToStaff?staffId=${encodeURIComponent(staffId)}&storeId=${encodeURIComponent(storeId)}`;
+    const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/AssignStoreToStaff?staffId=${encodeURIComponent(staffId)}&storeId=${encodeURIComponent(storeId)}`;
 
     $.ajax({
         url: url,
@@ -991,7 +991,7 @@ document.getElementById('updateStaffPhoneNumberBtn').addEventListener('click', f
     const token = getAuthToken();
     if (!token) return; // If no token, do not proceed
 
-    const url = `https://localhost:7239/api/Staff/UpdatePhoneNumberByStaff?staffId=${encodeURIComponent(staffId)}&newPhone=${encodeURIComponent(newPhone)}`;
+    const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/UpdatePhoneNumberByStaff?staffId=${encodeURIComponent(staffId)}&newPhone=${encodeURIComponent(newPhone)}`;
 
     $.ajax({
         url: url,
