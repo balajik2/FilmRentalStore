@@ -1,17 +1,9 @@
-
-
 ﻿using FilmRentalStore.Models;
-
-
-
-
 
 namespace FilmRentalStore.DTO
     {
         public class CustomerDTO
         {
-
-
         public int CustomerId { get; set; }
 
             public int StoreId { get; set; }

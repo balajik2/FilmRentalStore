@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 ﻿// Fetch the JWT token from localStorage
 function getAuthToken() {
     const token = localStorage.getItem('jwtToken');
@@ -47,7 +47,8 @@ document.getElementById('addInventoryBtn').addEventListener('click', function ()
         }
 
         $.ajax({
-            url: 'https://localhost:7239/api/Inventory/add', // URL for adding inventory
+            url: 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/Inventory/add', // URL for adding inventory
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(parsedData),
@@ -81,7 +82,8 @@ document.getElementById('getInventoryCountBtn').addEventListener('click', functi
 
     // Make an AJAX request to fetch the inventory count
     $.ajax({
-        url: 'https://localhost:7239/api/Inventory/Count',
+        url: 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/Inventory/Count',
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}`,
@@ -138,7 +140,8 @@ document.getElementById('getInventoryByStoreIdBtn').addEventListener('click', fu
 
     // Make an AJAX request to fetch the inventory by Store ID
     $.ajax({
-        url: `https://localhost:7239/api/Inventory/Films?storeid=${storeId}`,  // Correctly pass the storeId as a query parameter
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/Inventory/Films?storeid=${storeId}`,  // Correctly pass the storeId as a query parameter
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}`,
@@ -202,7 +205,8 @@ document.getElementById('fetch-inventory-btn').addEventListener('click', functio
 
     // Make an AJAX request to fetch the inventory by Film ID
     $.ajax({
-        url: `https://localhost:7239/api/Inventory/Film${filmId}`,  // API endpoint with Film ID as a path parameter
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/Inventory/Film${filmId}`,  // API endpoint with Film ID as a path parameter
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}`,
@@ -256,7 +260,8 @@ document.getElementById('fetch-inventory-btn-new').addEventListener('click', fun
 
     // Make an AJAX request to fetch the inventory by Film ID and Store ID
     $.ajax({
-        url: `https://localhost:7239/api/Inventory/film/${filmId}/store/${storeId}`,  // API endpoint
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/Inventory/film/${filmId}/store/${storeId}`,  // API endpoint
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}`,
@@ -291,7 +296,7 @@ document.getElementById('fetch-inventory-btn-new').addEventListener('click', fun
     });
 });
 
-=======
+
 ﻿$(document).ready(function () {
     $('#addInventoryBtn').on('click', function () {
         // Get the values from the input fields
@@ -310,7 +315,8 @@ document.getElementById('fetch-inventory-btn-new').addEventListener('click', fun
 
         // Make an AJAX request to add the inventory
         $.ajax({
-            url: '/add-inventory',  // Assuming this is your endpoint to handle inventory addition
+            url: 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/Inventory/add',  // Assuming this is your endpoint to handle inventory addition
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(inventoryData),
@@ -345,7 +351,8 @@ $(document).ready(function () {
 
         // Make the GET request to the API with the required parameters
         $.ajax({
-            url: 'https://localhost:7239/api/Inventory/Count',  // API endpoint
+            url: 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
+ /api/Inventory/Count',  // API endpoint
             type: 'GET',
             data: requestData,  // Send the data as query parameters
             success: function (response) {
@@ -359,4 +366,3 @@ $(document).ready(function () {
         });
     });
 });
->>>>>>> origin/FilmRentalStore-4

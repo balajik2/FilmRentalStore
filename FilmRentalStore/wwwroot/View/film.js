@@ -50,7 +50,7 @@ document.getElementById('addFilmBtn').addEventListener('click', function () {
             return;
         }
 
-        const url = "https://localhost:7239/api/films/post"; // Your API endpoint
+        const url = "https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/post"; // Your API endpoint
 
         // Make the API call
         $.ajax({
@@ -93,7 +93,7 @@ document.getElementById('searchFilmsByTitleBtn').addEventListener('click', funct
     }
 
     $.ajax({
-        url: `https://localhost:7239/api/films/title/${encodeURIComponent(title)}`, // Replace with the correct API endpoint
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/title/${encodeURIComponent(title)}`, // Replace with the correct API endpoint
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -150,7 +150,7 @@ document.getElementById('searchFilmsByReleaseYearBtn').addEventListener('click',
     }
 
     $.ajax({
-        url: `https://localhost:7239/api/films/year/${encodeURIComponent(releaseYear)}`, // Replace with the correct API endpoint
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/year/${encodeURIComponent(releaseYear)}`, // Replace with the correct API endpoint
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -206,7 +206,7 @@ document.getElementById('searchFilmsByRentalDurationBtn').addEventListener('clic
     }
 
     $.ajax({
-        url: `https://localhost:7239/api/films/duration/gt/${encodeURIComponent(rentalDuration)}`, // Replace with the correct API endpoint
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/duration/gt/${encodeURIComponent(rentalDuration)}`, // Replace with the correct API endpoint
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -263,7 +263,7 @@ document.getElementById('searchFilmsByRentalRateBtn').addEventListener('click', 
     }
 
     $.ajax({
-        url: `https://localhost:7239/api/films/rate/gt/${encodeURIComponent(rentalRate)}`, // Replace with the correct API endpoint
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/rate/gt/${encodeURIComponent(rentalRate)}`, // Replace with the correct API endpoint
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -319,7 +319,7 @@ document.getElementById('searchFilmsByLengthBtn').addEventListener('click', func
     }
 
     $.ajax({
-        url: `https://localhost:7239/api/films/length/gt/${encodeURIComponent(length)}`, // Replace with the correct API endpoint
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/length/gt/${encodeURIComponent(length)}`, // Replace with the correct API endpoint
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -377,7 +377,7 @@ document.getElementById('searchingFilmsByRentalDurationBtn').addEventListener('c
     }
 
     $.ajax({
-        url: `https://localhost:7239/api/films/duration/lt/${encodeURIComponent(rentalDuration)}`, // Replace with the correct API endpoint
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/duration/lt/${encodeURIComponent(rentalDuration)}`, // Replace with the correct API endpoint
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -435,7 +435,7 @@ document.getElementById('searchFilmsByRentalRateLowerBtn').addEventListener('cli
     }
 
     $.ajax({
-        url: `https://localhost:7239/api/films/rate/lt/${encodeURIComponent(rentalRate)}`, // Replace with the correct API endpoint
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/rate/lt/${encodeURIComponent(rentalRate)}`, // Replace with the correct API endpoint
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -492,7 +492,7 @@ document.getElementById('searchFilmsByLengthLowerBtn').addEventListener('click',
     }
 
     $.ajax({
-        url: `https://localhost:7239/api/films/length/lt/${encodeURIComponent(length)}`, // Replace with the correct API endpoint
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/length/lt/${encodeURIComponent(length)}`, // Replace with the correct API endpoint
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -566,7 +566,7 @@ $('#searchFilmsByReleaseYearRangeBtn').click(function () {
 
     // AJAX request to search films by release year range
     $.ajax({
-        url: `https://localhost:7239/api/films/betweenyear/${startYear}/${endYear}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/betweenyear/${startYear}/${endYear}`,
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -619,7 +619,7 @@ document.getElementById('searchFilmsByRatingBtn').addEventListener('click', func
     const selectedRating = document.getElementById('filmRating').value.trim(); // Get the selected rating
 
     $.ajax({
-        url: `https://localhost:7239/api/films/rating/lt/${encodeURIComponent(selectedRating)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/rating/lt/${encodeURIComponent(selectedRating)}`,
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -672,7 +672,7 @@ document.getElementById('searchFilmsByHigherRatingBtn').addEventListener('click'
     const selectedRating = document.getElementById('filmRatingSelect').value.trim(); // Get the selected rating
 
     $.ajax({
-        url: `https://localhost:7239/api/films/rating/gt/${encodeURIComponent(selectedRating)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/rating/gt/${encodeURIComponent(selectedRating)}`,
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -729,7 +729,7 @@ document.getElementById('searchFilmsByLanguageBtn').addEventListener('click', fu
     }
 
     $.ajax({
-        url: `https://localhost:7239/api/films/language/${encodeURIComponent(language)}`, // Replace with the correct API endpoint
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/language/${encodeURIComponent(language)}`, // Replace with the correct API endpoint
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -779,7 +779,7 @@ document.getElementById('getFilmCountByReleaseYearBtn').addEventListener('click'
     if (!token) return; // Stop if token is not available
 
     $.ajax({
-        url: `https://localhost:7239/api/films/countbyyear`, // Replace with the correct API endpoint
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/countbyyear`, // Replace with the correct API endpoint
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -830,7 +830,7 @@ document.getElementById('getActorsByFilmIdBtn').addEventListener('click', functi
     if (!token) return; // Stop if token is not available
 
     $.ajax({
-        url: `https://localhost:7239/api/films/${filmId}/actors`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/${filmId}/actors`,
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -881,7 +881,7 @@ document.getElementById('getFilmsByCategoryBtn').addEventListener('click', funct
     }
 
     $.ajax({
-        url: `https://localhost:7239/api/films/category/${encodeURIComponent(category)}`, // Replace with the correct API endpoint
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/category/${encodeURIComponent(category)}`, // Replace with the correct API endpoint
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}` // Include the authorization token
@@ -947,7 +947,7 @@ document.getElementById('assignActorToFilmBtn').addEventListener('click', functi
     }
 
     // Construct the API URL
-    const url = `https://localhost:7239/api/films/${encodeURIComponent(filmId)}/actor?actorId=${encodeURIComponent(actorId)}`;
+    const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/${encodeURIComponent(filmId)}/actor?actorId=${encodeURIComponent(actorId)}`;
 
     // Make the AJAX request
     $.ajax({
@@ -1004,7 +1004,7 @@ $('#updateFilm').click(function () {
 
     // AJAX request to update the film title
     $.ajax({
-        url: `https://localhost:7239/api/films/update/title/${filmId}?title=${encodeURIComponent(title)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/update/title/${filmId}?title=${encodeURIComponent(title)}`,
         type: 'PUT',
         contentType: 'application/json',
         headers: { 'Authorization': `Bearer ${getAuthToken()}` }, // Replace with your token retrieval logic
@@ -1052,7 +1052,7 @@ $('#updateFilmReleaseYearBtn').click(function () {
 
     // AJAX request to update the film release year
     $.ajax({
-        url: `https://localhost:7239/api/films/update/releaseyear/${filmId}?releaseYear=${encodeURIComponent(releaseYear)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/update/releaseyear/${filmId}?releaseYear=${encodeURIComponent(releaseYear)}`,
         type: 'PUT',
         contentType: 'application/json',
         headers: { 'Authorization': `Bearer ${getAuthToken()}` }, // Replace with your token retrieval logic
@@ -1104,7 +1104,7 @@ $('#updateFilmRentalDurationBtnNew').click(function () {
 
     // AJAX request to update the film rental duration
     $.ajax({
-        url: `https://localhost:7239/api/films/update/rentalduration/${filmId}?rentalduration=${encodeURIComponent(rentalDuration)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/update/rentalduration/${filmId}?rentalduration=${encodeURIComponent(rentalDuration)}`,
         type: 'PUT',
         contentType: 'application/json',
         headers: { 'Authorization': `Bearer ${getAuthToken()}` },
@@ -1152,7 +1152,7 @@ $('#updateFilmRentalRateBtn').click(function () {
     }
 
     // Construct the URL
-    const url = `https://localhost:7239/api/films/update/rentalrate/${filmId}?rentalrate=${encodeURIComponent(rentalRate)}`;
+    const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/update/rentalrate/${filmId}?rentalrate=${encodeURIComponent(rentalRate)}`;
     console.log(`Request URL: ${url}`);
 
     // AJAX request to update the film rental rate
@@ -1208,7 +1208,7 @@ $('#updateFilmRatingBtn').click(function () {
     }
 
     // Construct the URL
-    const url = `https://localhost:7239/api/films/update/rating/${filmId}?rating=${encodeURIComponent(rating)}`;
+    const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/update/rating/${filmId}?rating=${encodeURIComponent(rating)}`;
     console.log(`Request URL: ${url}`);
 
     // AJAX request to update the film rating
@@ -1273,7 +1273,7 @@ $('#updateFilmLanguageBtn').click(function () {
     };
 
     // Construct the URL for the API request
-    const url = `https://localhost:7239/api/films/update/language/${filmId}`;
+    const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/update/language/${filmId}`;
 
     // AJAX request to update the film language
     $.ajax({
@@ -1326,7 +1326,7 @@ $('#updateFilmCategoryBtn').click(function () {
 
     // AJAX request to update the film category
     $.ajax({
-        url: `https://localhost:7239/api/films/update/category/${filmId}?CategoryId=${encodeURIComponent(categoryId)}`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/films/update/category/${filmId}?CategoryId=${encodeURIComponent(categoryId)}`,
         type: 'PUT',
         contentType: 'application/json',
         headers: { 'Authorization': `Bearer ${getAuthToken()}` }, // Replace with your token retrieval logic
