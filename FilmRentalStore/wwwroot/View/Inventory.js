@@ -47,8 +47,12 @@ document.getElementById('addInventoryBtn').addEventListener('click', function ()
         }
 
         $.ajax({
+<<<<<<< HEAD
             url: 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/Inventory/add', // URL for adding inventory
+=======
+            url: 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Inventory/add', // URL for adding inventory
+>>>>>>> origin/FilmRentalStore-2
             type: 'POST',
             contentType: 'application/json',
             data: JSON.stringify(parsedData),
@@ -82,8 +86,12 @@ document.getElementById('getInventoryCountBtn').addEventListener('click', functi
 
     // Make an AJAX request to fetch the inventory count
     $.ajax({
+<<<<<<< HEAD
         url: 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/Inventory/Count',
+=======
+        url: 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Inventory/Count',
+>>>>>>> origin/FilmRentalStore-2
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}`,
@@ -140,8 +148,12 @@ document.getElementById('getInventoryByStoreIdBtn').addEventListener('click', fu
 
     // Make an AJAX request to fetch the inventory by Store ID
     $.ajax({
+<<<<<<< HEAD
         url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/Inventory/Films?storeid=${storeId}`,  // Correctly pass the storeId as a query parameter
+=======
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Inventory/Films?storeid=${storeId}`,  // Correctly pass the storeId as a query parameter
+>>>>>>> origin/FilmRentalStore-2
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}`,
@@ -205,8 +217,12 @@ document.getElementById('fetch-inventory-btn').addEventListener('click', functio
 
     // Make an AJAX request to fetch the inventory by Film ID
     $.ajax({
+<<<<<<< HEAD
         url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/Inventory/Film${filmId}`,  // API endpoint with Film ID as a path parameter
+=======
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Inventory/Film${filmId}`,  // API endpoint with Film ID as a path parameter
+>>>>>>> origin/FilmRentalStore-2
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}`,
@@ -260,8 +276,12 @@ document.getElementById('fetch-inventory-btn-new').addEventListener('click', fun
 
     // Make an AJAX request to fetch the inventory by Film ID and Store ID
     $.ajax({
+<<<<<<< HEAD
         url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/Inventory/film/${filmId}/store/${storeId}`,  // API endpoint
+=======
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Inventory/film/${filmId}/store/${storeId}`,  // API endpoint
+>>>>>>> origin/FilmRentalStore-2
         type: 'GET',
         headers: {
             Authorization: `Bearer ${token}`,
@@ -296,7 +316,10 @@ document.getElementById('fetch-inventory-btn-new').addEventListener('click', fun
     });
 });
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/FilmRentalStore-2
 ﻿$(document).ready(function () {
     $('#addInventoryBtn').on('click', function () {
         // Get the values from the input fields
@@ -351,8 +374,12 @@ $(document).ready(function () {
 
         // Make the GET request to the API with the required parameters
         $.ajax({
+<<<<<<< HEAD
             url: 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/Inventory/Count',  // API endpoint
+=======
+            url: 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Inventory/Count',  // API endpoint
+>>>>>>> origin/FilmRentalStore-2
             type: 'GET',
             data: requestData,  // Send the data as query parameters
             success: function (response) {

@@ -641,6 +641,7 @@ C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\obj\Debug\net8.0\FilmRentalSt
 C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\obj\Debug\net8.0\FilmRentalStore.genruntimeconfig.cache
 C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\obj\Debug\net8.0\ref\FilmRentalStore.dll
 <<<<<<< HEAD
+<<<<<<< HEAD
 C:\Users\KBASAM\Documents\Sprint-Final\FilmRentalStore\bin\Debug\net8.0\appsettings.json
 C:\Users\KBASAM\Documents\Sprint-Final\FilmRentalStore\bin\Debug\net8.0\appsettings.Development.json
 =======
@@ -1154,3 +1155,9 @@ C:\Users\shamita\Documents\Sprint\FilmRentalStore\obj\Debug\net8.0\ref\FilmRenta
 >>>>>>> 50b5c4ff5f1bdc56a32a4a38539a53f2e28232b9
 >>>>>>> 01c061a5f33cfb48cccb60777de0646328deea03
 >>>>>>> d0fbee20a44bc7847c3c0424ccfeeb64198db7cc
+=======
+C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\bin\Debug\net8.0\Azure.Messaging.EventGrid.dll
+C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\BAKUMARE\Documents\Sprint\FilmRentalStore\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+>>>>>>> origin/FilmRentalStore-2

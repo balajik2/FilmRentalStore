@@ -268,7 +268,7 @@ $(document).ready(function () {
 
 //        // AJAX request to get cumulative revenue for a store
 //        $.ajax({
-//            url: `https://localhost:7239/api/Payment/GetCumulativeRevenueStoreWise?storeid=${encodeURIComponent(storeId)}`, // API endpoint
+//            url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Payment/GetCumulativeRevenueStoreWise?storeid=${encodeURIComponent(storeId)}`, // API endpoint
 //            type: 'GET',
 //            contentType: 'application/json',
 //            success: function (data) {

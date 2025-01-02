@@ -632,7 +632,11 @@ document.getElementById('updateCustomerFirstNameBtn').addEventListener('click', 
     const token = getAuthToken();
     if (!token) return; // If no token, do not proceed
 
+<<<<<<< HEAD
     const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Customers/UpdateFirstNameById/${encodeURIComponent(customerId)}?name=${encodeURIComponent(newFirstName)}`;
+=======
+    const url =`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Customers/UpdateFirstNameById/${encodeURIComponent(customerId)}?name=${encodeURIComponent(newFirstName)}`;
+>>>>>>> origin/FilmRentalStore-2
 
     $.ajax({
         url: url,
