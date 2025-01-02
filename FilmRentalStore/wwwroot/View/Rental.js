@@ -50,8 +50,12 @@ document.getElementById('rentButton').addEventListener('click', async () => {
     };
 
     try {
+<<<<<<< HEAD
         const response = await fetch('https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/rental/add', {
+=======
+        const response = await fetch('https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/rental/add', {
+>>>>>>> origin/FilmRentalStore-2
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(rentalDTO)
@@ -77,9 +81,13 @@ document.getElementById('fetchFilmsButton').addEventListener('click', async () =
     }
 
     try {
+<<<<<<< HEAD
         const table = document.getElementById('filmsTable');
         const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/rental/customer/${customerId}`, {
+=======
+        const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/rental/customer/${customerId}`, {
+>>>>>>> origin/FilmRentalStore-2
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         });
@@ -129,9 +137,13 @@ function updateCustomerFilmsTable(films) {
 // Top 10 Rented Films
 document.getElementById('fetchTopFilmsButton1').addEventListener('click', async () => {
     try {
+<<<<<<< HEAD
         const table = document.getElementById('topFilmsTable');
         const response = await fetch('https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/rental/toptenfilms', {
+=======
+        const response = await fetch('https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/rental/toptenfilms', {
+>>>>>>> origin/FilmRentalStore-2
             method: 'GET',
             headers: { 'Content-Type': 'application/json' }
         });
@@ -179,8 +191,12 @@ document.getElementById('fetchTop10FilmsBtn').addEventListener('click', function
         return;
     }
 
+<<<<<<< HEAD
     const apiUrl = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/rental/toptenfilms/store/${storeId}`;
+=======
+    const apiUrl = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/rental/toptenfilms/store/${storeId}`;
+>>>>>>> origin/FilmRentalStore-2
     const table = document.getElementById('top10FilmsTable');
     const tbody = table.querySelector('tbody');
 
@@ -238,8 +254,12 @@ document.getElementById('fetchDueCustomersBtn').addEventListener('click', functi
         return;
     }
 
+<<<<<<< HEAD
     const apiUrl = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/rental/due/store/${storeId1}`;
+=======
+    const apiUrl = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/rental/due/store/${storeId1}`;
+>>>>>>> origin/FilmRentalStore-2
     const table = document.getElementById('dueCustomersTable');
     const tbody = table.querySelector('tbody');
 
@@ -317,8 +337,12 @@ document.getElementById('updateReturnDateBtn').addEventListener('click', async f
 
     try {
         // API call
+<<<<<<< HEAD
         const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/rental/update/returndate/${rentalId}`, {
+=======
+        const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/rental/update/returndate/${rentalId}`, {
+>>>>>>> origin/FilmRentalStore-2
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -338,8 +338,13 @@ namespace FilmRentalStore.Tests
         }
 
         #endregion
+<<<<<<< HEAD
         #region AssignManager
         [Fact]
+=======
+# region AssignManager
+        [Fact] 
+>>>>>>> a230541441c7449ef894c3d4f2a2a2402a530bce
         public async Task AssignManager_ValidStoreIdAndStaffDTO_ReturnsOkResult()
         {
             // Arrange
@@ -413,7 +418,11 @@ namespace FilmRentalStore.Tests
         }
 
 
+<<<<<<< HEAD
         #endregion
+=======
+#endregion
+>>>>>>> a230541441c7449ef894c3d4f2a2a2402a530bce
 
         #region GetAllStaffAndStore
         [Fact]
@@ -452,4 +461,8 @@ namespace FilmRentalStore.Tests
         }
         #endregion
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> a230541441c7449ef894c3d4f2a2a2402a530bce

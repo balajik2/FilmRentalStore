@@ -700,7 +700,11 @@ $(document).ready(function () {
             url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/updatemanagerdata?storeid=${encodeURIComponent(storeId)}`,
             type: 'PUT',
             headers: {
+<<<<<<< HEAD
                 Authorization: `Bearer ${getAuthToken()}`,
+=======
+                Authorization: `Bearer ${getAuthToken()}`, 
+>>>>>>> a230541441c7449ef894c3d4f2a2a2402a530bce
 
                 "accept": "*/*"
             },

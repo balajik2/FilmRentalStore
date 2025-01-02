@@ -22,7 +22,10 @@ namespace FilmRentalStore.Controllers
         public ActorController(IActorRepository actorRepository, IValidator<ActorDTO> validator)
         {
             _actorRepository = actorRepository;
+<<<<<<< HEAD
             
+=======
+>>>>>>> a230541441c7449ef894c3d4f2a2a2402a530bce
         }
      
 

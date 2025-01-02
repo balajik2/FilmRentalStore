@@ -158,6 +158,70 @@ document.getElementById('addStaffBtn').addEventListener('click', function () {
 
 
 
+<<<<<<< HEAD
+=======
+// Get customers by last name with authentication
+//document.getElementById('getStaffByLastNameBtn').addEventListener('click', function () {
+//    const lastName = document.getElementById('lastName').value.trim();
+//    if (!lastName) {
+//        alert("Please enter a last name.");
+//        return;
+//    }
+
+//    const token = getAuthToken();
+//    if (!token) return;
+
+//    showLoadingState(this);
+
+//    $.ajax({
+//        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/GetStaffByLastName?lastname=${encodeURIComponent(lastName)}`,
+//        type: "GET",
+//        headers: {
+//            Authorization: `Bearer ${token}`
+//        },
+//        success: function (response) {
+//            hideLoadingState(document.getElementById('getStaffByLastNameBtn'), 'Get Staff By Last Name');
+//            const tbody = document.querySelector("#searchStaffTable tbody");
+//            tbody.innerHTML = "";
+
+//            if (response.length === 0) {
+//                alert("No staff found with the last name.");
+//                document.getElementById('searchStaffTable').style.display = 'none';
+//                return;
+//            }
+
+//            response.forEach(staff => {
+//                const row = `
+//                    <tr>
+//                        <td>${staff.staffId}</td>
+//                            <td>${staff.firstName}</td>
+//                            <td>${staff.lastName}</td>
+//                            <td>${staff.addressId}</td>
+//                            <td>${staff.email}</td>
+//                            <td>${staff.storeId}</td>
+//                            <td>${staff.active}</td>
+//                            <td>${staff.lastUpdate}</td>
+//                            <td>${staff.urlPath}</td>
+//                    </tr>
+//                `;
+//                tbody.innerHTML += row;
+//            });
+
+//            document.getElementById('searchStaffTable').style.display = 'table';
+//        },
+//        error: function () {
+//            hideLoadingState(document.getElementById('getStaffByLastNameBtn'), 'Get Staff By Last Name');
+//            alert("Failed to fetch staff by last name.");
+//        }
+//    });
+//});
+
+
+
+
+
+
+>>>>>>> origin/FilmRentalStore-2
 
 // get staff by last name
 // Get staff by last name
@@ -179,7 +243,11 @@ document.getElementById('getStaffByLastNameBtn').addEventListener('click', funct
     // Send GET request to fetch staff by last name
     $.ajax({
         url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Staff/GetStaffByLastName?lastname=${encodeURIComponent(lastName)}`,
+<<<<<<< HEAD
         type: 'GET',
+=======
+        type: "GET",
+>>>>>>> origin/FilmRentalStore-2
         headers: {
             Authorization: `Bearer ${token}`
         },

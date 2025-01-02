@@ -51,8 +51,12 @@ document.getElementById('addActorBtn').addEventListener('click', async function 
     showLoadingState(this);
 
     try {
+<<<<<<< HEAD
         const response = await fetch('https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/actors/post', {
+=======
+        const response = await fetch('https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/actors/post', {
+>>>>>>> origin/FilmRentalStore-2
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -98,8 +102,12 @@ document.getElementById('getActorByLastNameBtn').addEventListener('click', funct
 
     // Fetch the actors using AJAX
     $.ajax({
+<<<<<<< HEAD
         url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/actors/lastname/${encodeURIComponent(lastName)}`,
+=======
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/actors/lastname/${encodeURIComponent(lastName)}`,
+>>>>>>> origin/FilmRentalStore-2
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`
@@ -151,8 +159,12 @@ document.getElementById('getActorByFirstNameBtn').addEventListener('click', func
     showLoadingState(this); // Show loading spinner (assuming implementation)
 
     $.ajax({
+<<<<<<< HEAD
         url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/actors/firstname/${encodeURIComponent(firstName)}`,
+=======
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/actors/firstname/${encodeURIComponent(firstName)}`,
+>>>>>>> origin/FilmRentalStore-2
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`
@@ -205,8 +217,12 @@ document.getElementById('updateLastNameBtn').addEventListener('click', async fun
     showLoadingState(this);
 
     try {
+<<<<<<< HEAD
         const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/actors/update/lastname/${actorId}?name=${encodeURIComponent(newLastName)}`, {
+=======
+        const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/actors/update/lastname/${actorId}?name=${encodeURIComponent(newLastName)}`, {
+>>>>>>> origin/FilmRentalStore-2
             method: 'PUT',
             headers: {
                 'Authorization': `Bearer ${token}`
@@ -274,8 +290,12 @@ document.getElementById('updateFirstNameBtn').addEventListener('click', async fu
     showLoadingState(this);
 
     try {
+<<<<<<< HEAD
         const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/actors/update/firstname/${actorId}?name=${encodeURIComponent(newFirstName)}`, {
+=======
+        const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/actors/update/firstname/${actorId}?name=${encodeURIComponent(newFirstName)}`, {
+>>>>>>> origin/FilmRentalStore-2
             method: 'PUT',
             headers: {
                 'Authorization': `Bearer ${token}`
@@ -346,8 +366,12 @@ document.getElementById("getFilmsBtn").addEventListener("click", async function 
     showLoadingState(this);
 
     try {
+<<<<<<< HEAD
         const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/actors/${actorId}/films`, {
+=======
+        const response = await fetch(`https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/actors/${actorId}/films`, {
+>>>>>>> origin/FilmRentalStore-2
             method: "GET",
             headers: {
                 "Authorization": `Bearer ${token}`,
@@ -420,8 +444,12 @@ document.getElementById('assignFilmToActorBtn').addEventListener('click', functi
     }
 
     // Construct the API URL
+<<<<<<< HEAD
     const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/actors/${encodeURIComponent(actorId2)}/film?filmId=${encodeURIComponent(filmId2)}`;
+=======
+    const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/actors/${encodeURIComponent(actorId2)}/film?filmId=${encodeURIComponent(filmId2)}`;
+>>>>>>> origin/FilmRentalStore-2
 
     // Make the AJAX request
     $.ajax({
@@ -473,8 +501,12 @@ document.getElementById('assignFilmToActorBtn').addEventListener('click', functi
 
 // Top TEN Actor By Film
 document.getElementById('fetchTop10ActorsBtn').addEventListener('click', function () {
+<<<<<<< HEAD
     const apiUrl = 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net
  /api/actors/toptenbyfilmcount';
+=======
+    const apiUrl = 'https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/actors/toptenbyfilmcount';
+>>>>>>> origin/FilmRentalStore-2
     const table = document.getElementById('top10ActorsTable');
     const tbody = table.querySelector('tbody');
 

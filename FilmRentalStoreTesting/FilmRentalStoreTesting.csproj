@@ -10,18 +10,28 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
 
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
     <PackageReference Include="Moq" Version="4.20.72" />
     <PackageReference Include="xunit" Version="2.9.2" />
 
+=======
+    <PackageReference Include="Azure.Messaging.EventGrid" Version="4.28.0" />
+>>>>>>> origin/FilmRentalStore-2
     <PackageReference Include="Azure.Storage.Blobs" Version="12.23.0" />
+<<<<<<< HEAD
     <PackageReference Include="coverlet.collector" Version="6.0.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
+=======
+    <PackageReference Include="coverlet.collector" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.8.0" />
+>>>>>>> a230541441c7449ef894c3d4f2a2a2402a530bce
     <PackageReference Include="Moq" Version="4.20.72" />
     <PackageReference Include="xunit" Version="2.9.2" />
 
