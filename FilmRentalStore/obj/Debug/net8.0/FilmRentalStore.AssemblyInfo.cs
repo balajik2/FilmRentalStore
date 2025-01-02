@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilmRentalStore")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+746026976de149eea5ead400473d663db15fe160")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cdbd3e768d5a274e7b4c37795a073851ce2490fe")]
->>>>>>> origin/FilmRentalStore-5
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+781ec179d964059237e8724b6e33a75230618d82")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilmRentalStore")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilmRentalStore")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
