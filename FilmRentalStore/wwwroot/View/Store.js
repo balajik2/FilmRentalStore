@@ -35,7 +35,7 @@ document.getElementById('getStoresBtn').addEventListener('click', function () {
     if (!token) return; // If no token, do not proceed
 
     $.ajax({
-        url: `https://localhost:7239/api/Store`,
+        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store`,
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`
@@ -81,7 +81,7 @@ document.getElementById('addStoreBtn').addEventListener('click', function () {
     const storeData = JSON.parse(document.getElementById("storeRequestBody").value);
 
     $.ajax({
-        url: `https://localhost:7239/api/Store/post`,
+        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/post`,
         type: "POST",
         headers: {
             Authorization: `Bearer ${token}`,
@@ -118,7 +118,7 @@ document.getElementById('getStoreByCityBtn').addEventListener('click', function 
     showLoadingState();
 
     $.ajax({
-        url: `https://localhost:7239/api/Store/GetByCity?city=${encodeURIComponent(city)}`, // Correctly formatted URL
+        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/GetByCity?city=${encodeURIComponent(city)}`, // Correctly formatted URL
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}` // Pass the token in the Authorization header
@@ -190,7 +190,7 @@ document.getElementById('getStoreByCountryBtn').addEventListener('click', functi
     showLoadingState();
 
     $.ajax({
-        url: `https://localhost:7239/api/Store/GetByCountry?country=${encodeURIComponent(country)}`, // Correct URL format with query parameter
+        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/GetByCountry?country=${encodeURIComponent(country)}`, // Correct URL format with query parameter
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}` // Pass the token in the headers
@@ -254,7 +254,7 @@ document.getElementById('getStaffByStoreBtn').addEventListener('click', function
     showLoadingState();
 
     $.ajax({
-        url: `https://localhost:7239/api/Store/AllStaffOfStore?storeid=${encodeURIComponent(storeId)}`, // Correct URL format with storeId parameter
+        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/AllStaffOfStore?storeid=${encodeURIComponent(storeId)}`, // Correct URL format with storeId parameter
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}` // Pass the token in the headers
@@ -328,7 +328,7 @@ document.getElementById('getCustomersBtn').addEventListener('click', function ()
 
     // Sending AJAX request
     $.ajax({
-        url: `https://localhost:7239/api/Store/Allcustomers?storeid=${encodedStoreId}`,  // Corrected URL with encoded storeId
+        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/Allcustomers?storeid=${encodedStoreId}`,  // Corrected URL with encoded storeId
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`  // Send token in headers
@@ -396,7 +396,7 @@ document.getElementById('getmanagerByStoreBtn').addEventListener('click', functi
     showLoadingState();
 
     $.ajax({
-        url: `https://localhost:7239/api/Store/managerdetails?storeid=${encodeURIComponent(storeId2)}`, // Correct URL format with storeId parameter
+        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/managerdetails?storeid=${encodeURIComponent(storeId2)}`, // Correct URL format with storeId parameter
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}` // Pass the token in the headers
@@ -456,7 +456,7 @@ document.getElementById('getManagerBtn').addEventListener('click', function () {
     console.log("Token:", token);
 
     $.ajax({
-        url: `https://localhost:7239/api/store/managers`,  // API endpoint for fetching manager details
+        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/store/managers`,  // API endpoint for fetching manager details
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`  // Send token in headers
@@ -507,30 +507,112 @@ document.getElementById('getManagerBtn').addEventListener('click', function () {
 
 
 
+// Handle form submission
+$('#updatePhoneForm').submit(function (e) {
+    e.preventDefault(); // Prevent the default form submission behavior
+
+    const storeId = $('#storeId0').val().trim();
+    const newPhoneNumber = $('#newPhoneNumber').val().trim();
+
+    // Validate input fields
+    if (!storeId || !newPhoneNumber) {
+        alert("Please enter both Store ID and New Phone Number.");
+        return;
+    }
+
+    const token = getAuthToken();
+    if (!token) {
+        alert("Authorization token is missing.");
+        return;
+    }
+
+    // Prepare the URL with query parameters for the PUT request
+<<<<<<< HEAD
+    const url = `https://localhost:7239/api/Store/updatephone?storeid=${encodeURIComponent(storeId)}&phone=${encodeURIComponent(newPhoneNumber)}`;
+=======
+    const url = `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/updatephone?storeid=${encodeURIComponent(storeId)}&phone=${encodeURIComponent(newPhoneNumber)}`;
+>>>>>>> origin/FilmRentalStore-4
+
+    console.log('Sending PUT request to:', url); // Debugging log to ensure the URL is correct
+    console.log('Using token:', token); // Debugging log to ensure the token is correct
+
+    // Perform AJAX request
+    $.ajax({
+        url: url,
+        type: 'PUT',
+        headers: {
+            Authorization: `Bearer ${token}`, // Authorization token for the API
+            "accept": "*/*", // Accept any response type
+        },
+        success: function (response) {
+            // Handle successful response
+            console.log('Response:', response); // Log the successful response
+            const messageElement = document.getElementById('updateStatusMessage');
+            messageElement.textContent = "Phone number updated successfully!";
+            messageElement.style.display = 'block';
+            messageElement.classList.remove('text-danger');
+            messageElement.classList.add('text-success');
+        },
+        error: function (xhr, status, error) {
+            // Handle error response
+            console.error("AJAX Error:", xhr, status, error); // Log the error for debugging
+
+            // Check if the error response has more information
+            const errorMessage = xhr.responseText || 'Unable to update phone number. Please try again later.';
+            const messageElement = document.getElementById('updateStatusMessage');
+            messageElement.textContent = `Error: ${errorMessage}`;
+            messageElement.style.display = 'block';
+            messageElement.classList.remove('text-success');
+            messageElement.classList.add('text-danger');
+        }
+    });
+});
 
 
 $(document).ready(function () {
-    // Handle form submission
-    $('#updatePhoneForm').submit(function (e) {
+    $('#updateAddressForm').submit(function (e) {
         e.preventDefault(); // Prevent the default form submission behavior
-
-        const storeId = $('#storeId0').val().trim();
-        const newPhoneNumber = $('#newPhoneNumber').val().trim();
-
-        // Validate input fields
-        if (!storeId || !newPhoneNumber) {
-            alert("Please enter both Store ID and New Phone Number.");
+        const storeId = $('#ssid').val().trim();
+        console.log("Store ID:", storeId); // Log the value to ensure it's being retrieved
+        if (!storeId) {
+            alert("Please enter Store ID.");
             return;
         }
+        const addressId = $('#addressId').val().trim();
+        const address1 = $('#address1').val().trim();
+        const address2 = $('#address2').val().trim();
+        const district = $('#district').val().trim();
+        const cityId = $('#cityId').val().trim();
+        const postalCode = $('#postalCode').val().trim();
+        const phone = $('#phone').val().trim();
+        const lastUpdate = new Date().toISOString();
 
-        const token = getAuthToken();
+
+
+        const token = getAuthToken(); // Function to get the auth token
         if (!token) {
             alert("Authorization token is missing.");
             return;
         }
 
-        // Prepare the URL with query parameters for the PUT request
-        const url = `https://localhost:7239/api/Store/updatephone?storeid=${encodeURIComponent(storeId)}&phone=${encodeURIComponent(newPhoneNumber)}`;
+        // Prepare the URL for the PUT request
+<<<<<<< HEAD
+        const url = `https://localhost:7239/api/Store/address?storeid=${encodeURIComponent(storeId)}`;
+=======
+        const url = `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/address?storeid=${encodeURIComponent(storeId)}`;
+>>>>>>> origin/FilmRentalStore-4
+
+        // Prepare the request body
+        const requestBody = {
+            addressId: parseInt(addressId),
+            address1: address1,
+            address2: address2,
+            district: district,
+            cityId: parseInt(cityId),
+            postalCode: postalCode,
+            phone: phone,
+            lastUpdate: lastUpdate
+        };
 
         console.log('Sending PUT request to:', url); // Debugging log to ensure the URL is correct
         console.log('Using token:', token); // Debugging log to ensure the token is correct
@@ -539,6 +621,8 @@ $(document).ready(function () {
         $.ajax({
             url: url,
             type: 'PUT',
+            contentType: 'application/json', // Set content type to JSON
+            data: JSON.stringify(requestBody), // Convert the request body to JSON
             headers: {
                 Authorization: `Bearer ${token}`, // Authorization token for the API
                 "accept": "*/*", // Accept any response type
@@ -547,17 +631,17 @@ $(document).ready(function () {
                 // Handle successful response
                 console.log('Response:', response); // Log the successful response
                 const messageElement = document.getElementById('updateStatusMessage');
-                messageElement.textContent = "Phone number updated successfully!";
+                messageElement.textContent = "Address updated successfully!";
                 messageElement.style.display = 'block';
                 messageElement.classList.remove('text-danger');
                 messageElement.classList.add('text-success');
             },
             error: function (xhr, status, error) {
                 // Handle error response
-                console.error("AJAX Error:", xhr, status, error); // Log the error for debugging
+                console.error(" AJAX Error:", xhr, status, error); // Log the error for debugging
 
                 // Check if the error response has more information
-                const errorMessage = xhr.responseText || 'Unable to update phone number. Please try again later.';
+                const errorMessage = xhr.responseText || 'Unable to update address. Please try again later.';
                 const messageElement = document.getElementById('updateStatusMessage');
                 messageElement.textContent = `Error: ${errorMessage}`;
                 messageElement.style.display = 'block';
@@ -568,3 +652,134 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function () {
+    // Automatically set the current date and time in ISO format
+    ; // Set the last update fields
+
+    $('#updateManagerForm').submit(function (e) {
+        e.preventDefault(); // Prevent the default form submission behavior
+
+        const storeId = $('#sid').val().trim();
+        const staffId = $('#staffId').val().trim();
+        const firstName = $('#fname').val().trim();
+        const lastName = $('#lname').val().trim();
+        const addressId = $('#adid').val().trim();
+        const email = $('#email').val().trim();
+        const active = $('#active').is(':checked'); // Checkbox value
+        const urlPath = $('#urlPath').val().trim();
+        const lastUpdate = new Date().toISOString();
+        // Current time from the input field
+
+
+
+        // Create the staff DTO object
+        const staffDto = {
+            staffId: parseInt(staffId),
+            firstName: firstName,
+            lastName: lastName,
+            addressId: parseInt(addressId),
+            email: email,
+            storeId: parseInt(storeId),
+            active: active,
+            lastUpdate: lastUpdate,
+            urlPath: urlPath
+        };
+
+<<<<<<< HEAD
+        // Send the PUT request
+        $.ajax({
+            url: `https://localhost:7239/api/Store/updatemanagerdata?storeid=${encodeURIComponent(storeId)}`,
+            type: 'PUT',
+            headers: {
+                Authorization: `Bearer ${getAuthToken()}`, // Get the token (ensure you implement getAuthToken() properly)
+=======
+     
+        $.ajax({
+            url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/updatemanagerdata?storeid=${encodeURIComponent(storeId)}`,
+            type: 'PUT',
+            headers: {
+                Authorization: `Bearer ${getAuthToken()}`, 
+>>>>>>> origin/FilmRentalStore-4
+                "accept": "*/*"
+            },
+            contentType: 'application/json',
+            data: JSON.stringify(staffDto), // Sending the staffDto in the request body
+            success: function (response) {
+                // Handle success
+                console.log('Manager updated successfully:', response);
+                $('#updateStatusMessageman').text("Manager updated successfully!").show().removeClass('text-danger').addClass('text-success');
+            },
+            error: function (xhr, status, error) {
+                // Handle error
+                console.error("Error updating manager:", xhr, status, error);
+                const errorMessage = xhr.responseText || 'Unable to update manager data. Please try again later.';
+                $('#updateStatusMessageman').text(`Error: ${errorMessage}`).show().removeClass('text-success').addClass('text-danger');
+            }
+        });
+    });
+});
+
+
+<<<<<<< HEAD
+//$('#updateAddressForm').submit(function (e) {
+//    e.preventDefault(); // Prevent the default form submission behavior
+
+//    const storeId = 2;
+//    const addressData = $('#addressData').val().trim();
+
+
+
+//    const token = getAuthToken(); // Function to get the auth token
+//    if (!token) {
+//        alert("Authorization token is missing.");
+//        return;
+//    }
+
+//    // Prepare the URL for the PUT request
+//    const url = `https://localhost:7239/api/Store/address?storeid=${encodeURIComponent(storeId)}`;
+
+//    // Parse the JSON data
+//    let requestBody;
+//    try {
+//        requestBody = JSON.parse(addressData);
+//    } catch (error) {
+//        alert("Invalid JSON format. Please correct it.");
+//        return;
+//    }
+
+//    console.log('Sending PUT request to:', url); // Debugging log to ensure the URL is correct
+//    console.log('Request Body:', requestBody); // Log the request body
+
+//    // Perform AJAX request
+//    $.ajax({
+//        url: url,
+//        type: 'PUT',
+//        contentType: 'application/json',
+//        data: JSON.stringify(requestBody),
+//        headers: {
+//            Authorization: `Bearer ${token}`,
+//            "accept": "*/*",
+//        },
+//        success: function (response) {
+//            // Handle successful response
+//            console.log('Response:', response);
+//            const messageElement = document.getElementById('updateStatusMessage');
+//            messageElement.textContent = "Address updated successfully!";
+//            messageElement.style.display = 'block';
+//            messageElement.classList.remove('text-danger');
+//            messageElement.classList.add('text-success');
+//        },
+//        error: function (xhr, status, error) {
+//            // Handle error response
+//            console.error("AJAX Error:", xhr, status, error);
+//            const errorMessage = xhr.responseText || 'Unable to update address. Please try again later.';
+//            const messageElement = document.getElementById('updateStatusMessage');
+//            messageElement.textContent = `Error: ${errorMessage}`;
+//            messageElement.style.display = 'block';
+//            messageElement.classList.remove('text-success');
+//            messageElement.classList.add('text-danger');
+//        }
+//    });
+//});
+=======
+>>>>>>> origin/FilmRentalStore-4

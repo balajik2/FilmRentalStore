@@ -19,11 +19,9 @@ namespace FilmRentalStore.Controllers
         private readonly IValidator<ActorDTO> _validator;
          
 
-        public ActorController(IActorRepository actorRepository,  IValidator<ActorDTO> validator)
+        public ActorController(IActorRepository actorRepository, IValidator<ActorDTO> validator)
         {
             _actorRepository = actorRepository;
-           
-            _validator = validator;
         }
      
 

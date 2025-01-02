@@ -10,7 +10,7 @@ namespace FilmRentalStore.Services
         Task<List<StaffDTO>> GetStaffByLastName(string lastname);
         Task<List<StaffDTO>> GetStaffByFirstName(string firstname);
         Task<List<StaffDTO>> GetStaffByEmail(string email);
-        Task<List<StaffDTO>> AssignAddress(StaffDTO staffDTO);
+        Task<List<StaffDTO>> AssignAddressId(int staffId, int addressId);
         Task<List<StaffDTO>> GetStaffByCity(string city);
         Task<List<StaffDTO>> GetStaffByCountry(string country);
         Task<List<StaffDTO>> GetStaffByPhoneNumber(string phone);
