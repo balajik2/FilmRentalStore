@@ -1,6 +1,14 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "RYdrvfCnCY6b2204VxLH+aqh0McbowpaMtNld5P6L/8=",
+=======
+<<<<<<< HEAD
+  "Hash": "WKVdzGs232dVwo7Sb65V0eLUCpyBZoI83bjXpKbfJT0=",
+=======
+  "Hash": "BqLUxP5vMReNSTurFldVJp5GkX8fqYQ1BtCsoY2u1OQ=",
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
   "Source": "FilmRentalStore",
   "BasePath": "_content/FilmRentalStore",
   "Mode": "Default",
@@ -10,17 +18,28 @@
     {
       "Name": "FilmRentalStore\\wwwroot",
       "Source": "FilmRentalStore",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Actor.css",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Actor.css",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Actor#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -38,10 +57,17 @@
       "OriginalItemSpec": "wwwroot\\View\\Actor.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Actor.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Actor.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Actor#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -59,10 +85,17 @@
       "OriginalItemSpec": "wwwroot\\View\\Actor.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Actor.js",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Actor.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Actor#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -80,10 +113,17 @@
       "OriginalItemSpec": "wwwroot\\View\\Actor.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\customer.css",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.css",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/customer#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -101,10 +141,17 @@
       "OriginalItemSpec": "wwwroot\\View\\customer.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\customer.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/customer#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -122,10 +169,17 @@
       "OriginalItemSpec": "wwwroot\\View\\customer.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\customer.js",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/customer#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -143,10 +197,17 @@
       "OriginalItemSpec": "wwwroot\\View\\customer.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\film.css",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.css",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/film#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -164,10 +225,17 @@
       "OriginalItemSpec": "wwwroot\\View\\film.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\film.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/film#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -185,10 +253,17 @@
       "OriginalItemSpec": "wwwroot\\View\\film.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\film.js",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/film#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -206,10 +281,17 @@
       "OriginalItemSpec": "wwwroot\\View\\film.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\homepage.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\homepage.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/homepage#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -227,10 +309,17 @@
       "OriginalItemSpec": "wwwroot\\View\\homepage.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\index.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\index.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/index#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -241,17 +330,29 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "zq6rrp2qy2",
       "Integrity": "FQa0eBCUpmSIUX7yyj8cy/QPBGDlPHGWG3pyMdZxFRA=",
+=======
+      "Fingerprint": "fvnroo6qst",
+      "Integrity": "mwmHhESugL8oPMlUkT0EIHFxVD9AgYIm4jyonrY3aXI=",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\index.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Inventory.css",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.css",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Inventory#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -269,10 +370,17 @@
       "OriginalItemSpec": "wwwroot\\View\\Inventory.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Inventory.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Inventory#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -290,10 +398,17 @@
       "OriginalItemSpec": "wwwroot\\View\\Inventory.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Inventory.js",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Inventory#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -311,10 +426,17 @@
       "OriginalItemSpec": "wwwroot\\View\\Inventory.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\login.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\login.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/login#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -332,10 +454,17 @@
       "OriginalItemSpec": "wwwroot\\View\\login.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\payment.css",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\payment.css",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/payment#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -353,10 +482,17 @@
       "OriginalItemSpec": "wwwroot\\View\\payment.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\payment.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\payment.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/payment#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -374,10 +510,17 @@
       "OriginalItemSpec": "wwwroot\\View\\payment.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\payment.js",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\payment.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/payment#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -395,10 +538,17 @@
       "OriginalItemSpec": "wwwroot\\View\\payment.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Rental.css",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Rental.css",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Rental#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -416,10 +566,17 @@
       "OriginalItemSpec": "wwwroot\\View\\Rental.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Rental.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Rental.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Rental#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -437,10 +594,17 @@
       "OriginalItemSpec": "wwwroot\\View\\Rental.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Rental.js",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Rental.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Rental#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -458,10 +622,17 @@
       "OriginalItemSpec": "wwwroot\\View\\Rental.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Staff.css",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.css",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Staff#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -479,10 +650,17 @@
       "OriginalItemSpec": "wwwroot\\View\\Staff.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Staff.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Staff#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -493,17 +671,34 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "rmyk8xtadl",
       "Integrity": "rZcwX3rgmnKo5VC9OQ4/YrQukH4SpLQK60MU2QxhHEo=",
+=======
+<<<<<<< HEAD
+      "Fingerprint": "rmyk8xtadl",
+      "Integrity": "rZcwX3rgmnKo5VC9OQ4/YrQukH4SpLQK60MU2QxhHEo=",
+=======
+      "Fingerprint": "1hjs1ul67c",
+      "Integrity": "awU6lYYMRGf8el8O11MsN17+4Nme/QCLf98eE/UxeDM=",
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\Staff.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Staff.js",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Staff#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -514,17 +709,34 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "kr3c1mwwi7",
       "Integrity": "EFf0GZ/2Ft1cLXAfl5uZvoHoLdR+0gZeLdw2umU6nuk=",
+=======
+<<<<<<< HEAD
+      "Fingerprint": "kr3c1mwwi7",
+      "Integrity": "EFf0GZ/2Ft1cLXAfl5uZvoHoLdR+0gZeLdw2umU6nuk=",
+=======
+      "Fingerprint": "yxkts2iahm",
+      "Integrity": "umyx1wdcaZTGRpyy+5ZZQS8i5iawTFmDsTNY+KW8ir4=",
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\Staff.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Store.css",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.css",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Store#[.{fingerprint}]?.css",
       "AssetKind": "All",
@@ -535,17 +747,29 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "zb7dk1iv3t",
       "Integrity": "X35EqtI2frodMuMc+4345mlMSLJm7DqmdfbYTXbEbEc=",
+=======
+      "Fingerprint": "l7vusp9hz3",
+      "Integrity": "gWn2hkwaYlAzBGYVr6TCL5KdDsr7vCKB5Cx0Mb4xscg=",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\Store.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Store.html",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.html",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Store#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -556,17 +780,29 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "o9vgsi9jx7",
       "Integrity": "THYcDG1hLqRJO5D8q6j7Ye/neJ5tIBaQWhjm6FZYtRc=",
+=======
+      "Fingerprint": "033v15okb7",
+      "Integrity": "pIntXDarxpeBsg/ttR4oh8WgJFEQwk8fjPwmsFynfJY=",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\Store.html"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Store.js",
       "SourceId": "FilmRentalStore",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.js",
+      "SourceId": "FilmRentalStore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "BasePath": "_content/FilmRentalStore",
       "RelativePath": "View/Store#[.{fingerprint}]?.js",
       "AssetKind": "All",
@@ -577,8 +813,13 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
+<<<<<<< HEAD
       "Fingerprint": "v8a9ppau2q",
       "Integrity": "H3kdjbQvNFMKkkoc1wue1V3QxJlOU8S6xTBrhVlYzG8=",
+=======
+      "Fingerprint": "gi4ckn1zt4",
+      "Integrity": "2MF8T2qqyLQs0ytrPT9R4HDgh31ijE59z2mr8XI5y1E=",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\View\\Store.js"
@@ -587,7 +828,11 @@
   "Endpoints": [
     {
       "Route": "View/Actor.3sqbqudg76.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Actor.css",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Actor.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -608,7 +853,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -632,7 +885,11 @@
     },
     {
       "Route": "View/Actor.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Actor.css",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Actor.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -653,7 +910,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -669,7 +934,11 @@
     },
     {
       "Route": "View/Actor.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Actor.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Actor.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -690,7 +959,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -706,7 +983,11 @@
     },
     {
       "Route": "View/Actor.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Actor.js",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Actor.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -727,7 +1008,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -743,7 +1032,11 @@
     },
     {
       "Route": "View/Actor.me5ndk0yqu.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Actor.js",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Actor.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -764,7 +1057,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -788,7 +1089,11 @@
     },
     {
       "Route": "View/Actor.z2jqkp03ak.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Actor.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Actor.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -809,7 +1114,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -833,7 +1146,11 @@
     },
     {
       "Route": "View/customer.cfqlccorkl.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\customer.js",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -854,7 +1171,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -878,7 +1203,11 @@
     },
     {
       "Route": "View/customer.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\customer.css",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -899,7 +1228,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -915,7 +1252,11 @@
     },
     {
       "Route": "View/customer.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\customer.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -936,7 +1277,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -952,7 +1301,11 @@
     },
     {
       "Route": "View/customer.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\customer.js",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -973,7 +1326,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -989,7 +1350,11 @@
     },
     {
       "Route": "View/customer.jzuyycoah4.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\customer.css",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1010,7 +1375,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1034,7 +1407,11 @@
     },
     {
       "Route": "View/customer.oqtz8uh6ok.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\customer.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\customer.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1055,7 +1432,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1079,7 +1464,11 @@
     },
     {
       "Route": "View/film.4k397ohi0j.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\film.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1100,7 +1489,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1124,7 +1521,11 @@
     },
     {
       "Route": "View/film.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\film.css",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1145,7 +1546,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1161,7 +1570,11 @@
     },
     {
       "Route": "View/film.g0w7eyviii.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\film.js",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1182,7 +1595,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1206,7 +1627,11 @@
     },
     {
       "Route": "View/film.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\film.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1227,7 +1652,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1243,7 +1676,11 @@
     },
     {
       "Route": "View/film.ie5wtzzoeo.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\film.css",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1264,7 +1701,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1288,7 +1733,11 @@
     },
     {
       "Route": "View/film.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\film.js",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\film.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1309,7 +1758,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1325,7 +1782,11 @@
     },
     {
       "Route": "View/homepage.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\homepage.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\homepage.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1346,7 +1807,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1362,7 +1831,11 @@
     },
     {
       "Route": "View/homepage.rd31ng9wzv.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\homepage.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\homepage.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1383,7 +1856,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1406,8 +1887,13 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "View/index.html",
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\index.html",
+=======
+      "Route": "View/index.fvnroo6qst.html",
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\index.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1416,7 +1902,11 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "6288"
+=======
+          "Value": "6098"
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Content-Type",
@@ -1424,6 +1914,7 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"FQa0eBCUpmSIUX7yyj8cy/QPBGDlPHGWG3pyMdZxFRA=\""
         },
         {
@@ -1466,6 +1957,17 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 31 Dec 2024 05:20:35 GMT"
+=======
+          "Value": "\"mwmHhESugL8oPMlUkT0EIHFxVD9AgYIm4jyonrY3aXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1475,7 +1977,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "zq6rrp2qy2"
+=======
+          "Value": "fvnroo6qst"
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "label",
@@ -1483,13 +1989,62 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-FQa0eBCUpmSIUX7yyj8cy/QPBGDlPHGWG3pyMdZxFRA="
+=======
+          "Value": "sha256-mwmHhESugL8oPMlUkT0EIHFxVD9AgYIm4jyonrY3aXI="
+        }
+      ]
+    },
+    {
+      "Route": "View/index.html",
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6098"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"mwmHhESugL8oPMlUkT0EIHFxVD9AgYIm4jyonrY3aXI=\""
+        },
+        {
+          "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-mwmHhESugL8oPMlUkT0EIHFxVD9AgYIm4jyonrY3aXI="
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         }
       ]
     },
     {
       "Route": "View/Inventory.0c7iweghyx.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Inventory.js",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1510,7 +2065,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1534,7 +2097,11 @@
     },
     {
       "Route": "View/Inventory.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Inventory.css",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1555,7 +2122,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1571,7 +2146,11 @@
     },
     {
       "Route": "View/Inventory.h2jqdcoulp.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Inventory.css",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1592,7 +2171,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1616,7 +2203,11 @@
     },
     {
       "Route": "View/Inventory.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Inventory.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1637,7 +2228,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1653,7 +2252,11 @@
     },
     {
       "Route": "View/Inventory.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Inventory.js",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1674,7 +2277,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1690,7 +2301,11 @@
     },
     {
       "Route": "View/Inventory.zyqgsjclvt.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Inventory.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Inventory.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1711,7 +2326,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1735,7 +2358,11 @@
     },
     {
       "Route": "View/login.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\login.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\login.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1756,7 +2383,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1772,7 +2407,11 @@
     },
     {
       "Route": "View/login.lzce2xsc6d.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\login.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\login.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1793,7 +2432,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1817,7 +2464,11 @@
     },
     {
       "Route": "View/payment.bzfpfi7z16.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\payment.js",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\payment.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1838,7 +2489,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1862,7 +2521,11 @@
     },
     {
       "Route": "View/payment.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\payment.css",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\payment.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1883,7 +2546,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1899,7 +2570,11 @@
     },
     {
       "Route": "View/payment.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\payment.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\payment.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1920,7 +2595,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1936,7 +2619,11 @@
     },
     {
       "Route": "View/payment.jnjoxmc81j.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\payment.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\payment.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -1957,7 +2644,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -1981,7 +2676,11 @@
     },
     {
       "Route": "View/payment.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\payment.js",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\payment.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2002,7 +2701,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2018,7 +2725,11 @@
     },
     {
       "Route": "View/payment.jzuyycoah4.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\payment.css",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\payment.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2039,7 +2750,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2063,7 +2782,11 @@
     },
     {
       "Route": "View/Rental.9p2xbzizar.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Rental.css",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Rental.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2084,7 +2807,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2108,7 +2839,11 @@
     },
     {
       "Route": "View/Rental.aiqkxfeay2.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Rental.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Rental.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2129,7 +2864,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2153,7 +2896,11 @@
     },
     {
       "Route": "View/Rental.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Rental.css",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Rental.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2174,7 +2921,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2190,7 +2945,11 @@
     },
     {
       "Route": "View/Rental.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Rental.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Rental.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2211,7 +2970,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2227,7 +2994,11 @@
     },
     {
       "Route": "View/Rental.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Rental.js",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Rental.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2248,7 +3019,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2264,7 +3043,11 @@
     },
     {
       "Route": "View/Rental.kxc1ymywju.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Rental.js",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Rental.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2285,7 +3068,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2308,8 +3099,61 @@
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "View/Staff.3r8b2a0bt1.css",
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Staff.css",
+=======
+<<<<<<< HEAD
+=======
+      "Route": "View/Staff.1hjs1ul67c.html",
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13713"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"awU6lYYMRGf8el8O11MsN17+4Nme/QCLf98eE/UxeDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 10:13:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1hjs1ul67c"
+        },
+        {
+          "Name": "label",
+          "Value": "View/Staff.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-awU6lYYMRGf8el8O11MsN17+4Nme/QCLf98eE/UxeDM="
+        }
+      ]
+    },
+    {
+>>>>>>> origin/FilmRentalStore-5
+      "Route": "View/Staff.3r8b2a0bt1.css",
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2330,7 +3174,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2354,7 +3206,11 @@
     },
     {
       "Route": "View/Staff.css",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Staff.css",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2375,7 +3231,15 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2391,7 +3255,11 @@
     },
     {
       "Route": "View/Staff.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Staff.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2400,7 +3268,15 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "3087"
+=======
+<<<<<<< HEAD
+          "Value": "3087"
+=======
+          "Value": "13713"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Content-Type",
@@ -2408,11 +3284,26 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
           "Value": "\"rZcwX3rgmnKo5VC9OQ4/YrQukH4SpLQK60MU2QxhHEo=\""
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "\"awU6lYYMRGf8el8O11MsN17+4Nme/QCLf98eE/UxeDM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 10:13:02 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2422,13 +3313,25 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-rZcwX3rgmnKo5VC9OQ4/YrQukH4SpLQK60MU2QxhHEo="
+=======
+<<<<<<< HEAD
+          "Value": "sha256-rZcwX3rgmnKo5VC9OQ4/YrQukH4SpLQK60MU2QxhHEo="
+=======
+          "Value": "sha256-awU6lYYMRGf8el8O11MsN17+4Nme/QCLf98eE/UxeDM="
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         }
       ]
     },
     {
       "Route": "View/Staff.js",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Staff.js",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2437,7 +3340,15 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "10388"
+=======
+<<<<<<< HEAD
+          "Value": "10388"
+=======
+          "Value": "37401"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Content-Type",
@@ -2445,11 +3356,26 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
           "Value": "\"EFf0GZ/2Ft1cLXAfl5uZvoHoLdR+0gZeLdw2umU6nuk=\""
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "\"umyx1wdcaZTGRpyy+5ZZQS8i5iawTFmDsTNY+KW8ir4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 10:14:17 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2459,13 +3385,30 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-EFf0GZ/2Ft1cLXAfl5uZvoHoLdR+0gZeLdw2umU6nuk="
+=======
+<<<<<<< HEAD
+          "Value": "sha256-EFf0GZ/2Ft1cLXAfl5uZvoHoLdR+0gZeLdw2umU6nuk="
+=======
+          "Value": "sha256-umyx1wdcaZTGRpyy+5ZZQS8i5iawTFmDsTNY+KW8ir4="
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "View/Staff.kr3c1mwwi7.js",
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Staff.js",
+=======
+<<<<<<< HEAD
+      "Route": "View/Staff.kr3c1mwwi7.js",
+=======
+      "Route": "View/Staff.yxkts2iahm.js",
+>>>>>>> origin/FilmRentalStore-5
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.js",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2474,7 +3417,15 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "10388"
+=======
+<<<<<<< HEAD
+          "Value": "10388"
+=======
+          "Value": "37401"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Content-Type",
@@ -2482,11 +3433,26 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
           "Value": "\"EFf0GZ/2Ft1cLXAfl5uZvoHoLdR+0gZeLdw2umU6nuk=\""
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "\"umyx1wdcaZTGRpyy+5ZZQS8i5iawTFmDsTNY+KW8ir4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 31 Dec 2024 10:14:17 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2496,7 +3462,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "kr3c1mwwi7"
+=======
+<<<<<<< HEAD
+          "Value": "kr3c1mwwi7"
+=======
+          "Value": "yxkts2iahm"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "label",
@@ -2504,13 +3478,21 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
           "Value": "sha256-EFf0GZ/2Ft1cLXAfl5uZvoHoLdR+0gZeLdw2umU6nuk="
         }
       ]
     },
     {
       "Route": "View/Staff.rmyk8xtadl.html",
+<<<<<<< HEAD
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Staff.html",
+=======
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Staff.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2531,7 +3513,11 @@
         },
         {
           "Name": "Last-Modified",
+<<<<<<< HEAD
           "Value": "Tue, 31 Dec 2024 05:08:23 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2550,12 +3536,23 @@
         {
           "Name": "integrity",
           "Value": "sha256-rZcwX3rgmnKo5VC9OQ4/YrQukH4SpLQK60MU2QxhHEo="
+<<<<<<< HEAD
+=======
+=======
+          "Value": "sha256-umyx1wdcaZTGRpyy+5ZZQS8i5iawTFmDsTNY+KW8ir4="
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "View/Store.css",
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Store.css",
+=======
+      "Route": "View/Store.033v15okb7.html",
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.html",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2564,6 +3561,7 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "4025"
         },
         {
@@ -2602,6 +3600,9 @@
         {
           "Name": "Content-Length",
           "Value": "16121"
+=======
+          "Value": "7612"
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Content-Type",
@@ -2609,6 +3610,7 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"THYcDG1hLqRJO5D8q6j7Ye/neJ5tIBaQWhjm6FZYtRc=\""
         },
         {
@@ -2688,6 +3690,17 @@
         {
           "Name": "Last-Modified",
           "Value": "Tue, 31 Dec 2024 06:52:24 GMT"
+=======
+          "Value": "\"pIntXDarxpeBsg/ttR4oh8WgJFEQwk8fjPwmsFynfJY=\""
+        },
+        {
+          "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2697,7 +3710,11 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "o9vgsi9jx7"
+=======
+          "Value": "033v15okb7"
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "label",
@@ -2705,13 +3722,22 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-THYcDG1hLqRJO5D8q6j7Ye/neJ5tIBaQWhjm6FZYtRc="
+=======
+          "Value": "sha256-pIntXDarxpeBsg/ttR4oh8WgJFEQwk8fjPwmsFynfJY="
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         }
       ]
     },
     {
+<<<<<<< HEAD
       "Route": "View/Store.v8a9ppau2q.js",
       "AssetFile": "C:\\Users\\KBASAM\\Documents\\Sprint-Final\\FilmRentalStore\\wwwroot\\View\\Store.js",
+=======
+      "Route": "View/Store.css",
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.css",
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2720,6 +3746,7 @@
         },
         {
           "Name": "Content-Length",
+<<<<<<< HEAD
           "Value": "27867"
         },
         {
@@ -2766,6 +3793,9 @@
         {
           "Name": "Content-Length",
           "Value": "4025"
+=======
+          "Value": "535"
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Content-Type",
@@ -2773,11 +3803,64 @@
         },
         {
           "Name": "ETag",
+<<<<<<< HEAD
           "Value": "\"X35EqtI2frodMuMc+4345mlMSLJm7DqmdfbYTXbEbEc=\""
         },
         {
           "Name": "Last-Modified",
           "Value": "Tue, 31 Dec 2024 05:30:22 GMT"
+=======
+          "Value": "\"gWn2hkwaYlAzBGYVr6TCL5KdDsr7vCKB5Cx0Mb4xscg=\""
+        },
+        {
+          "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gWn2hkwaYlAzBGYVr6TCL5KdDsr7vCKB5Cx0Mb4xscg="
+        }
+      ]
+    },
+    {
+      "Route": "View/Store.gi4ckn1zt4.js",
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2MF8T2qqyLQs0ytrPT9R4HDgh31ijE59z2mr8XI5y1E=\""
+        },
+        {
+          "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "Cache-Control",
@@ -2787,7 +3870,142 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
+<<<<<<< HEAD
           "Value": "zb7dk1iv3t"
+=======
+          "Value": "gi4ckn1zt4"
+        },
+        {
+          "Name": "label",
+          "Value": "View/Store.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2MF8T2qqyLQs0ytrPT9R4HDgh31ijE59z2mr8XI5y1E="
+        }
+      ]
+    },
+    {
+      "Route": "View/Store.html",
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7612"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pIntXDarxpeBsg/ttR4oh8WgJFEQwk8fjPwmsFynfJY=\""
+        },
+        {
+          "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pIntXDarxpeBsg/ttR4oh8WgJFEQwk8fjPwmsFynfJY="
+        }
+      ]
+    },
+    {
+      "Route": "View/Store.js",
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "21804"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2MF8T2qqyLQs0ytrPT9R4HDgh31ijE59z2mr8XI5y1E=\""
+        },
+        {
+          "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2MF8T2qqyLQs0ytrPT9R4HDgh31ijE59z2mr8XI5y1E="
+        }
+      ]
+    },
+    {
+      "Route": "View/Store.l7vusp9hz3.css",
+      "AssetFile": "C:\\Users\\shamita\\Documents\\Sprint\\FilmRentalStore\\wwwroot\\View\\Store.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "535"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gWn2hkwaYlAzBGYVr6TCL5KdDsr7vCKB5Cx0Mb4xscg=\""
+        },
+        {
+          "Name": "Last-Modified",
+<<<<<<< HEAD
+          "Value": "Tue, 31 Dec 2024 05:12:07 GMT"
+=======
+          "Value": "Tue, 31 Dec 2024 05:19:40 GMT"
+>>>>>>> origin/FilmRentalStore-5
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l7vusp9hz3"
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         },
         {
           "Name": "label",
@@ -2795,7 +4013,11 @@
         },
         {
           "Name": "integrity",
+<<<<<<< HEAD
           "Value": "sha256-X35EqtI2frodMuMc+4345mlMSLJm7DqmdfbYTXbEbEc="
+=======
+          "Value": "sha256-gWn2hkwaYlAzBGYVr6TCL5KdDsr7vCKB5Cx0Mb4xscg="
+>>>>>>> 1c89fb0bb692fd9cf42bcdd2f5f6e6afe7630f2f
         }
       ]
     }

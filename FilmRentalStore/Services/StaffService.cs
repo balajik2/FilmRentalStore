@@ -77,31 +77,36 @@ namespace FilmRentalStore.Services
 
         #region AssignAddress
 
-        public async Task<List<StaffDTO>> AssignAddress(StaffDTO staffDTO)
+        public async Task<List<StaffDTO>> AssignAddressId(int staffId, int addressId)
         {
-            var staff = await _context.Staff.FirstOrDefaultAsync(s => s.StaffId == staffDTO.StaffId);
-
-            if (staff == null)
-            {
-                return null;
-            }
-
-            var address = await _context.Addresses.FirstOrDefaultAsync(s => s.AddressId == staffDTO.AddressId);
-
+            // Retrieve the address by the given addressId
+            var address = await _context.Addresses.FirstOrDefaultAsync(a => a.AddressId == addressId);
             if (address == null)
             {
-                return null;
+                return null; // If address not found, return null
             }
 
-            staff.AddressId = staffDTO.AddressId;
-            await _context.SaveChangesAsync();
+            // Retrieve the staff member by the given staffId
+            var staff = await _context.Staff.FirstOrDefaultAsync(s => s.StaffId == staffId);
+            if (staff == null)
+            {
+                return null; // If staff not found, return null
+            }
 
-            //To fetch the updated details list
+            // Assign the addressId to the staff member
+            staff.AddressId = addressId;
+
+            // Retrieve the updated list of the staff member(s) by staffId
             var updatedlist = await _context.Staff.Where(s => s.StaffId == staff.StaffId).ToListAsync();
 
-            //map and return the details
+            // Update the staff in the database
+            _context.Staff.Update(staff);
+            await _context.SaveChangesAsync();
+
+            // Return the updated staff details as a list of StaffDTO
             return _mapper.Map<List<StaffDTO>>(updatedlist);
         }
+
 
         #endregion
 
