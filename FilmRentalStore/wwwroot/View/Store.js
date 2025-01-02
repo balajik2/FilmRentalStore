@@ -35,7 +35,9 @@ document.getElementById('getStoresBtn').addEventListener('click', function () {
     if (!token) return; // If no token, do not proceed
 
     $.ajax({
-        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store`,
+
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store`,
+
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`
@@ -81,7 +83,8 @@ document.getElementById('addStoreBtn').addEventListener('click', function () {
     const storeData = JSON.parse(document.getElementById("storeRequestBody").value);
 
     $.ajax({
-        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/post`,
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/post`,
+
         type: "POST",
         headers: {
             Authorization: `Bearer ${token}`,
@@ -118,7 +121,8 @@ document.getElementById('getStoreByCityBtn').addEventListener('click', function 
     showLoadingState();
 
     $.ajax({
-        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/GetByCity?city=${encodeURIComponent(city)}`, // Correctly formatted URL
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/GetByCity?city=${encodeURIComponent(city)}`, // Correctly formatted URL
+
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}` // Pass the token in the Authorization header
@@ -190,7 +194,9 @@ document.getElementById('getStoreByCountryBtn').addEventListener('click', functi
     showLoadingState();
 
     $.ajax({
-        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/GetByCountry?country=${encodeURIComponent(country)}`, // Correct URL format with query parameter
+
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/GetByCountry?country=${encodeURIComponent(country)}`, // Correct URL format with query parameter
+
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}` // Pass the token in the headers
@@ -254,7 +260,9 @@ document.getElementById('getStaffByStoreBtn').addEventListener('click', function
     showLoadingState();
 
     $.ajax({
-        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/AllStaffOfStore?storeid=${encodeURIComponent(storeId)}`, // Correct URL format with storeId parameter
+
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/AllStaffOfStore?storeid=${encodeURIComponent(storeId)}`, // Correct URL format with storeId parameter
+
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}` // Pass the token in the headers
@@ -328,7 +336,9 @@ document.getElementById('getCustomersBtn').addEventListener('click', function ()
 
     // Sending AJAX request
     $.ajax({
-        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/Allcustomers?storeid=${encodedStoreId}`,  // Corrected URL with encoded storeId
+
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/Allcustomers?storeid=${encodedStoreId}`,  // Corrected URL with encoded storeId
+
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`  // Send token in headers
@@ -396,7 +406,9 @@ document.getElementById('getmanagerByStoreBtn').addEventListener('click', functi
     showLoadingState();
 
     $.ajax({
-        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/managerdetails?storeid=${encodeURIComponent(storeId2)}`, // Correct URL format with storeId parameter
+
+        url: https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/managerdetails?storeid=${encodeURIComponent(storeId2)}`, // Correct URL format with storeId parameter
+
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}` // Pass the token in the headers
@@ -456,7 +468,9 @@ document.getElementById('getManagerBtn').addEventListener('click', function () {
     console.log("Token:", token);
 
     $.ajax({
-        url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/store/managers`,  // API endpoint for fetching manager details
+
+        url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/store/managers`,  // API endpoint for fetching manager details
+
         type: "GET",
         headers: {
             Authorization: `Bearer ${token}`  // Send token in headers
@@ -527,11 +541,8 @@ $('#updatePhoneForm').submit(function (e) {
     }
 
     // Prepare the URL with query parameters for the PUT request
-<<<<<<< HEAD
-    const url = `https://localhost:7239/api/Store/updatephone?storeid=${encodeURIComponent(storeId)}&phone=${encodeURIComponent(newPhoneNumber)}`;
-=======
-    const url = `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/updatephone?storeid=${encodeURIComponent(storeId)}&phone=${encodeURIComponent(newPhoneNumber)}`;
->>>>>>> origin/FilmRentalStore-4
+
+    const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/updatephone?storeid=${encodeURIComponent(storeId)}&phone=${encodeURIComponent(newPhoneNumber)}`;
 
     console.log('Sending PUT request to:', url); // Debugging log to ensure the URL is correct
     console.log('Using token:', token); // Debugging log to ensure the token is correct
@@ -595,12 +606,8 @@ $(document).ready(function () {
             return;
         }
 
-        // Prepare the URL for the PUT request
-<<<<<<< HEAD
-        const url = `https://localhost:7239/api/Store/address?storeid=${encodeURIComponent(storeId)}`;
-=======
-        const url = `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/address?storeid=${encodeURIComponent(storeId)}`;
->>>>>>> origin/FilmRentalStore-4
+        const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/address?storeid=${encodeURIComponent(storeId)}`;
+
 
         // Prepare the request body
         const requestBody = {
@@ -613,6 +620,10 @@ $(document).ready(function () {
             phone: phone,
             lastUpdate: lastUpdate
         };
+
+        // Prepare the URL with query parameters for the PUT request
+        const url = `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/updatephone?storeid=${encodeURIComponent(storeId)}&phone=${encodeURIComponent(newPhoneNumber)}`;
+
 
         console.log('Sending PUT request to:', url); // Debugging log to ensure the URL is correct
         console.log('Using token:', token); // Debugging log to ensure the token is correct
@@ -685,21 +696,12 @@ $(document).ready(function () {
             urlPath: urlPath
         };
 
-<<<<<<< HEAD
-        // Send the PUT request
         $.ajax({
-            url: `https://localhost:7239/api/Store/updatemanagerdata?storeid=${encodeURIComponent(storeId)}`,
+            url: `https://filmrentalstorewebapp-dbhjcwhje2ekaxb3.canadacentral-01.azurewebsites.net/api/Store/updatemanagerdata?storeid=${encodeURIComponent(storeId)}`,
             type: 'PUT',
             headers: {
-                Authorization: `Bearer ${getAuthToken()}`, // Get the token (ensure you implement getAuthToken() properly)
-=======
-     
-        $.ajax({
-            url: `https://teams.microsoft.com/l/message/19:f8863fb7608f4ffe82d103b933db194a@thread.v2/1735793517683?context=%7B%22contextType%22%3A%22chat%22%7D/api/Store/updatemanagerdata?storeid=${encodeURIComponent(storeId)}`,
-            type: 'PUT',
-            headers: {
-                Authorization: `Bearer ${getAuthToken()}`, 
->>>>>>> origin/FilmRentalStore-4
+                Authorization: `Bearer ${getAuthToken()}`,
+
                 "accept": "*/*"
             },
             contentType: 'application/json',
@@ -720,7 +722,6 @@ $(document).ready(function () {
 });
 
 
-<<<<<<< HEAD
 //$('#updateAddressForm').submit(function (e) {
 //    e.preventDefault(); // Prevent the default form submission behavior
 
@@ -781,5 +782,3 @@ $(document).ready(function () {
 //        }
 //    });
 //});
-=======
->>>>>>> origin/FilmRentalStore-4
